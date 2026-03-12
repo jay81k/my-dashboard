@@ -1,52 +1,67 @@
 [
   {
-    "date": "02/03/2026",
-    "time": "15:00",
-    "event": "ISM Manufacturing PMI  (Feb)"
-  },
-  {
-    "date": "02/03/2026",
-    "time": "15:00",
-    "event": "ISM Manufacturing Prices  (Feb)"
-  },
-  {
-    "date": "04/03/2026",
-    "time": "13:15",
-    "event": "ADP Nonfarm Employment Change  (Feb)"
-  },
-  {
-    "date": "04/03/2026",
-    "time": "15:00",
-    "event": "ISM Non-Manufacturing PMI  (Feb)"
-  },
-  {
-    "date": "04/03/2026",
-    "time": "15:00",
-    "event": "ISM Non-Manufacturing Prices  (Feb)"
-  },
-  {
-    "date": "05/03/2026",
-    "time": "13:30",
+    "date": "12/03/2026",
+    "time": "12:30",
     "event": "Initial Jobless Claims"
   },
   {
-    "date": "06/03/2026",
+    "date": "13/03/2026",
     "time": "12:30",
-    "event": "Core Retail Sales (MoM)  (Jan)"
+    "event": "Core PCE Price Index (MoM)  (Jan)"
   },
   {
-    "date": "06/03/2026",
+    "date": "13/03/2026",
     "time": "12:30",
-    "event": "Retail Sales (MoM)  (Jan)"
+    "event": "Core PCE Price Index (YoY)  (Jan)"
   },
   {
-    "date": "06/03/2026",
-    "time": "13:30",
-    "event": "Nonfarm Payrolls  (Feb)"
+    "date": "13/03/2026",
+    "time": "12:30",
+    "event": "Durable Goods Orders (MoM)  (Jan)"
   },
   {
-    "date": "06/03/2026",
-    "time": "13:30",
-    "event": "Unemployment Rate  (Feb)"
+    "date": "13/03/2026",
+    "time": "12:30",
+    "event": "GDP (QoQ)  (Q4)"
+  },
+  {
+    "date": "13/03/2026",
+    "time": "14:00",
+    "event": "JOLTS Job Openings  (Jan)"
+  },
+  {
+    "date": "18/03/2026",
+    "time": "12:30",
+    "event": "PPI (MoM)  (Feb)"
+  },
+  {
+    "date": "18/03/2026",
+    "time": "18:00",
+    "event": "FOMC Economic Projections"
+  },
+  {
+    "date": "18/03/2026",
+    "time": "18:00",
+    "event": "FOMC Statement"
+  },
+  {
+    "date": "18/03/2026",
+    "time": "18:00",
+    "event": "Fed Interest Rate Decision"
+  },
+  {
+    "date": "18/03/2026",
+    "time": "18:30",
+    "event": "FOMC Press Conference"
+  },
+  {
+    "date": "19/03/2026",
+    "time": "12:30",
+    "event": "Initial Jobless Claims"
+  },
+  {
+    "date": "19/03/2026",
+    "time": "12:30",
+    "event": "Philadelphia Fed Manufacturing Index  (Mar)"
   }
 ]
