@@ -7,23 +7,15 @@ from __future__ import print_function
 import argparse
 import json
 import os
-import re
 import time
 
 import yfinance as yf
 import pandas as pd
 import numpy as np
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
-from io import BytesIO
 from scipy.stats import rankdata
 
-try:
-    import investpy
-except ImportError:
-    investpy = None
+
 
 # --- Config: no Liquid Stocks ---
 KEY_EVENTS = [
@@ -149,31 +141,7 @@ def get_leveraged_etfs(ticker):
 
 
 def get_upcoming_key_events(days_ahead=7):
-    if investpy is None:
-        return []
-    today = datetime.today()
-    end_date = today + timedelta(days=days_ahead)
-    from_date = today.strftime('%d/%m/%Y')
-    to_date = end_date.strftime('%d/%m/%Y')
-    try:
-        calendar = investpy.news.economic_calendar(
-            time_zone=None, time_filter='time_only', countries=['united states'],
-            importances=['high'], categories=None, from_date=from_date, to_date=to_date
-        )
-        if calendar.empty:
-            return []
-        pattern = '|'.join(KEY_EVENTS)
-        filtered = calendar[
-            (calendar['event'].str.contains(pattern, case=False, na=False)) &
-            (calendar['importance'].str.lower() == 'high')
-        ]
-        if filtered.empty:
-            return []
-        filtered = filtered.sort_values(['date', 'time'])
-        return filtered[['date', 'time', 'event']].to_dict('records')
-    except Exception as e:
-        print("Economic calendar error:", e)
-        return []
+    return []
 
 
 def calculate_adr(hist_data, period=20):
@@ -258,42 +226,9 @@ def calculate_abc_rating(hist_data):
     return None
 
 
-def create_rs_chart_png(rrs_data, ticker, charts_dir):
-    try:
-        recent = rrs_data.tail(20)
-        if len(recent) == 0:
-            return None
-        plt.style.use('dark_background')
-        fig, ax = plt.subplots(figsize=(8, 2))
-        fig.patch.set_facecolor('#1a1a1a')
-        ax.set_facecolor('#1a1a1a')
-        rolling_rrs = recent['rollingRRS'].values
-        rrs_sma = recent['RRS_SMA'].values
-        max_idx = rolling_rrs.argmax()
-        bar_colors = ['#4ade80' if i == max_idx else '#b0b0b0' for i in range(len(rolling_rrs))]
-        ax.bar(range(len(rolling_rrs)), rolling_rrs, color=bar_colors, width=0.8, edgecolor='none')
-        ax.plot(range(len(rrs_sma)), rrs_sma, color='yellow', lw=2)
-        ax.axhline(y=0, color='#808080', linestyle='--', linewidth=1)
-        mn = min(rolling_rrs.min(), rrs_sma.min() if len(rrs_sma) else 0)
-        mx = max(rolling_rrs.max(), rrs_sma.max() if len(rrs_sma) else 0)
-        pad = 0.1 if mn == mx else (mx - mn) * 0.2
-        ax.set_ylim(mn - pad, mx + pad)
-        ax.set_xticks([])
-        ax.set_yticks([])
-        for s in ax.spines.values():
-            s.set_visible(False)
-        fig.tight_layout(pad=0)
-        safe = re.sub(r'[^a-zA-Z0-9]', '_', ticker)
-        path = os.path.join(charts_dir, f"{safe}.png")
-        fig.savefig(path, format='png', dpi=80, bbox_inches='tight', facecolor='#1a1a1a')
-        plt.close(fig)
-        return f"data/charts/{safe}.png"
-    except Exception as e:
-        print("Chart error", ticker, e)
-        return None
 
 
-def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
+def get_stock_data(ticker_symbol, spy_history=None):
     try:
         stock = yf.Ticker(ticker_symbol)
         hist = stock.history(period="1y")
@@ -347,7 +282,6 @@ def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
         except Exception as e:
             print("RRS error", ticker_symbol, e)
 
-        rs_chart_path = create_rs_chart_png(rrs_data, ticker_symbol, charts_dir) if rrs_data is not None and len(rrs_data) > 0 else None
         long_etfs, short_etfs = get_leveraged_etfs(ticker_symbol)
 
         dist_ma = {}
@@ -367,7 +301,6 @@ def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
             "cr":        round(cr, 1)               if cr               is not None else None,
             "adr_pct":   round(adr_pct, 2)          if adr_pct          is not None else None,
             "rs":        round(rs_sts, 0)           if rs_sts           is not None else None,
-            "rs_chart":  rs_chart_path,
             "long":      long_etfs,
             "short":     short_etfs,
             "abc":       abc_rating,
@@ -383,8 +316,7 @@ def main():
     parser.add_argument("--out-dir", default="data", help="Output directory (default: data)")
     args = parser.parse_args()
     out_dir = args.out_dir
-    charts_dir = os.path.join(out_dir, "charts")
-    os.makedirs(charts_dir, exist_ok=True)
+    os.makedirs(out_dir, exist_ok=True)
 
     print("Fetching economic events...")
     events = get_upcoming_key_events()
@@ -400,7 +332,7 @@ def main():
         rows = []
         for i, ticker in enumerate(tickers):
             print(f"  [{group_name}] {i+1}/{len(tickers)} {ticker}")
-            row = get_stock_data(ticker, charts_dir, spy_history=spy_history)
+            row = get_stock_data(ticker, spy_history=spy_history)
             if row:
                 rows.append(row)
                 all_ticker_data[ticker] = row
@@ -458,7 +390,7 @@ def main():
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(sanitize(meta), f, ensure_ascii=False, indent=2, allow_nan=False)
 
-    print("Wrote", snapshot_path, events_path, meta_path, "and charts in", charts_dir)
+    print("Wrote", snapshot_path, events_path, meta_path)
 
 
 if __name__ == "__main__":
