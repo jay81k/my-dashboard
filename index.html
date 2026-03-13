@@ -209,7 +209,7 @@
             var rows = snapshot.groups[groupName];
             if (!rows || rows.length === 0) continue;
             var safeId = safeGroupId(groupName);
-            var ranges = (snapshot.column_ranges && snapshot.column_ranges[groupName]) || { daily: [-10,10], intra: [-10,10], '5d': [-20,20], '20d': [-30,30] };
+            var ranges = Object.assign({ daily: [-10,10], intra: [-10,10], '5d': [-20,20], '20d': [-30,30], '50d': [-40,40], 'ytd': [-50,50], 'vs_spy': [-20,20], 'vs_spy_3m': [-30,30] }, (snapshot.column_ranges && snapshot.column_ranges[groupName]) || {});
             html += '<div class="group-container" id="group-' + safeId + '">';
             html += '<div class="group-header" onclick="scrollToGroup(\'' + groupName.replace(/'/g, "\\'") + '\')">';
             html += '<span>' + groupName + '</span>';
