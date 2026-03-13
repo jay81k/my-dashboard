@@ -118,13 +118,8 @@
         ::-webkit-scrollbar-thumb { background: #4a5568; border-radius: 4px; }
 
         /* Column header tooltips */
-        .ticker-table th[data-tooltip] { position: relative; }
-        .ticker-table th[data-tooltip]::after {
-            content: attr(data-tooltip);
-            position: absolute;
-            top: calc(100% + 6px);
-            left: 50%;
-            transform: translateX(-50%);
+        #col-tooltip {
+            position: fixed;
             background-color: #1e2a3a;
             color: #cbd5e1;
             padding: 7px 10px;
@@ -139,10 +134,10 @@
             pointer-events: none;
             opacity: 0;
             transition: opacity 0.15s ease;
-            z-index: 100;
+            z-index: 9999;
             text-align: left;
         }
-        .ticker-table th[data-tooltip]:hover::after { opacity: 1; }
+        #col-tooltip.visible { opacity: 1; }
     </style>
 </head>
 <body>
@@ -184,6 +179,7 @@
         </div>
     </div>
 
+    <div id="col-tooltip"></div>
     <script src="https://s3.tradingview.com/tv.js"></script>
     <script>
 (function() {
@@ -258,14 +254,14 @@
             var th = function(key, label, tip) { return '<th class="sortable" data-sort-by="' + key + '"' + (tip ? ' data-tooltip="' + tip + '"' : '') + '>' + label + '</th>'; };
             html += th('symbol', 'Ticker', 'Ticker symbol. Click to sort alphabetically.');
             html += th('abc', 'Grade', 'Trend grade based on moving averages. A = EMA10 > EMA20 > SMA50 (uptrend). B = mixed signals. C = EMA10 < EMA20 < SMA50 (downtrend).');
-            html += th('daily', 'Daily', 'Price change from previous close to today\'s close.');
+            html += th('daily', 'Daily', 'Price change from previous close to today's close.');
             html += th('5d', '5D', 'Price change over the last 5 trading days.');
             html += th('20d', '20D', 'Price change over the last 20 trading days (~1 month).');
             html += th('50d', '50D', 'Price change over the last 50 trading days (~2.5 months).');
             html += th('ytd', 'YTD', 'Year-to-date return from the first trading day of the current calendar year.');
-            html += th('vs_spy', 'vs SPY', '20-day return minus SPY\'s 20-day return. Positive = outperforming the market. Negative = underperforming.');
-            html += th('vs_spy_3m', 'vs SPY 3M', '63-day return minus SPY\'s 63-day return (~3 months). Positive = outperforming. Negative = underperforming.');
-            html += th('cr', 'CR', 'Closing Range — where price closed within today\'s high/low range. >60% strong close (green), 30–60% mid (orange), ≤30% weak close (red).');
+            html += th('vs_spy', 'vs SPY', '20-day return minus SPY's 20-day return. Positive = outperforming the market. Negative = underperforming.');
+            html += th('vs_spy_3m', 'vs SPY 3M', '63-day return minus SPY's 63-day return (~3 months). Positive = outperforming. Negative = underperforming.');
+            html += th('cr', 'CR', 'Closing Range — where price closed within today's high/low range. >60% strong close (green), 30–60% mid (orange), ≤30% weak close (red).');
             html += th('adr_pct', 'ADR%', 'Average Daily Range % — SMA of (High - Low) over 20 days divided by close. Measures typical daily volatility.');
             html += th('letf', 'LETF', 'Leveraged ETFs linked to this instrument. Green = long/bullish. Red = short/inverse.');
             html += '</tr></thead><tbody id="' + safeId + '-body">';
@@ -477,6 +473,29 @@
     }
 
     loadData();
+
+    // Column header tooltips
+    (function() {
+        var tip = document.createElement('div');
+        tip.id = 'col-tooltip';
+        document.body.appendChild(tip);
+        var hideTimer;
+        document.addEventListener('mouseover', function(e) {
+            var th = e.target.closest('th[data-tooltip]');
+            if (!th) return;
+            clearTimeout(hideTimer);
+            var rect = th.getBoundingClientRect();
+            tip.textContent = th.getAttribute('data-tooltip');
+            tip.style.left = Math.min(rect.left + rect.width / 2 - 100, window.innerWidth - 220) + 'px';
+            tip.style.top = (rect.bottom + 6) + 'px';
+            tip.classList.add('visible');
+        });
+        document.addEventListener('mouseout', function(e) {
+            var th = e.target.closest('th[data-tooltip]');
+            if (!th) return;
+            hideTimer = setTimeout(function() { tip.classList.remove('visible'); }, 100);
+        });
+    })();
 })();
     </script>
 </body>
