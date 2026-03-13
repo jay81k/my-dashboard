@@ -254,14 +254,14 @@
             var th = function(key, label, tip) { return '<th class="sortable" data-sort-by="' + key + '"' + (tip ? ' data-tooltip="' + tip + '"' : '') + '>' + label + '</th>'; };
             html += th('symbol', 'Ticker', 'Ticker symbol. Click to sort alphabetically.');
             html += th('abc', 'Grade', 'Trend grade based on moving averages. A = EMA10 > EMA20 > SMA50 (uptrend). B = mixed signals. C = EMA10 < EMA20 < SMA50 (downtrend).');
-            html += th('daily', 'Daily', 'Price change from previous close to today's close.');
+            html += th('daily', 'Daily', 'Price change from previous close to today\'s close.');
             html += th('5d', '5D', 'Price change over the last 5 trading days.');
             html += th('20d', '20D', 'Price change over the last 20 trading days (~1 month).');
             html += th('50d', '50D', 'Price change over the last 50 trading days (~2.5 months).');
             html += th('ytd', 'YTD', 'Year-to-date return from the first trading day of the current calendar year.');
             html += th('vs_spy', '1M RS', 'Relative strength vs SPY over the last 21 trading days (~1 month). Positive = outperforming SPY. Negative = underperforming.');
             html += th('vs_spy_3m', '3M RS', 'Relative strength vs SPY over the last 63 trading days (~3 months). Positive = outperforming SPY. Negative = underperforming.');
-            html += th('cr', 'CR', 'Closing Range — where price closed within today's high/low range. >60% strong close (green), 30–60% mid (orange), ≤30% weak close (red).');
+            html += th('cr', 'CR', 'Closing Range — where price closed within today\'s high/low range. >60% strong close (green), 30-60% mid (orange), <=30% weak close (red).');
             html += th('adr_pct', 'ADR%', 'Average Daily Range % — SMA of (High - Low) over 20 days divided by close. Measures typical daily volatility.');
             html += th('letf', 'LETF', 'Leveraged ETFs linked to this instrument. Green = long/bullish. Red = short/inverse.');
             html += '</tr></thead><tbody id="' + safeId + '-body">';
