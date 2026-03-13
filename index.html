@@ -69,38 +69,6 @@
         .abc-b { background-color: #0d2040; color: #5aabf0; }
         .abc-c { background-color: #2d1a0a; color: #e08844; }
         .abc-d { background-color: #2d0a0a; color: #e05c5c; }
-        .economic-events { margin-bottom: 10px; }
-        .events-button {
-            font-family: 'Segoe UI', system-ui, sans-serif;
-            font-size: 11px;
-            font-weight: 500;
-            letter-spacing: 0.07em;
-            text-transform: uppercase;
-            background-color: #191d24;
-            color: #7a8fa8;
-            padding: 9px 14px;
-            border: none;
-            border-bottom: 1px solid #22272f;
-            cursor: pointer;
-            width: 100%;
-            text-align: left;
-        }
-        .events-button:hover { background-color: #1e242e; color: #c8d0dc; }
-        .events-content {
-            display: none; position: absolute; top: 100%; left: 0; right: 0; background-color: #191d24;
-            min-width: 100%; z-index: 1000; border-radius: 0 0 6px 6px; max-height: 400px; overflow-y: auto;
-            padding: 10px 12px; border: 1px solid #22272f; margin-top: 0;
-            font-family: 'Segoe UI', system-ui, sans-serif; font-size: 0.8em; color: #c8d0dc; line-height: 1.5;
-        }
-        .economic-events:hover .events-content { display: block; }
-        .event-item {
-            padding: 8px 10px; border-bottom: 1px solid #22272f; background-color: #111318;
-            font-size: 0.8em; line-height: 1.5;
-        }
-        .event-item:hover { background-color: #161a21; }
-        .event-item:last-child { border-bottom: none; }
-        .event-item .event-datetime { font-weight: 500; color: #7ab0d8; }
-        .event-item .event-name { color: #9aaab8; }
         .loading-msg { padding: 20px; text-align: center; color: #4a5a6e; }
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #111318; }
@@ -155,10 +123,6 @@
 </head>
 <body>
     <div class="ticker-list">
-        <div class="economic-events" style="position:relative">
-            <button class="events-button">📅 MACRO EVENTS</button>
-            <div class="events-content" id="events-content"></div>
-        </div>
         <div id="groups-container"></div>
         <div class="key-hint">↑ ↓ Use arrow keys to navigate · Data auto-refreshed daily via GitHub Actions · Yahoo Finance</div>
     </div>
@@ -221,17 +185,6 @@
         }
         if (minVal >= 0) return 0;
         return Math.min(100, Math.max(0, (Math.abs(value) / Math.abs(minVal)) * 100));
-    }
-
-    function renderEvents(events) {
-        const el = document.getElementById('events-content');
-        if (!events || events.length === 0) {
-            el.innerHTML = '<div class="event-item">No high-importance U.S. macro events in the next 7 days.</div>';
-            return;
-        }
-        el.innerHTML = events.map(function(e) {
-            return '<div class="event-item"><span class="event-datetime">' + (e.date || '') + ' ' + (e.time || '') + '</span><span class="event-name"> · ' + (e.event || '') + '</span></div>';
-        }).join('');
     }
 
     function getGroupLabelClass(groupName, ticker) {
@@ -493,13 +446,10 @@
     function loadData() {
         Promise.all([
             fetch('data/snapshot.json').then(function(res) { return res.ok ? res.json() : null; }).catch(function() { return null; }),
-            fetch('data/events.json').then(function(res) { return res.ok ? res.json() : []; }).catch(function() { return []; }),
             fetch('data/meta.json').then(function(res) { return res.ok ? res.json() : null; }).catch(function() { return null; })
         ]).then(function(results) {
             snapshot = results[0];
-            var events = results[1];
-            meta = results[2];
-            renderEvents(events);
+            meta = results[1];
             renderGroups();
         }).catch(function() {
             document.getElementById('groups-container').innerHTML = '<div class="loading-msg">LOADING DATA... (Run scripts/build_data.py or wait for GitHub Actions)</div>';
