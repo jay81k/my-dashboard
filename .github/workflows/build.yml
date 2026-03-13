@@ -27,34 +27,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "chore: refresh data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git diff --staged --quiet || git commit -m "refresh data"
           git push
-```
-
-Save it as `build.yml` in that folder (in Notepad: File → Save As → change "Save as type" to "All Files" → name it `build.yml`).
-
----
-
-## Step 7 — Create the GitHub repo
-
-1. Go to **https://github.com** and log in
-2. Click the **+** in the top right → **New repository**
-3. Name it `my-dashboard` (or whatever you want)
-4. Set it to **Public** (required for free GitHub Pages)
-5. **Don't** check any of the "Initialize" boxes
-6. Click **Create repository**
-
-GitHub will show you a page with setup instructions. Copy your repo URL — it looks like `https://github.com/YOURNAME/my-dashboard.git`
-
----
-
-## Step 8 — Push your files to GitHub
-
-Back in Command Prompt (in your `my-dashboard` folder):
-```
-git init
-git add .
-git commit -m "initial commit"
-git branch -M main
-git remote add origin https://github.com/YOURNAME/my-dashboard.git
-git push -u origin main
