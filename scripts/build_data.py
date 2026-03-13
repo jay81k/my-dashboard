@@ -361,15 +361,19 @@ def main():
     print("Computing column ranges...")
     column_ranges = {}
     for group_name, rows in groups_data.items():
-        daily_v = [r["daily"] for r in rows if r.get("daily") is not None]
-        intra_v = [r["intra"] for r in rows if r.get("intra") is not None]
-        five_v = [r["5d"] for r in rows if r.get("5d") is not None]
-        twenty_v = [r["20d"] for r in rows if r.get("20d") is not None]
+        def vrange(rows, key, default_min, default_max):
+            vals = [r[key] for r in rows if r.get(key) is not None]
+            return [min(vals) if vals else default_min, max(vals) if vals else default_max]
+
         column_ranges[group_name] = {
-            "daily": (min(daily_v) if daily_v else -10, max(daily_v) if daily_v else 10),
-            "intra": (min(intra_v) if intra_v else -10, max(intra_v) if intra_v else 10),
-            "5d": (min(five_v) if five_v else -20, max(five_v) if five_v else 20),
-            "20d": (min(twenty_v) if twenty_v else -30, max(twenty_v) if twenty_v else 30),
+            "daily":     vrange(rows, "daily",    -10, 10),
+            "intra":     vrange(rows, "intra",    -10, 10),
+            "5d":        vrange(rows, "5d",        -20, 20),
+            "20d":       vrange(rows, "20d",       -30, 30),
+            "50d":       vrange(rows, "50d",       -40, 40),
+            "ytd":       vrange(rows, "ytd",       -50, 50),
+            "vs_spy":    vrange(rows, "vs_spy",    -20, 20),
+            "vs_spy_3m": vrange(rows, "vs_spy_3m", -30, 30),
         }
 
     snapshot = {
@@ -386,8 +390,11 @@ def main():
     }
 
     def sanitize(obj):
+        # Handle numpy scalars (int, float, bool) before anything else
+        if hasattr(obj, 'item'):
+            obj = obj.item()
         if isinstance(obj, float):
-            return None if (obj != obj) else obj  # NaN check
+            return None if (obj != obj or obj == float('inf') or obj == float('-inf')) else obj
         if isinstance(obj, dict):
             return {k: sanitize(v) for k, v in obj.items()}
         if isinstance(obj, list):
@@ -399,11 +406,11 @@ def main():
     meta_path = os.path.join(out_dir, "meta.json")
 
     with open(snapshot_path, "w", encoding="utf-8") as f:
-        json.dump(sanitize(snapshot), f, ensure_ascii=False, indent=2)
+        json.dump(sanitize(snapshot), f, ensure_ascii=False, indent=2, allow_nan=False)
     with open(events_path, "w", encoding="utf-8") as f:
-        json.dump(sanitize(events), f, ensure_ascii=False, indent=2)
+        json.dump(sanitize(events), f, ensure_ascii=False, indent=2, allow_nan=False)
     with open(meta_path, "w", encoding="utf-8") as f:
-        json.dump(sanitize(meta), f, ensure_ascii=False, indent=2)
+        json.dump(sanitize(meta), f, ensure_ascii=False, indent=2, allow_nan=False)
 
     print("Wrote", snapshot_path, events_path, meta_path, "and charts in", charts_dir)
 
