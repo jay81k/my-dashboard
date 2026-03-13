@@ -273,36 +273,56 @@ def create_rs_chart_png(rrs_data, ticker, charts_dir):
         return None
 
 
-def get_stock_data(ticker_symbol, charts_dir):
+def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
     try:
         stock = yf.Ticker(ticker_symbol)
-        hist = stock.history(period="21d")
-        daily = stock.history(period="60d")
-        if len(hist) < 2 or len(daily) < 50:
+        hist = stock.history(period="1y")
+        hist = hist.dropna(subset=["Close", "Open", "High", "Low"])
+        if len(hist) < 50:
             return None
 
-        daily_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-2] - 1) * 100
-        intraday_change = (hist['Close'].iloc[-1] / hist['Open'].iloc[-1] - 1) * 100
-        five_day_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-6] - 1) * 100 if len(hist) >= 6 else None
-        twenty_day_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-21] - 1) * 100 if len(hist) >= 21 else None
+        current_close = hist["Close"].iloc[-1]
+        prev_close    = hist["Close"].iloc[-2]
+        current_open  = hist["Open"].iloc[-1]
+
+        daily_change      = (current_close / prev_close - 1) * 100
+        five_day_change   = (current_close / hist["Close"].iloc[-6]  - 1) * 100 if len(hist) >= 6  else None
+        twenty_day_change = (current_close / hist["Close"].iloc[-21] - 1) * 100 if len(hist) >= 21 else None
+        fifty_day_change  = (current_close / hist["Close"].iloc[-51] - 1) * 100 if len(hist) >= 51 else None
+
+        # YTD: first close of current calendar year
+        year_start = hist[hist.index.year == hist.index[-1].year]
+        ytd_change = (current_close / year_start["Close"].iloc[0] - 1) * 100 if len(year_start) >= 1 else None
+
+        # Relative strength vs SPY: 21-day (1M) and 63-day (3M)
+        rs_1m = None
+        rs_3m = None
+        if spy_history is not None:
+            spy_close = spy_history["Close"]
+            if len(spy_close) >= 22 and len(hist) >= 22:
+                rs_1m = twenty_day_change - (spy_close.iloc[-1] / spy_close.iloc[-22] - 1) * 100
+            if len(spy_close) >= 63 and len(hist) >= 63:
+                spy_3m   = (spy_close.iloc[-1] / spy_close.iloc[-63] - 1) * 100
+                stock_3m = (current_close / hist["Close"].iloc[-63] - 1) * 100
+                rs_3m = stock_3m - spy_3m
+
+        # Closing range
+        today_high = hist["High"].iloc[-1]
+        today_low  = hist["Low"].iloc[-1]
+        cr = ((current_close - today_low) / (today_high - today_low) * 100) if (today_high - today_low) > 0 else None
 
         adr = calculate_adr(hist)
-        current_close = hist['Close'].iloc[-1]
         adr_pct = (adr / current_close) * 100 if adr and current_close else None
         abc_rating = calculate_abc_rating(hist)
 
         rs_sts = None
         rrs_data = None
-        end_date = datetime.now()
-        start_date = end_date - timedelta(days=120)
         try:
-            stock_history = stock.history(start=start_date, end=end_date)
-            spy_history = yf.Ticker("SPY").history(start=start_date, end=end_date)
-            if stock_history is not None and spy_history is not None:
-                rrs_data = calculate_rrs(stock_history, spy_history, atr_length=14, length_rolling=50, length_sma=20, atr_multiplier=1.0)
+            if spy_history is not None and len(spy_history) > 0:
+                rrs_data = calculate_rrs(hist, spy_history, atr_length=14, length_rolling=50, length_sma=20, atr_multiplier=1.0)
                 if rrs_data is not None and len(rrs_data) >= 21:
-                    recent_21 = rrs_data['rollingRRS'].iloc[-21:]
-                    ranks = rankdata(recent_21, method='average')
+                    recent_21 = rrs_data["rollingRRS"].iloc[-21:]
+                    ranks = rankdata(recent_21, method="average")
                     rs_sts = ((ranks[-1] - 1) / (len(recent_21) - 1)) * 100
         except Exception as e:
             print("RRS error", ticker_symbol, e)
@@ -311,17 +331,21 @@ def get_stock_data(ticker_symbol, charts_dir):
         long_etfs, short_etfs = get_leveraged_etfs(ticker_symbol)
 
         return {
-            "ticker": ticker_symbol,
-            "daily": round(daily_change, 2) if daily_change is not None else None,
-            "intra": round(intraday_change, 2) if intraday_change is not None else None,
-            "5d": round(five_day_change, 2) if five_day_change is not None else None,
-            "20d": round(twenty_day_change, 2) if twenty_day_change is not None else None,
-            "adr_pct": round(adr_pct, 2) if adr_pct is not None else None,
-            "rs": round(rs_sts, 0) if rs_sts is not None else None,
-            "rs_chart": rs_chart_path,
-            "long": long_etfs,
-            "short": short_etfs,
-            "abc": abc_rating
+            "ticker":    ticker_symbol,
+            "daily":     round(daily_change, 2)     if daily_change     is not None else None,
+            "5d":        round(five_day_change, 2)  if five_day_change  is not None else None,
+            "20d":       round(twenty_day_change, 2)if twenty_day_change is not None else None,
+            "50d":       round(fifty_day_change, 2) if fifty_day_change is not None else None,
+            "ytd":       round(ytd_change, 2)       if ytd_change       is not None else None,
+            "vs_spy":    round(rs_1m, 2)            if rs_1m            is not None else None,
+            "vs_spy_3m": round(rs_3m, 2)            if rs_3m            is not None else None,
+            "cr":        round(cr, 1)               if cr               is not None else None,
+            "adr_pct":   round(adr_pct, 2)          if adr_pct          is not None else None,
+            "rs":        round(rs_sts, 0)           if rs_sts           is not None else None,
+            "rs_chart":  rs_chart_path,
+            "long":      long_etfs,
+            "short":     short_etfs,
+            "abc":       abc_rating,
         }
     except Exception as e:
         print("Error", ticker_symbol, e)
@@ -339,14 +363,18 @@ def main():
     print("Fetching economic events...")
     events = get_upcoming_key_events()
 
-    print("Fetching stock data (no Liquid Stocks)...")
+    print("Fetching SPY 1y history...")
+    spy_history = yf.Ticker("SPY").history(period="1y")
+    spy_history = spy_history.dropna(subset=["Close", "Open", "High", "Low"])
+
+    print("Fetching stock data...")
     groups_data = {}
     all_ticker_data = {}
     for group_name, tickers in STOCK_GROUPS.items():
         rows = []
         for i, ticker in enumerate(tickers):
             print(f"  [{group_name}] {i+1}/{len(tickers)} {ticker}")
-            row = get_stock_data(ticker, charts_dir)
+            row = get_stock_data(ticker, charts_dir, spy_history=spy_history)
             if row:
                 rows.append(row)
                 all_ticker_data[ticker] = row
@@ -356,15 +384,17 @@ def main():
     print("Computing column ranges...")
     column_ranges = {}
     for group_name, rows in groups_data.items():
-        daily_v = [r["daily"] for r in rows if r.get("daily") is not None]
-        intra_v = [r["intra"] for r in rows if r.get("intra") is not None]
-        five_v = [r["5d"] for r in rows if r.get("5d") is not None]
-        twenty_v = [r["20d"] for r in rows if r.get("20d") is not None]
+        def vrange(rows, key, default_min, default_max):
+            vals = [r[key] for r in rows if r.get(key) is not None]
+            return [min(vals) if vals else default_min, max(vals) if vals else default_max]
         column_ranges[group_name] = {
-            "daily": (min(daily_v) if daily_v else -10, max(daily_v) if daily_v else 10),
-            "intra": (min(intra_v) if intra_v else -10, max(intra_v) if intra_v else 10),
-            "5d": (min(five_v) if five_v else -20, max(five_v) if five_v else 20),
-            "20d": (min(twenty_v) if twenty_v else -30, max(twenty_v) if twenty_v else 30),
+            "daily":     vrange(rows, "daily",    -10, 10),
+            "5d":        vrange(rows, "5d",        -20, 20),
+            "20d":       vrange(rows, "20d",       -30, 30),
+            "50d":       vrange(rows, "50d",       -40, 40),
+            "ytd":       vrange(rows, "ytd",       -50, 50),
+            "vs_spy":    vrange(rows, "vs_spy",    -20, 20),
+            "vs_spy_3m": vrange(rows, "vs_spy_3m", -30, 30),
         }
 
     snapshot = {
@@ -381,8 +411,10 @@ def main():
     }
 
     def sanitize(obj):
+        if hasattr(obj, "item"):  # numpy scalar
+            obj = obj.item()
         if isinstance(obj, float):
-            return None if (obj != obj) else obj  # NaN check
+            return None if (obj != obj or obj == float("inf") or obj == float("-inf")) else obj
         if isinstance(obj, dict):
             return {k: sanitize(v) for k, v in obj.items()}
         if isinstance(obj, list):
@@ -394,11 +426,11 @@ def main():
     meta_path = os.path.join(out_dir, "meta.json")
 
     with open(snapshot_path, "w", encoding="utf-8") as f:
-        json.dump(sanitize(snapshot), f, ensure_ascii=False, indent=2)
+        json.dump(sanitize(snapshot), f, ensure_ascii=False, indent=2, allow_nan=False)
     with open(events_path, "w", encoding="utf-8") as f:
-        json.dump(sanitize(events), f, ensure_ascii=False, indent=2)
+        json.dump(sanitize(events), f, ensure_ascii=False, indent=2, allow_nan=False)
     with open(meta_path, "w", encoding="utf-8") as f:
-        json.dump(sanitize(meta), f, ensure_ascii=False, indent=2)
+        json.dump(sanitize(meta), f, ensure_ascii=False, indent=2, allow_nan=False)
 
     print("Wrote", snapshot_path, events_path, meta_path, "and charts in", charts_dir)
 
