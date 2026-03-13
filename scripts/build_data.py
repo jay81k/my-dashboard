@@ -209,6 +209,23 @@ def calculate_rrs(stock_data, spy_data, atr_length=14, length_rolling=50, length
         return None
 
 
+def calculate_dist_ma(hist_data, ma_type='SMA', period=50):
+    try:
+        close = hist_data['Close']
+        if len(close) < period:
+            return None
+        if ma_type == 'EMA':
+            ma = close.ewm(span=period, adjust=False).mean().iloc[-1]
+        else:
+            ma = close.rolling(window=period).mean().iloc[-1]
+        current = close.iloc[-1]
+        if ma == 0:
+            return None
+        return round(((current - ma) / ma) * 100, 2)
+    except Exception:
+        return None
+
+
 def calculate_sma(hist_data, period=50):
     try:
         return hist_data['Close'].rolling(window=period).mean().iloc[-1]
@@ -290,8 +307,8 @@ def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
 
         daily_change      = (current_close / prev_close - 1) * 100
         five_day_change   = (current_close / hist["Close"].iloc[-6]  - 1) * 100 if len(hist) >= 6  else None
-        twenty_day_change = (current_close / hist["Close"].iloc[-21] - 1) * 100 if len(hist) >= 21 else None
-        fifty_day_change  = (current_close / hist["Close"].iloc[-51] - 1) * 100 if len(hist) >= 51 else None
+        one_month_change  = (current_close / hist["Close"].iloc[-22] - 1) * 100 if len(hist) >= 22 else None
+        three_month_change= (current_close / hist["Close"].iloc[-64] - 1) * 100 if len(hist) >= 64 else None
 
         # YTD: first close of current calendar year
         year_start = hist[hist.index.year == hist.index[-1].year]
@@ -303,7 +320,7 @@ def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
         if spy_history is not None:
             spy_close = spy_history["Close"]
             if len(spy_close) >= 22 and len(hist) >= 22:
-                rs_1m = twenty_day_change - (spy_close.iloc[-1] / spy_close.iloc[-22] - 1) * 100
+                rs_1m = one_month_change - (spy_close.iloc[-1] / spy_close.iloc[-22] - 1) * 100
             if len(spy_close) >= 63 and len(hist) >= 63:
                 spy_3m   = (spy_close.iloc[-1] / spy_close.iloc[-63] - 1) * 100
                 stock_3m = (current_close / hist["Close"].iloc[-63] - 1) * 100
@@ -333,12 +350,17 @@ def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
         rs_chart_path = create_rs_chart_png(rrs_data, ticker_symbol, charts_dir) if rrs_data is not None and len(rrs_data) > 0 else None
         long_etfs, short_etfs = get_leveraged_etfs(ticker_symbol)
 
+        dist_ma = {}
+        for ma_type, period in [('SMA', 5), ('SMA', 10), ('SMA', 21), ('SMA', 50), ('SMA', 200),
+                                 ('EMA', 5), ('EMA', 10), ('EMA', 21), ('EMA', 50), ('EMA', 200)]:
+            dist_ma[ma_type + str(period)] = calculate_dist_ma(hist, ma_type, period)
+
         return {
             "ticker":    ticker_symbol,
-            "daily":     round(daily_change, 2)     if daily_change     is not None else None,
-            "5d":        round(five_day_change, 2)  if five_day_change  is not None else None,
-            "20d":       round(twenty_day_change, 2)if twenty_day_change is not None else None,
-            "50d":       round(fifty_day_change, 2) if fifty_day_change is not None else None,
+            "daily":     round(daily_change, 2)       if daily_change       is not None else None,
+            "1w":        round(five_day_change, 2)    if five_day_change    is not None else None,
+            "1m":        round(one_month_change, 2)   if one_month_change   is not None else None,
+            "3m":        round(three_month_change, 2) if three_month_change is not None else None,
             "ytd":       round(ytd_change, 2)       if ytd_change       is not None else None,
             "vs_spy":    round(rs_1m, 2)            if rs_1m            is not None else None,
             "vs_spy_3m": round(rs_3m, 2)            if rs_3m            is not None else None,
@@ -349,6 +371,7 @@ def get_stock_data(ticker_symbol, charts_dir, spy_history=None):
             "long":      long_etfs,
             "short":     short_etfs,
             "abc":       abc_rating,
+            "dist_ma":   dist_ma,
         }
     except Exception as e:
         print("Error", ticker_symbol, e)
@@ -391,10 +414,10 @@ def main():
             vals = [r[key] for r in rows if r.get(key) is not None]
             return [min(vals) if vals else default_min, max(vals) if vals else default_max]
         column_ranges[group_name] = {
-            "daily":     vrange(rows, "daily",    -10, 10),
-            "5d":        vrange(rows, "5d",        -20, 20),
-            "20d":       vrange(rows, "20d",       -30, 30),
-            "50d":       vrange(rows, "50d",       -40, 40),
+            "daily":     vrange(rows, "daily",  -10, 10),
+            "1w":        vrange(rows, "1w",      -20, 20),
+            "1m":        vrange(rows, "1m",       -30, 30),
+            "3m":        vrange(rows, "3m",       -40, 40),
             "ytd":       vrange(rows, "ytd",       -50, 50),
             "vs_spy":    vrange(rows, "vs_spy",    -20, 20),
             "vs_spy_3m": vrange(rows, "vs_spy_3m", -30, 30),
