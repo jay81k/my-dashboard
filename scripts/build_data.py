@@ -275,7 +275,7 @@ def create_rs_chart_png(rrs_data, ticker, charts_dir):
         return None
 
 
-def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None, spy_ytd_change=None):
+def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None):
     try:
         stock = yf.Ticker(ticker_symbol)
         hist = stock.history(period="21d")
@@ -289,7 +289,7 @@ def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None, spy_ytd_chang
         twenty_day_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-21] - 1) * 100 if len(hist) >= 21 else None
         fifty_day_change = (daily['Close'].iloc[-1] / daily['Close'].iloc[-51] - 1) * 100 if len(daily) >= 51 else None
 
-        # YTD: find first trading day of current year in daily history
+        # YTD: from first trading day of current year
         ytd_change = None
         try:
             current_year = datetime.now().year
@@ -303,6 +303,17 @@ def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None, spy_ytd_chang
         vs_spy = None
         if twenty_day_change is not None and spy_20d_change is not None:
             vs_spy = twenty_day_change - spy_20d_change
+
+        # Closing Range: where did price close within today's high/low range
+        cr = None
+        try:
+            cr_high = hist['High'].iloc[-1]
+            cr_low = hist['Low'].iloc[-1]
+            cr_close = hist['Close'].iloc[-1]
+            cr_range = cr_high - cr_low
+            cr = ((cr_close - cr_low) / cr_range) * 100 if cr_range > 0 else 50.0
+        except Exception:
+            pass
 
         sma50 = calculate_sma(daily)
         atr = calculate_atr(daily)
@@ -320,6 +331,7 @@ def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None, spy_ytd_chang
             "50d": round(fifty_day_change, 2) if fifty_day_change is not None else None,
             "ytd": round(ytd_change, 2) if ytd_change is not None else None,
             "vs_spy": round(vs_spy, 2) if vs_spy is not None else None,
+            "cr": round(cr, 1) if cr is not None else None,
             "atr_pct": round(atr_pct, 1) if atr_pct is not None else None,
             "long": long_etfs,
             "short": short_etfs,
@@ -343,18 +355,11 @@ def main():
 
     print("Fetching SPY data for vs-SPY calculation...")
     spy_20d_change = None
-    spy_ytd_change = None
     try:
         spy = yf.Ticker("SPY")
         spy_hist = spy.history(period="21d")
-        spy_daily = spy.history(period="200d")
         if len(spy_hist) >= 21:
             spy_20d_change = (spy_hist['Close'].iloc[-1] / spy_hist['Close'].iloc[-21] - 1) * 100
-        if spy_daily is not None:
-            current_year = datetime.now().year
-            spy_year = spy_daily[spy_daily.index.year == current_year]
-            if len(spy_year) >= 2:
-                spy_ytd_change = (spy_year['Close'].iloc[-1] / spy_year['Close'].iloc[0] - 1) * 100
     except Exception as e:
         print("SPY fetch error:", e)
 
@@ -365,7 +370,7 @@ def main():
         rows = []
         for i, ticker in enumerate(tickers):
             print(f"  [{group_name}] {i+1}/{len(tickers)} {ticker}")
-            row = get_stock_data(ticker, charts_dir, spy_20d_change=spy_20d_change, spy_ytd_change=spy_ytd_change)
+            row = get_stock_data(ticker, charts_dir, spy_20d_change=spy_20d_change)
             if row:
                 rows.append(row)
                 all_ticker_data[ticker] = row
