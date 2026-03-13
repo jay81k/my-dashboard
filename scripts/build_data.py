@@ -1,7 +1,7 @@
 """
 Build dashboard data for static GitHub Pages deployment.
 Run from repo root: python scripts/build_data.py [--out-dir data]
-Outputs: data/snapshot.json, data/events.json, data/meta.json, data/charts/*.png
+Outputs: data/snapshot.json, data/meta.json, data/charts/*.png
 """
 from __future__ import print_function
 import argparse
@@ -18,17 +18,6 @@ from scipy.stats import rankdata
 
 
 # --- Config: no Liquid Stocks ---
-KEY_EVENTS = [
-    "Fed", "Federal Reserve", "Interest Rate", "FOMC",
-    "ISM Manufacturing", "ISM Non-Manufacturing", "ISM Services", "ISM",
-    "CPI", "Consumer Price Index", "Nonfarm Payrolls", "NFP", "Employment",
-    "PPI", "Producer Price Index", "PCE", "Core PCE", "Personal Consumption",
-    "Retail Sales", "GDP", "Gross Domestic Product", "Unemployment", "Jobless Claims", "Initial Claims",
-    "Housing Starts", "Building Permits", "Durable Goods", "Factory Orders",
-    "Consumer Confidence", "Michigan Consumer", "Trade Balance", "Trade Deficit",
-    "Beige Book", "Fed Minutes", "JOLTS", "Job Openings"
-]
-
 STOCK_GROUPS = {
     "Indices": ["QQQE", "MGK", "QQQ", "RSP", "MDY", "IWM", "TLT", "SPY", "DIA"],
     "S&P Style ETFs": ["IJS", "IJR", "IJT", "IJJ", "IJH", "IJK", "IVE", "IVV", "IVW"],
@@ -138,10 +127,6 @@ def get_leveraged_etfs(ticker):
     if ticker in LEVERAGED_ETFS:
         return LEVERAGED_ETFS[ticker].get("long", []), LEVERAGED_ETFS[ticker].get("short", [])
     return [], []
-
-
-def get_upcoming_key_events(days_ahead=7):
-    return []
 
 
 def calculate_adr(hist_data, period=20):
@@ -318,9 +303,6 @@ def main():
     out_dir = args.out_dir
     os.makedirs(out_dir, exist_ok=True)
 
-    print("Fetching economic events...")
-    events = get_upcoming_key_events()
-
     print("Fetching SPY 1y history...")
     spy_history = yf.Ticker("SPY").history(period="1y")
     spy_history = spy_history.dropna(subset=["Close", "Open", "High", "Low"])
@@ -380,17 +362,14 @@ def main():
         return obj
 
     snapshot_path = os.path.join(out_dir, "snapshot.json")
-    events_path = os.path.join(out_dir, "events.json")
     meta_path = os.path.join(out_dir, "meta.json")
 
     with open(snapshot_path, "w", encoding="utf-8") as f:
         json.dump(sanitize(snapshot), f, ensure_ascii=False, indent=2, allow_nan=False)
-    with open(events_path, "w", encoding="utf-8") as f:
-        json.dump(sanitize(events), f, ensure_ascii=False, indent=2, allow_nan=False)
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(sanitize(meta), f, ensure_ascii=False, indent=2, allow_nan=False)
 
-    print("Wrote", snapshot_path, events_path, meta_path)
+    print("Wrote", snapshot_path, meta_path)
 
 
 if __name__ == "__main__":
