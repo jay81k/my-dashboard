@@ -284,11 +284,11 @@ def calculate_adr(hist_data, period=20):
         return None
 
 
-def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None):
+def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None, spy_3m_change=None):
     try:
         stock = yf.Ticker(ticker_symbol)
         hist = stock.history(period="21d")
-        daily = stock.history(period="200d")
+        daily = stock.history(period="1y")
         if len(hist) < 2 or len(daily) < 50:
             return None
 
@@ -297,6 +297,7 @@ def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None):
         five_day_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-6] - 1) * 100 if len(hist) >= 6 else None
         twenty_day_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-21] - 1) * 100 if len(hist) >= 21 else None
         fifty_day_change = (daily['Close'].iloc[-1] / daily['Close'].iloc[-51] - 1) * 100 if len(daily) >= 51 else None
+        three_month_change = (daily['Close'].iloc[-1] / daily['Close'].iloc[-64] - 1) * 100 if len(daily) >= 64 else None
 
         # YTD: from first trading day of current year
         ytd_change = None
@@ -308,12 +309,15 @@ def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None):
         except Exception:
             pass
 
-        # vs SPY: ETF 20D minus SPY 20D
+        # vs SPY 20D and 3M
         vs_spy = None
+        vs_spy_3m = None
         if twenty_day_change is not None and spy_20d_change is not None:
             vs_spy = twenty_day_change - spy_20d_change
+        if three_month_change is not None and spy_3m_change is not None:
+            vs_spy_3m = three_month_change - spy_3m_change
 
-        # Closing Range: where price closed within today's high/low range
+        # Closing Range
         cr = None
         try:
             cr_high = hist['High'].iloc[-1]
@@ -337,6 +341,7 @@ def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None):
             "50d": round(fifty_day_change, 2) if fifty_day_change is not None else None,
             "ytd": round(ytd_change, 2) if ytd_change is not None else None,
             "vs_spy": round(vs_spy, 2) if vs_spy is not None else None,
+            "vs_spy_3m": round(vs_spy_3m, 2) if vs_spy_3m is not None else None,
             "cr": round(cr, 1) if cr is not None else None,
             "adr_pct": round(adr_pct, 2) if adr_pct is not None else None,
             "long": long_etfs,
@@ -359,13 +364,16 @@ def main():
     print("Fetching economic events...")
     events = get_upcoming_key_events()
 
-    print("Fetching SPY data for vs-SPY calculation...")
+    print("Fetching SPY data for vs-SPY calculations...")
     spy_20d_change = None
+    spy_3m_change = None
     try:
         spy = yf.Ticker("SPY")
-        spy_hist = spy.history(period="21d")
-        if len(spy_hist) >= 21:
-            spy_20d_change = (spy_hist['Close'].iloc[-1] / spy_hist['Close'].iloc[-21] - 1) * 100
+        spy_daily = spy.history(period="1y")
+        if len(spy_daily) >= 21:
+            spy_20d_change = (spy_daily['Close'].iloc[-1] / spy_daily['Close'].iloc[-21] - 1) * 100
+        if len(spy_daily) >= 64:
+            spy_3m_change = (spy_daily['Close'].iloc[-1] / spy_daily['Close'].iloc[-64] - 1) * 100
     except Exception as e:
         print("SPY fetch error:", e)
 
@@ -376,7 +384,7 @@ def main():
         rows = []
         for i, ticker in enumerate(tickers):
             print(f"  [{group_name}] {i+1}/{len(tickers)} {ticker}")
-            row = get_stock_data(ticker, charts_dir, spy_20d_change=spy_20d_change)
+            row = get_stock_data(ticker, charts_dir, spy_20d_change=spy_20d_change, spy_3m_change=spy_3m_change)
             if row:
                 rows.append(row)
                 all_ticker_data[ticker] = row
@@ -386,21 +394,23 @@ def main():
     print("Computing column ranges...")
     column_ranges = {}
     for group_name, rows in groups_data.items():
-        daily_v  = [r["daily"]   for r in rows if r.get("daily")   is not None]
-        intra_v  = [r["intra"]   for r in rows if r.get("intra")   is not None]
-        five_v   = [r["5d"]      for r in rows if r.get("5d")      is not None]
-        twenty_v = [r["20d"]     for r in rows if r.get("20d")     is not None]
-        fifty_v  = [r["50d"]     for r in rows if r.get("50d")     is not None]
-        ytd_v    = [r["ytd"]     for r in rows if r.get("ytd")     is not None]
-        vs_spy_v = [r["vs_spy"]  for r in rows if r.get("vs_spy")  is not None]
+        daily_v     = [r["daily"]      for r in rows if r.get("daily")      is not None]
+        intra_v     = [r["intra"]      for r in rows if r.get("intra")      is not None]
+        five_v      = [r["5d"]         for r in rows if r.get("5d")         is not None]
+        twenty_v    = [r["20d"]        for r in rows if r.get("20d")        is not None]
+        fifty_v     = [r["50d"]        for r in rows if r.get("50d")        is not None]
+        ytd_v       = [r["ytd"]        for r in rows if r.get("ytd")        is not None]
+        vs_spy_v    = [r["vs_spy"]     for r in rows if r.get("vs_spy")     is not None]
+        vs_spy_3m_v = [r["vs_spy_3m"]  for r in rows if r.get("vs_spy_3m") is not None]
         column_ranges[group_name] = {
-            "daily":  (min(daily_v)  if daily_v  else -10, max(daily_v)  if daily_v  else 10),
-            "intra":  (min(intra_v)  if intra_v  else -10, max(intra_v)  if intra_v  else 10),
-            "5d":     (min(five_v)   if five_v   else -20, max(five_v)   if five_v   else 20),
-            "20d":    (min(twenty_v) if twenty_v else -30, max(twenty_v) if twenty_v else 30),
-            "50d":    (min(fifty_v)  if fifty_v  else -40, max(fifty_v)  if fifty_v  else 40),
-            "ytd":    (min(ytd_v)    if ytd_v    else -50, max(ytd_v)    if ytd_v    else 50),
-            "vs_spy": (min(vs_spy_v) if vs_spy_v else -20, max(vs_spy_v) if vs_spy_v else 20),
+            "daily":     (min(daily_v)     if daily_v     else -10, max(daily_v)     if daily_v     else 10),
+            "intra":     (min(intra_v)     if intra_v     else -10, max(intra_v)     if intra_v     else 10),
+            "5d":        (min(five_v)      if five_v      else -20, max(five_v)      if five_v      else 20),
+            "20d":       (min(twenty_v)    if twenty_v    else -30, max(twenty_v)    if twenty_v    else 30),
+            "50d":       (min(fifty_v)     if fifty_v     else -40, max(fifty_v)     if fifty_v     else 40),
+            "ytd":       (min(ytd_v)       if ytd_v       else -50, max(ytd_v)       if ytd_v       else 50),
+            "vs_spy":    (min(vs_spy_v)    if vs_spy_v    else -20, max(vs_spy_v)    if vs_spy_v    else 20),
+            "vs_spy_3m": (min(vs_spy_3m_v) if vs_spy_3m_v else -30, max(vs_spy_3m_v) if vs_spy_3m_v else 30),
         }
 
     snapshot = {
