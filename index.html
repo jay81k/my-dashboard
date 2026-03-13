@@ -283,7 +283,8 @@
                 var vsSpyCl   = vsSpy   != null ? (vsSpy   > 0 ? 'price-up' : (vsSpy   < 0 ? 'price-down' : '')) : '';
                 var vsSpy3mCl = vsSpy3m != null ? (vsSpy3m > 0 ? 'price-up' : (vsSpy3m < 0 ? 'price-down' : '')) : '';
                 var cr = r.cr;
-                var crColor = cr == null ? '#9ca3af' : cr <= 30 ? '#ef4444' : cr <= 60 ? '#f59e0b' : '#10b981';
+                var crDisplay = (cr != null) ? cr : 0;
+                var crColor = crDisplay <= 30 ? '#ef4444' : crDisplay <= 60 ? '#f59e0b' : '#10b981';
                 var letf = (r.long && r.long.length) || (r.short && r.short.length) ? '1' : '0';
                 var abc = r.abc || '';
                 var adrPct = r.adr_pct != null ? r.adr_pct : 0;
@@ -298,7 +299,7 @@
                 html += '<td class="' + ytdCl     + '">' + (ytd     != null ? '<div class="value-visualization"><div class="value-bar ' + (ytd     >= 0 ? 'positive' : 'negative') + '" style="width:' + ytdW     + '%"></div><span class="value-text">' + (ytd     >= 0 ? '+' : '') + ytd.toFixed(2)     + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + vsSpyCl   + '">' + (vsSpy   != null ? '<div class="value-visualization"><div class="value-bar ' + (vsSpy   >= 0 ? 'positive' : 'negative') + '" style="width:' + vsSpyW   + '%"></div><span class="value-text">' + (vsSpy   >= 0 ? '+' : '') + vsSpy.toFixed(2)   + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + vsSpy3mCl + '">' + (vsSpy3m != null ? '<div class="value-visualization"><div class="value-bar ' + (vsSpy3m >= 0 ? 'positive' : 'negative') + '" style="width:' + vsSpy3mW + '%"></div><span class="value-text">' + (vsSpy3m >= 0 ? '+' : '') + vsSpy3m.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
-                html += '<td style="font-weight:bold;color:' + crColor + '">' + (cr != null ? cr.toFixed(1) + '%' : 'N/A') + '</td>';
+                html += '<td style="font-weight:bold;color:' + crColor + '">' + crDisplay.toFixed(1) + '%</td>';
                 html += '<td>' + (r.adr_pct != null ? r.adr_pct.toFixed(2) + '%' : 'N/A') + '</td>';
                 html += '<td class="etf-list">';
                 if (r.long && r.long.length) html += r.long.map(function(etf){ return '<span class="long-etf" onclick="event.stopPropagation();updateChart(\'' + etf + '\')">' + etf + '</span>'; }).join(', ');
