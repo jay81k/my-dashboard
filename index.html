@@ -39,9 +39,9 @@
         .ticker-table th {
             text-align: left; padding: 6px 8px; background-color: #13171e; cursor: pointer; user-select: none;
             font-weight: 500; font-size: 0.78em; letter-spacing: 0.06em; text-transform: uppercase;
-            border-bottom: 1px solid #22272f; color: #7a8fa8;
+            border-bottom: 1px solid #22272f; color: #a8bdd4;
         }
-        .ticker-table th:hover { background-color: #1a1f28; color: #c8d0dc; }
+        .ticker-table th:hover { background-color: #1a1f28; color: #dce8f0; }
         .ticker-table th.sortable { cursor: pointer; }
         .ticker-table th.sortable:hover { color: #c8d0dc; }
         .ticker-table th.sort-asc::after { content: " ↑"; }
@@ -315,9 +315,9 @@
             html += th('ytd', 'YTD', 'Year-to-date return from the first trading day of the current calendar year.');
             html += th('vs_spy', '1M RS', 'Relative strength vs SPY over the last 21 trading days (~1 month). Positive = outperforming SPY. Negative = underperforming.');
             html += th('vs_spy_3m', '3M RS', 'Relative strength vs SPY over the last 63 trading days (~3 months). Positive = outperforming SPY. Negative = underperforming.');
+            html += '<th class="sortable dist-ma-header" data-sort-by="dist_ma" data-tooltip="% distance from the selected moving average. Use the ⋯ button in the Indices header to change type &amp; period.">DistMA</th>';
             html += th('cr', 'CR', 'Closing Range — where price closed within today\'s high/low range. >60% strong close (green), 30-60% mid (orange), <=30% weak close (red).');
             html += th('adr_pct', 'ADR%', 'Average Daily Range % — SMA of (High - Low) over 20 days divided by close. Measures typical daily volatility.');
-            html += '<th class="sortable dist-ma-header" data-sort-by="dist_ma" data-tooltip="% distance from the selected moving average. Use the ⋯ button in the Indices header to change type &amp; period.">DistMA</th>';
             html += th('letf', 'LETF', 'Leveraged ETFs linked to this instrument. Green = long/bullish. Red = short/inverse.');
             html += '</tr></thead><tbody id="' + safeId + '-body">';
             for (var i = 0; i < rows.length; i++) {
@@ -360,10 +360,10 @@
                 html += '<td class="' + ytdCl     + '">' + (ytd     != null ? '<div class="value-visualization"><div class="value-bar ' + (ytd     >= 0 ? 'positive' : 'negative') + '" style="width:' + ytdW     + '%"></div><span class="value-text">' + (ytd     >= 0 ? '+' : '') + ytd.toFixed(2)     + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + vsSpyCl   + '">' + (vsSpy   != null ? '<div class="value-visualization"><div class="value-bar ' + (vsSpy   >= 0 ? 'positive' : 'negative') + '" style="width:' + vsSpyW   + '%"></div><span class="value-text">' + (vsSpy   >= 0 ? '+' : '') + vsSpy.toFixed(2)   + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + vsSpy3mCl + '">' + (vsSpy3m != null ? '<div class="value-visualization"><div class="value-bar ' + (vsSpy3m >= 0 ? 'positive' : 'negative') + '" style="width:' + vsSpy3mW + '%"></div><span class="value-text">' + (vsSpy3m >= 0 ? '+' : '') + vsSpy3m.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
-                html += '<td style="font-weight:bold;color:' + crColor + '">' + crDisplay.toFixed(1) + '%</td>';
-                html += '<td>' + (r.adr_pct != null ? r.adr_pct.toFixed(2) + '%' : 'N/A') + '</td>';
                 html += '<td class="dist-ma-cell ' + distMACl + '" data-dist-all="' + distMAAllJson + '">' +
                     (distMAVal != null ? '<div class="value-visualization"><div class="value-bar ' + (distMAVal >= 0 ? 'positive' : 'negative') + '" style="width:' + distMAW + '%"></div><span class="value-text">' + (distMAVal >= 0 ? '+' : '') + distMAVal.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
+                html += '<td style="font-weight:bold;color:' + crColor + '">' + crDisplay.toFixed(1) + '%</td>';
+                html += '<td>' + (r.adr_pct != null ? r.adr_pct.toFixed(2) + '%' : 'N/A') + '</td>';
                 html += '<td class="etf-list">';
                 if (r.long && r.long.length) html += r.long.map(function(etf){ return '<span class="long-etf" onclick="event.stopPropagation();updateChart(\'' + etf + '\')">' + etf + '</span>'; }).join(', ');
                 if (r.short && r.short.length) { if (r.long && r.long.length) html += '<br>'; html += r.short.map(function(etf){ return '<span class="short-etf" onclick="event.stopPropagation();updateChart(\'' + etf + '\')">' + etf + '</span>'; }).join(', '); }
@@ -443,7 +443,7 @@
         state.sortBy = sortBy;
         if (state.count === 2) state.direction *= -1; else state.direction = 1;
 
-        var colMap = { symbol: 0, abc: 1, daily: 2, '1w': 3, '1m': 4, '3m': 5, ytd: 6, vs_spy: 7, vs_spy_3m: 8, cr: 9, adr_pct: 10, dist_ma: 11, letf: 12 };
+        var colMap = { symbol: 0, abc: 1, daily: 2, '1w': 3, '1m': 4, '3m': 5, ytd: 6, vs_spy: 7, vs_spy_3m: 8, dist_ma: 9, cr: 10, adr_pct: 11, letf: 12 };
         var hi = colMap[sortBy] !== undefined ? colMap[sortBy] : 11;
         var headerIndices = [hi];
         headerIndices.forEach(function(idx) {
