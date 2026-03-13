@@ -224,19 +224,17 @@ def calculate_ema(hist_data, period=10):
 
 def calculate_abc_rating(hist_data):
     try:
-        ema21 = calculate_ema(hist_data, 21)
+        ema10 = calculate_ema(hist_data, 10)
+        ema20 = calculate_ema(hist_data, 20)
         sma50 = calculate_sma(hist_data, 50)
-        price = hist_data['Close'].iloc[-1]
-        if ema21 is None or sma50 is None:
+        if ema10 is None or ema20 is None or sma50 is None:
             return None
-        if price > ema21 and ema21 > sma50:
+        if ema10 > ema20 and ema20 > sma50:
             return "A"
-        if price > ema21 and ema21 < sma50:
+        if (ema10 > ema20 and ema20 < sma50) or (ema10 < ema20 and ema20 > sma50):
             return "B"
-        if price < ema21 and ema21 > sma50:
+        if ema10 < ema20 and ema20 < sma50:
             return "C"
-        if price < ema21 and ema21 < sma50:
-            return "D"
     except Exception:
         pass
     return None
@@ -281,7 +279,7 @@ def get_stock_data(ticker_symbol, charts_dir):
     try:
         stock = yf.Ticker(ticker_symbol)
         hist = stock.history(period="21d")
-        daily = stock.history(period="60d")
+        daily = stock.history(period="200d")
         if len(hist) < 2 or len(daily) < 50:
             return None
 
