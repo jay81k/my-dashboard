@@ -48,7 +48,7 @@ STOCK_GROUPS = {
         "GDX", "IPAY", "IWM", "XOP", "VNQ", "EATZ", "FXI", "DBA", "ICLN", "SILJ", "REZ", "LIT", "SLV", "XHB", "XHE", "PBJ", "USO", "DBC", "FCG", "XBI",
         "ARKG", "CPER", "XES", "OIH", "PPH", "FNGS", "URA", "WGMI", "REMX"
     ],
-    "Crypto": ["IBIT", "ETHA", "SOLQ", "PURR"],
+    "Crypto": ["IBIT", "ETHA", "SOLZ", "PURR"],
     "Countries": [
         "EZA", "ARGT", "EWA", "THD", "EIDO", "EWC", "GREK", "EWP", "EWG", "EWL", "EUFN", "EWY", "IEUR", "EFA", "ACWI",
         "IEV", "EWQ", "EWI", "EWJ", "EWW", "ECH", "EWD", "ASHR", "EWS", "KSA", "INDA", "EEM", "EWZ", "TUR", "EWH", "EWT", "MCHI"
@@ -97,7 +97,7 @@ LEVERAGED_ETFS = {
     "UNG": {"long": ["BOIL"], "short": ["KOLD"]},
     "GDX": {"long": ["NUGT", "GDXU"], "short": ["JDST", "GDXD"]},
     "IBIT": {"long": ["BITO", "BITX"], "short": ["BITI"]},
-    "SOLQ": {"long": [], "short": []},
+    "SOLZ": {"long": ["SOLT"], "short": []},
     "PURR": {"long": [], "short": []},
     "MSOS": {"long": ["MSOX"], "short": []},
     "REMX": {"long": [], "short": []},
