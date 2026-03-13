@@ -57,7 +57,6 @@
         .value-bar.positive { background-color: #34d4a4; left: 0; right: auto; }
         .value-bar.negative { background-color: #e05c5c; right: 0; left: auto; }
         .value-text { position: relative; z-index: 1; }
-        .rs-chart { width: 100%; max-width: 100px; height: 30px; display: block; object-fit: contain; }
         .tradingview-widget-container { flex: 1; min-height: 0; }
         .key-hint { font-size: 11px; color: #4a5a6e; margin-top: 15px; padding: 5px 10px; background-color: #191d24; border-radius: 4px; position: sticky; bottom: 0; border: 1px solid #22272f; }
         .long-etf { color: #34d4a4; cursor: pointer; text-decoration: underline; }
@@ -202,8 +201,8 @@
     let currentSortStates = {};
     let snapshot = null;
     let meta = null;
-    let activeMAType = 'SMA';
-    let activeMALength = 50;
+    let activeMAType = localStorage.getItem('distMAType') || 'SMA';
+    let activeMALength = parseInt(localStorage.getItem('distMALength') || '50');
 
     function safeGroupId(name) {
         return name.replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -303,7 +302,7 @@
                 var vsSpy3mCl = vsSpy3m != null ? (vsSpy3m > 0 ? 'price-up' : (vsSpy3m < 0 ? 'price-down' : '')) : '';
                 var cr = r.cr;
                 var crDisplay = (cr != null) ? cr : 0;
-                var crColor = crDisplay <= 30 ? '#ef4444' : crDisplay <= 60 ? '#f59e0b' : '#10b981';
+                var crColor = crDisplay <= 30 ? '#e05c5c' : crDisplay <= 60 ? '#f0a030' : '#34d4a4';
                 var letf = (r.long && r.long.length) || (r.short && r.short.length) ? '1' : '0';
                 var abc = r.abc || '';
                 var adrPct = r.adr_pct != null ? r.adr_pct : 0;
@@ -455,6 +454,13 @@
     }
 
     function initApp() {
+        // Sync DistMA button states to saved settings
+        document.querySelectorAll('.dist-ma-type-btn').forEach(function(b) {
+            b.classList.toggle('active', b.getAttribute('data-type') === activeMAType);
+        });
+        document.querySelectorAll('.dist-ma-len-btn').forEach(function(b) {
+            b.classList.toggle('active', parseInt(b.getAttribute('data-len')) === activeMALength);
+        });
         allTickerRows = [].slice.call(document.querySelectorAll('.ticker-row'));
         document.querySelectorAll('.ticker-table').forEach(function(table) {
             var g = table.getAttribute('data-group');
@@ -520,6 +526,7 @@
 
     window.setDistMAType = function(type) {
         activeMAType = type;
+        localStorage.setItem('distMAType', type);
         document.querySelectorAll('.dist-ma-type-btn').forEach(function(b) {
             b.classList.toggle('active', b.getAttribute('data-type') === type);
         });
@@ -528,6 +535,7 @@
 
     window.setDistMALength = function(len) {
         activeMALength = len;
+        localStorage.setItem('distMALength', len);
         document.querySelectorAll('.dist-ma-len-btn').forEach(function(b) {
             b.classList.toggle('active', parseInt(b.getAttribute('data-len')) === len);
         });
