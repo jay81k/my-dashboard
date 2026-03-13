@@ -156,10 +156,10 @@
                     <dd>% change over the last 50 trading days.</dd>
                     <dt>YTD</dt>
                     <dd>% change from the first trading day of the current year to today.</dd>
-                    <dt>vs SPY</dt>
-                    <dd>20-day return minus SPY's 20-day return. Positive = outperforming, negative = underperforming.</dd>
-                    <dt>vs SPY 3M</dt>
-                    <dd>63-day return minus SPY's 63-day return. Positive = outperforming, negative = underperforming.</dd>
+                    <dt>1M RS</dt>
+                    <dd>Relative strength vs SPY over the last 21 trading days (~1 month). Positive = outperforming SPY.</dd>
+                    <dt>3M RS</dt>
+                    <dd>Relative strength vs SPY over the last 63 trading days (~3 months). Positive = outperforming SPY.</dd>
                     <dt>CR</dt>
                     <dd>Closing Range — where price closed within today's high/low range. Green &gt;60% (strong close), Orange 30–60% (mid), Red ≤30% (weak close).</dd>
                     <dt>ADR%</dt>
@@ -259,8 +259,8 @@
             html += th('20d', '20D', 'Price change over the last 20 trading days (~1 month).');
             html += th('50d', '50D', 'Price change over the last 50 trading days (~2.5 months).');
             html += th('ytd', 'YTD', 'Year-to-date return from the first trading day of the current calendar year.');
-            html += th('vs_spy', 'vs SPY', '20-day return minus SPY's 20-day return. Positive = outperforming the market. Negative = underperforming.');
-            html += th('vs_spy_3m', 'vs SPY 3M', '63-day return minus SPY's 63-day return (~3 months). Positive = outperforming. Negative = underperforming.');
+            html += th('vs_spy', '1M RS', 'Relative strength vs SPY over the last 21 trading days (~1 month). Positive = outperforming SPY. Negative = underperforming.');
+            html += th('vs_spy_3m', '3M RS', 'Relative strength vs SPY over the last 63 trading days (~3 months). Positive = outperforming SPY. Negative = underperforming.');
             html += th('cr', 'CR', 'Closing Range — where price closed within today's high/low range. >60% strong close (green), 30–60% mid (orange), ≤30% weak close (red).');
             html += th('adr_pct', 'ADR%', 'Average Daily Range % — SMA of (High - Low) over 20 days divided by close. Measures typical daily volatility.');
             html += th('letf', 'LETF', 'Leveraged ETFs linked to this instrument. Green = long/bullish. Red = short/inverse.');
