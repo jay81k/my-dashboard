@@ -59,7 +59,6 @@
         .abc-a { background-color: #3b82f6; }
         .abc-b { background-color: #10b981; }
         .abc-c { background-color: #f59e0b; }
-        .abc-d { background-color: #ef4444; }
         .economic-events { margin-bottom: 10px; }
         .events-button,
         .column-guide-btn {
@@ -122,11 +121,15 @@
             <div class="column-guide-content">
                 <dl>
                     <dt>Grade</dt>
-                    <dd>A = Price &gt; EMA21 &gt; SMA50 (full uptrend); B = Price &gt; EMA21 but EMA21 &lt; SMA50 (above 21, below 50); C = Price &lt; EMA21 but EMA21 &gt; SMA50 (weakening, MAs still bullish); D = Price &lt; EMA21 &lt; SMA50 (full downtrend).</dd>
-                    <dt>ATRx</dt>
-                    <dd>Distance from SMA50 in ATR units.</dd>
-                    <dt>1M-VARS</dt>
-                    <dd>Volatility Adjusted Relative Strength Stands vs SPY over last 21 days (0–100%).</dd>
+                    <dd>A = EMA10 &gt; EMA20 &gt; SMA50 (full uptrend); B = mixed signals; C = EMA10 &lt; EMA20 &lt; SMA50 (full downtrend).</dd>
+                    <dt>50D</dt>
+                    <dd>% change over the last 50 trading days.</dd>
+                    <dt>YTD</dt>
+                    <dd>% change from the first trading day of the current year to today.</dd>
+                    <dt>vs SPY</dt>
+                    <dd>20-day return minus SPY's 20-day return. Positive = outperforming SPY, negative = underperforming.</dd>
+                    <dt>ATR%</dt>
+                    <dd>14-day Average True Range as a % of price. Measures volatility.</dd>
                 </dl>
             </div>
         </div>
@@ -220,40 +223,44 @@
             html += th('intra', 'Intra');
             html += th('5d', '5D');
             html += th('20d', '20D');
+            html += th('50d', '50D');
+            html += th('ytd', 'YTD');
+            html += th('vs_spy', 'vs SPY');
             html += th('atr_pct', 'ATR%');
-            html += th('dist_sma50_atr', 'ATRx');
-            html += th('rs', '1M-VARS');
-            html += th('rs', 'VARS');
             html += th('letf', 'LETF');
             html += '</tr></thead><tbody id="' + safeId + '-body">';
             for (var i = 0; i < rows.length; i++) {
                 var r = rows[i];
-                var daily = r.daily, intra = r.intra, five = r['5d'], twenty = r['20d'];
+                var daily = r.daily, intra = r.intra, five = r['5d'], twenty = r['20d'], fifty = r['50d'], ytd = r.ytd, vsSpy = r.vs_spy;
                 var dailyW = vizWidth(daily, ranges.daily[0], ranges.daily[1]);
                 var intraW = vizWidth(intra, ranges.intra[0], ranges.intra[1]);
                 var fiveW = vizWidth(five, ranges['5d'][0], ranges['5d'][1]);
                 var twentyW = vizWidth(twenty, ranges['20d'][0], ranges['20d'][1]);
+                var fiftyW = vizWidth(fifty, ranges['50d'][0], ranges['50d'][1]);
+                var ytdW = vizWidth(ytd, ranges['ytd'][0], ranges['ytd'][1]);
+                var vsSpyW = vizWidth(vsSpy, ranges['vs_spy'][0], ranges['vs_spy'][1]);
                 var dailyCl = daily != null ? (daily > 0 ? 'price-up' : (daily < 0 ? 'price-down' : '')) : '';
                 var intraCl = intra != null ? (intra > 0 ? 'price-up' : (intra < 0 ? 'price-down' : '')) : '';
                 var fiveCl = five != null ? (five > 0 ? 'price-up' : (five < 0 ? 'price-down' : '')) : '';
                 var twentyCl = twenty != null ? (twenty > 0 ? 'price-up' : (twenty < 0 ? 'price-down' : '')) : '';
+                var fiftyCl = fifty != null ? (fifty > 0 ? 'price-up' : (fifty < 0 ? 'price-down' : '')) : '';
+                var ytdCl = ytd != null ? (ytd > 0 ? 'price-up' : (ytd < 0 ? 'price-down' : '')) : '';
+                var vsSpyCl = vsSpy != null ? (vsSpy > 0 ? 'price-up' : (vsSpy < 0 ? 'price-down' : '')) : '';
                 var letf = (r.long && r.long.length) || (r.short && r.short.length) ? '1' : '0';
                 var abc = r.abc || '';
-                var rs = r.rs != null ? r.rs : 0;
                 var atrPct = r.atr_pct != null ? r.atr_pct : 0;
-                var dist = r.dist_sma50_atr != null ? r.dist_sma50_atr : 0;
                 var labelClass = getGroupLabelClass(groupName, r.ticker);
-                html += '<tr class="ticker-row" onclick="updateChart(\'' + r.ticker + '\', this)" data-symbol="' + r.ticker + '" data-group="' + groupName.replace(/"/g, '&quot;') + '" data-daily="' + (daily != null ? daily : 0) + '" data-intra="' + (intra != null ? intra : 0) + '" data-5d="' + (five != null ? five : 0) + '" data-20d="' + (twenty != null ? twenty : 0) + '" data-atr_pct="' + atrPct + '" data-dist_sma50_atr="' + dist + '" data-rs="' + rs + '" data-abc="' + abc + '" data-letf="' + letf + '" data-index="' + i + '">';
+                html += '<tr class="ticker-row" onclick="updateChart(\'' + r.ticker + '\', this)" data-symbol="' + r.ticker + '" data-group="' + groupName.replace(/"/g, '&quot;') + '" data-daily="' + (daily != null ? daily : 0) + '" data-intra="' + (intra != null ? intra : 0) + '" data-5d="' + (five != null ? five : 0) + '" data-20d="' + (twenty != null ? twenty : 0) + '" data-50d="' + (fifty != null ? fifty : 0) + '" data-ytd="' + (ytd != null ? ytd : 0) + '" data-vs_spy="' + (vsSpy != null ? vsSpy : 0) + '" data-atr_pct="' + atrPct + '" data-abc="' + abc + '" data-letf="' + letf + '" data-index="' + i + '">';
                 html += '<td><span class="ticker-label ' + labelClass + '">' + r.ticker + '</span></td>';
                 html += '<td>' + (abc ? '<span class="abc-rating abc-' + abc.toLowerCase() + '">' + abc + '</span>' : '-') + '</td>';
                 html += '<td class="' + dailyCl + '">' + (daily != null ? '<div class="value-visualization"><div class="value-bar ' + (daily >= 0 ? 'positive' : 'negative') + '" style="width:' + dailyW + '%"></div><span class="value-text">' + (daily >= 0 ? '+' : '') + daily.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + intraCl + '">' + (intra != null ? '<div class="value-visualization"><div class="value-bar ' + (intra >= 0 ? 'positive' : 'negative') + '" style="width:' + intraW + '%"></div><span class="value-text">' + (intra >= 0 ? '+' : '') + intra.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + fiveCl + '">' + (five != null ? '<div class="value-visualization"><div class="value-bar ' + (five >= 0 ? 'positive' : 'negative') + '" style="width:' + fiveW + '%"></div><span class="value-text">' + (five >= 0 ? '+' : '') + five.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + twentyCl + '">' + (twenty != null ? '<div class="value-visualization"><div class="value-bar ' + (twenty >= 0 ? 'positive' : 'negative') + '" style="width:' + twentyW + '%"></div><span class="value-text">' + (twenty >= 0 ? '+' : '') + twenty.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
+                html += '<td class="' + fiftyCl + '">' + (fifty != null ? '<div class="value-visualization"><div class="value-bar ' + (fifty >= 0 ? 'positive' : 'negative') + '" style="width:' + fiftyW + '%"></div><span class="value-text">' + (fifty >= 0 ? '+' : '') + fifty.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
+                html += '<td class="' + ytdCl + '">' + (ytd != null ? '<div class="value-visualization"><div class="value-bar ' + (ytd >= 0 ? 'positive' : 'negative') + '" style="width:' + ytdW + '%"></div><span class="value-text">' + (ytd >= 0 ? '+' : '') + ytd.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
+                html += '<td class="' + vsSpyCl + '">' + (vsSpy != null ? '<div class="value-visualization"><div class="value-bar ' + (vsSpy >= 0 ? 'positive' : 'negative') + '" style="width:' + vsSpyW + '%"></div><span class="value-text">' + (vsSpy >= 0 ? '+' : '') + vsSpy.toFixed(2) + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td>' + (r.atr_pct != null ? r.atr_pct.toFixed(1) + '%' : 'N/A') + '</td>';
-                html += '<td>' + (r.dist_sma50_atr != null ? r.dist_sma50_atr.toFixed(2) : 'N/A') + '</td>';
-                html += '<td>' + (r.rs != null ? Math.round(r.rs) + '%' : 'N/A') + '</td>';
-                html += '<td>' + (r.rs_chart ? '<img src="' + r.rs_chart + '" class="rs-chart" alt="RS">' : 'N/A') + '</td>';
                 html += '<td class="etf-list">';
                 if (r.long && r.long.length) html += r.long.map(function(etf){ return '<span class="long-etf" onclick="event.stopPropagation();updateChart(\'' + etf + '\')">' + etf + '</span>'; }).join(', ');
                 if (r.short && r.short.length) { if (r.long && r.long.length) html += '<br>'; html += r.short.map(function(etf){ return '<span class="short-etf" onclick="event.stopPropagation();updateChart(\'' + etf + '\')">' + etf + '</span>'; }).join(', '); }
@@ -333,9 +340,9 @@
         state.sortBy = sortBy;
         if (state.count === 2) state.direction *= -1; else state.direction = 1;
 
-        var colMap = { symbol: 0, abc: 1, daily: 2, intra: 3, '5d': 4, '20d': 5, atr_pct: 6, dist_sma50_atr: 7, rs: 8, letf: 10 };
+        var colMap = { symbol: 0, abc: 1, daily: 2, intra: 3, '5d': 4, '20d': 5, '50d': 6, ytd: 7, vs_spy: 8, atr_pct: 9, letf: 10 };
         var hi = colMap[sortBy] !== undefined ? colMap[sortBy] : 9;
-        var headerIndices = (sortBy === 'rs') ? [8, 9] : [hi];  /* highlight both 1M-VARS and VARS when sorting by rs */
+        var headerIndices = [hi];
         headerIndices.forEach(function(idx) {
             var h = table.querySelectorAll('th')[idx];
             if (h) h.classList.add(state.direction === 1 ? 'sort-asc' : 'sort-desc', 'sorted-column');

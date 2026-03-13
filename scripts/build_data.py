@@ -275,7 +275,7 @@ def create_rs_chart_png(rrs_data, ticker, charts_dir):
         return None
 
 
-def get_stock_data(ticker_symbol, charts_dir):
+def get_stock_data(ticker_symbol, charts_dir, spy_20d_change=None, spy_ytd_change=None):
     try:
         stock = yf.Ticker(ticker_symbol)
         hist = stock.history(period="21d")
@@ -287,31 +287,28 @@ def get_stock_data(ticker_symbol, charts_dir):
         intraday_change = (hist['Close'].iloc[-1] / hist['Open'].iloc[-1] - 1) * 100
         five_day_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-6] - 1) * 100 if len(hist) >= 6 else None
         twenty_day_change = (hist['Close'].iloc[-1] / hist['Close'].iloc[-21] - 1) * 100 if len(hist) >= 21 else None
+        fifty_day_change = (daily['Close'].iloc[-1] / daily['Close'].iloc[-51] - 1) * 100 if len(daily) >= 51 else None
+
+        # YTD: find first trading day of current year in daily history
+        ytd_change = None
+        try:
+            current_year = datetime.now().year
+            year_data = daily[daily.index.year == current_year]
+            if len(year_data) >= 2:
+                ytd_change = (year_data['Close'].iloc[-1] / year_data['Close'].iloc[0] - 1) * 100
+        except Exception:
+            pass
+
+        # vs SPY: ETF 20D minus SPY 20D
+        vs_spy = None
+        if twenty_day_change is not None and spy_20d_change is not None:
+            vs_spy = twenty_day_change - spy_20d_change
 
         sma50 = calculate_sma(daily)
         atr = calculate_atr(daily)
         current_close = daily['Close'].iloc[-1]
         atr_pct = (atr / current_close) * 100 if atr and current_close else None
-        dist_sma50_atr = (100 * (current_close / sma50 - 1) / atr_pct) if (sma50 and atr_pct and atr_pct != 0) else None
         abc_rating = calculate_abc_rating(daily)
-
-        rs_sts = None
-        rrs_data = None
-        end_date = datetime.now()
-        start_date = end_date - timedelta(days=120)
-        try:
-            stock_history = stock.history(start=start_date, end=end_date)
-            spy_history = yf.Ticker("SPY").history(start=start_date, end=end_date)
-            if stock_history is not None and spy_history is not None:
-                rrs_data = calculate_rrs(stock_history, spy_history, atr_length=14, length_rolling=50, length_sma=20, atr_multiplier=1.0)
-                if rrs_data is not None and len(rrs_data) >= 21:
-                    recent_21 = rrs_data['rollingRRS'].iloc[-21:]
-                    ranks = rankdata(recent_21, method='average')
-                    rs_sts = ((ranks[-1] - 1) / (len(recent_21) - 1)) * 100
-        except Exception as e:
-            print("RRS error", ticker_symbol, e)
-
-        rs_chart_path = create_rs_chart_png(rrs_data, ticker_symbol, charts_dir) if rrs_data is not None and len(rrs_data) > 0 else None
         long_etfs, short_etfs = get_leveraged_etfs(ticker_symbol)
 
         return {
@@ -320,10 +317,10 @@ def get_stock_data(ticker_symbol, charts_dir):
             "intra": round(intraday_change, 2) if intraday_change is not None else None,
             "5d": round(five_day_change, 2) if five_day_change is not None else None,
             "20d": round(twenty_day_change, 2) if twenty_day_change is not None else None,
+            "50d": round(fifty_day_change, 2) if fifty_day_change is not None else None,
+            "ytd": round(ytd_change, 2) if ytd_change is not None else None,
+            "vs_spy": round(vs_spy, 2) if vs_spy is not None else None,
             "atr_pct": round(atr_pct, 1) if atr_pct is not None else None,
-            "dist_sma50_atr": round(dist_sma50_atr, 2) if dist_sma50_atr is not None else None,
-            "rs": round(rs_sts, 0) if rs_sts is not None else None,
-            "rs_chart": rs_chart_path,
             "long": long_etfs,
             "short": short_etfs,
             "abc": abc_rating
@@ -344,14 +341,31 @@ def main():
     print("Fetching economic events...")
     events = get_upcoming_key_events()
 
-    print("Fetching stock data (no Liquid Stocks)...")
+    print("Fetching SPY data for vs-SPY calculation...")
+    spy_20d_change = None
+    spy_ytd_change = None
+    try:
+        spy = yf.Ticker("SPY")
+        spy_hist = spy.history(period="21d")
+        spy_daily = spy.history(period="200d")
+        if len(spy_hist) >= 21:
+            spy_20d_change = (spy_hist['Close'].iloc[-1] / spy_hist['Close'].iloc[-21] - 1) * 100
+        if spy_daily is not None:
+            current_year = datetime.now().year
+            spy_year = spy_daily[spy_daily.index.year == current_year]
+            if len(spy_year) >= 2:
+                spy_ytd_change = (spy_year['Close'].iloc[-1] / spy_year['Close'].iloc[0] - 1) * 100
+    except Exception as e:
+        print("SPY fetch error:", e)
+
+    print("Fetching stock data...")
     groups_data = {}
     all_ticker_data = {}
     for group_name, tickers in STOCK_GROUPS.items():
         rows = []
         for i, ticker in enumerate(tickers):
             print(f"  [{group_name}] {i+1}/{len(tickers)} {ticker}")
-            row = get_stock_data(ticker, charts_dir)
+            row = get_stock_data(ticker, charts_dir, spy_20d_change=spy_20d_change, spy_ytd_change=spy_ytd_change)
             if row:
                 rows.append(row)
                 all_ticker_data[ticker] = row
@@ -365,11 +379,17 @@ def main():
         intra_v = [r["intra"] for r in rows if r.get("intra") is not None]
         five_v = [r["5d"] for r in rows if r.get("5d") is not None]
         twenty_v = [r["20d"] for r in rows if r.get("20d") is not None]
+        fifty_v = [r["50d"] for r in rows if r.get("50d") is not None]
+        ytd_v = [r["ytd"] for r in rows if r.get("ytd") is not None]
+        vs_spy_v = [r["vs_spy"] for r in rows if r.get("vs_spy") is not None]
         column_ranges[group_name] = {
             "daily": (min(daily_v) if daily_v else -10, max(daily_v) if daily_v else 10),
             "intra": (min(intra_v) if intra_v else -10, max(intra_v) if intra_v else 10),
             "5d": (min(five_v) if five_v else -20, max(five_v) if five_v else 20),
             "20d": (min(twenty_v) if twenty_v else -30, max(twenty_v) if twenty_v else 30),
+            "50d": (min(fifty_v) if fifty_v else -40, max(fifty_v) if fifty_v else 40),
+            "ytd": (min(ytd_v) if ytd_v else -50, max(ytd_v) if ytd_v else 50),
+            "vs_spy": (min(vs_spy_v) if vs_spy_v else -20, max(vs_spy_v) if vs_spy_v else 20),
         }
 
     snapshot = {
