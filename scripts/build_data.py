@@ -224,17 +224,20 @@ def calculate_ema(hist_data, period=10):
 
 def calculate_abc_rating(hist_data):
     try:
-        ema10 = calculate_ema(hist_data, 10)
-        ema20 = calculate_ema(hist_data, 20)
+        sma10 = calculate_sma(hist_data, 10)
+        ema21 = calculate_ema(hist_data, 21)
         sma50 = calculate_sma(hist_data, 50)
-        if ema10 is None or ema20 is None or sma50 is None:
+        price = hist_data['Close'].iloc[-1]
+        if sma10 is None or ema21 is None or sma50 is None:
             return None
-        if ema10 > ema20 and ema20 > sma50:
+        if price > sma10 and sma10 > ema21 and ema21 > sma50:
             return "A"
-        if (ema10 > ema20 and ema20 < sma50) or (ema10 < ema20 and ema20 > sma50):
+        if sma10 > ema21 and ema21 < sma50:
             return "B"
-        if ema10 < ema20 and ema20 < sma50:
+        if sma10 < ema21 and ema21 > sma50:
             return "C"
+        if sma10 < ema21 and ema21 < sma50:
+            return "D"
     except Exception:
         pass
     return None
