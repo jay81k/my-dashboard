@@ -80,7 +80,13 @@
     "UNG": "Commodities",
     "DBC": "Commodities",
     "WGMI": "Information Technology",
-    "REMX": "Materials"
+    "REMX": "Materials",
+    "UFO": "Industrials",
+    "BOTZ": "Industrials",
+    "HACK": "Information Technology",
+    "AIPO": "Information Technology",
+    "URNM": "Energy",
+    "MAGS": "Information Technology"
   },
   "Industries_COLORS": {
     "SMH": "#3f51b5",
@@ -147,7 +153,13 @@
     "UNG": "#8b6914",
     "DBC": "#8b6914",
     "WGMI": "#3f51b5",
-    "REMX": "#ff9800"
+    "REMX": "#ff9800",
+    "UFO": "#333",
+    "BOTZ": "#333",
+    "HACK": "#3f51b5",
+    "AIPO": "#3f51b5",
+    "URNM": "#795548",
+    "MAGS": "#3f51b5"
   },
   "SECTOR_ORDER": [
     "Information Technology",
