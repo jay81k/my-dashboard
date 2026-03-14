@@ -24,13 +24,13 @@ STOCK_GROUPS = {
     "Sel Sectors": ["XLK", "XLI", "XLC", "XLF", "XLU", "XLY", "XLRE", "XLP", "XLB", "XLE", "XLV"],
     "EW Sectors": ["QQQE", "RSPT", "RSPC", "RSPN", "RSPF", "RSP", "RSPD", "RSPU", "RSPR", "RSPH", "RSPM", "RSPS", "RSPG"],
     "Industries": [
-        "TAN", "KCE", "IBUY", "JETS", "IBB", "SMH", "CIBR", "UTES", "ROBO", "IGV", "WCLD", "ITA", "PAVE", "BLOK", "AIQ", "IYZ", "PEJ", "FDN", "KBE",
+        "TAN", "KCE", "IBUY", "JETS", "IBB", "SMH", "CIBR", "UTES", "ROBO", "IGV", "WCLD", "ITA", "PAVE", "AIQ", "IYZ", "PEJ", "FDN", "KBE",
         "UNG", "BOAT", "KWEB", "KRE", "XRT", "IHI", "DRIV", "MSOS", "SOCL", "ARKF", "SLX", "ARKK", "XTN", "XME", "KIE", "GLD", "GXC", "SCHH",
         "GDX", "IPAY", "XOP", "VNQ", "EATZ", "FXI", "DBA", "ICLN", "SILJ", "REZ", "LIT", "SLV", "XHB", "XHE", "PBJ", "USO", "DBC", "FCG", "XBI",
         "ARKG", "CPER", "XES", "OIH", "PPH", "FNGS", "URA", "WGMI", "REMX",
         "UFO", "BOTZ", "HACK", "AIPO", "URNM", "MAGS"
     ],
-    "Crypto": ["IBIT", "ETHA", "SOLZ", "PURR"],
+    "Crypto": ["IBIT", "ETHA", "SOLZ", "PURR", "BLOK", "XRPI", "MSTR", "BMNR"],
     "Countries": [
         "EZA", "ARGT", "EWA", "THD", "EIDO", "EWC", "GREK", "EWP", "EWG", "EWL", "EUFN", "EWY", "IEUR", "EFA", "ACWI",
         "IEV", "EWQ", "EWI", "EWJ", "EWW", "ECH", "EWD", "ASHR", "EWS", "KSA", "INDA", "EEM", "EWZ", "TUR", "EWH", "EWT", "MCHI"
@@ -81,7 +81,9 @@ LEVERAGED_ETFS = {
     "IBIT": {"long": ["BITO", "BITX"], "short": ["BITI"]},
     "SOLZ": {"long": ["SOLT"], "short": []},
     "PURR": {"long": [], "short": []},
-    "MSOS": {"long": ["MSOX"], "short": []},
+    "BMNR": {"long": ["BMNZ", "BMNG"], "short": []},
+    "XRPI": {"long": ["XRPT"], "short": []},
+    "MSTR": {"long": ["MSTX", "SMST"], "short": []},
     "REMX": {"long": [], "short": []},
     "EWY": {"long": ["KORU"], "short": []},
     "IEV": {"long": ["EURL"], "short": []},
@@ -105,7 +107,7 @@ Industries_COLORS = {
     "SMH": "#3f51b5", "ARKK": "#3f51b5", "XTN": "#333", "KWEB": "#00bcd4", "XRT": "#4caf50", "KRE": "#ff5722",
     "ARKF": "#3f51b5", "ARKG": "#e91e63", "BOAT": "#333", "DRIV": "#4caf50", "KBE": "#ff5722", "XES": "#795548",
     "XBI": "#e91e63", "OIH": "#795548", "SOCL": "#9c27b0", "ROBO": "#333", "AIQ": "#3f51b5", "XHB": "#4caf50",
-    "FNGS": "#9e9e9e", "BLOK": "#3f51b5", "LIT": "#ff9800", "WCLD": "#3f51b5", "XOP": "#795548", "FDN": "#4caf50",
+    "FNGS": "#9e9e9e", "LIT": "#ff9800", "WCLD": "#3f51b5", "XOP": "#795548", "FDN": "#4caf50",
     "TAN": "#795548", "IBB": "#e91e63", "PAVE": "#333", "PEJ": "#4caf50", "KCE": "#ff5722", "XHE": "#e91e63",
     "IBUY": "#4caf50", "MSOS": "#4caf50", "FCG": "#795548", "JETS": "#4caf50", "IPAY": "#ff5722", "SLX": "#ff9800",
     "IGV": "#3f51b5", "CIBR": "#3f51b5", "EATZ": "#4caf50", "PPH": "#e91e63", "IHI": "#e91e63", "UTES": "#009688",
