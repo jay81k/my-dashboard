@@ -13,7 +13,6 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from scipy.stats import rankdata
 
 
 
@@ -142,29 +141,6 @@ def calculate_adr(hist_data, period=20):
         return None
 
 
-def calculate_rrs(stock_data, spy_data, atr_length=14, length_rolling=50, length_sma=20, atr_multiplier=1.0):
-    try:
-        merged = pd.merge(
-            stock_data[['High', 'Low', 'Close']], spy_data[['High', 'Low', 'Close']],
-            left_index=True, right_index=True, suffixes=('_stock', '_spy'), how='inner'
-        )
-        if len(merged) < atr_length + 1:
-            return None
-        for prefix in ['stock', 'spy']:
-            h, l, c = merged[f'High_{prefix}'], merged[f'Low_{prefix}'], merged[f'Close_{prefix}']
-            tr = pd.concat([h - l, (h - c.shift()).abs(), (l - c.shift()).abs()], axis=1).max(axis=1)
-            merged[f'atr_{prefix}'] = tr.ewm(alpha=1/atr_length, adjust=False).mean()
-        sc = merged['Close_stock'] - merged['Close_stock'].shift(1)
-        spy_c = merged['Close_spy'] - merged['Close_spy'].shift(1)
-        spy_pi = spy_c / merged['atr_spy']
-        expected = spy_pi * merged['atr_stock'] * atr_multiplier
-        rrs = (sc - expected) / merged['atr_stock']
-        rolling_rrs = rrs.rolling(window=length_rolling, min_periods=1).mean()
-        rrs_sma = rolling_rrs.rolling(window=length_sma, min_periods=1).mean()
-        return pd.DataFrame({'RRS': rrs, 'rollingRRS': rolling_rrs, 'RRS_SMA': rrs_sma}, index=merged.index)
-    except Exception:
-        return None
-
 
 def calculate_dist_ma(hist_data, ma_type='SMA', period=50):
     try:
@@ -259,18 +235,6 @@ def get_stock_data(ticker_symbol, spy_history=None):
         adr_pct = (adr / current_close) * 100 if adr and current_close else None
         abc_rating = calculate_abc_rating(hist)
 
-        rs_sts = None
-        rrs_data = None
-        try:
-            if spy_history is not None and len(spy_history) > 0:
-                rrs_data = calculate_rrs(hist, spy_history, atr_length=14, length_rolling=50, length_sma=20, atr_multiplier=1.0)
-                if rrs_data is not None and len(rrs_data) >= 21:
-                    recent_21 = rrs_data["rollingRRS"].iloc[-21:]
-                    ranks = rankdata(recent_21, method="average")
-                    rs_sts = ((ranks[-1] - 1) / (len(recent_21) - 1)) * 100
-        except Exception as e:
-            print("RRS error", ticker_symbol, e)
-
         long_etfs, short_etfs = get_leveraged_etfs(ticker_symbol)
 
         dist_ma = {}
@@ -289,7 +253,6 @@ def get_stock_data(ticker_symbol, spy_history=None):
             "vs_spy_3m": round(rs_3m, 2)            if rs_3m            is not None else None,
             "cr":        round(cr, 1)               if cr               is not None else None,
             "adr_pct":   round(adr_pct, 2)          if adr_pct          is not None else None,
-            "rs":        round(rs_sts, 0)           if rs_sts           is not None else None,
             "long":      long_etfs,
             "short":     short_etfs,
             "abc":       abc_rating,
