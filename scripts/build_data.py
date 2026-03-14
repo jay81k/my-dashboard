@@ -19,10 +19,10 @@ from scipy.stats import rankdata
 
 # --- Config: no Liquid Stocks ---
 STOCK_GROUPS = {
-    "Indices": ["QQQE", "MGK", "QQQ", "MDY", "IWM", "TLT", "SPY", "DIA", "^VIX", "CL=F", "^TNX"],
+    "Indices": ["SPY", "QQQ", "DIA", "IWM", "QQQJ", "MGK", "MDY", "TLT", "FFTY", "^VIX", "CL=F", "^TNX"],
     "S&P Style ETFs": ["IJS", "IJR", "IJT", "IJJ", "IJH", "IJK", "IVE", "IVV", "IVW"],
     "Sel Sectors": ["XLK", "XLI", "XLC", "XLF", "XLU", "XLY", "XLRE", "XLP", "XLB", "XLE", "XLV"],
-    "EW Sectors": ["RSPT", "RSPC", "RSPN", "RSPF", "RSP", "RSPD", "RSPU", "RSPR", "RSPH", "RSPM", "RSPS", "RSPG"],
+    "EW Sectors": ["QQQE", "RSPT", "RSPC", "RSPN", "RSPF", "RSP", "RSPD", "RSPU", "RSPR", "RSPH", "RSPM", "RSPS", "RSPG"],
     "Industries": [
         "TAN", "KCE", "IBUY", "JETS", "IBB", "SMH", "CIBR", "UTES", "ROBO", "IGV", "WCLD", "ITA", "PAVE", "BLOK", "AIQ", "IYZ", "PEJ", "FDN", "KBE",
         "UNG", "BOAT", "KWEB", "KRE", "XRT", "IHI", "DRIV", "MSOS", "SOCL", "ARKF", "SLX", "ARKK", "XTN", "XME", "KIE", "GLD", "GXC", "SCHH",
