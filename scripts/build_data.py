@@ -26,10 +26,10 @@ STOCK_GROUPS = {
         "TAN", "KCE", "IBUY", "JETS", "IBB", "SMH", "CIBR", "UTES", "ROBO", "IGV", "WCLD", "ITA", "PAVE", "AIQ", "IYZ", "PEJ", "FDN", "KBE",
         "UNG", "BOAT", "KWEB", "KRE", "XRT", "IHI", "DRIV", "MSOS", "SOCL", "ARKF", "SLX", "ARKK", "XTN", "XME", "KIE", "GLD", "GXC", "SCHH",
         "GDX", "IPAY", "XOP", "VNQ", "EATZ", "FXI", "DBA", "ICLN", "SILJ", "REZ", "LIT", "SLV", "XHB", "XHE", "PBJ", "USO", "DBC", "FCG", "XBI",
-        "ARKG", "CPER", "XES", "OIH", "PPH", "FNGS", "URA", "WGMI", "REMX",
+        "ARKG", "CPER", "XES", "OIH", "PPH", "FNGS", "URA", "REMX",
         "UFO", "BOTZ", "HACK", "AIPO", "URNM", "MAGS"
     ],
-    "Crypto": ["IBIT", "ETHA", "SOLZ", "PURR", "BLOK", "XRPI", "MSTR", "BMNR"],
+    "Crypto": ["IBIT", "ETHA", "SOLZ", "PURR", "BLOK", "XRPI", "MSTR", "BMNR", "WGMI"],
     "Countries": [
         "EZA", "ARGT", "EWA", "THD", "EIDO", "EWC", "GREK", "EWP", "EWG", "EWL", "EUFN", "EWY", "IEUR", "EFA", "ACWI",
         "IEV", "EWQ", "EWI", "EWJ", "EWW", "ECH", "EWD", "ASHR", "EWS", "KSA", "INDA", "EEM", "EWZ", "TUR", "EWH", "EWT", "MCHI"
@@ -113,7 +113,7 @@ Industries_COLORS = {
     "ICLN": "#795548", "XME": "#ff9800", "IYZ": "#9c27b0", "URA": "#795548", "ITA": "#333", "VNQ": "#673ab7",
     "SCHH": "#673ab7", "KIE": "#ff5722", "REZ": "#673ab7", "CPER": "#8b6914", "PBJ": "#8bc34a", "SLV": "#8b6914",
     "GLD": "#8b6914", "SILJ": "#ff9800", "GDX": "#ff9800", "FXI": "#00bcd4", "GXC": "#00bcd4", "USO": "#8b6914",
-    "DBA": "#8b6914", "UNG": "#8b6914", "DBC": "#8b6914", "WGMI": "#3f51b5", "REMX": "#ff9800",
+    "DBA": "#8b6914", "UNG": "#8b6914", "DBC": "#8b6914", "REMX": "#ff9800",
     "UFO": "#333", "BOTZ": "#333", "HACK": "#3f51b5", "AIPO": "#3f51b5", "URNM": "#795548", "MAGS": "#3f51b5",
 }
 
