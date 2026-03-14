@@ -19,7 +19,7 @@ from scipy.stats import rankdata
 
 # --- Config: no Liquid Stocks ---
 STOCK_GROUPS = {
-    "Indices": ["QQQE", "MGK", "QQQ", "RSP", "MDY", "IWM", "TLT", "SPY", "DIA"],
+    "Indices": ["QQQE", "MGK", "QQQ", "MDY", "IWM", "TLT", "SPY", "DIA", "^VIX", "CL=F", "^TNX"],
     "S&P Style ETFs": ["IJS", "IJR", "IJT", "IJJ", "IJH", "IJK", "IVE", "IVV", "IVW"],
     "Sel Sectors": ["XLK", "XLI", "XLC", "XLF", "XLU", "XLY", "XLRE", "XLP", "XLB", "XLE", "XLV"],
     "EW Sectors": ["RSPT", "RSPC", "RSPN", "RSPF", "RSP", "RSPD", "RSPU", "RSPR", "RSPH", "RSPM", "RSPS", "RSPG"],
