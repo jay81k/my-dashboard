@@ -208,7 +208,7 @@ def get_stock_data(ticker_symbol, spy_history=None):
         daily_change      = (current_close / prev_close - 1) * 100
         five_day_change   = (current_close / hist["Close"].iloc[-6]  - 1) * 100 if len(hist) >= 6  else None
         one_month_change  = (current_close / hist["Close"].iloc[-22] - 1) * 100 if len(hist) >= 22 else None
-        three_month_change= (current_close / hist["Close"].iloc[-64] - 1) * 100 if len(hist) >= 64 else None
+        three_month_change= (current_close / hist["Close"].iloc[-63] - 1) * 100 if len(hist) >= 63 else None
 
         # YTD: first close of current calendar year
         year_start = hist[hist.index.year == hist.index[-1].year]
@@ -276,7 +276,6 @@ def main():
 
     print("Fetching stock data...")
     groups_data = {}
-    all_ticker_data = {}
     for group_name, tickers in STOCK_GROUPS.items():
         rows = []
         for i, ticker in enumerate(tickers):
@@ -284,7 +283,6 @@ def main():
             row = get_stock_data(ticker, spy_history=spy_history)
             if row:
                 rows.append(row)
-                all_ticker_data[ticker] = row
             time.sleep(0.15)
         groups_data[group_name] = rows
 
