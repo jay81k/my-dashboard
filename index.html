@@ -136,7 +136,7 @@
         #single-chart-panel { flex: 1; display: flex; flex-direction: column; min-height: 0; }
         #multi-chart-panel { flex: 1; overflow-y: auto; display: none; padding: 4px; }
         .multi-chart-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
-        .mini-chart-wrap { position: relative; height: 220px; background: #13171e; border-radius: 4px; border: 1px solid #22272f; overflow: hidden; }
+        .mini-chart-wrap { position: relative; height: 360px; background: #13171e; border-radius: 4px; border: 1px solid #22272f; overflow: hidden; }
         .mini-chart-label { position: absolute; top: 4px; left: 6px; z-index: 10; font-size: 0.75em; font-weight: 600; color: #7ab0d8; pointer-events: none; background: rgba(17,19,24,0.75); padding: 1px 5px; border-radius: 3px; }
 
         /* Ticker cell flex layout */
@@ -724,7 +724,7 @@
                 timezone: 'America/Toronto',
                 toolbar_bg: '#1a1a1a', backgroundColor: '#1a1a1a',
                 gridColor: 'rgba(255,255,255,0.1)',
-                studies: ['STD;MA%Ribbon', 'Volume@tv-basicstudies'],
+                studies: ['STD;MA%Ribbon'],
                 hide_side_toolbar: true, hide_top_toolbar: true,
                 hide_legend: true, withdateranges: false,
                 save_image: false, enable_publishing: false,
