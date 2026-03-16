@@ -1,0 +1,45 @@
+{
+  "symbol": "UFO",
+  "holdings": [
+    {
+      "symbol": "PL",
+      "weight": 0.0577145
+    },
+    {
+      "symbol": "MDA.TO",
+      "weight": 0.0562675
+    },
+    {
+      "symbol": "GRMN",
+      "weight": 0.0500833
+    },
+    {
+      "symbol": "VSAT",
+      "weight": 0.049949497
+    },
+    {
+      "symbol": "SATS",
+      "weight": 0.046204
+    },
+    {
+      "symbol": "RKLB",
+      "weight": 0.0454141
+    },
+    {
+      "symbol": "SESGL",
+      "weight": 0.044917896
+    },
+    {
+      "symbol": "SIRI",
+      "weight": 0.041533697
+    },
+    {
+      "symbol": "ASTS",
+      "weight": 0.0390013
+    },
+    {
+      "symbol": "9412.T",
+      "weight": 0.0368982
+    }
+  ]
+}
