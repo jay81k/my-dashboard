@@ -235,45 +235,12 @@
 
     <!-- Market Breadth Modal -->
     <div id="breadth-modal-overlay" class="info-modal-overlay" onclick="if(event.target===this)closeBreadthModal()">
-        <div class="info-modal" style="width:720px;height:580px;">
+        <div class="info-modal" style="width:460px;height:620px;">
             <div class="info-modal-header">
                 <span>Market Breadth</span>
                 <button type="button" class="info-modal-close" onclick="closeBreadthModal()">×</button>
             </div>
-            <div style="flex:1;overflow:hidden;">
-                <!-- TradingView Market Overview Widget -->
-                <div class="tradingview-widget-container" style="height:100%;">
-                    <div class="tradingview-widget-container__widget" style="height:100%;"></div>
-                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
-                    {
-                        "colorTheme": "dark",
-                        "dateRange": "3M",
-                        "showChart": true,
-                        "locale": "en",
-                        "largeChartUrl": "",
-                        "isTransparent": true,
-                        "showSymbolLogo": false,
-                        "showFloatingTooltip": true,
-                        "width": "100%",
-                        "height": "100%",
-                        "tabs": [
-                            {
-                                "title": "Breadth",
-                                "symbols": [
-                                    { "s": "CAPITALCOM:MMFD",  "d": "Percent of Stocks Above 5-Day Average" },
-                                    { "s": "CAPITALCOM:MMTW",  "d": "Percent of Stocks Above 20-Day Average" },
-                                    { "s": "CAPITALCOM:MMFI",  "d": "Percent of Stocks Above 50-Day Average" },
-                                    { "s": "CAPITALCOM:MMOH",  "d": "Percent of Stocks Above 100-Day Average" },
-                                    { "s": "CAPITALCOM:MMOF",  "d": "Percent of Stocks Above 150-Day Average" },
-                                    { "s": "CAPITALCOM:MMTH",  "d": "Percent of Stocks Above 200-Day Average" }
-                                ],
-                                "originalTitle": "Breadth"
-                            }
-                        ]
-                    }
-                    </script>
-                </div>
-            </div>
+            <div id="breadth-widget-container" style="flex:1;overflow:hidden;"></div>
         </div>
     </div>
 
@@ -284,22 +251,7 @@
                 <span>Economic Calendar</span>
                 <button type="button" class="info-modal-close" onclick="closeCalendarModal()">×</button>
             </div>
-            <div style="flex:1;overflow:hidden;">
-                <div class="tradingview-widget-container" style="height:100%;">
-                    <div class="tradingview-widget-container__widget" style="height:100%;"></div>
-                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
-                    {
-                        "colorTheme": "dark",
-                        "isTransparent": true,
-                        "locale": "en",
-                        "countryFilter": "us",
-                        "importanceFilter": "-1,0,1",
-                        "width": "100%",
-                        "height": "100%"
-                    }
-                    </script>
-                </div>
-            </div>
+            <div id="calendar-widget-container" style="flex:1;overflow:hidden;"></div>
         </div>
     </div>
 
@@ -850,16 +802,81 @@
     }
 
     // --- Market Breadth & Economic Calendar modals ---
-    window.openBreadthModal   = function() { document.getElementById('breadth-modal-overlay').classList.add('open'); };
-    window.closeBreadthModal  = function() { document.getElementById('breadth-modal-overlay').classList.remove('open'); };
-    window.openCalendarModal  = function() { document.getElementById('calendar-modal-overlay').classList.add('open'); };
-    window.closeCalendarModal = function() { document.getElementById('calendar-modal-overlay').classList.remove('open'); };
+    var breadthLoaded = false;
+    var calendarLoaded = false;
+
+    function injectWidget(containerId, src, config) {
+        var container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = '';
+        var wrap = document.createElement('div');
+        wrap.className = 'tradingview-widget-container';
+        wrap.style.height = '100%';
+        var inner = document.createElement('div');
+        inner.className = 'tradingview-widget-container__widget';
+        inner.style.height = '100%';
+        wrap.appendChild(inner);
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = src;
+        script.async = true;
+        script.innerHTML = JSON.stringify(config);
+        wrap.appendChild(script);
+        container.appendChild(wrap);
+    }
+
+    window.openBreadthModal = function() {
+        document.getElementById('breadth-modal-overlay').classList.add('open');
+        if (!breadthLoaded) {
+            breadthLoaded = true;
+            injectWidget('breadth-widget-container',
+                'https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js',
+                {
+                    "colorTheme": "dark", "dateRange": "1Y", "showChart": true,
+                    "locale": "en", "isTransparent": true,
+                    "showSymbolLogo": false, "showFloatingTooltip": true,
+                    "width": "100%", "height": "100%",
+                    "tabs": [{
+                        "title": "Breadth",
+                        "symbols": [
+                            { "s": "CAPITALCOM:MMFD", "d": "Percent of Stocks Above 5-Day Average" },
+                            { "s": "CAPITALCOM:MMTW", "d": "Percent of Stocks Above 20-Day Average" },
+                            { "s": "CAPITALCOM:MMFI", "d": "Percent of Stocks Above 50-Day Average" },
+                            { "s": "CAPITALCOM:MMOH", "d": "Percent of Stocks Above 100-Day Average" },
+                            { "s": "CAPITALCOM:MMOF", "d": "Percent of Stocks Above 150-Day Average" },
+                            { "s": "CAPITALCOM:MMTH", "d": "Percent of Stocks Above 200-Day Average" }
+                        ],
+                        "originalTitle": "Breadth"
+                    }]
+                }
+            );
+        }
+    };
+    window.closeBreadthModal = function() {
+        document.getElementById('breadth-modal-overlay').classList.remove('open');
+    };
+
+    window.openCalendarModal = function() {
+        document.getElementById('calendar-modal-overlay').classList.add('open');
+        if (!calendarLoaded) {
+            calendarLoaded = true;
+            injectWidget('calendar-widget-container',
+                'https://s3.tradingview.com/external-embedding/embed-widget-events.js',
+                {
+                    "colorTheme": "dark", "isTransparent": true,
+                    "locale": "en", "countryFilter": "us",
+                    "importanceFilter": "-1,0,1",
+                    "width": "100%", "height": "100%"
+                }
+            );
+        }
+    };
+    window.closeCalendarModal = function() {
+        document.getElementById('calendar-modal-overlay').classList.remove('open');
+    };
 
     document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            closeBreadthModal();
-            closeCalendarModal();
-        }
+        if (e.key === 'Escape') { closeBreadthModal(); closeCalendarModal(); }
     });
 
     loadData();
