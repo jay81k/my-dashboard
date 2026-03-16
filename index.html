@@ -22,7 +22,8 @@
         .legend { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
         .legend-item { padding: 2px 6px; border-radius: 6px; font-size: 0.75em; color: white; user-select: none; }
         .ticker-table { width: 100%; border-collapse: collapse; font-size: 0.85em; table-layout: fixed; }
-        .ticker-table th:nth-child(1),  .ticker-table td:nth-child(1)  { width: 64px;  padding: 6px 6px; }
+        .ticker-table th:nth-child(1),  .ticker-table td:nth-child(1)  { width: 84px;  padding: 6px 6px; }
+        .ticker-cell { display: flex; align-items: center; justify-content: space-between; gap: 3px; }
         .ticker-table th:nth-child(2),  .ticker-table td:nth-child(2)  { width: 48px;  padding: 6px 4px; }
         .ticker-table th:nth-child(3),  .ticker-table td:nth-child(3)  { width: 60px;  padding: 6px 4px; overflow: hidden; }
         .ticker-table th:nth-child(4),  .ticker-table td:nth-child(4)  { width: 58px;  padding: 6px 4px; overflow: hidden; }
@@ -120,14 +121,18 @@
         .dist-ma-btn:hover { background: #1e242c; color: #c8d0dc; }
         .dist-ma-btn.active { background: #185fa5; border-color: #378add; color: #fff; }
 
+        /* Ticker cell flex layout */
+        .ticker-cell { display: flex; align-items: center; justify-content: space-between; gap: 3px; }
+
         /* Holdings button */
         .holdings-btn {
             display: inline-flex; align-items: center; justify-content: center;
             width: 15px; height: 15px; border-radius: 50%; border: 1px solid #2e3744;
             background: transparent; color: #4a5a6e; font-size: 8px; cursor: pointer;
-            margin-left: 4px; vertical-align: middle; padding: 0; line-height: 1; flex-shrink: 0;
+            flex-shrink: 0; padding: 0; line-height: 1;
         }
         .holdings-btn:hover { border-color: #7ab0d8; color: #7ab0d8; }
+
         /* Holdings modal */
         .holdings-modal-overlay {
             position: fixed; inset: 0; background: transparent; display: none; z-index: 9999;
@@ -140,8 +145,7 @@
         }
         .holdings-modal-header {
             display: flex; align-items: center; justify-content: space-between;
-            margin-bottom: 8px; font-size: 0.85rem; font-weight: 600; color: #c8d0dc;
-            flex-shrink: 0;
+            margin-bottom: 8px; font-size: 0.85rem; font-weight: 600; color: #c8d0dc; flex-shrink: 0;
         }
         .holdings-modal-close {
             background: transparent; border: none; color: #4a5a6e;
@@ -319,9 +323,12 @@
                 var distMAAllJson = JSON.stringify(distMAAll).replace(/"/g, '&quot;');
                 html += '<tr class="ticker-row" onclick="updateChart(\'' + r.ticker + '\', this)" data-symbol="' + r.ticker + '" data-group="' + groupName.replace(/"/g, '&quot;') + '" data-daily="' + (daily != null ? daily : 0) + '" data-1w="' + (five != null ? five : 0) + '" data-1m="' + (twenty != null ? twenty : 0) + '" data-3m="' + (fifty != null ? fifty : 0) + '" data-ytd="' + (ytd != null ? ytd : 0) + '" data-vs_spy="' + (vsSpy != null ? vsSpy : 0) + '" data-vs_spy_3m="' + (vsSpy3m != null ? vsSpy3m : 0) + '" data-cr="' + (cr != null ? cr : 0) + '" data-adr_pct="' + adrPct + '" data-dist_ma="' + (distMAVal != null ? distMAVal : 0) + '" data-dist_ma_all="' + distMAAllJson + '" data-abc="' + abc + '" data-letf="' + letf + '" data-index="' + i + '">';
                 var displayTicker = r.ticker.replace('^', '').replace('=F', '');
-                var isEtf = ['\\^VIX','CL=F','\\^TNX','MSTR','BMNR','WGMI','SOLZ','PURR','XRPI'].indexOf(r.ticker) === -1;
-                var holdingsBtn = isEtf ? '<button class="holdings-btn" onclick="event.stopPropagation();showHoldings(\'' + escapeHtml(r.ticker) + '\')" title="Top 10 Holdings">▼</button>' : '';
-                html += '<td style="white-space:nowrap"><span class="ticker-label ' + labelClass + '">' + displayTicker + '</span>' + holdingsBtn + '</td>';
+                var NON_ETF = {'\\^VIX':1,'CL=F':1,'\\^TNX':1,'MSTR':1,'BMNR':1,'WGMI':1,'SOLZ':1,'PURR':1,'XRPI':1,'IBIT':1,'ETHA':1,'TLT':1};
+                var isEtf = !NON_ETF[r.ticker];
+                var holdingsBtn = isEtf
+                    ? '<button class="holdings-btn" onclick="event.stopPropagation();showHoldings(\'' + escapeHtml(r.ticker) + '\')" title="Top 10 Holdings">▼</button>'
+                    : '<span style="width:15px;flex-shrink:0;display:inline-block"></span>';
+                html += '<td><div class="ticker-cell"><span class="ticker-label ' + labelClass + '">' + displayTicker + '</span>' + holdingsBtn + '</div></td>';
                 html += '<td>' + (abc ? '<span class="abc-rating abc-' + abc.toLowerCase() + '">' + abc + '</span>' : '-') + '</td>';
                 html += '<td class="' + dailyCl   + '">' + (daily   != null ? '<div class="value-visualization"><div class="value-bar ' + (daily   >= 0 ? 'positive' : 'negative') + '" style="width:' + dailyW   + '%"></div><span class="value-text">' + (daily   >= 0 ? '+' : '') + daily.toFixed(2)   + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + fiveCl    + '">' + (five    != null ? '<div class="value-visualization"><div class="value-bar ' + (five    >= 0 ? 'positive' : 'negative') + '" style="width:' + fiveW    + '%"></div><span class="value-text">' + (five    >= 0 ? '+' : '') + five.toFixed(2)    + '%</span></div>' : 'N/A') + '</td>';
@@ -634,12 +641,12 @@
             e.preventDefault();
             holdingsIndex = Math.min(holdingsIndex + 1, holdingsList.length - 1);
             updateHoldingsHighlight();
-            updateChart(holdingsList[holdingsIndex].symbol);
+            if (holdingsIndex >= 0) updateChart(holdingsList[holdingsIndex].symbol);
         } else if (e.key === 'ArrowUp') {
             e.preventDefault();
             holdingsIndex = Math.max(holdingsIndex - 1, 0);
             updateHoldingsHighlight();
-            updateChart(holdingsList[holdingsIndex].symbol);
+            if (holdingsIndex >= 0) updateChart(holdingsList[holdingsIndex].symbol);
         }
     });
 
