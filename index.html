@@ -294,6 +294,7 @@
                     html += '<span class="legend-item" style="background-color:' + meta.SECTOR_COLORS[s] + '">' + s + '</span>';
                 html += '</div>';
             }
+            html += (g === 0 ? '<span class="dist-ma-settings-btn" onclick="event.stopPropagation();toggleDistMASettings(this)">⋯</span>' : '');
             html += '<button class="multichart-btn" data-group="' + escapeHtml(groupName) + '" onclick="event.stopPropagation();toggleMultiChart(\'' + groupName.replace(/'/g, "\\'") + '\')">MultiChart</button>';
             html += '</div>';
             html += '<table class="ticker-table" data-group="' + escapeHtml(groupName) + '"><thead><tr>';
@@ -308,7 +309,7 @@
             html += th('vs_spy', '1M RS', 'Relative strength vs SPY over the last 21 trading days (~1 month). Positive = outperforming SPY. Negative = underperforming.');
             html += th('vs_spy_3m', '3M RS', 'Relative strength vs SPY over the last 63 trading days (~3 months). Positive = outperforming SPY. Negative = underperforming.');
             var distMATh = g === 0
-                ? '<th class="sortable dist-ma-header" data-sort-by="dist_ma" data-tooltip="% distance from the selected moving average. Click ⋯ to change type &amp; period." style="position:relative;padding-top:16px;"><span class="dist-ma-settings-btn" style="position:absolute;top:2px;left:4px;" onclick="event.stopPropagation();toggleDistMASettings(this)">⋯</span>DistMA</th>'
+                ? '<th class="sortable dist-ma-header" data-sort-by="dist_ma" data-tooltip="% distance from the selected moving average. Click ⋯ to change type &amp; period.">DistMA</th>'
                 : '<th class="sortable dist-ma-header" data-sort-by="dist_ma" data-tooltip="% distance from the selected moving average. Use ⋯ on the Indices DistMA column to change type &amp; period.">DistMA</th>';
             html += distMATh;
             html += th('adr_pct', 'ADR%', 'Average Daily Range % — SMA of (High - Low) over 20 days divided by close. Measures typical daily volatility.');
