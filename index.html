@@ -399,7 +399,7 @@
             html += '<div class="group-header" onclick="scrollToGroup(\'' + groupName.replace(/'/g, "\\'") + '\')">';
             html += '<span>' + groupName + '</span>';
             if (g === 0) {
-                html += '<button class="hint-icon-btn" onclick="event.stopPropagation();openBreadthModal()" title="Market Breadth">📊</button>';
+                html += '<button class="hint-icon-btn" onclick="event.stopPropagation();openBreadthModal()" title="Market Breadth" style="margin-left:40px;">📊</button>';
                 html += '<button class="hint-icon-btn" onclick="event.stopPropagation();openCalendarModal()" title="Economic Calendar">📅</button>';
             }
             if (groupName === 'Industries' && meta && meta.SECTOR_COLORS) {
