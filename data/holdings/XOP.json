@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "TPL",
-      "weight": 0.0409205
+      "weight": 0.040939298
     },
     {
       "symbol": "VG",
-      "weight": 0.037062198
+      "weight": 0.0370799
     },
     {
       "symbol": "XOM",
-      "weight": 0.0296166
+      "weight": 0.029630499
     },
     {
       "symbol": "OXY",
-      "weight": 0.0295177
+      "weight": 0.0295317
     },
     {
       "symbol": "CRC",
-      "weight": 0.0287108
+      "weight": 0.0287244
     },
     {
       "symbol": "CVX",
-      "weight": 0.0286349
+      "weight": 0.0286484
     },
     {
       "symbol": "PR",
-      "weight": 0.028289499
+      "weight": 0.028303102
     },
     {
       "symbol": "OVV",
-      "weight": 0.0281922
+      "weight": 0.0282058
     },
     {
       "symbol": "MGY",
-      "weight": 0.0280943
+      "weight": 0.0281078
     },
     {
       "symbol": "COP",
-      "weight": 0.027211899
+      "weight": 0.027225
     }
   ]
 }

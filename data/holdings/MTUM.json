@@ -1,0 +1,45 @@
+{
+  "symbol": "MTUM",
+  "holdings": [
+    {
+      "symbol": "MU",
+      "weight": 0.0494734
+    },
+    {
+      "symbol": "AVGO",
+      "weight": 0.0460895
+    },
+    {
+      "symbol": "NVDA",
+      "weight": 0.0459476
+    },
+    {
+      "symbol": "JNJ",
+      "weight": 0.045273
+    },
+    {
+      "symbol": "XOM",
+      "weight": 0.0378307
+    },
+    {
+      "symbol": "LRCX",
+      "weight": 0.03655
+    },
+    {
+      "symbol": "JPM",
+      "weight": 0.0306849
+    },
+    {
+      "symbol": "CAT",
+      "weight": 0.029848399
+    },
+    {
+      "symbol": "WMT",
+      "weight": 0.0297787
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.0265923
+    }
+  ]
+}
