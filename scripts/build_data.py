@@ -94,6 +94,8 @@ LEVERAGED_ETFS = {
     "EWZ": {"long": ["BRZU"], "short": []}
 }
 
+NON_ETF_TICKERS = {'^VIX', 'CL=F', '^TNX', 'MSTR', 'BMNR', 'WGMI', 'SOLZ', 'PURR', 'XRPI'}
+
 SECTOR_COLORS = {
     "Information Technology": "#3f51b5", "Industrials": "#333", "Emerging Markets": "#00bcd4",
     "Consumer Discretionary": "#4caf50", "Health Care": "#e91e63", "Financials": "#ff5722",
@@ -263,6 +265,57 @@ def get_stock_data(ticker_symbol, spy_history=None):
         return None
 
 
+def get_all_etfs():
+    """Return all tickers that are actual ETFs (excludes NON_ETF_TICKERS)."""
+    etfs = set()
+    for tickers in STOCK_GROUPS.values():
+        for t in tickers:
+            if t not in NON_ETF_TICKERS:
+                etfs.add(t)
+    return sorted(etfs)
+
+
+def fetch_etf_holdings(etf_list, out_dir):
+    """Fetch top 10 holdings for each ETF and save to data/holdings/{SYMBOL}.json."""
+    holdings_dir = os.path.join(out_dir, "holdings")
+    os.makedirs(holdings_dir, exist_ok=True)
+    print(f"\nFetching ETF holdings for {len(etf_list)} ETFs...")
+    for i, etf_symbol in enumerate(etf_list):
+        try:
+            ticker = yf.Ticker(etf_symbol)
+            holdings_data = ticker.funds_data.top_holdings
+            has_holdings = False
+            try:
+                if holdings_data is not None and len(holdings_data) > 0:
+                    has_holdings = True
+            except Exception:
+                has_holdings = False
+
+            if has_holdings:
+                holdings = []
+                for idx, item in holdings_data.head(10).iterrows():
+                    holding_symbol = str(idx) if idx else ""
+                    if not holding_symbol or holding_symbol == "nan":
+                        holding_symbol = str(item.get("Symbol", item.get("name", "")))
+                    weight = item.get("Holding Percent", item.get("weight"))
+                    if weight is not None:
+                        try:
+                            weight = float(weight)
+                        except (ValueError, TypeError):
+                            weight = None
+                    holdings.append({"symbol": holding_symbol, "weight": weight})
+                output_path = os.path.join(holdings_dir, f"{etf_symbol}.json")
+                with open(output_path, "w", encoding="utf-8") as f:
+                    json.dump({"symbol": etf_symbol, "holdings": holdings}, f, ensure_ascii=False, indent=2)
+                print(f"  [{i+1}/{len(etf_list)}] {etf_symbol}: {len(holdings)} holdings saved")
+            else:
+                print(f"  [{i+1}/{len(etf_list)}] {etf_symbol}: No holdings data")
+            time.sleep(0.3)
+        except Exception as e:
+            print(f"  [{i+1}/{len(etf_list)}] {etf_symbol}: Error - {str(e)}")
+    print(f"ETF holdings saved to {holdings_dir}/")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--out-dir", default="data", help="Output directory (default: data)")
@@ -335,6 +388,9 @@ def main():
         json.dump(sanitize(meta), f, ensure_ascii=False, indent=2, allow_nan=False)
 
     print("Wrote", snapshot_path, meta_path)
+
+    print("\nFetching ETF holdings...")
+    fetch_etf_holdings(get_all_etfs(), out_dir)
 
 
 if __name__ == "__main__":
