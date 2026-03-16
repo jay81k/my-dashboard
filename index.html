@@ -119,6 +119,47 @@
         }
         .dist-ma-btn:hover { background: #1e242c; color: #c8d0dc; }
         .dist-ma-btn.active { background: #185fa5; border-color: #378add; color: #fff; }
+
+        /* Holdings button */
+        .holdings-btn {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 15px; height: 15px; border-radius: 50%; border: 1px solid #2e3744;
+            background: transparent; color: #4a5a6e; font-size: 8px; cursor: pointer;
+            margin-left: 4px; vertical-align: middle; padding: 0; line-height: 1; flex-shrink: 0;
+        }
+        .holdings-btn:hover { border-color: #7ab0d8; color: #7ab0d8; }
+        /* Holdings modal */
+        .holdings-modal-overlay {
+            position: fixed; inset: 0; background: transparent; display: none; z-index: 9999;
+        }
+        .holdings-modal {
+            position: fixed; left: 20px; top: 50%; transform: translateY(-50%);
+            background: #13171e; border-radius: 8px; border: 1px solid #2e3744;
+            padding: 10px 12px 8px; width: 300px; max-height: 460px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7); display: flex; flex-direction: column;
+        }
+        .holdings-modal-header {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-bottom: 8px; font-size: 0.85rem; font-weight: 600; color: #c8d0dc;
+            flex-shrink: 0;
+        }
+        .holdings-modal-close {
+            background: transparent; border: none; color: #4a5a6e;
+            cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0 2px;
+        }
+        .holdings-modal-close:hover { color: #c8d0dc; }
+        .holdings-list { overflow-y: auto; flex: 1; }
+        .holdings-item {
+            display: flex; align-items: center; gap: 8px; padding: 5px 8px;
+            border-bottom: 1px solid #191d24; cursor: pointer; font-size: 0.81em;
+        }
+        .holdings-item:last-child { border-bottom: none; }
+        .holdings-item:hover { background-color: #161a21; }
+        .holdings-item.active { background-color: #1a2333; }
+        .holdings-rank { color: #4a5a6e; width: 18px; flex-shrink: 0; text-align: right; }
+        .holdings-symbol { font-weight: 600; color: #7ab0d8; flex: 1; }
+        .holdings-weight { color: #34d4a4; }
+        .holdings-msg { padding: 16px; text-align: center; color: #4a5a6e; font-size: 0.82em; }
     </style>
 </head>
 <body>
@@ -132,6 +173,16 @@
             <div style="color:#9ca3af;font-size:11px;margin-top:4px;">
                 <a href="https://www.tradingview.com/" target="_blank" rel="noopener" style="color:#9ca3af;">Track all markets on TradingView</a>
             </div>
+        </div>
+    </div>
+
+    <div id="holdings-modal-overlay" class="holdings-modal-overlay" onclick="closeHoldings()">
+        <div class="holdings-modal" onclick="event.stopPropagation()">
+            <div class="holdings-modal-header">
+                <span id="holdings-modal-title">Holdings</span>
+                <button type="button" class="holdings-modal-close" onclick="closeHoldings()">×</button>
+            </div>
+            <div class="holdings-list" id="holdings-modal-content"></div>
         </div>
     </div>
 
@@ -268,7 +319,9 @@
                 var distMAAllJson = JSON.stringify(distMAAll).replace(/"/g, '&quot;');
                 html += '<tr class="ticker-row" onclick="updateChart(\'' + r.ticker + '\', this)" data-symbol="' + r.ticker + '" data-group="' + groupName.replace(/"/g, '&quot;') + '" data-daily="' + (daily != null ? daily : 0) + '" data-1w="' + (five != null ? five : 0) + '" data-1m="' + (twenty != null ? twenty : 0) + '" data-3m="' + (fifty != null ? fifty : 0) + '" data-ytd="' + (ytd != null ? ytd : 0) + '" data-vs_spy="' + (vsSpy != null ? vsSpy : 0) + '" data-vs_spy_3m="' + (vsSpy3m != null ? vsSpy3m : 0) + '" data-cr="' + (cr != null ? cr : 0) + '" data-adr_pct="' + adrPct + '" data-dist_ma="' + (distMAVal != null ? distMAVal : 0) + '" data-dist_ma_all="' + distMAAllJson + '" data-abc="' + abc + '" data-letf="' + letf + '" data-index="' + i + '">';
                 var displayTicker = r.ticker.replace('^', '').replace('=F', '');
-                html += '<td><span class="ticker-label ' + labelClass + '">' + displayTicker + '</span></td>';
+                var isEtf = ['\\^VIX','CL=F','\\^TNX','MSTR','BMNR','WGMI','SOLZ','PURR','XRPI'].indexOf(r.ticker) === -1;
+                var holdingsBtn = isEtf ? '<button class="holdings-btn" onclick="event.stopPropagation();showHoldings(\'' + escapeHtml(r.ticker) + '\')" title="Top 10 Holdings">▼</button>' : '';
+                html += '<td style="white-space:nowrap"><span class="ticker-label ' + labelClass + '">' + displayTicker + '</span>' + holdingsBtn + '</td>';
                 html += '<td>' + (abc ? '<span class="abc-rating abc-' + abc.toLowerCase() + '">' + abc + '</span>' : '-') + '</td>';
                 html += '<td class="' + dailyCl   + '">' + (daily   != null ? '<div class="value-visualization"><div class="value-bar ' + (daily   >= 0 ? 'positive' : 'negative') + '" style="width:' + dailyW   + '%"></div><span class="value-text">' + (daily   >= 0 ? '+' : '') + daily.toFixed(2)   + '%</span></div>' : 'N/A') + '</td>';
                 html += '<td class="' + fiveCl    + '">' + (five    != null ? '<div class="value-visualization"><div class="value-bar ' + (five    >= 0 ? 'positive' : 'negative') + '" style="width:' + fiveW    + '%"></div><span class="value-text">' + (five    >= 0 ? '+' : '') + five.toFixed(2)    + '%</span></div>' : 'N/A') + '</td>';
@@ -441,6 +494,8 @@
             allTickerRows[0].classList.add('active');
         }
         document.addEventListener('keydown', function(e) {
+            var hModal = document.getElementById('holdings-modal-overlay');
+            if (hModal && hModal.style.display !== 'none') return;
             if (e.key === 'ArrowDown') { e.preventDefault(); if (currentIndex < allTickerRows.length - 1) { currentIndex++; updateChart(allTickerRows[currentIndex].getAttribute('data-symbol'), allTickerRows[currentIndex]); } }
             if (e.key === 'ArrowUp')   { e.preventDefault(); if (currentIndex > 0) { currentIndex--; updateChart(allTickerRows[currentIndex].getAttribute('data-symbol'), allTickerRows[currentIndex]); } }
         });
@@ -516,6 +571,77 @@
             th.setAttribute('data-tooltip', '% distance from ' + activeMAType + ' ' + activeMALength + '. Click ⋯ to change.');
         });
     }
+
+    // --- Holdings ---
+    var holdingsList = [];
+    var holdingsIndex = -1;
+
+    window.showHoldings = function(symbol) {
+        var modal   = document.getElementById('holdings-modal-overlay');
+        var title   = document.getElementById('holdings-modal-title');
+        var content = document.getElementById('holdings-modal-content');
+        if (!modal || !title || !content) return;
+        holdingsList = []; holdingsIndex = -1;
+        title.textContent = symbol + ' — Top 10 Holdings';
+        content.innerHTML = '<div class="holdings-msg">Loading...</div>';
+        modal.style.display = 'block';
+        fetch('data/holdings/' + symbol + '.json')
+            .then(function(res) { return res.ok ? res.json() : Promise.reject(); })
+            .then(function(data) {
+                if (data && data.holdings && data.holdings.length > 0) {
+                    holdingsList = data.holdings;
+                    content.innerHTML = data.holdings.map(function(h, i) {
+                        return '<div class="holdings-item" onclick="selectHolding(\'' + escapeHtml(h.symbol) + '\',' + i + ')">' +
+                            '<span class="holdings-rank">' + (i + 1) + '</span>' +
+                            '<span class="holdings-symbol">' + escapeHtml(h.symbol) + '</span>' +
+                            '<span class="holdings-weight">' + (h.weight != null ? h.weight.toFixed(2) + '%' : '—') + '</span>' +
+                            '</div>';
+                    }).join('');
+                } else {
+                    content.innerHTML = '<div class="holdings-msg">No holdings data available</div>';
+                }
+            })
+            .catch(function() {
+                content.innerHTML = '<div class="holdings-msg">Holdings not available for this ETF</div>';
+            });
+    };
+
+    window.closeHoldings = function() {
+        var modal = document.getElementById('holdings-modal-overlay');
+        if (modal) modal.style.display = 'none';
+        holdingsList = []; holdingsIndex = -1;
+    };
+
+    window.selectHolding = function(symbol, index) {
+        if (typeof index === 'number') holdingsIndex = index;
+        updateHoldingsHighlight();
+        updateChart(symbol);
+    };
+
+    function updateHoldingsHighlight() {
+        document.querySelectorAll('.holdings-item').forEach(function(item, i) {
+            item.classList.toggle('active', i === holdingsIndex);
+            if (i === holdingsIndex) item.scrollIntoView({ block: 'nearest' });
+        });
+    }
+
+    document.addEventListener('keydown', function(e) {
+        var modal = document.getElementById('holdings-modal-overlay');
+        if (!modal || modal.style.display === 'none') return;
+        if (e.key === 'Escape') { closeHoldings(); return; }
+        if (!holdingsList.length) return;
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            holdingsIndex = Math.min(holdingsIndex + 1, holdingsList.length - 1);
+            updateHoldingsHighlight();
+            updateChart(holdingsList[holdingsIndex].symbol);
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            holdingsIndex = Math.max(holdingsIndex - 1, 0);
+            updateHoldingsHighlight();
+            updateChart(holdingsList[holdingsIndex].symbol);
+        }
+    });
 
     loadData();
 
