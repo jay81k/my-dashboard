@@ -702,8 +702,11 @@
             btn.classList.toggle('active', isThis);
             btn.textContent = isThis ? 'SingleChart' : 'MultiChart';
         });
-        var rows = snapshot && snapshot.groups && snapshot.groups[groupName];
-        if (!rows) return;
+        // Read tickers in current sorted DOM order, not original snapshot order
+        var table = document.querySelector('.ticker-table[data-group="' + groupName.replace(/"/g, '&quot;') + '"]');
+        if (!table) return;
+        var domRows = [].slice.call(table.querySelectorAll('.ticker-row'));
+        var rows = domRows.map(function(tr) { return { ticker: tr.getAttribute('data-symbol') }; });
         var grid = document.getElementById('multi-chart-grid');
         rows.forEach(function(r, i) {
             var cId = 'mc-' + i + '-' + safeGroupId(groupName);
