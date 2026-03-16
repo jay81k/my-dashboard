@@ -294,7 +294,7 @@
                     html += '<span class="legend-item" style="background-color:' + meta.SECTOR_COLORS[s] + '">' + s + '</span>';
                 html += '</div>';
             }
-            html += (g === 0 ? '<span class="dist-ma-settings-btn" onclick="event.stopPropagation();toggleDistMASettings(this)">⋯</span>' : '');
+            html += (g === 0 ? '<span class="dist-ma-settings-btn" onclick="event.stopPropagation();toggleDistMASettings(this)" style="position:absolute;left:583px;top:50%;transform:translateY(-50%);">⋯</span>' : '');
             html += '<button class="multichart-btn" data-group="' + escapeHtml(groupName) + '" onclick="event.stopPropagation();toggleMultiChart(\'' + groupName.replace(/'/g, "\\'") + '\')">MultiChart</button>';
             html += '</div>';
             html += '<table class="ticker-table" data-group="' + escapeHtml(groupName) + '"><thead><tr>';
