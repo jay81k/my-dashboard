@@ -142,9 +142,11 @@
         /* Info modals (breadth + calendar) */
         .info-modal-overlay {
             position: fixed; inset: 0; background: rgba(0,0,0,0.6);
-            display: none; align-items: center; justify-content: center; z-index: 9998;
+            visibility: hidden; opacity: 0; pointer-events: none;
+            display: flex; align-items: center; justify-content: center; z-index: 9998;
+            transition: opacity 0.15s;
         }
-        .info-modal-overlay.open { display: flex; }
+        .info-modal-overlay.open { visibility: visible; opacity: 1; pointer-events: auto; }
         .info-modal {
             background: #13171e; border-radius: 8px; border: 1px solid #2e3744;
             box-shadow: 0 10px 30px rgba(0,0,0,0.7); overflow: hidden;
@@ -240,7 +242,37 @@
                 <span>Market Breadth</span>
                 <button type="button" class="info-modal-close" onclick="closeBreadthModal()">×</button>
             </div>
-            <div id="breadth-widget-container" style="flex:1;overflow:hidden;"></div>
+            <div style="flex:1;overflow:hidden;">
+                <div class="tradingview-widget-container" style="height:100%;width:100%;">
+                    <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%;"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                    {
+                        "colorTheme": "dark",
+                        "dateRange": "1Y",
+                        "showChart": true,
+                        "locale": "en",
+                        "isTransparent": true,
+                        "showSymbolLogo": false,
+                        "showFloatingTooltip": true,
+                        "width": "100%",
+                        "height": "100%",
+                        "tabs": [{
+                            "title": "Breadth",
+                            "symbols": [
+                                { "s": "CAPITALCOM:MMFD", "d": "Percent of Stocks Above 5-Day Average" },
+                                { "s": "CAPITALCOM:MMTW", "d": "Percent of Stocks Above 20-Day Average" },
+                                { "s": "CAPITALCOM:MMFI", "d": "Percent of Stocks Above 50-Day Average" },
+                                { "s": "CAPITALCOM:MMOH", "d": "Percent of Stocks Above 100-Day Average" },
+                                { "s": "CAPITALCOM:MMOF", "d": "Percent of Stocks Above 150-Day Average" },
+                                { "s": "CAPITALCOM:MMTH", "d": "Percent of Stocks Above 200-Day Average" }
+                            ],
+                            "originalTitle": "Breadth"
+                        }]
+                    }
+                    </script>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -251,7 +283,23 @@
                 <span>Economic Calendar</span>
                 <button type="button" class="info-modal-close" onclick="closeCalendarModal()">×</button>
             </div>
-            <div id="calendar-widget-container" style="flex:1;overflow:hidden;"></div>
+            <div style="flex:1;overflow:hidden;">
+                <div class="tradingview-widget-container" style="height:100%;width:100%;">
+                    <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%;"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+                    {
+                        "colorTheme": "dark",
+                        "isTransparent": true,
+                        "locale": "en",
+                        "countryFilter": "us",
+                        "importanceFilter": "-1,0,1",
+                        "width": "100%",
+                        "height": "100%"
+                    }
+                    </script>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -802,78 +850,10 @@
     }
 
     // --- Market Breadth & Economic Calendar modals ---
-    var breadthLoaded = false;
-    var calendarLoaded = false;
-
-    function injectWidget(containerId, src, config) {
-        var container = document.getElementById(containerId);
-        if (!container) return;
-        container.innerHTML = '';
-        var wrap = document.createElement('div');
-        wrap.className = 'tradingview-widget-container';
-        wrap.style.height = '100%';
-        var inner = document.createElement('div');
-        inner.className = 'tradingview-widget-container__widget';
-        inner.style.height = '100%';
-        wrap.appendChild(inner);
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = src;
-        script.async = true;
-        script.innerHTML = JSON.stringify(config);
-        wrap.appendChild(script);
-        container.appendChild(wrap);
-    }
-
-    window.openBreadthModal = function() {
-        document.getElementById('breadth-modal-overlay').classList.add('open');
-        if (!breadthLoaded) {
-            breadthLoaded = true;
-            injectWidget('breadth-widget-container',
-                'https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js',
-                {
-                    "colorTheme": "dark", "dateRange": "1Y", "showChart": true,
-                    "locale": "en", "isTransparent": true,
-                    "showSymbolLogo": false, "showFloatingTooltip": true,
-                    "width": "100%", "height": "100%",
-                    "tabs": [{
-                        "title": "Breadth",
-                        "symbols": [
-                            { "s": "CAPITALCOM:MMFD", "d": "Percent of Stocks Above 5-Day Average" },
-                            { "s": "CAPITALCOM:MMTW", "d": "Percent of Stocks Above 20-Day Average" },
-                            { "s": "CAPITALCOM:MMFI", "d": "Percent of Stocks Above 50-Day Average" },
-                            { "s": "CAPITALCOM:MMOH", "d": "Percent of Stocks Above 100-Day Average" },
-                            { "s": "CAPITALCOM:MMOF", "d": "Percent of Stocks Above 150-Day Average" },
-                            { "s": "CAPITALCOM:MMTH", "d": "Percent of Stocks Above 200-Day Average" }
-                        ],
-                        "originalTitle": "Breadth"
-                    }]
-                }
-            );
-        }
-    };
-    window.closeBreadthModal = function() {
-        document.getElementById('breadth-modal-overlay').classList.remove('open');
-    };
-
-    window.openCalendarModal = function() {
-        document.getElementById('calendar-modal-overlay').classList.add('open');
-        if (!calendarLoaded) {
-            calendarLoaded = true;
-            injectWidget('calendar-widget-container',
-                'https://s3.tradingview.com/external-embedding/embed-widget-events.js',
-                {
-                    "colorTheme": "dark", "isTransparent": true,
-                    "locale": "en", "countryFilter": "us",
-                    "importanceFilter": "-1,0,1",
-                    "width": "100%", "height": "100%"
-                }
-            );
-        }
-    };
-    window.closeCalendarModal = function() {
-        document.getElementById('calendar-modal-overlay').classList.remove('open');
-    };
+    window.openBreadthModal   = function() { document.getElementById('breadth-modal-overlay').classList.add('open'); };
+    window.closeBreadthModal  = function() { document.getElementById('breadth-modal-overlay').classList.remove('open'); };
+    window.openCalendarModal  = function() { document.getElementById('calendar-modal-overlay').classList.add('open'); };
+    window.closeCalendarModal = function() { document.getElementById('calendar-modal-overlay').classList.remove('open'); };
 
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') { closeBreadthModal(); closeCalendarModal(); }
