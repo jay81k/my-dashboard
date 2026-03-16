@@ -1,0 +1,41 @@
+{
+  "symbol": "URNM",
+  "holdings": [
+    {
+      "symbol": "CCO.TO",
+      "weight": 0.20147079
+    },
+    {
+      "symbol": "UEC",
+      "weight": 0.1164205
+    },
+    {
+      "symbol": "PDN.AX",
+      "weight": 0.0610858
+    },
+    {
+      "symbol": "DYL.AX",
+      "weight": 0.059589
+    },
+    {
+      "symbol": "DML.TO",
+      "weight": 0.0554418
+    },
+    {
+      "symbol": "1164.HK",
+      "weight": 0.0521793
+    },
+    {
+      "symbol": "EFR.TO",
+      "weight": 0.0496624
+    },
+    {
+      "symbol": "NXE.TO",
+      "weight": 0.049490098
+    },
+    {
+      "symbol": "KAP",
+      "weight": 0.0483558
+    }
+  ]
+}

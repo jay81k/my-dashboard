@@ -1,0 +1,45 @@
+{
+  "symbol": "QQQJ",
+  "holdings": [
+    {
+      "symbol": "SNDK",
+      "weight": 0.0460895
+    },
+    {
+      "symbol": "TER",
+      "weight": 0.024809001
+    },
+    {
+      "symbol": "LITE",
+      "weight": 0.0245876
+    },
+    {
+      "symbol": "EBAY",
+      "weight": 0.020323401
+    },
+    {
+      "symbol": "KMB",
+      "weight": 0.018303601
+    },
+    {
+      "symbol": "ESLT.TA",
+      "weight": 0.0176486
+    },
+    {
+      "symbol": "UAL",
+      "weight": 0.0170303
+    },
+    {
+      "symbol": "FISV",
+      "weight": 0.0167557
+    },
+    {
+      "symbol": "FTAI",
+      "weight": 0.015519001
+    },
+    {
+      "symbol": "CRWV",
+      "weight": 0.0152141
+    }
+  ]
+}

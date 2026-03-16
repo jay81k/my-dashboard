@@ -1,0 +1,45 @@
+{
+  "symbol": "FFTY",
+  "holdings": [
+    {
+      "symbol": "OLA.TO",
+      "weight": 0.0412002
+    },
+    {
+      "symbol": "CDE",
+      "weight": 0.0390041
+    },
+    {
+      "symbol": "IMG.TO",
+      "weight": 0.0374883
+    },
+    {
+      "symbol": "FIX",
+      "weight": 0.0351521
+    },
+    {
+      "symbol": "VRT",
+      "weight": 0.0340105
+    },
+    {
+      "symbol": "STRL",
+      "weight": 0.0338365
+    },
+    {
+      "symbol": "AU",
+      "weight": 0.0328021
+    },
+    {
+      "symbol": "ANAB",
+      "weight": 0.0325828
+    },
+    {
+      "symbol": "MU",
+      "weight": 0.0317858
+    },
+    {
+      "symbol": "AEM.TO",
+      "weight": 0.0317189
+    }
+  ]
+}

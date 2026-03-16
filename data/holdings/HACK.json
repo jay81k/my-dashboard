@@ -1,0 +1,45 @@
+{
+  "symbol": "HACK",
+  "holdings": [
+    {
+      "symbol": "NOC",
+      "weight": 0.0730462
+    },
+    {
+      "symbol": "CSCO",
+      "weight": 0.071234494
+    },
+    {
+      "symbol": "AVGO",
+      "weight": 0.0691818
+    },
+    {
+      "symbol": "GD",
+      "weight": 0.0616459
+    },
+    {
+      "symbol": "FSLY",
+      "weight": 0.058354
+    },
+    {
+      "symbol": "FTNT",
+      "weight": 0.053123597
+    },
+    {
+      "symbol": "FFIV",
+      "weight": 0.051807597
+    },
+    {
+      "symbol": "PANW",
+      "weight": 0.0487549
+    },
+    {
+      "symbol": "NET",
+      "weight": 0.0474453
+    },
+    {
+      "symbol": "CRWD",
+      "weight": 0.045208
+    }
+  ]
+}
