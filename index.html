@@ -188,7 +188,7 @@
             position: fixed; inset: 0; background: transparent; display: none; z-index: 9999;
         }
         .holdings-modal {
-            position: fixed; left: 20px; top: 50%; transform: translateY(-50%);
+            position: fixed; left: 20px; top: 8px;
             background: #13171e; border-radius: 8px; border: 1px solid #2e3744;
             padding: 10px 12px 8px; width: 300px; max-height: 460px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.7); display: flex; flex-direction: column;
@@ -465,7 +465,7 @@
                 var NON_ETF = {'^VIX':1,'CL=F':1,'^TNX':1,'MSTR':1,'BMNR':1,'WGMI':1,'SOLZ':1,'PURR':1,'XRPI':1,'IBIT':1,'ETHA':1,'TLT':1};
                 var isEtf = !NON_ETF[r.ticker];
                 var holdingsBtn = isEtf
-                    ? '<button class="holdings-btn" onclick="event.stopPropagation();showHoldings(\'' + escapeHtml(r.ticker) + '\')" title="Top 10 Holdings">▼</button>'
+                    ? '<button class="holdings-btn" onclick="event.stopPropagation();showHoldings(\'' + escapeHtml(r.ticker) + '\', this)" title="Top 10 Holdings">▼</button>'
                     : '<span style="width:15px;flex-shrink:0;display:inline-block"></span>';
                 html += '<td><div class="ticker-cell"><span class="ticker-label ' + labelClass + '">' + displayTicker + '</span>' + holdingsBtn + '</div></td>';
                 html += '<td>' + (abc ? '<span class="abc-rating abc-' + abc.toLowerCase() + '">' + abc + '</span>' : '-') + '</td>';
@@ -723,7 +723,7 @@
     var holdingsList = [];
     var holdingsIndex = -1;
 
-    window.showHoldings = function(symbol) {
+    window.showHoldings = function(symbol, btn) {
         var modal   = document.getElementById('holdings-modal-overlay');
         var title   = document.getElementById('holdings-modal-title');
         var content = document.getElementById('holdings-modal-content');
@@ -732,6 +732,20 @@
         title.textContent = symbol + ' — Top 10 Holdings';
         content.innerHTML = '<div class="holdings-msg">Loading...</div>';
         modal.style.display = 'block';
+
+        if (btn) {
+            var modalEl = modal.querySelector('.holdings-modal');
+            var rect = btn.getBoundingClientRect();
+            var modalH = 460;
+            var modalW = 300;
+            var spaceBelow = window.innerHeight - rect.bottom;
+            var top = spaceBelow >= modalH ? rect.bottom + 4 : Math.max(8, rect.top - modalH);
+            var left = rect.right + 8;
+            if (left + modalW > window.innerWidth - 8) left = rect.left - modalW - 8;
+            modalEl.style.top = top + 'px';
+            modalEl.style.left = left + 'px';
+            modalEl.style.transform = 'none';
+        }
         fetch('data/holdings/' + symbol + '.json')
             .then(function(res) { return res.ok ? res.json() : Promise.reject(); })
             .then(function(data) {
