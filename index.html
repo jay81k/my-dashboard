@@ -411,7 +411,7 @@
                     html += '<span class="legend-item" style="background-color:' + meta.SECTOR_COLORS[s] + '">' + s + '</span>';
                 html += '</div>';
             }
-            html += (g === 0 ? '<span class="dist-ma-settings-btn" onclick="event.stopPropagation();toggleDistMASettings(this)" style="position:absolute;left:583px;top:50%;transform:translateY(-50%);">⋯</span>' : '');
+            html += (g === 0 ? '<span class="dist-ma-settings-btn" onclick="event.stopPropagation();toggleDistMASettings(this)" data-tooltip="Change the moving average type and period used for the Dist/MA column." style="position:absolute;left:583px;top:50%;transform:translateY(-50%);">⋯</span>' : '');
             html += '<button class="multichart-btn" data-group="' + escapeHtml(groupName) + '" onclick="event.stopPropagation();toggleMultiChart(\'' + groupName.replace(/'/g, "\\'") + '\')">MultiChart</button>';
             html += '</div>';
             html += '<table class="ticker-table" data-group="' + escapeHtml(groupName) + '"><thead><tr>';
@@ -908,18 +908,18 @@
         document.body.appendChild(tip);
         var hideTimer;
         document.addEventListener('mouseover', function(e) {
-            var th = e.target.closest('th[data-tooltip]');
-            if (!th) return;
+            var el = e.target.closest('[data-tooltip]');
+            if (!el) return;
             clearTimeout(hideTimer);
-            var rect = th.getBoundingClientRect();
-            tip.textContent = th.getAttribute('data-tooltip');
+            var rect = el.getBoundingClientRect();
+            tip.textContent = el.getAttribute('data-tooltip');
             tip.style.left = Math.min(rect.left + rect.width / 2 - 100, window.innerWidth - 220) + 'px';
             tip.style.top = (rect.bottom + 6) + 'px';
             tip.classList.add('visible');
         });
         document.addEventListener('mouseout', function(e) {
-            var th = e.target.closest('th[data-tooltip]');
-            if (!th) return;
+            var el = e.target.closest('[data-tooltip]');
+            if (!el) return;
             hideTimer = setTimeout(function() { tip.classList.remove('visible'); }, 100);
         });
     })();
