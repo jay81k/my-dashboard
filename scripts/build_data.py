@@ -94,7 +94,7 @@ LEVERAGED_ETFS = {
     "EWZ": {"long": ["BRZU"], "short": []}
 }
 
-NON_ETF_TICKERS = {'^VIX', 'CL=F', '^TNX', 'MSTR', 'BMNR', 'WGMI', 'SOLZ', 'PURR', 'XRPI'}
+NON_ETF_TICKERS = {'^VIX', 'CL=F', '^TNX', 'MSTR', 'BMNR', 'WGMI', 'SOLZ', 'PURR', 'XRPI', 'IBIT', 'ETHA', 'TLT'}
 
 SECTOR_COLORS = {
     "Information Technology": "#3f51b5", "Industrials": "#333", "Emerging Markets": "#00bcd4",
