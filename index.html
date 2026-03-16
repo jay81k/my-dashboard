@@ -219,7 +219,7 @@
 <body>
     <div class="ticker-list">
         <div id="groups-container"></div>
-        <div class="key-hint">↑ ↓ Use arrow keys to navigate · Data auto-refreshed daily via GitHub Actions · Yahoo Finance &nbsp;<button class="hint-icon-btn" onclick="openBreadthModal()" title="Market Breadth">📊</button> <button class="hint-icon-btn" onclick="openCalendarModal()" title="Economic Calendar">📅</button></div>
+        <div class="key-hint">↑ ↓ Use arrow keys to navigate · Data auto-refreshed daily via GitHub Actions · Yahoo Finance</div>
     </div>
     <div class="chart-container">
         <div id="single-chart-panel">
@@ -398,6 +398,10 @@
             html += '<div class="group-container" id="group-' + safeId + '">';
             html += '<div class="group-header" onclick="scrollToGroup(\'' + groupName.replace(/'/g, "\\'") + '\')">';
             html += '<span>' + groupName + '</span>';
+            if (g === 0) {
+                html += '<button class="hint-icon-btn" onclick="event.stopPropagation();openBreadthModal()" title="Market Breadth">📊</button>';
+                html += '<button class="hint-icon-btn" onclick="event.stopPropagation();openCalendarModal()" title="Economic Calendar">📅</button>';
+            }
             if (groupName === 'Industries' && meta && meta.SECTOR_COLORS) {
                 html += '<div class="legend" onclick="event.stopPropagation()">';
                 for (var s in meta.SECTOR_COLORS)
