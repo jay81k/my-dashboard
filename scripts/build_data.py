@@ -19,7 +19,7 @@ from datetime import datetime, timedelta
 # --- Config: no Liquid Stocks ---
 STOCK_GROUPS = {
     "Indices": ["SPY", "QQQ", "DIA", "IWM", "QQQJ", "MGK", "MDY", "TLT", "FFTY", "^VIX", "CL=F", "^TNX"],
-    "S&P Style ETFs": ["IJS", "IJR", "IJT", "IJJ", "IJH", "IJK", "IVE", "IVV", "IVW"],
+    "S&P Style ETFs": ["IJS", "IJR", "IJT", "IJJ", "IJH", "IJK", "IVE", "IVV", "IVW", "MTUM"],
     "Sel Sectors": ["XLK", "XLI", "XLC", "XLF", "XLU", "XLY", "XLRE", "XLP", "XLB", "XLE", "XLV"],
     "EW Sectors": ["QQQE", "RSPT", "RSPC", "RSPN", "RSPF", "RSP", "RSPD", "RSPU", "RSPR", "RSPH", "RSPM", "RSPS", "RSPG"],
     "Industries": [
