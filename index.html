@@ -323,7 +323,7 @@
                 var distMAAllJson = JSON.stringify(distMAAll).replace(/"/g, '&quot;');
                 html += '<tr class="ticker-row" onclick="updateChart(\'' + r.ticker + '\', this)" data-symbol="' + r.ticker + '" data-group="' + groupName.replace(/"/g, '&quot;') + '" data-daily="' + (daily != null ? daily : 0) + '" data-1w="' + (five != null ? five : 0) + '" data-1m="' + (twenty != null ? twenty : 0) + '" data-3m="' + (fifty != null ? fifty : 0) + '" data-ytd="' + (ytd != null ? ytd : 0) + '" data-vs_spy="' + (vsSpy != null ? vsSpy : 0) + '" data-vs_spy_3m="' + (vsSpy3m != null ? vsSpy3m : 0) + '" data-cr="' + (cr != null ? cr : 0) + '" data-adr_pct="' + adrPct + '" data-dist_ma="' + (distMAVal != null ? distMAVal : 0) + '" data-dist_ma_all="' + distMAAllJson + '" data-abc="' + abc + '" data-letf="' + letf + '" data-index="' + i + '">';
                 var displayTicker = r.ticker.replace('^', '').replace('=F', '');
-                var NON_ETF = {'\\^VIX':1,'CL=F':1,'\\^TNX':1,'MSTR':1,'BMNR':1,'WGMI':1,'SOLZ':1,'PURR':1,'XRPI':1,'IBIT':1,'ETHA':1,'TLT':1};
+                var NON_ETF = {'^VIX':1,'CL=F':1,'^TNX':1,'MSTR':1,'BMNR':1,'WGMI':1,'SOLZ':1,'PURR':1,'XRPI':1,'IBIT':1,'ETHA':1,'TLT':1};
                 var isEtf = !NON_ETF[r.ticker];
                 var holdingsBtn = isEtf
                     ? '<button class="holdings-btn" onclick="event.stopPropagation();showHoldings(\'' + escapeHtml(r.ticker) + '\')" title="Top 10 Holdings">▼</button>'
