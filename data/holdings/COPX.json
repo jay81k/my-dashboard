@@ -1,0 +1,45 @@
+{
+  "symbol": "COPX",
+  "holdings": [
+    {
+      "symbol": "5713.T",
+      "weight": 0.0660552
+    },
+    {
+      "symbol": "LUN.TO",
+      "weight": 0.0620492
+    },
+    {
+      "symbol": "BOL.ST",
+      "weight": 0.0545475
+    },
+    {
+      "symbol": "KGH.WA",
+      "weight": 0.0537927
+    },
+    {
+      "symbol": "SCCO",
+      "weight": 0.050573703
+    },
+    {
+      "symbol": "HBM.TO",
+      "weight": 0.0499227
+    },
+    {
+      "symbol": "FCX",
+      "weight": 0.0489041
+    },
+    {
+      "symbol": "ANTO.L",
+      "weight": 0.047598
+    },
+    {
+      "symbol": "GLEN.L",
+      "weight": 0.0458623
+    },
+    {
+      "symbol": "BHP.AX",
+      "weight": 0.0435535
+    }
+  ]
+}
