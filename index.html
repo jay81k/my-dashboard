@@ -127,13 +127,13 @@
             font-size: 0.72em; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
             background-color: #1e242c; color: #a8bdd4;
             padding: 3px 8px; border: 1px solid #2e3744; border-radius: 3px;
-            cursor: pointer; flex-shrink: 0;
+            cursor: pointer; margin-left: auto; flex-shrink: 0;
         }
         .multichart-btn:hover { background-color: #252d38; color: #c8d0dc; }
         .multichart-btn.active { background-color: #185fa5; border-color: #378add; color: #fff; }
 
         /* MultiChart timeframe buttons */
-        .mc-tf-group { display: flex; gap: 3px; }
+        .mc-tf-group { display: flex; gap: 3px; position: absolute; left: 600px; top: 50%; transform: translateY(-50%); }
         .mc-tf-btn {
             font-family: 'Segoe UI', system-ui, sans-serif;
             font-size: 0.72em; font-weight: 500; letter-spacing: 0.04em;
@@ -423,8 +423,8 @@
                     html += '<span class="legend-item" style="background-color:' + meta.SECTOR_COLORS[s] + '">' + s + '</span>';
                 html += '</div>';
             }
-            html += (g === 0 ? '<span class="dist-ma-settings-btn" onclick="event.stopPropagation();toggleDistMASettings(this)" data-tooltip="Change the moving average type and period used for the Dist/MA column." style="margin-left:auto;">⋯</span>' : '');
-            html += '<button class="multichart-btn" ' + (g !== 0 ? 'style="margin-left:auto;"' : '') + ' data-group="' + escapeHtml(groupName) + '" onclick="event.stopPropagation();toggleMultiChart(\'' + groupName.replace(/'/g, "\\'") + '\')">MultiChart</button>';
+            html += (g === 0 ? '<span class="dist-ma-settings-btn" onclick="event.stopPropagation();toggleDistMASettings(this)" data-tooltip="Change the moving average type and period used for the Dist/MA column." style="position:absolute;left:583px;top:50%;transform:translateY(-50%);">⋯</span>' : '');
+            html += '<button class="multichart-btn" data-group="' + escapeHtml(groupName) + '" onclick="event.stopPropagation();toggleMultiChart(\'' + groupName.replace(/'/g, "\\'") + '\')">MultiChart</button>';
             html += '</div>';
             html += '<table class="ticker-table" data-group="' + escapeHtml(groupName) + '"><thead><tr>';
             var th = function(key, label, tip) { return '<th class="sortable" data-sort-by="' + key + '"' + (tip ? ' data-tooltip="' + tip + '"' : '') + '>' + label + '</th>'; };
