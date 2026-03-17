@@ -864,16 +864,18 @@
                     tfGroup.appendChild(b);
                 });
                 btn.parentNode.insertBefore(tfGroup, btn);
-                (function() {
-                    if (groupName === 'Industries') {
-                        var headerRect = btn.parentNode.getBoundingClientRect();
-                        var btnRect = btn.getBoundingClientRect();
-                        var tfW = 3 * 28 + 2 * 3;
-                        tfGroup.style.left = (btnRect.left - headerRect.left - tfW - 6) + 'px';
+                (function(group, tg, b) {
+                    if (group === 'Industries') {
+                        setTimeout(function() {
+                            var headerRect = b.parentNode.getBoundingClientRect();
+                            var btnRect = b.getBoundingClientRect();
+                            var tfW = tg.getBoundingClientRect().width;
+                            tg.style.left = (btnRect.left - headerRect.left - tfW - 6) + 'px';
+                        }, 0);
                     } else {
-                        tfGroup.style.left = '622px';
+                        tg.style.left = '622px';
                     }
-                })();
+                })(groupName, tfGroup, btn);
             }
         });
         // Read tickers in current sorted DOM order, not original snapshot order
