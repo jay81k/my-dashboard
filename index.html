@@ -133,7 +133,7 @@
         .multichart-btn.active { background-color: #185fa5; border-color: #378add; color: #fff; }
 
         /* MultiChart timeframe buttons */
-        .mc-tf-group { display: flex; gap: 3px; position: absolute; left: 622px; top: 50%; transform: translateY(-50%); }
+        .mc-tf-group { display: flex; gap: 3px; position: absolute; top: 50%; transform: translateY(-50%); }
         .mc-tf-btn {
             font-family: 'Segoe UI', system-ui, sans-serif;
             font-size: 0.72em; font-weight: 500; letter-spacing: 0.04em;
@@ -864,6 +864,16 @@
                     tfGroup.appendChild(b);
                 });
                 btn.parentNode.insertBefore(tfGroup, btn);
+                (function() {
+                    if (groupName === 'Industries') {
+                        var headerRect = btn.parentNode.getBoundingClientRect();
+                        var btnRect = btn.getBoundingClientRect();
+                        var tfW = 3 * 28 + 2 * 3;
+                        tfGroup.style.left = (btnRect.left - headerRect.left - tfW - 6) + 'px';
+                    } else {
+                        tfGroup.style.left = '622px';
+                    }
+                })();
             }
         });
         // Read tickers in current sorted DOM order, not original snapshot order
