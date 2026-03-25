@@ -27,7 +27,7 @@ STOCK_GROUPS = {
         "UNG", "BOAT", "KWEB", "KRE", "XRT", "IHI", "DRIV", "MSOS", "SOCL", "ARKF", "SLX", "ARKK", "XTN", "XME", "KIE", "GLD", "GXC", "SCHH",
         "GDX", "IPAY", "XOP", "VNQ", "EATZ", "FXI", "DBA", "ICLN", "SILJ", "REZ", "LIT", "SLV", "XHB", "XHE", "PBJ", "USO", "DBC", "FCG", "XBI",
         "ARKG", "COPX", "XES", "OIH", "PPH", "FNGS", "URA", "REMX",
-        "UFO", "BOTZ", "HACK", "AIPO", "URNM", "MAGS"
+        "UFO", "BOTZ", "HACK", "AIPO", "URNM", "MAGS", "XTL", "VCX"
     ],
     "Crypto": ["IBIT", "ETHA", "SOLZ", "PURR", "BLOK", "XRPI", "MSTR", "BMNR", "WGMI"],
     "Countries": [
@@ -117,6 +117,7 @@ Industries_COLORS = {
     "GLD": "#8b6914", "SILJ": "#ff9800", "GDX": "#ff9800", "FXI": "#00bcd4", "GXC": "#00bcd4", "USO": "#8b6914",
     "DBA": "#8b6914", "UNG": "#8b6914", "DBC": "#8b6914", "REMX": "#ff9800",
     "UFO": "#333", "BOTZ": "#333", "HACK": "#3f51b5", "AIPO": "#3f51b5", "URNM": "#795548", "MAGS": "#3f51b5",
+    "XTL": "#9c27b0", "VCX": "#3f51b5",
 }
 
 
