@@ -1,0 +1,45 @@
+{
+  "symbol": "XTL",
+  "holdings": [
+    {
+      "symbol": "AAOI",
+      "weight": 0.0727349
+    },
+    {
+      "symbol": "LITE",
+      "weight": 0.0578458
+    },
+    {
+      "symbol": "CIEN",
+      "weight": 0.0474777
+    },
+    {
+      "symbol": "VIAV",
+      "weight": 0.0467408
+    },
+    {
+      "symbol": "UI",
+      "weight": 0.0396549
+    },
+    {
+      "symbol": "MSI",
+      "weight": 0.0392932
+    },
+    {
+      "symbol": "IRDM",
+      "weight": 0.0383584
+    },
+    {
+      "symbol": "VZ",
+      "weight": 0.0379395
+    },
+    {
+      "symbol": "VSAT",
+      "weight": 0.037083
+    },
+    {
+      "symbol": "ONDS",
+      "weight": 0.0365739
+    }
+  ]
+}
