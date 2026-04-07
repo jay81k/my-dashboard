@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ABT",
-      "weight": 0.17011061
+      "weight": 0.1697637
     },
     {
       "symbol": "ISRG",
-      "weight": 0.15007691
-    },
-    {
-      "symbol": "BSX",
-      "weight": 0.0957895
+      "weight": 0.1556726
     },
     {
       "symbol": "SYK",
-      "weight": 0.051491197
-    },
-    {
-      "symbol": "EW",
-      "weight": 0.0484466
-    },
-    {
-      "symbol": "GEHC",
-      "weight": 0.0469066
-    },
-    {
-      "symbol": "RMD",
-      "weight": 0.0463515
+      "weight": 0.107615806
     },
     {
       "symbol": "MDT",
-      "weight": 0.0455668
-    },
-    {
-      "symbol": "IDXX",
-      "weight": 0.0439953
+      "weight": 0.046213
     },
     {
       "symbol": "BDX",
-      "weight": 0.0418229
+      "weight": 0.045723
+    },
+    {
+      "symbol": "EW",
+      "weight": 0.0446566
+    },
+    {
+      "symbol": "IDXX",
+      "weight": 0.0443981
+    },
+    {
+      "symbol": "RMD",
+      "weight": 0.044345196
+    },
+    {
+      "symbol": "GEHC",
+      "weight": 0.043990698
+    },
+    {
+      "symbol": "BSX",
+      "weight": 0.042761996
     }
   ]
 }

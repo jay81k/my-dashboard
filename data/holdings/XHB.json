@@ -2,44 +2,44 @@
   "symbol": "XHB",
   "holdings": [
     {
-      "symbol": "JCI",
-      "weight": 0.038573302
+      "symbol": "MOD",
+      "weight": 0.0377433
     },
     {
-      "symbol": "CARR",
-      "weight": 0.0373314
+      "symbol": "OC",
+      "weight": 0.0352322
     },
     {
-      "symbol": "CSL",
-      "weight": 0.0367056
+      "symbol": "NVR",
+      "weight": 0.034837797
     },
     {
-      "symbol": "TT",
-      "weight": 0.0358579
-    },
-    {
-      "symbol": "IBP",
-      "weight": 0.0357824
-    },
-    {
-      "symbol": "WMS",
-      "weight": 0.0354458
-    },
-    {
-      "symbol": "TOL",
-      "weight": 0.0350995
-    },
-    {
-      "symbol": "MAS",
-      "weight": 0.0349505
-    },
-    {
-      "symbol": "LII",
-      "weight": 0.0348746
+      "symbol": "ALLE",
+      "weight": 0.0346212
     },
     {
       "symbol": "WSM",
-      "weight": 0.0340288
+      "weight": 0.0342958
+    },
+    {
+      "symbol": "TMHC",
+      "weight": 0.0341682
+    },
+    {
+      "symbol": "JCI",
+      "weight": 0.0338968
+    },
+    {
+      "symbol": "MAS",
+      "weight": 0.0337571
+    },
+    {
+      "symbol": "TT",
+      "weight": 0.0336756
+    },
+    {
+      "symbol": "DHI",
+      "weight": 0.0336076
     }
   ]
 }

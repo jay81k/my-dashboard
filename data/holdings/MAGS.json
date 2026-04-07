@@ -1,0 +1,21 @@
+{
+  "symbol": "MAGS",
+  "holdings": [
+    {
+      "symbol": "XBOX",
+      "weight": 0.0897161
+    },
+    {
+      "symbol": "NVDA",
+      "weight": 0.0542453
+    },
+    {
+      "symbol": "AAPL",
+      "weight": 0.05373
+    },
+    {
+      "symbol": "AMZN",
+      "weight": 0.0526341
+    }
+  ]
+}

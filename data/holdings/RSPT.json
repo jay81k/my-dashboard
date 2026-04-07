@@ -2,44 +2,44 @@
   "symbol": "RSPT",
   "holdings": [
     {
-      "symbol": "SNDK",
-      "weight": 0.0385964
+      "symbol": "CIEN",
+      "weight": 0.0161039
     },
     {
-      "symbol": "GLW",
-      "weight": 0.022581
+      "symbol": "DELL",
+      "weight": 0.0157345
     },
     {
-      "symbol": "TER",
-      "weight": 0.022188399
+      "symbol": "HPE",
+      "weight": 0.0156835
     },
     {
-      "symbol": "MU",
-      "weight": 0.022114798
+      "symbol": "AKAM",
+      "weight": 0.015210399
     },
     {
-      "symbol": "WDC",
-      "weight": 0.021743901
+      "symbol": "VRSN",
+      "weight": 0.0148721
     },
     {
-      "symbol": "Q",
-      "weight": 0.0207999
+      "symbol": "NTAP",
+      "weight": 0.0148118
     },
     {
-      "symbol": "KEYS",
-      "weight": 0.0204318
+      "symbol": "LITE",
+      "weight": 0.0147611
     },
     {
-      "symbol": "LRCX",
-      "weight": 0.0196626
+      "symbol": "ON",
+      "weight": 0.0147547
     },
     {
-      "symbol": "STX",
-      "weight": 0.0192963
+      "symbol": "HPQ",
+      "weight": 0.0146903
     },
     {
-      "symbol": "AMAT",
-      "weight": 0.019139
+      "symbol": "JBL",
+      "weight": 0.0146766
     }
   ]
 }

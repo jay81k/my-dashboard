@@ -2,44 +2,44 @@
   "symbol": "PBJ",
   "holdings": [
     {
-      "symbol": "HSY",
-      "weight": 0.055524804
-    },
-    {
-      "symbol": "SYY",
-      "weight": 0.0532792
-    },
-    {
       "symbol": "CTVA",
-      "weight": 0.053273503
+      "weight": 0.0553299
     },
     {
-      "symbol": "PEP",
-      "weight": 0.0509337
-    },
-    {
-      "symbol": "MNST",
-      "weight": 0.0508476
-    },
-    {
-      "symbol": "KO",
-      "weight": 0.0490545
+      "symbol": "ADM",
+      "weight": 0.055072397
     },
     {
       "symbol": "KR",
-      "weight": 0.046340898
+      "weight": 0.0534546
     },
     {
-      "symbol": "KHC",
-      "weight": 0.042584702
+      "symbol": "MDLZ",
+      "weight": 0.0485921
     },
     {
-      "symbol": "CELH",
-      "weight": 0.0336659
+      "symbol": "PEP",
+      "weight": 0.047203798
     },
     {
-      "symbol": "ANDE",
-      "weight": 0.0309971
+      "symbol": "HSY",
+      "weight": 0.0465356
+    },
+    {
+      "symbol": "MNST",
+      "weight": 0.043653596
+    },
+    {
+      "symbol": "SYY",
+      "weight": 0.0409041
+    },
+    {
+      "symbol": "DAR",
+      "weight": 0.0330022
+    },
+    {
+      "symbol": "UNFI",
+      "weight": 0.0328824
     }
   ]
 }

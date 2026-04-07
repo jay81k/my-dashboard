@@ -2,44 +2,44 @@
   "symbol": "BOTZ",
   "holdings": [
     {
-      "symbol": "ABBN.SW",
-      "weight": 0.10490131
-    },
-    {
       "symbol": "NVDA",
-      "weight": 0.099425405
-    },
-    {
-      "symbol": "6954.T",
-      "weight": 0.0968159
-    },
-    {
-      "symbol": "6861.T",
-      "weight": 0.0636416
+      "weight": 0.0844016
     },
     {
       "symbol": "ISRG",
-      "weight": 0.057997
+      "weight": 0.0823498
     },
     {
-      "symbol": "6383.T",
-      "weight": 0.0526115
+      "symbol": "ABBN.SW",
+      "weight": 0.082001
+    },
+    {
+      "symbol": "6861.T",
+      "weight": 0.0786506
+    },
+    {
+      "symbol": "6954.T",
+      "weight": 0.0745316
+    },
+    {
+      "symbol": "300124.SZ",
+      "weight": 0.0472836
     },
     {
       "symbol": "6273.T",
-      "weight": 0.0453667
+      "weight": 0.0429467
     },
     {
-      "symbol": "277810.KS",
-      "weight": 0.0384382
+      "symbol": "6383.T",
+      "weight": 0.0322032
     },
     {
-      "symbol": "6506.T",
-      "weight": 0.0314771
+      "symbol": "9660.HK",
+      "weight": 0.026303101
     },
     {
-      "symbol": "CGNX",
-      "weight": 0.0307673
+      "symbol": "AVAV",
+      "weight": 0.0227249
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "RSPG",
   "holdings": [
     {
-      "symbol": "TPL",
-      "weight": 0.0668526
-    },
-    {
-      "symbol": "BKR",
-      "weight": 0.0515315
-    },
-    {
-      "symbol": "SLB",
-      "weight": 0.0487738
-    },
-    {
-      "symbol": "TRGP",
-      "weight": 0.048751403
-    },
-    {
-      "symbol": "XOM",
-      "weight": 0.048393402
+      "symbol": "APA",
+      "weight": 0.054440998
     },
     {
       "symbol": "OXY",
-      "weight": 0.048228696
+      "weight": 0.049461197
     },
     {
-      "symbol": "KMI",
-      "weight": 0.047463898
+      "symbol": "COP",
+      "weight": 0.0477057
+    },
+    {
+      "symbol": "CTRA",
+      "weight": 0.047406804
+    },
+    {
+      "symbol": "FANG",
+      "weight": 0.0473562
+    },
+    {
+      "symbol": "XOM",
+      "weight": 0.047335602
+    },
+    {
+      "symbol": "DVN",
+      "weight": 0.0469186
+    },
+    {
+      "symbol": "EOG",
+      "weight": 0.0461408
     },
     {
       "symbol": "HAL",
-      "weight": 0.047025498
-    },
-    {
-      "symbol": "WMB",
-      "weight": 0.04685
+      "weight": 0.045896
     },
     {
       "symbol": "CVX",
-      "weight": 0.0467898
+      "weight": 0.0456229
     }
   ]
 }

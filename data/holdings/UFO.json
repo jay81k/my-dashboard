@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PL",
-      "weight": 0.0577145
-    },
-    {
-      "symbol": "MDA.TO",
-      "weight": 0.0562675
-    },
-    {
-      "symbol": "GRMN",
-      "weight": 0.0500833
-    },
-    {
-      "symbol": "VSAT",
-      "weight": 0.049949497
+      "weight": 0.0538446
     },
     {
       "symbol": "SATS",
-      "weight": 0.046204
-    },
-    {
-      "symbol": "RKLB",
-      "weight": 0.0454141
-    },
-    {
-      "symbol": "SESGL",
-      "weight": 0.044917896
+      "weight": 0.0522821
     },
     {
       "symbol": "SIRI",
-      "weight": 0.041533697
+      "weight": 0.0499438
+    },
+    {
+      "symbol": "GSAT",
+      "weight": 0.0492588
+    },
+    {
+      "symbol": "TRMB",
+      "weight": 0.0474261
+    },
+    {
+      "symbol": "VSAT",
+      "weight": 0.0473689
+    },
+    {
+      "symbol": "GRMN",
+      "weight": 0.0473345
     },
     {
       "symbol": "ASTS",
-      "weight": 0.0390013
+      "weight": 0.0457715
     },
     {
-      "symbol": "9412.T",
-      "weight": 0.0368982
+      "symbol": "RKLB",
+      "weight": 0.045183
+    },
+    {
+      "symbol": "SESGL",
+      "weight": 0.0394378
     }
   ]
 }

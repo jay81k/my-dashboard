@@ -2,44 +2,44 @@
   "symbol": "RSPF",
   "holdings": [
     {
-      "symbol": "CBOE",
-      "weight": 0.0164722
+      "symbol": "BX",
+      "weight": 0.0141673
     },
     {
-      "symbol": "CME",
-      "weight": 0.0164237
+      "symbol": "KKR",
+      "weight": 0.0140278
     },
     {
-      "symbol": "CB",
-      "weight": 0.0157265
+      "symbol": "FDS",
+      "weight": 0.013949799
     },
     {
-      "symbol": "BEN",
-      "weight": 0.0155832
+      "symbol": "ARES",
+      "weight": 0.0139335
     },
     {
-      "symbol": "TRV",
-      "weight": 0.0151739
+      "symbol": "APO",
+      "weight": 0.013876501
     },
     {
-      "symbol": "ACGL",
-      "weight": 0.014935301
+      "symbol": "SYF",
+      "weight": 0.0137832
     },
     {
-      "symbol": "HIG",
-      "weight": 0.0147979995
+      "symbol": "C",
+      "weight": 0.013724101
     },
     {
-      "symbol": "GL",
-      "weight": 0.0147364
+      "symbol": "WFC",
+      "weight": 0.013683
     },
     {
-      "symbol": "L",
-      "weight": 0.0146747995
+      "symbol": "ERIE",
+      "weight": 0.0136822
     },
     {
-      "symbol": "IBKR",
-      "weight": 0.014614101
+      "symbol": "AJG",
+      "weight": 0.013638001
     }
   ]
 }

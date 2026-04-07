@@ -2,44 +2,44 @@
   "symbol": "CIBR",
   "holdings": [
     {
-      "symbol": "CSCO",
-      "weight": 0.0929368
-    },
-    {
-      "symbol": "INFY",
-      "weight": 0.0769953
-    },
-    {
-      "symbol": "AVGO",
-      "weight": 0.0730936
-    },
-    {
       "symbol": "PANW",
-      "weight": 0.071943104
+      "weight": 0.0845588
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0685285
+      "weight": 0.082438
     },
     {
-      "symbol": "HO.PA",
-      "weight": 0.0525036
+      "symbol": "CSCO",
+      "weight": 0.0766976
     },
     {
-      "symbol": "AKAM",
-      "weight": 0.0470744
-    },
-    {
-      "symbol": "FFIV",
-      "weight": 0.046935502
+      "symbol": "AVGO",
+      "weight": 0.0760777
     },
     {
       "symbol": "FTNT",
-      "weight": 0.044689104
+      "weight": 0.073943704
     },
     {
-      "symbol": "LDOS",
-      "weight": 0.0421274
+      "symbol": "NET",
+      "weight": 0.047062103
+    },
+    {
+      "symbol": "AKAM",
+      "weight": 0.0367658
+    },
+    {
+      "symbol": "ZS",
+      "weight": 0.0364678
+    },
+    {
+      "symbol": "CHKP",
+      "weight": 0.031817
+    },
+    {
+      "symbol": "FFIV",
+      "weight": 0.0308428
     }
   ]
 }

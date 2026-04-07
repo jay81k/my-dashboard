@@ -2,44 +2,44 @@
   "symbol": "ROBO",
   "holdings": [
     {
-      "symbol": "6134.T",
-      "weight": 0.023304801
-    },
-    {
-      "symbol": "IPGP",
-      "weight": 0.0232008
-    },
-    {
       "symbol": "TER",
-      "weight": 0.0228893
+      "weight": 0.0190228
     },
     {
-      "symbol": "6954.T",
-      "weight": 0.0189004
+      "symbol": "CELT",
+      "weight": 0.0182424
     },
     {
-      "symbol": "JEN.DE",
-      "weight": 0.0181301
+      "symbol": "ISRG",
+      "weight": 0.0182056
     },
     {
-      "symbol": "098460.KQ",
-      "weight": 0.0178794
+      "symbol": "ROK",
+      "weight": 0.017940901
     },
     {
-      "symbol": "1590.TW",
-      "weight": 0.0176812
+      "symbol": "SYM",
+      "weight": 0.0177978
     },
     {
       "symbol": "NOVT",
-      "weight": 0.0176707
+      "weight": 0.0167282
     },
     {
-      "symbol": "6324.T",
-      "weight": 0.0172693
+      "symbol": "IPGP",
+      "weight": 0.0167249
     },
     {
-      "symbol": "6273.T",
-      "weight": 0.0170297
+      "symbol": "6954.T",
+      "weight": 0.0161437
+    },
+    {
+      "symbol": "G1A.DE",
+      "weight": 0.0159851
+    },
+    {
+      "symbol": "AMBA",
+      "weight": 0.0158874
     }
   ]
 }
