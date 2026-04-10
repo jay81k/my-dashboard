@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "FLG",
-      "weight": 0.0155053
+      "weight": 0.0155299
     },
     {
       "symbol": "ZION",
-      "weight": 0.0153116
+      "weight": 0.0153353
     },
     {
       "symbol": "OZK",
-      "weight": 0.0152216
+      "weight": 0.0152462
     },
     {
       "symbol": "TCBI",
-      "weight": 0.015209201
+      "weight": 0.0152345
     },
     {
       "symbol": "ASB",
-      "weight": 0.0152042
+      "weight": 0.0152288
     },
     {
       "symbol": "BPOP",
-      "weight": 0.0151775
+      "weight": 0.0152029
     },
     {
       "symbol": "WTFC",
-      "weight": 0.0150352
+      "weight": 0.015062099
     },
     {
       "symbol": "FNB",
-      "weight": 0.0150241
+      "weight": 0.015048799
     },
     {
       "symbol": "VLY",
-      "weight": 0.015003
+      "weight": 0.0150269
     },
     {
       "symbol": "CFR",
-      "weight": 0.0149762
+      "weight": 0.0150019005
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "HCC",
-      "weight": 0.0502437
+      "weight": 0.050244004
     },
     {
       "symbol": "CNR",
-      "weight": 0.049938302
+      "weight": 0.049938597
     },
     {
       "symbol": "AA",
-      "weight": 0.045661002
+      "weight": 0.0456612
     },
     {
       "symbol": "RS",
-      "weight": 0.0450628
+      "weight": 0.0450632
     },
     {
       "symbol": "NUE",
-      "weight": 0.0449606
+      "weight": 0.0449609
     },
     {
       "symbol": "STLD",
-      "weight": 0.0446252
+      "weight": 0.044625502
     },
     {
       "symbol": "FCX",
-      "weight": 0.043632798
+      "weight": 0.0436331
     },
     {
       "symbol": "BTU",
-      "weight": 0.0436028
+      "weight": 0.0436031
     },
     {
       "symbol": "UEC",
-      "weight": 0.043583103
+      "weight": 0.043583397
     },
     {
       "symbol": "NEM",
-      "weight": 0.0425527
+      "weight": 0.042553
     }
   ]
 }

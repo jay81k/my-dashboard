@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PTEN",
-      "weight": 0.0434725
+      "weight": 0.0434734
     },
     {
       "symbol": "TDW",
-      "weight": 0.0430454
+      "weight": 0.0430462
     },
     {
       "symbol": "HAL",
-      "weight": 0.042775404
+      "weight": 0.042776197
     },
     {
       "symbol": "NE",
-      "weight": 0.042670596
+      "weight": 0.042671498
     },
     {
       "symbol": "FTI",
-      "weight": 0.0423266
+      "weight": 0.0423273
     },
     {
       "symbol": "SLB",
-      "weight": 0.0420532
+      "weight": 0.042054
     },
     {
       "symbol": "SDRL",
-      "weight": 0.041768398
+      "weight": 0.0417693
     },
     {
       "symbol": "RIG",
-      "weight": 0.041417398
+      "weight": 0.041418098
     },
     {
       "symbol": "VAL",
-      "weight": 0.041385498
+      "weight": 0.041386098
     },
     {
       "symbol": "HP",
-      "weight": 0.040882003
+      "weight": 0.040882803
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "APA",
-      "weight": 0.029988
+      "weight": 0.029988999
     },
     {
       "symbol": "VG",
-      "weight": 0.0294665
+      "weight": 0.029467398
     },
     {
       "symbol": "SM",
-      "weight": 0.0283407
+      "weight": 0.0283416
     },
     {
       "symbol": "MUR",
-      "weight": 0.0282634
+      "weight": 0.028264401
     },
     {
       "symbol": "OXY",
-      "weight": 0.0272446
+      "weight": 0.0272455
     },
     {
       "symbol": "CHRD",
-      "weight": 0.0265385
+      "weight": 0.0265394
     },
     {
       "symbol": "PBF",
-      "weight": 0.026419599
+      "weight": 0.0264205
     },
     {
       "symbol": "COP",
-      "weight": 0.0262757
+      "weight": 0.0262766
     },
     {
       "symbol": "MTDR",
-      "weight": 0.0261713
+      "weight": 0.0261721
     },
     {
       "symbol": "CTRA",
-      "weight": 0.0261128
+      "weight": 0.0261137
     }
   ]
 }

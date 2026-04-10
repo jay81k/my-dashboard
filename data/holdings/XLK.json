@@ -3,15 +3,15 @@
   "holdings": [
     {
       "symbol": "NVDA",
-      "weight": 0.1548407
+      "weight": 0.1548409
     },
     {
       "symbol": "AAPL",
-      "weight": 0.1361339
+      "weight": 0.136134
     },
     {
       "symbol": "MSFT",
-      "weight": 0.1004307
+      "weight": 0.1004308
     },
     {
       "symbol": "AVGO",
@@ -23,7 +23,7 @@
     },
     {
       "symbol": "PLTR",
-      "weight": 0.0297361
+      "weight": 0.029736198
     },
     {
       "symbol": "AMD",

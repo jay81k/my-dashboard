@@ -3,19 +3,19 @@
   "holdings": [
     {
       "symbol": "APLS",
-      "weight": 0.0183437
+      "weight": 0.018345
     },
     {
       "symbol": "ALKS",
-      "weight": 0.014508099
+      "weight": 0.0145091
     },
     {
       "symbol": "MDGL",
-      "weight": 0.013827099
+      "weight": 0.0138247
     },
     {
       "symbol": "TGTX",
-      "weight": 0.0134936
+      "weight": 0.0134947
     },
     {
       "symbol": "INSM",
@@ -23,23 +23,23 @@
     },
     {
       "symbol": "SRRK",
-      "weight": 0.0129713
+      "weight": 0.0129724005
     },
     {
       "symbol": "APGE",
-      "weight": 0.012841
+      "weight": 0.0128422
     },
     {
       "symbol": "PTGX",
-      "weight": 0.0124466
+      "weight": 0.012448
     },
     {
       "symbol": "SMMT",
-      "weight": 0.0124088
+      "weight": 0.0124097
     },
     {
       "symbol": "UTHR",
-      "weight": 0.012403199
+      "weight": 0.012405
     }
   ]
 }

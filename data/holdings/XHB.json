@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MOD",
-      "weight": 0.0377433
+      "weight": 0.0377539
     },
     {
       "symbol": "OC",
-      "weight": 0.0352322
+      "weight": 0.035242602
     },
     {
       "symbol": "NVR",
-      "weight": 0.034837797
+      "weight": 0.0348419
     },
     {
       "symbol": "ALLE",
-      "weight": 0.0346212
+      "weight": 0.034630798
     },
     {
       "symbol": "WSM",
-      "weight": 0.0342958
+      "weight": 0.0343055
     },
     {
       "symbol": "TMHC",
-      "weight": 0.0341682
+      "weight": 0.0341781
     },
     {
       "symbol": "JCI",
-      "weight": 0.0338968
+      "weight": 0.033906702
     },
     {
       "symbol": "MAS",
-      "weight": 0.0337571
+      "weight": 0.0337671
     },
     {
       "symbol": "TT",
-      "weight": 0.0336756
+      "weight": 0.0336854
     },
     {
       "symbol": "DHI",
-      "weight": 0.0336076
+      "weight": 0.033617698
     }
   ]
 }

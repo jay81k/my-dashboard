@@ -3,11 +3,11 @@
   "holdings": [
     {
       "symbol": "LMND",
-      "weight": 0.0215065
+      "weight": 0.0215066
     },
     {
       "symbol": "LNC",
-      "weight": 0.0198598
+      "weight": 0.0198599
     },
     {
       "symbol": "BWIN",
@@ -15,15 +15,15 @@
     },
     {
       "symbol": "KMPR",
-      "weight": 0.019474
+      "weight": 0.0194741
     },
     {
       "symbol": "SPNT",
-      "weight": 0.0194328
+      "weight": 0.0194329
     },
     {
       "symbol": "ERIE",
-      "weight": 0.0192158
+      "weight": 0.0192156
     },
     {
       "symbol": "AJG",
@@ -31,15 +31,15 @@
     },
     {
       "symbol": "PRU",
-      "weight": 0.019093899
+      "weight": 0.0190941
     },
     {
       "symbol": "CNO",
-      "weight": 0.0190816
+      "weight": 0.0190817
     },
     {
       "symbol": "PFG",
-      "weight": 0.018958401
+      "weight": 0.0189585
     }
   ]
 }
