@@ -518,34 +518,22 @@
         initApp();
     }
 
+    var tvSymbolMap = { '^VIX': 'TVC:VIX', 'CL=F': 'NYMEX:CL1!', '^TNX': 'TVC:TNX' };
+
     function initChart(symbol) {
-        var tvSymbolMap = { '^VIX': 'TVC:VIX', 'CL=F': 'NYMEX:CL1!', '^TNX': 'TVC:TNX' };
         var tvSymbol = tvSymbolMap[symbol] || symbol;
-        if (chartWidget) { chartWidget.remove(); chartWidget = null; }
-        var container = document.getElementById('tradingview-chart');
-        var w = container.offsetWidth || 800;
-        var h = container.offsetHeight || 600;
+        if (chartWidget) {
+            chartWidget.setSymbol(tvSymbol, 'D');
+            return;
+        }
         chartWidget = new TradingView.widget({
             allow_symbol_change: true, calendar: false, details: true, hide_side_toolbar: false, hide_top_toolbar: false,
             hide_legend: false, hide_volume: true, hotlist: false, interval: 'D', locale: 'en', save_image: false,
             style: '1', symbol: tvSymbol, theme: 'dark', timezone: 'America/Toronto', toolbar_bg: '#0d1117', backgroundColor: '#0d1117',
             gridColor: 'rgba(255,255,255,0.06)', watchlist: [], withdateranges: true, studies: ['STD;MA%Ribbon', 'Volume@tv-basicstudies'],
-            width: w, height: h, enable_publishing: false, container_id: 'tradingview-chart'
+            autosize: true, enable_publishing: false, container_id: 'tradingview-chart'
         });
     }
-
-    // Keep chart sized correctly on window resize
-    (function() {
-        var resizeTimer;
-        window.addEventListener('resize', function() {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(function() {
-                var active = document.querySelector('.ticker-row.active');
-                var symbol = active ? active.getAttribute('data-symbol') : null;
-                if (symbol && chartWidget) initChart(symbol);
-            }, 150);
-        });
-    })();
 
     window.updateChart = function(symbol, element) {
         if (activeMultiChartGroup !== null) closeMultiChart();
@@ -839,7 +827,6 @@
     var multiChartWidgets = [];
     var activeMultiChartGroup = null;
     var activeMultiInterval = 'D';
-    var tvSymbolMap = { '^VIX': 'TVC:VIX', 'CL=F': 'NYMEX:CL1!', '^TNX': 'TVC:TNX' };
 
     function destroyMultiCharts() {
         multiChartWidgets.forEach(function(w) { try { w.remove(); } catch(e) {} });
