@@ -523,7 +523,9 @@
     function initChart(symbol) {
         var tvSymbol = tvSymbolMap[symbol] || symbol;
         if (chartWidget) {
-            chartWidget.setSymbol(tvSymbol, 'D');
+            chartWidget.onChartReady(function() {
+                chartWidget.activeChart().setSymbol(tvSymbol);
+            });
             return;
         }
         chartWidget = new TradingView.widget({
