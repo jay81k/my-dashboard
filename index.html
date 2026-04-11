@@ -662,7 +662,7 @@
         }
         document.addEventListener('keydown', function(e) {
             var hModal = document.getElementById('holdings-modal-overlay');
-            if (hModal && hModal.style.display !== 'none') return;
+            if (hModal && hModal.style.display === 'block') return;
             if (e.key === 'ArrowDown') { e.preventDefault(); if (currentIndex < allTickerRows.length - 1) { currentIndex++; updateChart(allTickerRows[currentIndex].getAttribute('data-symbol'), allTickerRows[currentIndex]); } }
             if (e.key === 'ArrowUp')   { e.preventDefault(); if (currentIndex > 0) { currentIndex--; updateChart(allTickerRows[currentIndex].getAttribute('data-symbol'), allTickerRows[currentIndex]); } }
         });
