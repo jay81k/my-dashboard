@@ -518,16 +518,10 @@
         initApp();
     }
 
-    var tvSymbolMap = { '^VIX': 'TVC:VIX', 'CL=F': 'NYMEX:CL1!', '^TNX': 'TVC:TNX' };
-
     function initChart(symbol) {
+        var tvSymbolMap = { '^VIX': 'TVC:VIX', 'CL=F': 'NYMEX:CL1!', '^TNX': 'TVC:TNX' };
         var tvSymbol = tvSymbolMap[symbol] || symbol;
-        if (chartWidget) {
-            chartWidget.onChartReady(function() {
-                chartWidget.setSymbol(tvSymbol, 'D');
-            });
-            return;
-        }
+        if (chartWidget) { chartWidget.remove(); chartWidget = null; }
         chartWidget = new TradingView.widget({
             allow_symbol_change: true, calendar: false, details: true, hide_side_toolbar: false, hide_top_toolbar: false,
             hide_legend: false, hide_volume: true, hotlist: false, interval: 'D', locale: 'en', save_image: false,
@@ -829,6 +823,7 @@
     var multiChartWidgets = [];
     var activeMultiChartGroup = null;
     var activeMultiInterval = 'D';
+    var tvSymbolMap = { '^VIX': 'TVC:VIX', 'CL=F': 'NYMEX:CL1!', '^TNX': 'TVC:TNX' };
 
     function destroyMultiCharts() {
         multiChartWidgets.forEach(function(w) { try { w.remove(); } catch(e) {} });
