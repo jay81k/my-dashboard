@@ -524,7 +524,7 @@
         var tvSymbol = tvSymbolMap[symbol] || symbol;
         if (chartWidget) {
             chartWidget.onChartReady(function() {
-                chartWidget.activeChart().setSymbol(tvSymbol);
+                chartWidget.setSymbol(tvSymbol, 'D');
             });
             return;
         }
