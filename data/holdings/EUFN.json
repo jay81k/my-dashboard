@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "HSBA.L",
-      "weight": 0.093843095
+      "weight": 0.0897837
     },
     {
       "symbol": "SAN.MC",
-      "weight": 0.0545732
+      "weight": 0.0521393
     },
     {
       "symbol": "ALV.DE",
-      "weight": 0.050064
-    },
-    {
-      "symbol": "BBVA.MC",
-      "weight": 0.0388223
+      "weight": 0.0511055
     },
     {
       "symbol": "UBSG.SW",
-      "weight": 0.0385322
+      "weight": 0.0393908
     },
     {
-      "symbol": "UCG.MI",
-      "weight": 0.0349522
-    },
-    {
-      "symbol": "BNP.PA",
-      "weight": 0.0330501
+      "symbol": "BBVA.MC",
+      "weight": 0.0389484
     },
     {
       "symbol": "ZURN.SW",
-      "weight": 0.0322222
+      "weight": 0.0331685
+    },
+    {
+      "symbol": "UCG.MI",
+      "weight": 0.0318838
+    },
+    {
+      "symbol": "BNP.PA",
+      "weight": 0.0304576
     },
     {
       "symbol": "ISP.MI",
-      "weight": 0.0279879
+      "weight": 0.0268916
     },
     {
       "symbol": "MUV2.DE",
-      "weight": 0.024993801
+      "weight": 0.0263379
     }
   ]
 }

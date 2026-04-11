@@ -2,44 +2,44 @@
   "symbol": "PAVE",
   "holdings": [
     {
-      "symbol": "DE",
-      "weight": 0.0338823
-    },
-    {
-      "symbol": "HWM",
-      "weight": 0.0338673
-    },
-    {
       "symbol": "PWR",
-      "weight": 0.0337354
+      "weight": 0.035712
     },
     {
       "symbol": "CSX",
-      "weight": 0.0335184
-    },
-    {
-      "symbol": "TT",
-      "weight": 0.033297703
-    },
-    {
-      "symbol": "UNP",
-      "weight": 0.0321699
-    },
-    {
-      "symbol": "ETN",
-      "weight": 0.031599298
+      "weight": 0.0349463
     },
     {
       "symbol": "SRE",
-      "weight": 0.0315409
+      "weight": 0.0345189
+    },
+    {
+      "symbol": "DE",
+      "weight": 0.032867998
+    },
+    {
+      "symbol": "ETN",
+      "weight": 0.0326491
+    },
+    {
+      "symbol": "TT",
+      "weight": 0.0325471
+    },
+    {
+      "symbol": "HWM",
+      "weight": 0.0322798
+    },
+    {
+      "symbol": "UNP",
+      "weight": 0.0319372
+    },
+    {
+      "symbol": "FAST",
+      "weight": 0.0315662
     },
     {
       "symbol": "NSC",
-      "weight": 0.0305984
-    },
-    {
-      "symbol": "PH",
-      "weight": 0.030139798
+      "weight": 0.030255599
     }
   ]
 }

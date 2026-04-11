@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ASML.AS",
-      "weight": 0.0394686
-    },
-    {
-      "symbol": "ROG",
-      "weight": 0.0234216
+      "weight": 0.0389181
     },
     {
       "symbol": "AZN.L",
-      "weight": 0.0226255
+      "weight": 0.0233023
     },
     {
       "symbol": "NOVN.SW",
-      "weight": 0.0225408
+      "weight": 0.0222336
     },
     {
       "symbol": "HSBA.L",
-      "weight": 0.0224401
+      "weight": 0.0214624
     },
     {
-      "symbol": "NESN.SW",
-      "weight": 0.0196198
+      "symbol": "ROP.SW",
+      "weight": 0.0213924
     },
     {
       "symbol": "SHEL.L",
-      "weight": 0.016608
+      "weight": 0.020857502
+    },
+    {
+      "symbol": "NESN.SW",
+      "weight": 0.0195508
+    },
+    {
+      "symbol": "TTE.PA",
+      "weight": 0.0146953
     },
     {
       "symbol": "SIE.DE",
-      "weight": 0.0149919
+      "weight": 0.013577401
     },
     {
       "symbol": "SAP.DE",
-      "weight": 0.0143525
-    },
-    {
-      "symbol": "SAN.MC",
-      "weight": 0.0132238995
+      "weight": 0.0134306
     }
   ]
 }

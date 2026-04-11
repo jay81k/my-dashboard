@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "AMZN",
-      "weight": 0.2130604
+      "weight": 0.2351404
     },
     {
       "symbol": "TSLA",
-      "weight": 0.18958941
+      "weight": 0.189566
     },
     {
       "symbol": "HD",
-      "weight": 0.0635245
+      "weight": 0.0593647
     },
     {
       "symbol": "MCD",
-      "weight": 0.0505328
+      "weight": 0.0448905
     },
     {
       "symbol": "TJX",
-      "weight": 0.042168297
-    },
-    {
-      "symbol": "LOW",
-      "weight": 0.0347759
+      "weight": 0.0441082
     },
     {
       "symbol": "BKNG",
-      "weight": 0.0320266
+      "weight": 0.0337527
+    },
+    {
+      "symbol": "LOW",
+      "weight": 0.0329656
     },
     {
       "symbol": "SBUX",
-      "weight": 0.0261188
+      "weight": 0.025387
     },
     {
       "symbol": "ORLY",
-      "weight": 0.0185732
+      "weight": 0.0193299
     },
     {
-      "symbol": "RCL",
-      "weight": 0.0184847
+      "symbol": "MAR",
+      "weight": 0.0178916
     }
   ]
 }

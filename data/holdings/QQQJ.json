@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SNDK",
-      "weight": 0.0460895
-    },
-    {
-      "symbol": "TER",
-      "weight": 0.024809001
+      "weight": 0.042125802
     },
     {
       "symbol": "LITE",
-      "weight": 0.0245876
+      "weight": 0.0265877
+    },
+    {
+      "symbol": "TER",
+      "weight": 0.0245943
     },
     {
       "symbol": "EBAY",
-      "weight": 0.020323401
-    },
-    {
-      "symbol": "KMB",
-      "weight": 0.018303601
+      "weight": 0.0216081
     },
     {
       "symbol": "ESLT.TA",
-      "weight": 0.0176486
+      "weight": 0.0208551
     },
     {
-      "symbol": "UAL",
-      "weight": 0.0170303
-    },
-    {
-      "symbol": "FISV",
-      "weight": 0.0167557
-    },
-    {
-      "symbol": "FTAI",
-      "weight": 0.015519001
+      "symbol": "KMB",
+      "weight": 0.0169678
     },
     {
       "symbol": "CRWV",
-      "weight": 0.0152141
+      "weight": 0.015862599
+    },
+    {
+      "symbol": "FISV",
+      "weight": 0.015793001
+    },
+    {
+      "symbol": "UAL",
+      "weight": 0.0157798
+    },
+    {
+      "symbol": "NTRA",
+      "weight": 0.0150204
     }
   ]
 }

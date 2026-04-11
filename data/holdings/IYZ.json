@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "CSCO",
-      "weight": 0.1865384
+      "weight": 0.1914469
     },
     {
       "symbol": "VZ",
-      "weight": 0.1307623
+      "weight": 0.1345572
     },
     {
       "symbol": "T",
-      "weight": 0.119538896
-    },
-    {
-      "symbol": "LITE",
-      "weight": 0.0567744
+      "weight": 0.1284854
     },
     {
       "symbol": "CIEN",
-      "weight": 0.0473813
-    },
-    {
-      "symbol": "MSI",
-      "weight": 0.0427939
-    },
-    {
-      "symbol": "CMCSA",
-      "weight": 0.040778898
-    },
-    {
-      "symbol": "TIGO",
-      "weight": 0.040373903
-    },
-    {
-      "symbol": "ANET",
-      "weight": 0.0400003
+      "weight": 0.0424932
     },
     {
       "symbol": "TMUS",
-      "weight": 0.039815098
+      "weight": 0.0409972
+    },
+    {
+      "symbol": "ANET",
+      "weight": 0.0398752
+    },
+    {
+      "symbol": "CMCSA",
+      "weight": 0.0392566
+    },
+    {
+      "symbol": "LITE",
+      "weight": 0.0388664
+    },
+    {
+      "symbol": "IRDM",
+      "weight": 0.0374718
+    },
+    {
+      "symbol": "MSI",
+      "weight": 0.0371263
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "RSP",
   "holdings": [
     {
-      "symbol": "SNDK",
-      "weight": 0.0051279003
+      "symbol": "APA",
+      "weight": 0.0026205
     },
     {
-      "symbol": "MRNA",
-      "weight": 0.0034628
+      "symbol": "DOW",
+      "weight": 0.002467
     },
     {
-      "symbol": "TPL",
-      "weight": 0.0033133
+      "symbol": "LYB",
+      "weight": 0.0024343
     },
     {
-      "symbol": "GLW",
-      "weight": 0.0029960999
+      "symbol": "OXY",
+      "weight": 0.0023806
     },
     {
-      "symbol": "TER",
-      "weight": 0.0029425002
+      "symbol": "CIEN",
+      "weight": 0.0023258
     },
     {
-      "symbol": "MU",
-      "weight": 0.0029383001
+      "symbol": "COP",
+      "weight": 0.0022958
     },
     {
-      "symbol": "WDC",
-      "weight": 0.0028836
+      "symbol": "DAL",
+      "weight": 0.0022882998
     },
     {
-      "symbol": "Q",
-      "weight": 0.0027584
+      "symbol": "CTRA",
+      "weight": 0.0022819
     },
     {
-      "symbol": "FCX",
-      "weight": 0.0027552
+      "symbol": "FANG",
+      "weight": 0.0022793
     },
     {
-      "symbol": "KEYS",
-      "weight": 0.00271
+      "symbol": "XOM",
+      "weight": 0.0022787
     }
   ]
 }

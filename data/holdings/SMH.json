@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "NVDA",
-      "weight": 0.1773397
+      "weight": 0.1967377
     },
     {
       "symbol": "TSM",
-      "weight": 0.1144209
+      "weight": 0.1172678
     },
     {
       "symbol": "AVGO",
-      "weight": 0.0690207
-    },
-    {
-      "symbol": "MU",
-      "weight": 0.064715296
+      "weight": 0.0781417
     },
     {
       "symbol": "ASML",
-      "weight": 0.0595933
+      "weight": 0.050095
     },
     {
-      "symbol": "LRCX",
-      "weight": 0.0575278
-    },
-    {
-      "symbol": "AMAT",
-      "weight": 0.0559981
-    },
-    {
-      "symbol": "KLAC",
-      "weight": 0.050928503
+      "symbol": "AMD",
+      "weight": 0.0477172
     },
     {
       "symbol": "ADI",
-      "weight": 0.049693197
+      "weight": 0.0473392
+    },
+    {
+      "symbol": "KLAC",
+      "weight": 0.0470508
     },
     {
       "symbol": "TXN",
-      "weight": 0.0483199
+      "weight": 0.046782598
+    },
+    {
+      "symbol": "AMAT",
+      "weight": 0.0458873
+    },
+    {
+      "symbol": "LRCX",
+      "weight": 0.045542203
     }
   ]
 }

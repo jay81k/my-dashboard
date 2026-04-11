@@ -2,44 +2,44 @@
   "symbol": "IJH",
   "holdings": [
     {
-      "symbol": "LITE",
-      "weight": 0.0143783
-    },
-    {
-      "symbol": "COHR",
-      "weight": 0.0117731
-    },
-    {
       "symbol": "FTI",
-      "weight": 0.0077608
-    },
-    {
-      "symbol": "CW",
-      "weight": 0.007472
+      "weight": 0.0087382
     },
     {
       "symbol": "CASY",
-      "weight": 0.0073756
+      "weight": 0.0084304
     },
     {
-      "symbol": "XPO",
-      "weight": 0.0071481
+      "symbol": "UTHR",
+      "weight": 0.0079783
     },
     {
-      "symbol": "RGLD",
-      "weight": 0.0070276
+      "symbol": "CW",
+      "weight": 0.007847399
     },
     {
       "symbol": "FLEX",
-      "weight": 0.0067425002
+      "weight": 0.0075207
+    },
+    {
+      "symbol": "XPO",
+      "weight": 0.0071215997
     },
     {
       "symbol": "WWD",
-      "weight": 0.0067101
+      "weight": 0.0066676997
     },
     {
-      "symbol": "ATI",
-      "weight": 0.0064305
+      "symbol": "RGLD",
+      "weight": 0.006443
+    },
+    {
+      "symbol": "USFD",
+      "weight": 0.0063546
+    },
+    {
+      "symbol": "BURL",
+      "weight": 0.0063221995
     }
   ]
 }

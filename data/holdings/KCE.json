@@ -2,44 +2,44 @@
   "symbol": "KCE",
   "holdings": [
     {
-      "symbol": "WT",
-      "weight": 0.0247052
-    },
-    {
       "symbol": "SNEX",
-      "weight": 0.022149898
-    },
-    {
-      "symbol": "CBOE",
-      "weight": 0.0202958
-    },
-    {
-      "symbol": "CME",
-      "weight": 0.0202197
+      "weight": 0.0180552
     },
     {
       "symbol": "VIRT",
-      "weight": 0.0195327
+      "weight": 0.0173814
     },
     {
-      "symbol": "TW",
-      "weight": 0.0194545
-    },
-    {
-      "symbol": "BEN",
-      "weight": 0.0192069
-    },
-    {
-      "symbol": "JHG",
-      "weight": 0.0191643
+      "symbol": "PWP",
+      "weight": 0.0172888
     },
     {
       "symbol": "AAMI",
-      "weight": 0.0188859
+      "weight": 0.0172131
     },
     {
-      "symbol": "MKTX",
-      "weight": 0.018514499
+      "symbol": "BX",
+      "weight": 0.017201
+    },
+    {
+      "symbol": "BGC",
+      "weight": 0.0171311
+    },
+    {
+      "symbol": "KKR",
+      "weight": 0.017045401
+    },
+    {
+      "symbol": "JEF",
+      "weight": 0.0170295
+    },
+    {
+      "symbol": "FDS",
+      "weight": 0.0169397
+    },
+    {
+      "symbol": "PIPR",
+      "weight": 0.0168634
     }
   ]
 }

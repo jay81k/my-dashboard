@@ -2,44 +2,44 @@
   "symbol": "PEJ",
   "holdings": [
     {
-      "symbol": "LYV",
-      "weight": 0.059749298
+      "symbol": "EXPE",
+      "weight": 0.0610075
     },
     {
-      "symbol": "WBD",
-      "weight": 0.0570403
-    },
-    {
-      "symbol": "SYY",
-      "weight": 0.056480497
-    },
-    {
-      "symbol": "HLT",
-      "weight": 0.052600697
-    },
-    {
-      "symbol": "UAL",
-      "weight": 0.0514563
-    },
-    {
-      "symbol": "DASH",
-      "weight": 0.0434298
-    },
-    {
-      "symbol": "UBER",
-      "weight": 0.0417165
+      "symbol": "ABNB",
+      "weight": 0.0526057
     },
     {
       "symbol": "LVS",
-      "weight": 0.0399737
+      "weight": 0.0512354
     },
     {
-      "symbol": "SPHR",
-      "weight": 0.0385416
+      "symbol": "MAR",
+      "weight": 0.0498914
     },
     {
-      "symbol": "BH",
-      "weight": 0.0341027
+      "symbol": "RCL",
+      "weight": 0.045513302
+    },
+    {
+      "symbol": "CCL",
+      "weight": 0.0428585
+    },
+    {
+      "symbol": "UAL",
+      "weight": 0.042807102
+    },
+    {
+      "symbol": "SYY",
+      "weight": 0.0415486
+    },
+    {
+      "symbol": "VSNT",
+      "weight": 0.0354122
+    },
+    {
+      "symbol": "LION",
+      "weight": 0.033312198
     }
   ]
 }

@@ -3,15 +3,15 @@
   "holdings": [
     {
       "symbol": "AGPXX",
-      "weight": 0.2920466
+      "weight": 0.4169493
+    },
+    {
+      "symbol": "BRNQ26",
+      "weight": 0.0911039
     },
     {
       "symbol": "TBLL",
-      "weight": 0.0793296
-    },
-    {
-      "symbol": "BRNN26",
-      "weight": 0.0688061
+      "weight": 0.067755
     }
   ]
 }
