@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "GSAT",
-      "weight": 0.0384809
+      "weight": 0.0384852
     },
     {
       "symbol": "CIEN",
-      "weight": 0.0381097
+      "weight": 0.0381139
     },
     {
       "symbol": "IRDM",
-      "weight": 0.0373196
+      "weight": 0.0373238
     },
     {
       "symbol": "VIAV",
-      "weight": 0.036901902
+      "weight": 0.036906
     },
     {
       "symbol": "T",
-      "weight": 0.035613
+      "weight": 0.035617
     },
     {
       "symbol": "LITE",
-      "weight": 0.0348997
+      "weight": 0.0349036
     },
     {
       "symbol": "LUMN",
-      "weight": 0.0348698
+      "weight": 0.0348737
     },
     {
       "symbol": "UI",
-      "weight": 0.0344333
+      "weight": 0.0344371
     },
     {
       "symbol": "VISN",
-      "weight": 0.0341914
+      "weight": 0.0341952
     },
     {
       "symbol": "EXTR",
-      "weight": 0.0337573
+      "weight": 0.033761002
     }
   ]
 }
