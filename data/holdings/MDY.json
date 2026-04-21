@@ -2,44 +2,44 @@
   "symbol": "MDY",
   "holdings": [
     {
-      "symbol": "LITE",
-      "weight": 0.014400001
-    },
-    {
-      "symbol": "COHR",
-      "weight": 0.0117913
-    },
-    {
       "symbol": "FTI",
-      "weight": 0.0077727004
-    },
-    {
-      "symbol": "CW",
-      "weight": 0.0074831997
+      "weight": 0.0087593
     },
     {
       "symbol": "CASY",
-      "weight": 0.0073865
+      "weight": 0.008450899
     },
     {
-      "symbol": "XPO",
-      "weight": 0.0071590003
+      "symbol": "UTHR",
+      "weight": 0.0079974
     },
     {
-      "symbol": "RGLD",
-      "weight": 0.0070384
+      "symbol": "CW",
+      "weight": 0.0078661
     },
     {
       "symbol": "FLEX",
-      "weight": 0.0067527997
+      "weight": 0.0075388
+    },
+    {
+      "symbol": "XPO",
+      "weight": 0.0071388
     },
     {
       "symbol": "WWD",
-      "weight": 0.0067205
+      "weight": 0.0066835
     },
     {
-      "symbol": "ATI",
-      "weight": 0.0064403997
+      "symbol": "RGLD",
+      "weight": 0.0064586
+    },
+    {
+      "symbol": "USFD",
+      "weight": 0.0063699
+    },
+    {
+      "symbol": "BURL",
+      "weight": 0.0063373
     }
   ]
 }
