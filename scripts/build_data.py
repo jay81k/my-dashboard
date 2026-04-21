@@ -233,6 +233,8 @@ def get_stock_data(ticker_symbol, spy_history=None):
         today_high = hist["High"].iloc[-1]
         today_low  = hist["Low"].iloc[-1]
         cr = ((current_close - today_low) / (today_high - today_low) * 100) if (today_high - today_low) > 0 else None
+        if cr is not None:
+            cr = max(0.0, min(100.0, cr))
 
         adr = calculate_adr(hist)
         adr_pct = (adr / current_close) * 100 if adr and current_close else None
