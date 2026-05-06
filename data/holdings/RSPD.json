@@ -2,44 +2,44 @@
   "symbol": "RSPD",
   "holdings": [
     {
-      "symbol": "HLT",
-      "weight": 0.0221266
-    },
-    {
-      "symbol": "MGM",
-      "weight": 0.0220293
-    },
-    {
-      "symbol": "ROST",
-      "weight": 0.0219777
-    },
-    {
-      "symbol": "BBY",
-      "weight": 0.021958899
-    },
-    {
       "symbol": "CVNA",
-      "weight": 0.0219363
+      "weight": 0.0266853
     },
     {
-      "symbol": "WYNN",
-      "weight": 0.021921799
+      "symbol": "AMZN",
+      "weight": 0.026010498
     },
     {
-      "symbol": "RL",
-      "weight": 0.0219187
-    },
-    {
-      "symbol": "TJX",
-      "weight": 0.0218467
-    },
-    {
-      "symbol": "EXPE",
-      "weight": 0.021647999
+      "symbol": "EBAY",
+      "weight": 0.0235573
     },
     {
       "symbol": "MAR",
-      "weight": 0.0216387
+      "weight": 0.0231212
+    },
+    {
+      "symbol": "HLT",
+      "weight": 0.0227862
+    },
+    {
+      "symbol": "DHI",
+      "weight": 0.0225081
+    },
+    {
+      "symbol": "EXPE",
+      "weight": 0.0225014
+    },
+    {
+      "symbol": "MGM",
+      "weight": 0.022396801
+    },
+    {
+      "symbol": "WYNN",
+      "weight": 0.022342801
+    },
+    {
+      "symbol": "ROST",
+      "weight": 0.0223302
     }
   ]
 }

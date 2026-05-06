@@ -2,44 +2,44 @@
   "symbol": "RSPN",
   "holdings": [
     {
-      "symbol": "DAL",
-      "weight": 0.0148329
+      "symbol": "FIX",
+      "weight": 0.016184501
     },
     {
-      "symbol": "ODFL",
-      "weight": 0.0136584
+      "symbol": "PWR",
+      "weight": 0.015863
     },
     {
       "symbol": "GEV",
-      "weight": 0.0135869
+      "weight": 0.015823
     },
     {
-      "symbol": "HUBB",
-      "weight": 0.0135466
+      "symbol": "CAT",
+      "weight": 0.015560401
     },
     {
       "symbol": "EME",
-      "weight": 0.0135217
+      "weight": 0.015309201
     },
     {
-      "symbol": "CSX",
-      "weight": 0.013427401
+      "symbol": "URI",
+      "weight": 0.0152117
     },
     {
-      "symbol": "EXPD",
-      "weight": 0.013421901
+      "symbol": "VRT",
+      "weight": 0.0151169
     },
     {
-      "symbol": "WAB",
-      "weight": 0.0134059
+      "symbol": "GNRC",
+      "weight": 0.015102901
     },
     {
-      "symbol": "UAL",
-      "weight": 0.0133972
+      "symbol": "ETN",
+      "weight": 0.0150552
     },
     {
-      "symbol": "JBHT",
-      "weight": 0.013292001
+      "symbol": "CMI",
+      "weight": 0.0149253
     }
   ]
 }

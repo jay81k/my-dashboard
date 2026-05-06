@@ -2,44 +2,44 @@
   "symbol": "RSPH",
   "holdings": [
     {
-      "symbol": "WST",
-      "weight": 0.0184396
-    },
-    {
-      "symbol": "MRK",
-      "weight": 0.0181428
-    },
-    {
-      "symbol": "PFE",
-      "weight": 0.0180285
-    },
-    {
-      "symbol": "MTD",
-      "weight": 0.0179888
-    },
-    {
-      "symbol": "CI",
-      "weight": 0.017923
-    },
-    {
-      "symbol": "CRL",
-      "weight": 0.017900601
+      "symbol": "CNC",
+      "weight": 0.0264847
     },
     {
       "symbol": "HUM",
-      "weight": 0.017778
+      "weight": 0.0244583
     },
     {
-      "symbol": "BMY",
-      "weight": 0.0177234
+      "symbol": "UNH",
+      "weight": 0.0229719
     },
     {
       "symbol": "ELV",
-      "weight": 0.0177071
+      "weight": 0.0229675
     },
     {
-      "symbol": "JNJ",
-      "weight": 0.017632
+      "symbol": "WST",
+      "weight": 0.0220874
+    },
+    {
+      "symbol": "CI",
+      "weight": 0.019696899
+    },
+    {
+      "symbol": "CVS",
+      "weight": 0.019458
+    },
+    {
+      "symbol": "VTRS",
+      "weight": 0.0189167
+    },
+    {
+      "symbol": "MTD",
+      "weight": 0.018405499
+    },
+    {
+      "symbol": "WAT",
+      "weight": 0.0183858
     }
   ]
 }

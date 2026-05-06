@@ -3,19 +3,27 @@
   "holdings": [
     {
       "symbol": "XBOX",
-      "weight": 0.0897161
-    },
-    {
-      "symbol": "NVDA",
-      "weight": 0.0542453
-    },
-    {
-      "symbol": "AAPL",
-      "weight": 0.05373
+      "weight": 0.078015
     },
     {
       "symbol": "AMZN",
-      "weight": 0.0526341
+      "weight": 0.062738396
+    },
+    {
+      "symbol": "NVDA",
+      "weight": 0.056742802
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.0551506
+    },
+    {
+      "symbol": "MSFT",
+      "weight": 0.0543607
+    },
+    {
+      "symbol": "META",
+      "weight": 0.053123
     }
   ]
 }

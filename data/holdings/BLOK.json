@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "WULF",
-      "weight": 0.0349956
-    },
-    {
-      "symbol": "GLXY",
-      "weight": 0.0341397
-    },
-    {
-      "symbol": "NU",
-      "weight": 0.0334525
+      "weight": 0.039829098
     },
     {
       "symbol": "HUT",
-      "weight": 0.0328306
+      "weight": 0.0394866
+    },
+    {
+      "symbol": "GLXY",
+      "weight": 0.0392222
     },
     {
       "symbol": "CIFR",
-      "weight": 0.0323188
-    },
-    {
-      "symbol": "COIN",
-      "weight": 0.0320108
-    },
-    {
-      "symbol": "HOOD",
-      "weight": 0.030660998
-    },
-    {
-      "symbol": "IBM",
-      "weight": 0.0296658
+      "weight": 0.0374627
     },
     {
       "symbol": "OPRA",
-      "weight": 0.029321201
+      "weight": 0.030692302
+    },
+    {
+      "symbol": "CORZ",
+      "weight": 0.0290429
+    },
+    {
+      "symbol": "COIN",
+      "weight": 0.028948199
+    },
+    {
+      "symbol": "NU",
+      "weight": 0.0283471
     },
     {
       "symbol": "8473.T",
-      "weight": 0.029047001
+      "weight": 0.0274566
+    },
+    {
+      "symbol": "BBBY",
+      "weight": 0.027437799
     }
   ]
 }

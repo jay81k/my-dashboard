@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "CAR",
-      "weight": 0.0362996
+      "weight": 0.0400157
     },
     {
       "symbol": "RXO",
-      "weight": 0.0289675
-    },
-    {
-      "symbol": "DAL",
-      "weight": 0.0283088
-    },
-    {
-      "symbol": "LSTR",
-      "weight": 0.027152099
+      "weight": 0.035228
     },
     {
       "symbol": "ARCB",
-      "weight": 0.02695
+      "weight": 0.0311277
     },
     {
-      "symbol": "MATX",
-      "weight": 0.0268183
+      "symbol": "SAIA",
+      "weight": 0.029417802
     },
     {
       "symbol": "R",
-      "weight": 0.0264975
+      "weight": 0.0291949
     },
     {
-      "symbol": "KEX",
-      "weight": 0.026491301
+      "symbol": "WERN",
+      "weight": 0.027931299
+    },
+    {
+      "symbol": "LSTR",
+      "weight": 0.0277351
     },
     {
       "symbol": "SNDR",
-      "weight": 0.026405102
+      "weight": 0.0277247
     },
     {
-      "symbol": "ODFL",
-      "weight": 0.0260659
+      "symbol": "JBHT",
+      "weight": 0.026814101
+    },
+    {
+      "symbol": "KEX",
+      "weight": 0.0266975
     }
   ]
 }

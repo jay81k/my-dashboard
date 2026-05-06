@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "META",
-      "weight": 0.1816654
+      "weight": 0.1348695
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.1063334
+      "weight": 0.0987704
     },
     {
       "symbol": "GOOG",
-      "weight": 0.0852071
+      "weight": 0.0787504
     },
     {
-      "symbol": "NFLX",
-      "weight": 0.0589354
-    },
-    {
-      "symbol": "T",
-      "weight": 0.0503653
-    },
-    {
-      "symbol": "EA",
-      "weight": 0.0481178
-    },
-    {
-      "symbol": "VZ",
-      "weight": 0.0467391
-    },
-    {
-      "symbol": "WBD",
-      "weight": 0.0465921
-    },
-    {
-      "symbol": "TMUS",
-      "weight": 0.0464318
+      "symbol": "TTWO",
+      "weight": 0.0462253
     },
     {
       "symbol": "DIS",
-      "weight": 0.045076597
+      "weight": 0.0459277
+    },
+    {
+      "symbol": "LYV",
+      "weight": 0.0443507
+    },
+    {
+      "symbol": "SATS",
+      "weight": 0.0437528
+    },
+    {
+      "symbol": "OMC",
+      "weight": 0.0425293
+    },
+    {
+      "symbol": "NFLX",
+      "weight": 0.042040702
+    },
+    {
+      "symbol": "EA",
+      "weight": 0.041711997
     }
   ]
 }

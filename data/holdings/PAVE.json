@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PWR",
-      "weight": 0.035712
-    },
-    {
-      "symbol": "CSX",
-      "weight": 0.0349463
-    },
-    {
-      "symbol": "SRE",
-      "weight": 0.0345189
-    },
-    {
-      "symbol": "DE",
-      "weight": 0.032867998
+      "weight": 0.0423145
     },
     {
       "symbol": "ETN",
-      "weight": 0.0326491
+      "weight": 0.0353249
+    },
+    {
+      "symbol": "CSX",
+      "weight": 0.0345724
     },
     {
       "symbol": "TT",
-      "weight": 0.0325471
-    },
-    {
-      "symbol": "HWM",
-      "weight": 0.0322798
+      "weight": 0.0343927
     },
     {
       "symbol": "UNP",
-      "weight": 0.0319372
+      "weight": 0.031710602
     },
     {
-      "symbol": "FAST",
-      "weight": 0.0315662
+      "symbol": "DE",
+      "weight": 0.030776
+    },
+    {
+      "symbol": "HWM",
+      "weight": 0.030428
+    },
+    {
+      "symbol": "SRE",
+      "weight": 0.0302075
     },
     {
       "symbol": "NSC",
-      "weight": 0.030255599
+      "weight": 0.0297684
+    },
+    {
+      "symbol": "NUE",
+      "weight": 0.0276227
     }
   ]
 }

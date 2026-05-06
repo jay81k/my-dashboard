@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "AVGO",
-      "weight": 0.0680563
-    },
-    {
-      "symbol": "PANW",
-      "weight": 0.0582581
+      "weight": 0.08731049
     },
     {
       "symbol": "CSCO",
-      "weight": 0.0579172
+      "weight": 0.0649698
     },
     {
-      "symbol": "NET",
-      "weight": 0.057649
+      "symbol": "PANW",
+      "weight": 0.061985
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0547796
+      "weight": 0.0594944
     },
     {
-      "symbol": "FSLY",
-      "weight": 0.0545014
-    },
-    {
-      "symbol": "GD",
-      "weight": 0.0500693
+      "symbol": "NET",
+      "weight": 0.0544741
     },
     {
       "symbol": "FTNT",
-      "weight": 0.0500239
+      "weight": 0.0490928
     },
     {
-      "symbol": "NOC",
-      "weight": 0.0491208
+      "symbol": "FFIV",
+      "weight": 0.0478297
     },
     {
-      "symbol": "OKTA",
-      "weight": 0.0449848
+      "symbol": "GD",
+      "weight": 0.0477776
+    },
+    {
+      "symbol": "FSLY",
+      "weight": 0.045055497
+    },
+    {
+      "symbol": "ATEN",
+      "weight": 0.0427818
     }
   ]
 }

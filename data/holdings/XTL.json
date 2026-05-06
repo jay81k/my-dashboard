@@ -2,44 +2,44 @@
   "symbol": "XTL",
   "holdings": [
     {
-      "symbol": "GSAT",
-      "weight": 0.0384852
-    },
-    {
-      "symbol": "CIEN",
-      "weight": 0.0381139
+      "symbol": "VIAV",
+      "weight": 0.0494052
     },
     {
       "symbol": "IRDM",
-      "weight": 0.0373238
+      "weight": 0.0446947
     },
     {
-      "symbol": "VIAV",
-      "weight": 0.036906
-    },
-    {
-      "symbol": "T",
-      "weight": 0.035617
-    },
-    {
-      "symbol": "LITE",
-      "weight": 0.0349036
-    },
-    {
-      "symbol": "LUMN",
-      "weight": 0.0348737
-    },
-    {
-      "symbol": "UI",
-      "weight": 0.0344371
-    },
-    {
-      "symbol": "VISN",
-      "weight": 0.0341952
+      "symbol": "CIEN",
+      "weight": 0.044029
     },
     {
       "symbol": "EXTR",
-      "weight": 0.033761002
+      "weight": 0.0420477
+    },
+    {
+      "symbol": "GSAT",
+      "weight": 0.040542997
+    },
+    {
+      "symbol": "VSAT",
+      "weight": 0.040307898
+    },
+    {
+      "symbol": "LITE",
+      "weight": 0.0380941
+    },
+    {
+      "symbol": "LUMN",
+      "weight": 0.0377133
+    },
+    {
+      "symbol": "UI",
+      "weight": 0.0374889
+    },
+    {
+      "symbol": "AAOI",
+      "weight": 0.036713
     }
   ]
 }

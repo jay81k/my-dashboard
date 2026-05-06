@@ -2,44 +2,44 @@
   "symbol": "AIQ",
   "holdings": [
     {
-      "symbol": "NFLX",
-      "weight": 0.0395258
+      "symbol": "000660.KS",
+      "weight": 0.048165597
+    },
+    {
+      "symbol": "INTC",
+      "weight": 0.041592598
     },
     {
       "symbol": "005930.KS",
-      "weight": 0.0361787
+      "weight": 0.040938802
     },
     {
-      "symbol": "CSCO",
-      "weight": 0.0358467
+      "symbol": "AMD",
+      "weight": 0.0398686
     },
     {
-      "symbol": "TSM",
-      "weight": 0.0354457
-    },
-    {
-      "symbol": "000660.KS",
-      "weight": 0.035227
-    },
-    {
-      "symbol": "AAPL",
-      "weight": 0.0350951
+      "symbol": "MU",
+      "weight": 0.0371176
     },
     {
       "symbol": "AVGO",
-      "weight": 0.0326588
+      "weight": 0.0365962
     },
     {
-      "symbol": "NVDA",
-      "weight": 0.0324032
+      "symbol": "CSCO",
+      "weight": 0.0351253
+    },
+    {
+      "symbol": "TSM",
+      "weight": 0.0345188
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.0332186
     },
     {
       "symbol": "AMZN",
-      "weight": 0.0305237
-    },
-    {
-      "symbol": "META",
-      "weight": 0.030327402
+      "weight": 0.0322764
     }
   ]
 }

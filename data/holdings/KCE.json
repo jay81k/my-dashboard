@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SNEX",
-      "weight": 0.0180552
-    },
-    {
-      "symbol": "VIRT",
-      "weight": 0.0173814
+      "weight": 0.021554101
     },
     {
       "symbol": "PWP",
-      "weight": 0.0172888
+      "weight": 0.0196693
     },
     {
       "symbol": "AAMI",
-      "weight": 0.0172131
+      "weight": 0.0192819
     },
     {
-      "symbol": "BX",
-      "weight": 0.017201
-    },
-    {
-      "symbol": "BGC",
-      "weight": 0.0171311
-    },
-    {
-      "symbol": "KKR",
-      "weight": 0.017045401
+      "symbol": "GLXY",
+      "weight": 0.0184887
     },
     {
       "symbol": "JEF",
-      "weight": 0.0170295
+      "weight": 0.018083101
     },
     {
-      "symbol": "FDS",
-      "weight": 0.0169397
+      "symbol": "BGC",
+      "weight": 0.017873
+    },
+    {
+      "symbol": "VIRT",
+      "weight": 0.0178289
+    },
+    {
+      "symbol": "STT",
+      "weight": 0.0175454
     },
     {
       "symbol": "PIPR",
-      "weight": 0.0168634
+      "weight": 0.0174551
+    },
+    {
+      "symbol": "KKR",
+      "weight": 0.0174032
     }
   ]
 }

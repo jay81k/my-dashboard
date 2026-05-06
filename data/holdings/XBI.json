@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "APLS",
-      "weight": 0.018345
+      "weight": 0.0186512
     },
     {
-      "symbol": "ALKS",
-      "weight": 0.0145091
+      "symbol": "RVMD",
+      "weight": 0.0164747
     },
     {
-      "symbol": "MDGL",
-      "weight": 0.0138247
+      "symbol": "TVTX",
+      "weight": 0.016204601
     },
     {
-      "symbol": "TGTX",
-      "weight": 0.0134947
+      "symbol": "ARWR",
+      "weight": 0.014397699
     },
     {
-      "symbol": "INSM",
-      "weight": 0.0133673
-    },
-    {
-      "symbol": "SRRK",
-      "weight": 0.0129724005
-    },
-    {
-      "symbol": "APGE",
-      "weight": 0.0128422
-    },
-    {
-      "symbol": "PTGX",
-      "weight": 0.012448
+      "symbol": "TWST",
+      "weight": 0.0141993
     },
     {
       "symbol": "SMMT",
-      "weight": 0.0124097
+      "weight": 0.0140325
     },
     {
-      "symbol": "UTHR",
-      "weight": 0.012405
+      "symbol": "ALKS",
+      "weight": 0.0138196
+    },
+    {
+      "symbol": "TGTX",
+      "weight": 0.013710001
+    },
+    {
+      "symbol": "MDGL",
+      "weight": 0.0136475
+    },
+    {
+      "symbol": "BEAM",
+      "weight": 0.0132399
     }
   ]
 }

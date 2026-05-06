@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "NEE",
-      "weight": 0.1356827
+      "weight": 0.13995309
     },
     {
       "symbol": "SO",
-      "weight": 0.0745488
+      "weight": 0.073102005
     },
     {
       "symbol": "DUK",
-      "weight": 0.0714263
+      "weight": 0.0691689
     },
     {
       "symbol": "CEG",
-      "weight": 0.061040703
+      "weight": 0.0669678
     },
     {
       "symbol": "AEP",
-      "weight": 0.0497298
+      "weight": 0.0509132
     },
     {
       "symbol": "SRE",
-      "weight": 0.0444868
+      "weight": 0.042624604
     },
     {
       "symbol": "D",
-      "weight": 0.0370286
+      "weight": 0.0378147
     },
     {
       "symbol": "ETR",
-      "weight": 0.0356508
-    },
-    {
-      "symbol": "EXC",
-      "weight": 0.0351722
+      "weight": 0.036617402
     },
     {
       "symbol": "VST",
-      "weight": 0.0335847
+      "weight": 0.0345121
+    },
+    {
+      "symbol": "XEL",
+      "weight": 0.033687502
     }
   ]
 }

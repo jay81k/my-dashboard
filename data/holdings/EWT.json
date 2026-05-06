@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "2330.TW",
-      "weight": 0.2156193
+      "weight": 0.2099024
     },
     {
       "symbol": "2308.TW",
-      "weight": 0.0475031
-    },
-    {
-      "symbol": "2317.TW",
-      "weight": 0.0393087
+      "weight": 0.0587336
     },
     {
       "symbol": "2454.TW",
-      "weight": 0.0387977
+      "weight": 0.0528316
     },
     {
-      "symbol": "3711.TW",
-      "weight": 0.0230684
+      "symbol": "2317.TW",
+      "weight": 0.0370905
     },
     {
       "symbol": "2383.TW",
-      "weight": 0.020651199
+      "weight": 0.0279039
     },
     {
-      "symbol": "2345.TW",
-      "weight": 0.020373099
-    },
-    {
-      "symbol": "2891.TW",
-      "weight": 0.0181948
+      "symbol": "3711.TW",
+      "weight": 0.026942698
     },
     {
       "symbol": "3037.TW",
-      "weight": 0.0181727
+      "weight": 0.0243343
+    },
+    {
+      "symbol": "2345.TW",
+      "weight": 0.0234825
     },
     {
       "symbol": "3017.TW",
-      "weight": 0.0173419
+      "weight": 0.0194413
+    },
+    {
+      "symbol": "2891.TW",
+      "weight": 0.0147979
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "ARKG",
   "holdings": [
     {
-      "symbol": "CRSP",
-      "weight": 0.0921204
+      "symbol": "TEM",
+      "weight": 0.0944802
     },
     {
       "symbol": "TWST",
-      "weight": 0.090399906
+      "weight": 0.090150006
     },
     {
-      "symbol": "TEM",
-      "weight": 0.087013505
+      "symbol": "CRSP",
+      "weight": 0.089356005
     },
     {
       "symbol": "TXG",
-      "weight": 0.062929004
+      "weight": 0.0578439
     },
     {
       "symbol": "BEAM",
-      "weight": 0.048526403
+      "weight": 0.0544493
     },
     {
-      "symbol": "PSNL",
-      "weight": 0.0468293
+      "symbol": "ABSI",
+      "weight": 0.0479485
     },
     {
       "symbol": "NTRA",
-      "weight": 0.044699203
+      "weight": 0.0407753
     },
     {
       "symbol": "ILMN",
-      "weight": 0.044395197
-    },
-    {
-      "symbol": "GH",
-      "weight": 0.0420139
+      "weight": 0.0404044
     },
     {
       "symbol": "NTLA",
-      "weight": 0.035724398
+      "weight": 0.0382705
+    },
+    {
+      "symbol": "PSNL",
+      "weight": 0.0359144
     }
   ]
 }

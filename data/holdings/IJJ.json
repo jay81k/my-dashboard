@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "USFD",
-      "weight": 0.012965601
-    },
-    {
-      "symbol": "AA",
-      "weight": 0.010945
-    },
-    {
-      "symbol": "OVV",
-      "weight": 0.010501799
+      "weight": 0.0122568
     },
     {
       "symbol": "RS",
-      "weight": 0.010125901
+      "weight": 0.0112727
     },
     {
-      "symbol": "PR",
-      "weight": 0.0100577
+      "symbol": "SNX",
+      "weight": 0.0101761995
     },
     {
-      "symbol": "NLY",
-      "weight": 0.0096814
-    },
-    {
-      "symbol": "JLL",
-      "weight": 0.0091553
-    },
-    {
-      "symbol": "PFGC",
-      "weight": 0.0085765
-    },
-    {
-      "symbol": "RGA",
-      "weight": 0.0085491
+      "symbol": "OVV",
+      "weight": 0.0101624
     },
     {
       "symbol": "WCC",
-      "weight": 0.0084812
+      "weight": 0.0101143
+    },
+    {
+      "symbol": "AA",
+      "weight": 0.0098209
+    },
+    {
+      "symbol": "NLY",
+      "weight": 0.0097818
+    },
+    {
+      "symbol": "PR",
+      "weight": 0.0095184
+    },
+    {
+      "symbol": "WSO",
+      "weight": 0.0090892
+    },
+    {
+      "symbol": "JLL",
+      "weight": 0.0089219
     }
   ]
 }

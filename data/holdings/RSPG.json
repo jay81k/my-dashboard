@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "APA",
-      "weight": 0.054440998
+      "weight": 0.0522504
     },
     {
-      "symbol": "OXY",
-      "weight": 0.049461197
+      "symbol": "BKR",
+      "weight": 0.0499702
     },
     {
-      "symbol": "COP",
-      "weight": 0.0477057
-    },
-    {
-      "symbol": "CTRA",
-      "weight": 0.047406804
-    },
-    {
-      "symbol": "FANG",
-      "weight": 0.0473562
-    },
-    {
-      "symbol": "XOM",
-      "weight": 0.047335602
-    },
-    {
-      "symbol": "DVN",
-      "weight": 0.0469186
-    },
-    {
-      "symbol": "EOG",
-      "weight": 0.0461408
+      "symbol": "SLB",
+      "weight": 0.0499434
     },
     {
       "symbol": "HAL",
-      "weight": 0.045896
+      "weight": 0.0497937
     },
     {
-      "symbol": "CVX",
-      "weight": 0.0456229
+      "symbol": "FANG",
+      "weight": 0.0492367
+    },
+    {
+      "symbol": "CTRA",
+      "weight": 0.0484475
+    },
+    {
+      "symbol": "DVN",
+      "weight": 0.047899097
+    },
+    {
+      "symbol": "TRGP",
+      "weight": 0.046508297
+    },
+    {
+      "symbol": "MPC",
+      "weight": 0.046314802
+    },
+    {
+      "symbol": "VLO",
+      "weight": 0.0462364
     }
   ]
 }

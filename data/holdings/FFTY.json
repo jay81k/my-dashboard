@@ -2,44 +2,44 @@
   "symbol": "FFTY",
   "holdings": [
     {
-      "symbol": "VIST",
-      "weight": 0.0391167
-    },
-    {
-      "symbol": "OET.OL",
-      "weight": 0.0386113
-    },
-    {
-      "symbol": "ECG",
-      "weight": 0.0354033
-    },
-    {
-      "symbol": "FIX",
-      "weight": 0.0346833
-    },
-    {
-      "symbol": "MOD",
-      "weight": 0.0343987
+      "symbol": "ANAB",
+      "weight": 0.0418259
     },
     {
       "symbol": "VRT",
-      "weight": 0.0335443
+      "weight": 0.0366816
     },
     {
-      "symbol": "KNSA",
-      "weight": 0.0332858
+      "symbol": "FIX",
+      "weight": 0.0363689
+    },
+    {
+      "symbol": "MU",
+      "weight": 0.036152698
     },
     {
       "symbol": "STRL",
-      "weight": 0.0332432
+      "weight": 0.0360156
     },
     {
-      "symbol": "SII.TO",
-      "weight": 0.0324996
+      "symbol": "APLD",
+      "weight": 0.0359881
+    },
+    {
+      "symbol": "TVTX",
+      "weight": 0.035801202
+    },
+    {
+      "symbol": "CLS.TO",
+      "weight": 0.0347425
     },
     {
       "symbol": "FN",
-      "weight": 0.031508997
+      "weight": 0.0337491
+    },
+    {
+      "symbol": "INDV",
+      "weight": 0.0321733
     }
   ]
 }

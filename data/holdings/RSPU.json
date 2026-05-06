@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ETR",
-      "weight": 0.034880802
-    },
-    {
-      "symbol": "SRE",
-      "weight": 0.0337515
-    },
-    {
-      "symbol": "EIX",
-      "weight": 0.032974802
-    },
-    {
-      "symbol": "CMS",
-      "weight": 0.0329702
-    },
-    {
-      "symbol": "WEC",
-      "weight": 0.0329323
-    },
-    {
-      "symbol": "PPL",
-      "weight": 0.0327113
-    },
-    {
-      "symbol": "LNT",
-      "weight": 0.0326644
+      "weight": 0.0361146
     },
     {
       "symbol": "NEE",
-      "weight": 0.032660797
+      "weight": 0.0339625
     },
     {
-      "symbol": "AWK",
-      "weight": 0.0326496
+      "symbol": "NRG",
+      "weight": 0.0332943
     },
     {
-      "symbol": "ED",
-      "weight": 0.032648
+      "symbol": "AEP",
+      "weight": 0.0332213
+    },
+    {
+      "symbol": "NI",
+      "weight": 0.0331903
+    },
+    {
+      "symbol": "CEG",
+      "weight": 0.0331094
+    },
+    {
+      "symbol": "WEC",
+      "weight": 0.033101298
+    },
+    {
+      "symbol": "AEE",
+      "weight": 0.0330557
+    },
+    {
+      "symbol": "LNT",
+      "weight": 0.0329814
+    },
+    {
+      "symbol": "D",
+      "weight": 0.032975398
     }
   ]
 }
