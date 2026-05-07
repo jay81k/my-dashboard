@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MOH",
-      "weight": 0.0120706
+      "weight": 0.0118048005
     },
     {
       "symbol": "MTCH",
-      "weight": 0.0104099
-    },
-    {
-      "symbol": "JXN",
-      "weight": 0.0097626
+      "weight": 0.0104036
     },
     {
       "symbol": "EMN",
-      "weight": 0.0095836995
+      "weight": 0.009821501
+    },
+    {
+      "symbol": "JXN",
+      "weight": 0.0097024
     },
     {
       "symbol": "LKQ",
-      "weight": 0.009361
+      "weight": 0.0095202
     },
     {
       "symbol": "CE",
-      "weight": 0.0085021
+      "weight": 0.0087391
     },
     {
       "symbol": "SM",
-      "weight": 0.0084329
-    },
-    {
-      "symbol": "LNC",
-      "weight": 0.0074809003
-    },
-    {
-      "symbol": "PAYC",
-      "weight": 0.0074577997
+      "weight": 0.0082731005
     },
     {
       "symbol": "XTSLA",
-      "weight": 0.0073773996
+      "weight": 0.0076551996
+    },
+    {
+      "symbol": "LNC",
+      "weight": 0.0075648
+    },
+    {
+      "symbol": "PAYC",
+      "weight": 0.0072962
     }
   ]
 }

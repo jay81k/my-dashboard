@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "BE",
-      "weight": 0.0100675
-    },
-    {
-      "symbol": "CDE",
-      "weight": 0.0064812
-    },
-    {
-      "symbol": "FN",
-      "weight": 0.0064064995
-    },
-    {
-      "symbol": "NXT",
-      "weight": 0.0059796
-    },
-    {
-      "symbol": "SATS",
-      "weight": 0.005395
+      "weight": 0.018810399
     },
     {
       "symbol": "CRDO",
-      "weight": 0.0051496
+      "weight": 0.008531201
     },
     {
-      "symbol": "KTOS",
-      "weight": 0.0043353997
+      "symbol": "FN",
+      "weight": 0.0075033996
     },
     {
-      "symbol": "AEIS",
-      "weight": 0.0041381
+      "symbol": "CDE",
+      "weight": 0.0055734003
+    },
+    {
+      "symbol": "NXT",
+      "weight": 0.0052758995
+    },
+    {
+      "symbol": "SATS",
+      "weight": 0.0050694
+    },
+    {
+      "symbol": "TTMI",
+      "weight": 0.0049211998
+    },
+    {
+      "symbol": "IONQ",
+      "weight": 0.0047299997
     },
     {
       "symbol": "STRL",
-      "weight": 0.004132
+      "weight": 0.0046721
     },
     {
-      "symbol": "HL",
-      "weight": 0.004025
+      "symbol": "AEIS",
+      "weight": 0.0043964
     }
   ]
 }
