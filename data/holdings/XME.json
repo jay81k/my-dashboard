@@ -3,23 +3,23 @@
   "holdings": [
     {
       "symbol": "NUE",
-      "weight": 0.054455098
+      "weight": 0.054454997
     },
     {
       "symbol": "STLD",
-      "weight": 0.051535603
+      "weight": 0.051535502
     },
     {
       "symbol": "RS",
-      "weight": 0.0488636
+      "weight": 0.0488634
     },
     {
       "symbol": "CLF",
-      "weight": 0.0456467
+      "weight": 0.0456465
     },
     {
       "symbol": "HCC",
-      "weight": 0.0440593
+      "weight": 0.0440591
     },
     {
       "symbol": "MP",
@@ -27,19 +27,19 @@
     },
     {
       "symbol": "USAR",
-      "weight": 0.043970898
+      "weight": 0.0439708
     },
     {
       "symbol": "LEU",
-      "weight": 0.0437291
+      "weight": 0.0437289
     },
     {
       "symbol": "UEC",
-      "weight": 0.043701302
+      "weight": 0.0437012
     },
     {
       "symbol": "CMC",
-      "weight": 0.0430459
+      "weight": 0.043045804
     }
   ]
 }

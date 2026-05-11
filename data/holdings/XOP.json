@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "APA",
-      "weight": 0.0294055
+      "weight": 0.029405702
     },
     {
       "symbol": "MUR",
-      "weight": 0.029236501
+      "weight": 0.0292367
     },
     {
       "symbol": "SM",
-      "weight": 0.0288184
+      "weight": 0.0288186
     },
     {
       "symbol": "DINO",
-      "weight": 0.028369902
+      "weight": 0.0283701
     },
     {
       "symbol": "CHRD",
-      "weight": 0.0277707
+      "weight": 0.0277708
     },
     {
       "symbol": "FANG",
-      "weight": 0.0277083
+      "weight": 0.0277084
     },
     {
       "symbol": "CTRA",
-      "weight": 0.027265402
+      "weight": 0.0272656
     },
     {
       "symbol": "DVN",
-      "weight": 0.0269567
+      "weight": 0.0269569
     },
     {
       "symbol": "MTDR",
-      "weight": 0.026851201
+      "weight": 0.026851399
     },
     {
       "symbol": "VNOM",
-      "weight": 0.0268293
+      "weight": 0.0268295
     }
   ]
 }
