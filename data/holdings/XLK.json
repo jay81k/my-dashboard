@@ -3,7 +3,7 @@
   "holdings": [
     {
       "symbol": "NVDA",
-      "weight": 0.1478415
+      "weight": 0.1478414
     },
     {
       "symbol": "AAPL",
@@ -23,15 +23,15 @@
     },
     {
       "symbol": "AMD",
-      "weight": 0.0429146
+      "weight": 0.0429145
     },
     {
       "symbol": "INTC",
-      "weight": 0.0329388
+      "weight": 0.0329387
     },
     {
       "symbol": "CSCO",
-      "weight": 0.026843801
+      "weight": 0.0268437
     },
     {
       "symbol": "LRCX",
