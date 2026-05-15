@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "EWBC",
-      "weight": 0.0163327
+      "weight": 0.0163336
     },
     {
       "symbol": "WAL",
-      "weight": 0.0159924
+      "weight": 0.015993299
     },
     {
       "symbol": "BPOP",
-      "weight": 0.0159246
+      "weight": 0.0159255
     },
     {
       "symbol": "PNFP",
-      "weight": 0.015865099
+      "weight": 0.0158659
     },
     {
       "symbol": "ZION",
-      "weight": 0.015783
+      "weight": 0.0157838
     },
     {
       "symbol": "VLY",
-      "weight": 0.0155268
+      "weight": 0.0155277
     },
     {
       "symbol": "ASB",
-      "weight": 0.015506
+      "weight": 0.0155068
     },
     {
       "symbol": "UMBF",
-      "weight": 0.015415899
+      "weight": 0.015416699
     },
     {
       "symbol": "FLG",
-      "weight": 0.0154031
+      "weight": 0.0154039
     },
     {
       "symbol": "TFC",
-      "weight": 0.0153993
+      "weight": 0.0154001
     }
   ]
 }
