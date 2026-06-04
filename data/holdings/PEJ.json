@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "EXPE",
-      "weight": 0.0623305
-    },
-    {
-      "symbol": "ABNB",
-      "weight": 0.0555299
+      "weight": 0.055180203
     },
     {
       "symbol": "MAR",
-      "weight": 0.0523907
+      "weight": 0.052951198
     },
     {
-      "symbol": "LVS",
-      "weight": 0.0493183
-    },
-    {
-      "symbol": "CCL",
-      "weight": 0.0416934
-    },
-    {
-      "symbol": "RCL",
-      "weight": 0.041431
-    },
-    {
-      "symbol": "SYY",
-      "weight": 0.0413296
-    },
-    {
-      "symbol": "LION",
-      "weight": 0.0410389
+      "symbol": "ABNB",
+      "weight": 0.051347397
     },
     {
       "symbol": "UAL",
-      "weight": 0.0397401
+      "weight": 0.0493529
+    },
+    {
+      "symbol": "LION",
+      "weight": 0.046090797
+    },
+    {
+      "symbol": "LVS",
+      "weight": 0.0444657
+    },
+    {
+      "symbol": "RCL",
+      "weight": 0.0435308
+    },
+    {
+      "symbol": "CCL",
+      "weight": 0.042965397
+    },
+    {
+      "symbol": "SYY",
+      "weight": 0.040833604
     },
     {
       "symbol": "VSNT",
-      "weight": 0.0365118
+      "weight": 0.03816
     }
   ]
 }

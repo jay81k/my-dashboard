@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SEI",
-      "weight": 0.047209904
+      "weight": 0.0478752
     },
     {
-      "symbol": "PTEN",
-      "weight": 0.0440375
+      "symbol": "WHD",
+      "weight": 0.0455456
     },
     {
       "symbol": "KGS",
-      "weight": 0.0423013
+      "weight": 0.0449119
     },
     {
-      "symbol": "WFRD",
-      "weight": 0.0421309
-    },
-    {
-      "symbol": "BKR",
-      "weight": 0.0418098
+      "symbol": "PTEN",
+      "weight": 0.0435004
     },
     {
       "symbol": "SLB",
-      "weight": 0.0417875
+      "weight": 0.0431537
     },
     {
-      "symbol": "HAL",
-      "weight": 0.041662596
+      "symbol": "WFRD",
+      "weight": 0.042608198
     },
     {
-      "symbol": "FTI",
-      "weight": 0.0415394
-    },
-    {
-      "symbol": "TDW",
-      "weight": 0.0413184
+      "symbol": "SDRL",
+      "weight": 0.0418602
     },
     {
       "symbol": "HP",
-      "weight": 0.0411338
+      "weight": 0.0418469
+    },
+    {
+      "symbol": "BKR",
+      "weight": 0.0412794
+    },
+    {
+      "symbol": "OII",
+      "weight": 0.041222703
     }
   ]
 }

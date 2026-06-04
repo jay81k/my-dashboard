@@ -3,39 +3,39 @@
   "holdings": [
     {
       "symbol": "CCO.TO",
-      "weight": 0.23128429
+      "weight": 0.2317631
     },
     {
       "symbol": "OKLO",
-      "weight": 0.0730931
+      "weight": 0.0737122
     },
     {
       "symbol": "NXE.TO",
-      "weight": 0.0626862
+      "weight": 0.063146204
     },
     {
       "symbol": "UEC",
-      "weight": 0.0579073
+      "weight": 0.0585427
     },
     {
       "symbol": "KAP",
-      "weight": 0.048079
+      "weight": 0.043281898
     },
     {
       "symbol": "EFR.TO",
-      "weight": 0.0424053
-    },
-    {
-      "symbol": "047040.KS",
-      "weight": 0.040634498
+      "weight": 0.0391896
     },
     {
       "symbol": "PDN.AX",
-      "weight": 0.0308568
+      "weight": 0.0331728
     },
     {
-      "symbol": "000720.KS",
-      "weight": 0.0303819
+      "symbol": "047040.KS",
+      "weight": 0.0327113
+    },
+    {
+      "symbol": "028260.KS",
+      "weight": 0.0305206
     }
   ]
 }

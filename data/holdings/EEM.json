@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "2330.TW",
-      "weight": 0.1418186
+      "weight": 0.1474302
     },
     {
       "symbol": "005930.KS",
-      "weight": 0.0601371
+      "weight": 0.078329705
     },
     {
       "symbol": "000660.KS",
-      "weight": 0.0404314
+      "weight": 0.0680711
     },
     {
       "symbol": "0700.HK",
-      "weight": 0.032543
+      "weight": 0.0267339
     },
     {
       "symbol": "9988.HK",
-      "weight": 0.0235694
-    },
-    {
-      "symbol": "2308.TW",
-      "weight": 0.011389
+      "weight": 0.020557402
     },
     {
       "symbol": "2454.TW",
-      "weight": 0.010732
+      "weight": 0.0158136
+    },
+    {
+      "symbol": "2308.TW",
+      "weight": 0.0121063
+    },
+    {
+      "symbol": "2317.TW",
+      "weight": 0.008991
+    },
+    {
+      "symbol": "005935",
+      "weight": 0.0085666
     },
     {
       "symbol": "00939",
-      "weight": 0.0092101
-    },
-    {
-      "symbol": "HDFCBANK.NS",
-      "weight": 0.0079391
-    },
-    {
-      "symbol": "RELIANCE.NS",
-      "weight": 0.0078384
+      "weight": 0.0073099
     }
   ]
 }

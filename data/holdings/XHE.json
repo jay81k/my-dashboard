@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "STAA",
-      "weight": 0.0255057
-    },
-    {
-      "symbol": "GKOS",
-      "weight": 0.0238645
-    },
-    {
-      "symbol": "AXGN",
-      "weight": 0.022925401
-    },
-    {
-      "symbol": "BFLY",
-      "weight": 0.0214216
+      "weight": 0.0294712
     },
     {
       "symbol": "NVCR",
-      "weight": 0.020655701
+      "weight": 0.023580799
+    },
+    {
+      "symbol": "IART",
+      "weight": 0.021471
+    },
+    {
+      "symbol": "AXGN",
+      "weight": 0.0213496
     },
     {
       "symbol": "AVNS",
-      "weight": 0.0205056
+      "weight": 0.021048
     },
     {
-      "symbol": "TFX",
-      "weight": 0.0189408
+      "symbol": "LNTH",
+      "weight": 0.020985201
+    },
+    {
+      "symbol": "BFLY",
+      "weight": 0.020735199
+    },
+    {
+      "symbol": "LIVN",
+      "weight": 0.0206323
     },
     {
       "symbol": "OMCL",
-      "weight": 0.0189397
+      "weight": 0.0205669
     },
     {
-      "symbol": "IRTC",
-      "weight": 0.0184467
-    },
-    {
-      "symbol": "MDLN",
-      "weight": 0.0179201
+      "symbol": "TFX",
+      "weight": 0.020037798
     }
   ]
 }

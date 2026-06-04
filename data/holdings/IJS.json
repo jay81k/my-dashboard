@@ -2,44 +2,44 @@
   "symbol": "IJS",
   "holdings": [
     {
-      "symbol": "MOH",
-      "weight": 0.0118048005
+      "symbol": "XTSLA",
+      "weight": 0.0108568
     },
     {
-      "symbol": "MTCH",
-      "weight": 0.0104036
+      "symbol": "ENPH",
+      "weight": 0.0103995
+    },
+    {
+      "symbol": "MOH",
+      "weight": 0.0103934
     },
     {
       "symbol": "EMN",
-      "weight": 0.009821501
+      "weight": 0.010063699
+    },
+    {
+      "symbol": "MTCH",
+      "weight": 0.0099154
     },
     {
       "symbol": "JXN",
-      "weight": 0.0097024
-    },
-    {
-      "symbol": "LKQ",
-      "weight": 0.0095202
-    },
-    {
-      "symbol": "CE",
-      "weight": 0.0087391
+      "weight": 0.0084544
     },
     {
       "symbol": "SM",
-      "weight": 0.0082731005
+      "weight": 0.0080812005
     },
     {
-      "symbol": "XTSLA",
-      "weight": 0.0076551996
-    },
-    {
-      "symbol": "LNC",
-      "weight": 0.0075648
+      "symbol": "LKQ",
+      "weight": 0.0080702
     },
     {
       "symbol": "PAYC",
-      "weight": 0.0072962
+      "weight": 0.0079346
+    },
+    {
+      "symbol": "VSH",
+      "weight": 0.0074726
     }
   ]
 }

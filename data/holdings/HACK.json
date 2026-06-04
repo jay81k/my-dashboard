@@ -2,44 +2,44 @@
   "symbol": "HACK",
   "holdings": [
     {
-      "symbol": "AVGO",
-      "weight": 0.08731049
-    },
-    {
-      "symbol": "CSCO",
-      "weight": 0.0649698
+      "symbol": "CRWD",
+      "weight": 0.0778407
     },
     {
       "symbol": "PANW",
-      "weight": 0.061985
+      "weight": 0.077684395
     },
     {
-      "symbol": "CRWD",
-      "weight": 0.0594944
+      "symbol": "AVGO",
+      "weight": 0.074554
     },
     {
-      "symbol": "NET",
-      "weight": 0.0544741
+      "symbol": "CSCO",
+      "weight": 0.0682171
     },
     {
       "symbol": "FTNT",
-      "weight": 0.0490928
+      "weight": 0.064095505
+    },
+    {
+      "symbol": "OKTA",
+      "weight": 0.053467203
+    },
+    {
+      "symbol": "NET",
+      "weight": 0.051273897
+    },
+    {
+      "symbol": "RBRK",
+      "weight": 0.046007
     },
     {
       "symbol": "FFIV",
-      "weight": 0.0478297
+      "weight": 0.0451752
     },
     {
-      "symbol": "GD",
-      "weight": 0.0477776
-    },
-    {
-      "symbol": "FSLY",
-      "weight": 0.045055497
-    },
-    {
-      "symbol": "ATEN",
-      "weight": 0.0427818
+      "symbol": "VRNS",
+      "weight": 0.039837502
     }
   ]
 }

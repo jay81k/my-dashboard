@@ -2,44 +2,44 @@
   "symbol": "XRT",
   "holdings": [
     {
-      "symbol": "MUSA",
-      "weight": 0.0179115
+      "symbol": "GO",
+      "weight": 0.0189813
     },
     {
       "symbol": "SAH",
-      "weight": 0.0173322
-    },
-    {
-      "symbol": "CVNA",
-      "weight": 0.017281
-    },
-    {
-      "symbol": "GO",
-      "weight": 0.0172488
-    },
-    {
-      "symbol": "AMZN",
-      "weight": 0.0168522
+      "weight": 0.0185932
     },
     {
       "symbol": "ETSY",
-      "weight": 0.016508501
+      "weight": 0.017823301
     },
     {
-      "symbol": "CASY",
-      "weight": 0.0162158
+      "symbol": "AMZN",
+      "weight": 0.0175932
     },
     {
-      "symbol": "REAL",
-      "weight": 0.016010799
+      "symbol": "M",
+      "weight": 0.017224701
     },
     {
-      "symbol": "DKS",
-      "weight": 0.015689699
+      "symbol": "BBY",
+      "weight": 0.0170742
     },
     {
-      "symbol": "CART",
-      "weight": 0.0155257
+      "symbol": "VSCO",
+      "weight": 0.0168404
+    },
+    {
+      "symbol": "EBAY",
+      "weight": 0.0164774
+    },
+    {
+      "symbol": "CVNA",
+      "weight": 0.016306
+    },
+    {
+      "symbol": "HZO",
+      "weight": 0.0162929
     }
   ]
 }

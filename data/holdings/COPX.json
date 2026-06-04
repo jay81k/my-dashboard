@@ -2,44 +2,44 @@
   "symbol": "COPX",
   "holdings": [
     {
-      "symbol": "LUN.TO",
-      "weight": 0.0607424
-    },
-    {
-      "symbol": "GLEN.L",
-      "weight": 0.0600321
-    },
-    {
-      "symbol": "5713.T",
-      "weight": 0.059828
-    },
-    {
-      "symbol": "KGH.WA",
-      "weight": 0.0582256
-    },
-    {
-      "symbol": "FCX",
-      "weight": 0.050559703
-    },
-    {
       "symbol": "HBM.TO",
-      "weight": 0.0495
-    },
-    {
-      "symbol": "BHP.AX",
-      "weight": 0.0492167
-    },
-    {
-      "symbol": "ANTO.L",
-      "weight": 0.048733603
+      "weight": 0.0547503
     },
     {
       "symbol": "TECK-B.TO",
-      "weight": 0.0485888
+      "weight": 0.0534911
+    },
+    {
+      "symbol": "BHP.AX",
+      "weight": 0.05205
+    },
+    {
+      "symbol": "ANTO.L",
+      "weight": 0.0505022
+    },
+    {
+      "symbol": "FM.TO",
+      "weight": 0.050416004
+    },
+    {
+      "symbol": "KGH.WA",
+      "weight": 0.0502359
+    },
+    {
+      "symbol": "BOL.ST",
+      "weight": 0.048874203
     },
     {
       "symbol": "SCCO",
-      "weight": 0.048477203
+      "weight": 0.0478375
+    },
+    {
+      "symbol": "GLEN.L",
+      "weight": 0.047175102
+    },
+    {
+      "symbol": "LUN.TO",
+      "weight": 0.0466031
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "000660.KS",
-      "weight": 0.048165597
-    },
-    {
-      "symbol": "INTC",
-      "weight": 0.041592598
-    },
-    {
-      "symbol": "005930.KS",
-      "weight": 0.040938802
-    },
-    {
-      "symbol": "AMD",
-      "weight": 0.0398686
+      "weight": 0.0711247
     },
     {
       "symbol": "MU",
-      "weight": 0.0371176
+      "weight": 0.0576334
     },
     {
-      "symbol": "AVGO",
-      "weight": 0.0365962
+      "symbol": "AMD",
+      "weight": 0.0480122
+    },
+    {
+      "symbol": "005930.KS",
+      "weight": 0.047898103
+    },
+    {
+      "symbol": "INTC",
+      "weight": 0.0417483
     },
     {
       "symbol": "CSCO",
-      "weight": 0.0351253
+      "weight": 0.0382225
+    },
+    {
+      "symbol": "AVGO",
+      "weight": 0.032395698
     },
     {
       "symbol": "TSM",
-      "weight": 0.0345188
+      "weight": 0.030146
     },
     {
-      "symbol": "GOOGL",
-      "weight": 0.0332186
+      "symbol": "ORCL",
+      "weight": 0.0298983
     },
     {
-      "symbol": "AMZN",
-      "weight": 0.0322764
+      "symbol": "AAPL",
+      "weight": 0.0296512
     }
   ]
 }

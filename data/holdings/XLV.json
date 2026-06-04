@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "LLY",
-      "weight": 0.14069511
+      "weight": 0.1618157
     },
     {
       "symbol": "JNJ",
-      "weight": 0.1052304
+      "weight": 0.10035051
     },
     {
       "symbol": "ABBV",
-      "weight": 0.0709524
+      "weight": 0.071110204
     },
     {
       "symbol": "UNH",
-      "weight": 0.0637546
+      "weight": 0.0636637
     },
     {
       "symbol": "MRK",
-      "weight": 0.0514807
-    },
-    {
-      "symbol": "AMGN",
-      "weight": 0.0354207
+      "weight": 0.054454297
     },
     {
       "symbol": "TMO",
-      "weight": 0.0341855
+      "weight": 0.0341957
     },
     {
-      "symbol": "ISRG",
-      "weight": 0.0308727
+      "symbol": "AMGN",
+      "weight": 0.033514198
     },
     {
       "symbol": "GILD",
-      "weight": 0.030838799
+      "weight": 0.030822001
     },
     {
-      "symbol": "ABT",
-      "weight": 0.0299916
+      "symbol": "ISRG",
+      "weight": 0.0278682
+    },
+    {
+      "symbol": "PFE",
+      "weight": 0.027507901
     }
   ]
 }

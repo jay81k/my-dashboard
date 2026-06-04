@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "BE",
-      "weight": 0.13727629
-    },
-    {
-      "symbol": "NXT",
-      "weight": 0.0727705
+      "weight": 0.121412605
     },
     {
       "symbol": "FSLR",
-      "weight": 0.071502
+      "weight": 0.0955484
     },
     {
-      "symbol": "600900.SS",
-      "weight": 0.0588774
-    },
-    {
-      "symbol": "VWS.CO",
-      "weight": 0.0335126
-    },
-    {
-      "symbol": "PLUG",
-      "weight": 0.0327682
+      "symbol": "NXT",
+      "weight": 0.084012605
     },
     {
       "symbol": "ENPH",
-      "weight": 0.0324491
+      "weight": 0.0591736
+    },
+    {
+      "symbol": "600900.SS",
+      "weight": 0.053144302
+    },
+    {
+      "symbol": "PLUG",
+      "weight": 0.0363601
+    },
+    {
+      "symbol": "SEDG",
+      "weight": 0.0301628
+    },
+    {
+      "symbol": "VWS.CO",
+      "weight": 0.027073199
     },
     {
       "symbol": "EQTL3.SA",
-      "weight": 0.0287076
+      "weight": 0.0226455
     },
     {
       "symbol": "SUZLON.BO",
-      "weight": 0.0236133
-    },
-    {
-      "symbol": "EDP.LS",
-      "weight": 0.023309901
+      "weight": 0.021258399
     }
   ]
 }

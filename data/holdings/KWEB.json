@@ -2,44 +2,44 @@
   "symbol": "KWEB",
   "holdings": [
     {
-      "symbol": "0700.HK",
-      "weight": 0.096276104
+      "symbol": "9988.HK",
+      "weight": 0.0946068
     },
     {
-      "symbol": "9988.HK",
-      "weight": 0.093333796
+      "symbol": "0700.HK",
+      "weight": 0.092951
     },
     {
       "symbol": "PDD",
-      "weight": 0.0858454
-    },
-    {
-      "symbol": "3690.HK",
-      "weight": 0.072870895
+      "weight": 0.0766368
     },
     {
       "symbol": "9999.HK",
-      "weight": 0.061283696
+      "weight": 0.0702385
     },
     {
-      "symbol": "9618.HK",
-      "weight": 0.0498692
-    },
-    {
-      "symbol": "2423.HK",
-      "weight": 0.047825698
+      "symbol": "3690.HK",
+      "weight": 0.0679508
     },
     {
       "symbol": "9888.HK",
-      "weight": 0.0474188
+      "weight": 0.054876
+    },
+    {
+      "symbol": "2423.HK",
+      "weight": 0.0518572
+    },
+    {
+      "symbol": "9618.HK",
+      "weight": 0.0514757
+    },
+    {
+      "symbol": "YMM",
+      "weight": 0.0398995
     },
     {
       "symbol": "9961.HK",
-      "weight": 0.038566
-    },
-    {
-      "symbol": "6618.HK",
-      "weight": 0.038143102
+      "weight": 0.0359512
     }
   ]
 }

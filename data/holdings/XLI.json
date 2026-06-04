@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "CAT",
-      "weight": 0.0760566
+      "weight": 0.0755141
     },
     {
       "symbol": "GE",
-      "weight": 0.055844102
+      "weight": 0.0629213
     },
     {
       "symbol": "GEV",
-      "weight": 0.0536305
+      "weight": 0.0483613
     },
     {
       "symbol": "RTX",
-      "weight": 0.0434025
+      "weight": 0.0446879
     },
     {
       "symbol": "BA",
-      "weight": 0.0330331
-    },
-    {
-      "symbol": "ETN",
-      "weight": 0.0308865
+      "weight": 0.0336315
     },
     {
       "symbol": "UNP",
-      "weight": 0.029367099
+      "weight": 0.0288741
     },
     {
-      "symbol": "UBER",
-      "weight": 0.0282008
-    },
-    {
-      "symbol": "DE",
-      "weight": 0.027309
+      "symbol": "ETN",
+      "weight": 0.0288274
     },
     {
       "symbol": "HON",
-      "weight": 0.024990499
+      "weight": 0.027978899
+    },
+    {
+      "symbol": "UBER",
+      "weight": 0.0268436
+    },
+    {
+      "symbol": "DE",
+      "weight": 0.025323
     }
   ]
 }

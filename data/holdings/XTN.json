@@ -2,44 +2,44 @@
   "symbol": "XTN",
   "holdings": [
     {
-      "symbol": "CAR",
-      "weight": 0.0400157
+      "symbol": "RXO",
+      "weight": 0.0432243
     },
     {
-      "symbol": "RXO",
-      "weight": 0.035228
+      "symbol": "CAR",
+      "weight": 0.0373233
     },
     {
       "symbol": "ARCB",
-      "weight": 0.0311277
-    },
-    {
-      "symbol": "SAIA",
-      "weight": 0.029417802
-    },
-    {
-      "symbol": "R",
-      "weight": 0.0291949
-    },
-    {
-      "symbol": "WERN",
-      "weight": 0.027931299
-    },
-    {
-      "symbol": "LSTR",
-      "weight": 0.0277351
+      "weight": 0.0319411
     },
     {
       "symbol": "SNDR",
-      "weight": 0.0277247
+      "weight": 0.0301901
     },
     {
-      "symbol": "JBHT",
-      "weight": 0.026814101
+      "symbol": "WERN",
+      "weight": 0.0301186
     },
     {
-      "symbol": "KEX",
-      "weight": 0.0266975
+      "symbol": "DAL",
+      "weight": 0.029953001
+    },
+    {
+      "symbol": "LSTR",
+      "weight": 0.029886
+    },
+    {
+      "symbol": "SAIA",
+      "weight": 0.0297139
+    },
+    {
+      "symbol": "KNX",
+      "weight": 0.0291461
+    },
+    {
+      "symbol": "AAL",
+      "weight": 0.0284803
     }
   ]
 }

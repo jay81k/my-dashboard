@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SATS",
-      "weight": 0.050630398
+      "weight": 0.0536476
     },
     {
       "symbol": "PSKY",
-      "weight": 0.047516398
-    },
-    {
-      "symbol": "DIS",
-      "weight": 0.0474323
-    },
-    {
-      "symbol": "PINS",
-      "weight": 0.0467908
+      "weight": 0.0497226
     },
     {
       "symbol": "TTWO",
-      "weight": 0.046704702
+      "weight": 0.049465798
+    },
+    {
+      "symbol": "PINS",
+      "weight": 0.048192702
+    },
+    {
+      "symbol": "LYV",
+      "weight": 0.0473069
+    },
+    {
+      "symbol": "TKO",
+      "weight": 0.0473058
+    },
+    {
+      "symbol": "DIS",
+      "weight": 0.0470144
     },
     {
       "symbol": "EA",
-      "weight": 0.0466885
-    },
-    {
-      "symbol": "NYT",
-      "weight": 0.0465952
-    },
-    {
-      "symbol": "NFLX",
-      "weight": 0.045502402
+      "weight": 0.0470017
     },
     {
       "symbol": "WBD",
-      "weight": 0.0448637
+      "weight": 0.0452392
     },
     {
-      "symbol": "T",
-      "weight": 0.044374898
+      "symbol": "META",
+      "weight": 0.044981197
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "BBCA.JK",
-      "weight": 0.1511254
+      "weight": 0.17222269
     },
     {
       "symbol": "BBRI.JK",
-      "weight": 0.09388819
+      "weight": 0.1075618
     },
     {
       "symbol": "BMRI.JK",
-      "weight": 0.0745789
+      "weight": 0.0782836
     },
     {
       "symbol": "TLKM.JK",
-      "weight": 0.062934
+      "weight": 0.0772164
     },
     {
       "symbol": "ASII.JK",
-      "weight": 0.0469547
-    },
-    {
-      "symbol": "AMMN.JK",
-      "weight": 0.0332793
+      "weight": 0.044945404
     },
     {
       "symbol": "BBNI.JK",
-      "weight": 0.0284729
+      "weight": 0.0328139
     },
     {
       "symbol": "GOTO.JK",
-      "weight": 0.0250457
+      "weight": 0.025859201
+    },
+    {
+      "symbol": "AMMN.JK",
+      "weight": 0.0223954
     },
     {
       "symbol": "BRMS.JK",
-      "weight": 0.0249184
+      "weight": 0.020916099
     },
     {
-      "symbol": "MDKA.JK",
-      "weight": 0.0182814
+      "symbol": "CPIN.JK",
+      "weight": 0.0201823
     }
   ]
 }

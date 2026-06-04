@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MU",
-      "weight": 0.0556306
-    },
-    {
-      "symbol": "AVGO",
-      "weight": 0.0539821
-    },
-    {
-      "symbol": "NVDA",
-      "weight": 0.0463985
+      "weight": 0.0650033
     },
     {
       "symbol": "AMD",
-      "weight": 0.040324103
+      "weight": 0.0519791
+    },
+    {
+      "symbol": "AVGO",
+      "weight": 0.0508394
     },
     {
       "symbol": "INTC",
-      "weight": 0.0383012
-    },
-    {
-      "symbol": "JNJ",
-      "weight": 0.037561
-    },
-    {
-      "symbol": "LRCX",
-      "weight": 0.0361323
-    },
-    {
-      "symbol": "XOM",
-      "weight": 0.034333702
+      "weight": 0.0484152
     },
     {
       "symbol": "CAT",
-      "weight": 0.0320717
+      "weight": 0.0368484
+    },
+    {
+      "symbol": "XOM",
+      "weight": 0.0330331
+    },
+    {
+      "symbol": "LRCX",
+      "weight": 0.031521298
+    },
+    {
+      "symbol": "JNJ",
+      "weight": 0.029168101
+    },
+    {
+      "symbol": "GEV",
+      "weight": 0.0281731
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.0294284
+      "weight": 0.0258617
     }
   ]
 }

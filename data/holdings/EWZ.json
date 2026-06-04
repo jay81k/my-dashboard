@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "VALE3.SA",
-      "weight": 0.1038597
+      "weight": 0.1129611
     },
     {
       "symbol": "NU",
-      "weight": 0.0873775
+      "weight": 0.0873536
     },
     {
       "symbol": "ITUB4",
-      "weight": 0.084262505
+      "weight": 0.0814297
     },
     {
       "symbol": "PETR4",
-      "weight": 0.0784303
+      "weight": 0.0685897
     },
     {
       "symbol": "PETR3.SA",
-      "weight": 0.0722646
-    },
-    {
-      "symbol": "B3SA3.SA",
-      "weight": 0.0359704
+      "weight": 0.064953096
     },
     {
       "symbol": "BBDC4",
-      "weight": 0.0335095
+      "weight": 0.036697
     },
     {
-      "symbol": "SBSP3.SA",
-      "weight": 0.031240799
+      "symbol": "B3SA3.SA",
+      "weight": 0.0357514
     },
     {
-      "symbol": "AXIA3.SA",
-      "weight": 0.028741801
+      "symbol": "ABEV3.SA",
+      "weight": 0.0319734
     },
     {
       "symbol": "WEGE3.SA",
-      "weight": 0.02855
+      "weight": 0.0304824
+    },
+    {
+      "symbol": "SBSP3.SA",
+      "weight": 0.028544901
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "ROBO",
   "holdings": [
     {
-      "symbol": "CELT",
-      "weight": 0.0222024
-    },
-    {
-      "symbol": "1590.TW",
-      "weight": 0.0193498
-    },
-    {
-      "symbol": "098460.KQ",
-      "weight": 0.0184871
-    },
-    {
-      "symbol": "TER",
-      "weight": 0.0184087
+      "symbol": "6324.T",
+      "weight": 0.0239748
     },
     {
       "symbol": "IFX.DE",
-      "weight": 0.0184009
+      "weight": 0.0236718
     },
     {
       "symbol": "2049.TW",
-      "weight": 0.0182423
+      "weight": 0.0208972
     },
     {
-      "symbol": "6324.T",
-      "weight": 0.0179008
+      "symbol": "QCOM",
+      "weight": 0.0198895
     },
     {
-      "symbol": "6954.T",
-      "weight": 0.017751
+      "symbol": "CELT",
+      "weight": 0.0190965
     },
     {
-      "symbol": "AMBA",
-      "weight": 0.0177368
+      "symbol": "JEN.DE",
+      "weight": 0.018996201
     },
     {
       "symbol": "2308.TW",
-      "weight": 0.0176434
+      "weight": 0.0183352
+    },
+    {
+      "symbol": "6506.T",
+      "weight": 0.0182821
+    },
+    {
+      "symbol": "TER",
+      "weight": 0.0182734
+    },
+    {
+      "symbol": "6954.T",
+      "weight": 0.0182594
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "OSCR",
-      "weight": 0.024499
-    },
-    {
-      "symbol": "KMPR",
-      "weight": 0.020605499
+      "weight": 0.0307528
     },
     {
       "symbol": "MET",
-      "weight": 0.0203918
+      "weight": 0.0219134
     },
     {
       "symbol": "PFG",
-      "weight": 0.020376898
-    },
-    {
-      "symbol": "LNC",
-      "weight": 0.020301199
-    },
-    {
-      "symbol": "SPNT",
-      "weight": 0.0202708
-    },
-    {
-      "symbol": "PRI",
-      "weight": 0.0199546
+      "weight": 0.021781499
     },
     {
       "symbol": "CNO",
-      "weight": 0.019826401
+      "weight": 0.021345401
     },
     {
-      "symbol": "STC",
-      "weight": 0.0197994
+      "symbol": "UNM",
+      "weight": 0.0212833
     },
     {
-      "symbol": "EG",
-      "weight": 0.019765
+      "symbol": "AIZ",
+      "weight": 0.021259898
+    },
+    {
+      "symbol": "SIGI",
+      "weight": 0.0208719
+    },
+    {
+      "symbol": "MCY",
+      "weight": 0.0204845
+    },
+    {
+      "symbol": "GL",
+      "weight": 0.020120101
+    },
+    {
+      "symbol": "PRI",
+      "weight": 0.0199457
     }
   ]
 }

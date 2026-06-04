@@ -2,44 +2,44 @@
   "symbol": "FCG",
   "holdings": [
     {
-      "symbol": "EOG",
-      "weight": 0.0454956
-    },
-    {
-      "symbol": "COP",
-      "weight": 0.0445209
-    },
-    {
-      "symbol": "FANG",
-      "weight": 0.0441887
-    },
-    {
-      "symbol": "OXY",
-      "weight": 0.0439502
-    },
-    {
       "symbol": "DVN",
-      "weight": 0.0428474
+      "weight": 0.0792981
+    },
+    {
+      "symbol": "EOG",
+      "weight": 0.0476556
     },
     {
       "symbol": "WES",
-      "weight": 0.041984
+      "weight": 0.0456966
+    },
+    {
+      "symbol": "FANG",
+      "weight": 0.0454239
+    },
+    {
+      "symbol": "OXY",
+      "weight": 0.045354098
+    },
+    {
+      "symbol": "COP",
+      "weight": 0.0445347
     },
     {
       "symbol": "HESM",
-      "weight": 0.040595196
-    },
-    {
-      "symbol": "CTRA",
-      "weight": 0.04004
+      "weight": 0.042980097
     },
     {
       "symbol": "APA",
-      "weight": 0.0398409
+      "weight": 0.039337203
+    },
+    {
+      "symbol": "EQT",
+      "weight": 0.0391057
     },
     {
       "symbol": "PR",
-      "weight": 0.039017502
+      "weight": 0.0383103
     }
   ]
 }

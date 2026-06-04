@@ -2,44 +2,44 @@
   "symbol": "KBE",
   "holdings": [
     {
+      "symbol": "TFIN",
+      "weight": 0.0116688
+    },
+    {
       "symbol": "VOYA",
-      "weight": 0.011410001
+      "weight": 0.0114572
     },
     {
       "symbol": "APO",
-      "weight": 0.011195901
-    },
-    {
-      "symbol": "FBP",
-      "weight": 0.011070699
-    },
-    {
-      "symbol": "EWBC",
-      "weight": 0.0110426
-    },
-    {
-      "symbol": "TFIN",
-      "weight": 0.0109385
-    },
-    {
-      "symbol": "NTRS",
-      "weight": 0.0108947
+      "weight": 0.0113433
     },
     {
       "symbol": "CATY",
-      "weight": 0.0108311
+      "weight": 0.011294399
     },
     {
-      "symbol": "CRBG",
-      "weight": 0.0108244
+      "symbol": "BNY",
+      "weight": 0.0111306
     },
     {
-      "symbol": "C",
-      "weight": 0.0108168
+      "symbol": "FBP",
+      "weight": 0.011079299
     },
     {
-      "symbol": "WAL",
-      "weight": 0.0108117
+      "symbol": "UMBF",
+      "weight": 0.0109847
+    },
+    {
+      "symbol": "NTRS",
+      "weight": 0.0109790005
+    },
+    {
+      "symbol": "WAFD",
+      "weight": 0.0108451
+    },
+    {
+      "symbol": "EWBC",
+      "weight": 0.0108419005
     }
   ]
 }

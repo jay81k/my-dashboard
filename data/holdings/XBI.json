@@ -2,44 +2,44 @@
   "symbol": "XBI",
   "holdings": [
     {
-      "symbol": "APLS",
-      "weight": 0.0186512
+      "symbol": "TVTX",
+      "weight": 0.0179226
     },
     {
       "symbol": "RVMD",
-      "weight": 0.0164747
-    },
-    {
-      "symbol": "TVTX",
-      "weight": 0.016204601
-    },
-    {
-      "symbol": "ARWR",
-      "weight": 0.014397699
-    },
-    {
-      "symbol": "TWST",
-      "weight": 0.0141993
-    },
-    {
-      "symbol": "SMMT",
-      "weight": 0.0140325
+      "weight": 0.0177728
     },
     {
       "symbol": "ALKS",
-      "weight": 0.0138196
+      "weight": 0.0170773
+    },
+    {
+      "symbol": "TWST",
+      "weight": 0.0160414
     },
     {
       "symbol": "TGTX",
-      "weight": 0.013710001
+      "weight": 0.015203101
     },
     {
-      "symbol": "MDGL",
-      "weight": 0.013647701
+      "symbol": "ARWR",
+      "weight": 0.0150731
     },
     {
       "symbol": "BEAM",
-      "weight": 0.0132399
+      "weight": 0.0141942
+    },
+    {
+      "symbol": "NBIX",
+      "weight": 0.0137352
+    },
+    {
+      "symbol": "KRYS",
+      "weight": 0.013623101
+    },
+    {
+      "symbol": "EXEL",
+      "weight": 0.0135912
     }
   ]
 }
