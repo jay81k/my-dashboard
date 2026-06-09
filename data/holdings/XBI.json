@@ -3,27 +3,27 @@
   "holdings": [
     {
       "symbol": "TVTX",
-      "weight": 0.0179226
+      "weight": 0.0179225
     },
     {
       "symbol": "RVMD",
-      "weight": 0.0177728
+      "weight": 0.017772699
     },
     {
       "symbol": "ALKS",
-      "weight": 0.0170773
+      "weight": 0.0170772
     },
     {
       "symbol": "TWST",
-      "weight": 0.0160414
+      "weight": 0.016041301
     },
     {
       "symbol": "TGTX",
-      "weight": 0.015203101
+      "weight": 0.015203
     },
     {
       "symbol": "ARWR",
-      "weight": 0.0150731
+      "weight": 0.015073
     },
     {
       "symbol": "BEAM",
@@ -31,15 +31,15 @@
     },
     {
       "symbol": "NBIX",
-      "weight": 0.0137352
+      "weight": 0.0137351
     },
     {
       "symbol": "KRYS",
-      "weight": 0.013623101
+      "weight": 0.0136229005
     },
     {
       "symbol": "EXEL",
-      "weight": 0.0135912
+      "weight": 0.013591
     }
   ]
 }

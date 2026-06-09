@@ -3,15 +3,15 @@
   "holdings": [
     {
       "symbol": "UMBF",
-      "weight": 0.016151
+      "weight": 0.0161511
     },
     {
       "symbol": "EWBC",
-      "weight": 0.0159389
+      "weight": 0.0159391
     },
     {
       "symbol": "VLY",
-      "weight": 0.0158687
+      "weight": 0.0158688
     },
     {
       "symbol": "BPOP",
@@ -19,7 +19,7 @@
     },
     {
       "symbol": "PNFP",
-      "weight": 0.0157838
+      "weight": 0.0157839
     },
     {
       "symbol": "WAL",
@@ -35,7 +35,7 @@
     },
     {
       "symbol": "ASB",
-      "weight": 0.015423501
+      "weight": 0.0154236
     },
     {
       "symbol": "WTFC",

@@ -3,15 +3,15 @@
   "holdings": [
     {
       "symbol": "GS",
-      "weight": 0.123625
+      "weight": 0.1236249
     },
     {
       "symbol": "CAT",
-      "weight": 0.1055808
+      "weight": 0.1055807
     },
     {
       "symbol": "MSFT",
-      "weight": 0.054273702
+      "weight": 0.0542736
     },
     {
       "symbol": "UNH",
@@ -19,7 +19,7 @@
     },
     {
       "symbol": "AMGN",
-      "weight": 0.040598
+      "weight": 0.0405979
     },
     {
       "symbol": "V",

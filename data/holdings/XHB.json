@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MOD",
-      "weight": 0.0478377
+      "weight": 0.0478378
     },
     {
       "symbol": "OC",
-      "weight": 0.0403394
+      "weight": 0.0403395
     },
     {
       "symbol": "MAS",
-      "weight": 0.0386848
+      "weight": 0.0386851
     },
     {
       "symbol": "BLD",
-      "weight": 0.0378098
+      "weight": 0.0378106
     },
     {
       "symbol": "WSM",
-      "weight": 0.0377093
+      "weight": 0.03771
     },
     {
       "symbol": "CARR",
-      "weight": 0.0374488
+      "weight": 0.0374491
     },
     {
       "symbol": "CVCO",
-      "weight": 0.0362641
+      "weight": 0.036264703
     },
     {
       "symbol": "TT",
-      "weight": 0.0359131
+      "weight": 0.0359125
     },
     {
       "symbol": "DHI",
-      "weight": 0.035476997
+      "weight": 0.0354775
     },
     {
       "symbol": "MTH",
-      "weight": 0.0344168
+      "weight": 0.034417
     }
   ]
 }
