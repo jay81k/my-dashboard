@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "DINO",
-      "weight": 0.0329771
+      "weight": 0.033015102
     },
     {
       "symbol": "SM",
-      "weight": 0.0318796
+      "weight": 0.0319164
     },
     {
       "symbol": "APA",
-      "weight": 0.0293985
+      "weight": 0.0294324
     },
     {
       "symbol": "MPC",
-      "weight": 0.029188098
+      "weight": 0.0292218
     },
     {
       "symbol": "FANG",
-      "weight": 0.0288442
+      "weight": 0.0288774
     },
     {
       "symbol": "MUR",
-      "weight": 0.0283199
+      "weight": 0.0283526
     },
     {
       "symbol": "VLO",
-      "weight": 0.0281898
+      "weight": 0.0282223
     },
     {
       "symbol": "CHRD",
-      "weight": 0.0281155
+      "weight": 0.028148001
     },
     {
       "symbol": "VNOM",
-      "weight": 0.0276332
+      "weight": 0.027665101
     },
     {
       "symbol": "PSX",
-      "weight": 0.027609799
+      "weight": 0.027641699
     }
   ]
 }
