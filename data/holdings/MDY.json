@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "FLEX",
-      "weight": 0.0098423
-    },
-    {
-      "symbol": "FTI",
-      "weight": 0.008938501
-    },
-    {
-      "symbol": "CW",
-      "weight": 0.0077643003
-    },
-    {
-      "symbol": "XPO",
-      "weight": 0.0075403
-    },
-    {
-      "symbol": "UTHR",
-      "weight": 0.0071932
-    },
-    {
-      "symbol": "FN",
-      "weight": 0.0071596997
-    },
-    {
-      "symbol": "MTZ",
-      "weight": 0.0070673
-    },
-    {
-      "symbol": "NVT",
-      "weight": 0.0067423
+      "weight": 0.0158062
     },
     {
       "symbol": "TWLO",
-      "weight": 0.0065637
+      "weight": 0.0082408
+    },
+    {
+      "symbol": "FTI",
+      "weight": 0.0078912005
+    },
+    {
+      "symbol": "CW",
+      "weight": 0.0078592
+    },
+    {
+      "symbol": "NVT",
+      "weight": 0.0076826
+    },
+    {
+      "symbol": "STRL",
+      "weight": 0.0075395
+    },
+    {
+      "symbol": "XPO",
+      "weight": 0.007156
     },
     {
       "symbol": "P",
-      "weight": 0.0065530003
+      "weight": 0.0071106
+    },
+    {
+      "symbol": "ILMN",
+      "weight": 0.0071041
+    },
+    {
+      "symbol": "UTHR",
+      "weight": 0.0068357005
     }
   ]
 }
