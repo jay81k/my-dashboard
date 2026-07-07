@@ -2,44 +2,44 @@
   "symbol": "IBB",
   "holdings": [
     {
-      "symbol": "GILD",
-      "weight": 0.074177496
-    },
-    {
       "symbol": "VRTX",
-      "weight": 0.0740351
+      "weight": 0.0807092
     },
     {
       "symbol": "AMGN",
-      "weight": 0.071311995
+      "weight": 0.078186005
+    },
+    {
+      "symbol": "GILD",
+      "weight": 0.0683408
     },
     {
       "symbol": "REGN",
-      "weight": 0.0569324
-    },
-    {
-      "symbol": "ALNY",
-      "weight": 0.0361288
+      "weight": 0.049005598
     },
     {
       "symbol": "ARGX",
-      "weight": 0.034874998
+      "weight": 0.0375438
+    },
+    {
+      "symbol": "ALNY",
+      "weight": 0.031173
     },
     {
       "symbol": "NTRA",
-      "weight": 0.026752999
-    },
-    {
-      "symbol": "BIIB",
-      "weight": 0.0261189
+      "weight": 0.0288711
     },
     {
       "symbol": "RVMD",
-      "weight": 0.024687199
+      "weight": 0.0277703
+    },
+    {
+      "symbol": "BIIB",
+      "weight": 0.0246298
     },
     {
       "symbol": "ILMN",
-      "weight": 0.0220391
+      "weight": 0.0206659
     }
   ]
 }

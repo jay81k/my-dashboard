@@ -2,44 +2,44 @@
   "symbol": "XHE",
   "holdings": [
     {
-      "symbol": "STAA",
-      "weight": 0.0294712
+      "symbol": "BFLY",
+      "weight": 0.0256098
     },
     {
-      "symbol": "NVCR",
-      "weight": 0.023580799
+      "symbol": "QDEL",
+      "weight": 0.0212883
     },
     {
-      "symbol": "IART",
-      "weight": 0.021471
+      "symbol": "GKOS",
+      "weight": 0.0187189
+    },
+    {
+      "symbol": "UFPT",
+      "weight": 0.0187103
     },
     {
       "symbol": "AXGN",
-      "weight": 0.0213496
-    },
-    {
-      "symbol": "AVNS",
-      "weight": 0.021048
+      "weight": 0.018330801
     },
     {
       "symbol": "LNTH",
-      "weight": 0.020985201
+      "weight": 0.0181592
     },
     {
-      "symbol": "BFLY",
-      "weight": 0.020735199
+      "symbol": "AORT",
+      "weight": 0.0180107
     },
     {
-      "symbol": "LIVN",
-      "weight": 0.0206323
+      "symbol": "NVST",
+      "weight": 0.0179673
     },
     {
       "symbol": "OMCL",
-      "weight": 0.0205669
+      "weight": 0.0178437
     },
     {
-      "symbol": "TFX",
-      "weight": 0.020037798
+      "symbol": "MDLN",
+      "weight": 0.0176332
     }
   ]
 }

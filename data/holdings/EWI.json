@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "UCG.MI",
-      "weight": 0.1569367
+      "weight": 0.1600809
     },
     {
       "symbol": "ISP.MI",
-      "weight": 0.124286205
+      "weight": 0.1240542
     },
     {
       "symbol": "ENEL.MI",
-      "weight": 0.1122817
-    },
-    {
-      "symbol": "ENI.MI",
-      "weight": 0.0532863
-    },
-    {
-      "symbol": "PRY.MI",
-      "weight": 0.0458673
+      "weight": 0.113490894
     },
     {
       "symbol": "G.MI",
-      "weight": 0.045092203
+      "weight": 0.048028998
     },
     {
       "symbol": "RACE.MI",
-      "weight": 0.0448495
+      "weight": 0.0476827
     },
     {
-      "symbol": "LDO.MI",
-      "weight": 0.0409876
+      "symbol": "ENI.MI",
+      "weight": 0.0471907
+    },
+    {
+      "symbol": "PRY.MI",
+      "weight": 0.043798
     },
     {
       "symbol": "BPE.MI",
-      "weight": 0.0343601
+      "weight": 0.039298
     },
     {
       "symbol": "BMPS.MI",
-      "weight": 0.033612
+      "weight": 0.0382904
+    },
+    {
+      "symbol": "LDO.MI",
+      "weight": 0.034191202
     }
   ]
 }

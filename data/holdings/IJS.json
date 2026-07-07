@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "XTSLA",
-      "weight": 0.0108568
-    },
-    {
-      "symbol": "ENPH",
-      "weight": 0.0103995
+      "weight": 0.0163032
     },
     {
       "symbol": "MOH",
-      "weight": 0.0103934
-    },
-    {
-      "symbol": "EMN",
-      "weight": 0.010063699
+      "weight": 0.0127957
     },
     {
       "symbol": "MTCH",
-      "weight": 0.0099154
+      "weight": 0.0095318
+    },
+    {
+      "symbol": "EMN",
+      "weight": 0.008225299
+    },
+    {
+      "symbol": "KMX",
+      "weight": 0.008060399
     },
     {
       "symbol": "JXN",
-      "weight": 0.0084544
+      "weight": 0.0076619
     },
     {
-      "symbol": "SM",
-      "weight": 0.0080812005
+      "symbol": "KLIC",
+      "weight": 0.0075175
+    },
+    {
+      "symbol": "POOL",
+      "weight": 0.0074013
     },
     {
       "symbol": "LKQ",
-      "weight": 0.0080702
-    },
-    {
-      "symbol": "PAYC",
-      "weight": 0.0079346
+      "weight": 0.0072046
     },
     {
       "symbol": "VSH",
-      "weight": 0.0074726
+      "weight": 0.0071622003
     }
   ]
 }

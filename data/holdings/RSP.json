@@ -2,44 +2,44 @@
   "symbol": "RSP",
   "holdings": [
     {
-      "symbol": "DELL",
-      "weight": 0.0053587
+      "symbol": "MRNA",
+      "weight": 0.0029495
+    },
+    {
+      "symbol": "GLW",
+      "weight": 0.0029429002
+    },
+    {
+      "symbol": "AMAT",
+      "weight": 0.0028157
+    },
+    {
+      "symbol": "KLAC",
+      "weight": 0.0027355
+    },
+    {
+      "symbol": "TER",
+      "weight": 0.0026966
     },
     {
       "symbol": "SNDK",
-      "weight": 0.0048559
+      "weight": 0.0026943001
     },
     {
-      "symbol": "AMD",
-      "weight": 0.0047265
+      "symbol": "GEV",
+      "weight": 0.0026268
     },
     {
-      "symbol": "INTC",
-      "weight": 0.0044875
+      "symbol": "LRCX",
+      "weight": 0.0026087998
     },
     {
-      "symbol": "MU",
-      "weight": 0.0043507
+      "symbol": "TECH",
+      "weight": 0.0026067998
     },
     {
-      "symbol": "STX",
-      "weight": 0.004276
-    },
-    {
-      "symbol": "ON",
-      "weight": 0.0038198
-    },
-    {
-      "symbol": "HPE",
-      "weight": 0.0037683002
-    },
-    {
-      "symbol": "WDC",
-      "weight": 0.0037073002
-    },
-    {
-      "symbol": "DDOG",
-      "weight": 0.0036403001
+      "symbol": "UAL",
+      "weight": 0.0025626002
     }
   ]
 }

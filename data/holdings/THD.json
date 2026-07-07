@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "DELTA-R",
-      "weight": 0.209351
+      "weight": 0.1902021
     },
     {
       "symbol": "ADVANC-R",
-      "weight": 0.069506794
+      "weight": 0.0712745
     },
     {
       "symbol": "PTT-R",
-      "weight": 0.0672926
-    },
-    {
-      "symbol": "CPALL-R",
-      "weight": 0.0437689
-    },
-    {
-      "symbol": "GULF-R",
-      "weight": 0.043211497
+      "weight": 0.0649994
     },
     {
       "symbol": "AOT-R",
-      "weight": 0.041930098
+      "weight": 0.0480935
     },
     {
-      "symbol": "PTTEP-R",
-      "weight": 0.0360671
+      "symbol": "CPALL-R",
+      "weight": 0.042713698
+    },
+    {
+      "symbol": "GULF-R",
+      "weight": 0.042277
     },
     {
       "symbol": "BDMS-R",
-      "weight": 0.035639502
+      "weight": 0.0372768
     },
     {
       "symbol": "SCC-R",
-      "weight": 0.032495
+      "weight": 0.034468602
     },
     {
-      "symbol": "TRUE-R",
-      "weight": 0.0262443
+      "symbol": "PTTEP-R",
+      "weight": 0.0336887
+    },
+    {
+      "symbol": "CPN-R",
+      "weight": 0.0244428
     }
   ]
 }

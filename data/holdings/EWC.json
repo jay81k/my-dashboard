@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "RY",
-      "weight": 0.0881598
+      "weight": 0.0968497
     },
     {
       "symbol": "TD",
-      "weight": 0.062339403
+      "weight": 0.0674076
     },
     {
       "symbol": "SHOP",
-      "weight": 0.048077002
-    },
-    {
-      "symbol": "ENB.TO",
-      "weight": 0.039364
+      "weight": 0.0469354
     },
     {
       "symbol": "BMO.TO",
-      "weight": 0.0367945
+      "weight": 0.0407417
     },
     {
-      "symbol": "CM.TO",
-      "weight": 0.0329614
+      "symbol": "ENB.TO",
+      "weight": 0.0395921
     },
     {
       "symbol": "BNS.TO",
-      "weight": 0.032529
+      "weight": 0.0358568
     },
     {
-      "symbol": "CNQ.TO",
-      "weight": 0.031194698
-    },
-    {
-      "symbol": "AEM.TO",
-      "weight": 0.0301911
+      "symbol": "CM.TO",
+      "weight": 0.0353843
     },
     {
       "symbol": "BN.TO",
-      "weight": 0.0299372
+      "weight": 0.028529
+    },
+    {
+      "symbol": "CNQ.TO",
+      "weight": 0.0276192
+    },
+    {
+      "symbol": "AEM.TO",
+      "weight": 0.0264414
     }
   ]
 }

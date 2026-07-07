@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "RIO",
-      "weight": 0.2017334
-    },
-    {
-      "symbol": "6762.T",
-      "weight": 0.0611064
-    },
-    {
-      "symbol": "ALB",
-      "weight": 0.054464698
-    },
-    {
-      "symbol": "006400.KS",
-      "weight": 0.0531247
+      "weight": 0.2000565
     },
     {
       "symbol": "002371.SZ",
-      "weight": 0.0509869
+      "weight": 0.07892
     },
     {
       "symbol": "6752.T",
-      "weight": 0.0467325
+      "weight": 0.061883997
+    },
+    {
+      "symbol": "6762.T",
+      "weight": 0.0578835
+    },
+    {
+      "symbol": "ALB",
+      "weight": 0.0463938
     },
     {
       "symbol": "TSLA",
-      "weight": 0.0423179
+      "weight": 0.045451798
     },
     {
-      "symbol": "373220.KS",
-      "weight": 0.0377032
+      "symbol": "006400.KS",
+      "weight": 0.0407002
     },
     {
-      "symbol": "PLS.AX",
-      "weight": 0.035840098
+      "symbol": "300014.SZ",
+      "weight": 0.0375283
     },
     {
       "symbol": "300750.SZ",
-      "weight": 0.035676602
+      "weight": 0.0365765
+    },
+    {
+      "symbol": "373220.KS",
+      "weight": 0.0322125
     }
   ]
 }

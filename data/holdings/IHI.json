@@ -2,44 +2,44 @@
   "symbol": "IHI",
   "holdings": [
     {
-      "symbol": "ISRG",
-      "weight": 0.1601281
+      "symbol": "ABT",
+      "weight": 0.1693191
     },
     {
-      "symbol": "ABT",
-      "weight": 0.1580503
+      "symbol": "ISRG",
+      "weight": 0.1508842
     },
     {
       "symbol": "SYK",
-      "weight": 0.1115781
+      "weight": 0.1163715
     },
     {
       "symbol": "EW",
-      "weight": 0.053845
-    },
-    {
-      "symbol": "IDXX",
-      "weight": 0.0497218
+      "weight": 0.0475338
     },
     {
       "symbol": "BDX",
-      "weight": 0.0477744
-    },
-    {
-      "symbol": "MDT",
-      "weight": 0.0439575
+      "weight": 0.046262003
     },
     {
       "symbol": "GEHC",
-      "weight": 0.043021798
+      "weight": 0.0450923
     },
     {
-      "symbol": "DXCM",
-      "weight": 0.0429743
+      "symbol": "MDT",
+      "weight": 0.0440424
     },
     {
       "symbol": "RMD",
-      "weight": 0.042039
+      "weight": 0.0437773
+    },
+    {
+      "symbol": "IDXX",
+      "weight": 0.042705998
+    },
+    {
+      "symbol": "DXCM",
+      "weight": 0.0402465
     }
   ]
 }

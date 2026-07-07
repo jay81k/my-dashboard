@@ -2,44 +2,44 @@
   "symbol": "XHB",
   "holdings": [
     {
-      "symbol": "MOD",
-      "weight": 0.0478378
-    },
-    {
       "symbol": "OC",
-      "weight": 0.0403395
+      "weight": 0.040963996
     },
     {
-      "symbol": "MAS",
-      "weight": 0.0386851
+      "symbol": "WMS",
+      "weight": 0.0359446
     },
     {
-      "symbol": "BLD.MX",
-      "weight": 0.0378106
+      "symbol": "KBH",
+      "weight": 0.0355862
     },
     {
-      "symbol": "WSM",
-      "weight": 0.03771
-    },
-    {
-      "symbol": "CARR",
-      "weight": 0.0374491
-    },
-    {
-      "symbol": "CVCO",
-      "weight": 0.036264703
-    },
-    {
-      "symbol": "TT",
-      "weight": 0.0359125
-    },
-    {
-      "symbol": "DHI",
-      "weight": 0.0354775
+      "symbol": "BLDR",
+      "weight": 0.0355626
     },
     {
       "symbol": "MTH",
-      "weight": 0.034417
+      "weight": 0.035241798
+    },
+    {
+      "symbol": "TOL",
+      "weight": 0.0351752
+    },
+    {
+      "symbol": "IBP",
+      "weight": 0.0348384
+    },
+    {
+      "symbol": "PHM",
+      "weight": 0.0343426
+    },
+    {
+      "symbol": "MAS",
+      "weight": 0.0340499
+    },
+    {
+      "symbol": "SGI",
+      "weight": 0.0339669
     }
   ]
 }

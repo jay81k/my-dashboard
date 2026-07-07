@@ -3,39 +3,43 @@
   "holdings": [
     {
       "symbol": "CCO.TO",
-      "weight": 0.2164825
+      "weight": 0.18118949
+    },
+    {
+      "symbol": "U-U.TO",
+      "weight": 0.1395897
     },
     {
       "symbol": "NXE.TO",
-      "weight": 0.1271111
-    },
-    {
-      "symbol": "UEC",
-      "weight": 0.0525278
-    },
-    {
-      "symbol": "PDN.AX",
-      "weight": 0.047476202
+      "weight": 0.119715594
     },
     {
       "symbol": "EFR.TO",
-      "weight": 0.047192402
+      "weight": 0.0514527
     },
     {
       "symbol": "DML.TO",
-      "weight": 0.0467234
+      "weight": 0.0511875
     },
     {
       "symbol": "KAP",
-      "weight": 0.046550203
-    },
-    {
-      "symbol": "YCA.L",
-      "weight": 0.0394606
+      "weight": 0.0511751
     },
     {
       "symbol": "DYL.AX",
-      "weight": 0.0371343
+      "weight": 0.0461873
+    },
+    {
+      "symbol": "UEC",
+      "weight": 0.0449435
+    },
+    {
+      "symbol": "PDN.AX",
+      "weight": 0.0438882
+    },
+    {
+      "symbol": "1164.HK",
+      "weight": 0.042631
     }
   ]
 }

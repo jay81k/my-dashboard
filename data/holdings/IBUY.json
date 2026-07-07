@@ -2,44 +2,44 @@
   "symbol": "IBUY",
   "holdings": [
     {
-      "symbol": "PTON",
-      "weight": 0.0298107
+      "symbol": "W",
+      "weight": 0.0330001
     },
     {
-      "symbol": "SPOT",
-      "weight": 0.028346801
-    },
-    {
-      "symbol": "BBBY",
-      "weight": 0.028120501
+      "symbol": "HIMS",
+      "weight": 0.030396901
     },
     {
       "symbol": "AFRM",
-      "weight": 0.0272022
-    },
-    {
-      "symbol": "W",
-      "weight": 0.026519
-    },
-    {
-      "symbol": "ETSY",
-      "weight": 0.0253215
-    },
-    {
-      "symbol": "MSM",
-      "weight": 0.02525
-    },
-    {
-      "symbol": "EBAY",
-      "weight": 0.024471499
+      "weight": 0.029307999
     },
     {
       "symbol": "TRIP",
-      "weight": 0.024221301
+      "weight": 0.0288993
     },
     {
-      "symbol": "BKNG",
-      "weight": 0.0240926
+      "symbol": "CART",
+      "weight": 0.0277858
+    },
+    {
+      "symbol": "ETSY",
+      "weight": 0.0273261
+    },
+    {
+      "symbol": "PTON",
+      "weight": 0.0267837
+    },
+    {
+      "symbol": "RVLV",
+      "weight": 0.0267177
+    },
+    {
+      "symbol": "MSM",
+      "weight": 0.026698101
+    },
+    {
+      "symbol": "DASH",
+      "weight": 0.025894301
     }
   ]
 }

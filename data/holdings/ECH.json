@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SQM-B.SN",
-      "weight": 0.1566354
+      "weight": 0.1410804
     },
     {
       "symbol": "LTM.SN",
-      "weight": 0.1088801
+      "weight": 0.12148909
     },
     {
       "symbol": "CHILE.SN",
-      "weight": 0.1056363
-    },
-    {
-      "symbol": "FALABELLA.SN",
-      "weight": 0.0465439
-    },
-    {
-      "symbol": "PARAUCO.SN",
-      "weight": 0.0456645
-    },
-    {
-      "symbol": "BCI.SN",
-      "weight": 0.0441789
+      "weight": 0.114028305
     },
     {
       "symbol": "BSANTANDER.SN",
-      "weight": 0.044042602
+      "weight": 0.0476487
+    },
+    {
+      "symbol": "FALABELLA.SN",
+      "weight": 0.0471213
+    },
+    {
+      "symbol": "PARAUCO.SN",
+      "weight": 0.0453592
+    },
+    {
+      "symbol": "BCI.SN",
+      "weight": 0.044671103
     },
     {
       "symbol": "CENCOSUD.SN",
-      "weight": 0.0434139
-    },
-    {
-      "symbol": "COPEC.SN",
-      "weight": 0.0424148
+      "weight": 0.0442869
     },
     {
       "symbol": "ENELCHILE.SN",
-      "weight": 0.0412429
+      "weight": 0.0433487
+    },
+    {
+      "symbol": "COPEC.SN",
+      "weight": 0.0387029
     }
   ]
 }

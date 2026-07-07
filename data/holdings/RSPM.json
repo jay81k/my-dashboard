@@ -2,44 +2,44 @@
   "symbol": "RSPM",
   "holdings": [
     {
-      "symbol": "NUE",
-      "weight": 0.055057403
+      "symbol": "IP",
+      "weight": 0.044444
     },
     {
-      "symbol": "STLD",
-      "weight": 0.053415097
+      "symbol": "SW",
+      "weight": 0.0441266
     },
     {
-      "symbol": "IFF",
-      "weight": 0.0418733
+      "symbol": "BALL",
+      "weight": 0.042368103
     },
     {
-      "symbol": "PPG",
-      "weight": 0.041072696
+      "symbol": "CTVA",
+      "weight": 0.0422579
     },
     {
-      "symbol": "FCX",
-      "weight": 0.040395997
+      "symbol": "AMCR",
+      "weight": 0.042195402
+    },
+    {
+      "symbol": "SHW",
+      "weight": 0.0420933
+    },
+    {
+      "symbol": "PKG",
+      "weight": 0.0408642
+    },
+    {
+      "symbol": "ECL",
+      "weight": 0.0402783
     },
     {
       "symbol": "VMC",
-      "weight": 0.040158402
+      "weight": 0.040198304
     },
     {
-      "symbol": "DD",
-      "weight": 0.0398372
-    },
-    {
-      "symbol": "ALB",
-      "weight": 0.039728798
-    },
-    {
-      "symbol": "CRH",
-      "weight": 0.0395805
-    },
-    {
-      "symbol": "LIN",
-      "weight": 0.039088
+      "symbol": "PPG",
+      "weight": 0.039890002
     }
   ]
 }

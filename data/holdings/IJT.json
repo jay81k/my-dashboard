@@ -2,44 +2,44 @@
   "symbol": "IJT",
   "holdings": [
     {
-      "symbol": "SANM",
-      "weight": 0.0167209
-    },
-    {
-      "symbol": "VIAV",
-      "weight": 0.0132472
+      "symbol": "FORM",
+      "weight": 0.013637201
     },
     {
       "symbol": "VSAT",
-      "weight": 0.0129106
-    },
-    {
-      "symbol": "SMTC",
-      "weight": 0.011649701
-    },
-    {
-      "symbol": "FORM",
-      "weight": 0.0113863
+      "weight": 0.0133437
     },
     {
       "symbol": "AGX",
-      "weight": 0.0109098
+      "weight": 0.0121937
     },
     {
       "symbol": "XTSLA",
-      "weight": 0.0098017
+      "weight": 0.0121491
     },
     {
       "symbol": "BTSG",
-      "weight": 0.0096263
-    },
-    {
-      "symbol": "POWL",
-      "weight": 0.0095273
+      "weight": 0.0120659005
     },
     {
       "symbol": "KRYS",
-      "weight": 0.0094029
+      "weight": 0.0106666
+    },
+    {
+      "symbol": "ESE",
+      "weight": 0.0099195
+    },
+    {
+      "symbol": "ALKS",
+      "weight": 0.0095525
+    },
+    {
+      "symbol": "ECG",
+      "weight": 0.0092653
+    },
+    {
+      "symbol": "SNEX",
+      "weight": 0.0091425
     }
   ]
 }

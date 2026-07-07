@@ -2,44 +2,44 @@
   "symbol": "FXI",
   "holdings": [
     {
-      "symbol": "9988.HK",
-      "weight": 0.0843081
+      "symbol": "0700.HK",
+      "weight": 0.0922122
     },
     {
       "symbol": "00939",
-      "weight": 0.0823787
+      "weight": 0.0893769
     },
     {
-      "symbol": "0700.HK",
-      "weight": 0.0721138
+      "symbol": "9988.HK",
+      "weight": 0.0837969
     },
     {
       "symbol": "01398",
-      "weight": 0.058888003
+      "weight": 0.0607505
     },
     {
       "symbol": "1810.HK",
-      "weight": 0.0536657
+      "weight": 0.0440589
     },
     {
       "symbol": "3690.HK",
-      "weight": 0.0434189
-    },
-    {
-      "symbol": "02318",
-      "weight": 0.0432443
-    },
-    {
-      "symbol": "03988",
-      "weight": 0.0396645
+      "weight": 0.043726303
     },
     {
       "symbol": "9999.HK",
-      "weight": 0.0392101
+      "weight": 0.0430249
+    },
+    {
+      "symbol": "03988",
+      "weight": 0.039457902
+    },
+    {
+      "symbol": "02318",
+      "weight": 0.038652
     },
     {
       "symbol": "01211",
-      "weight": 0.0373061
+      "weight": 0.0312714
     }
   ]
 }

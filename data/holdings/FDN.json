@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "AMZN",
-      "weight": 0.109956
-    },
-    {
-      "symbol": "CSCO",
-      "weight": 0.086937904
+      "weight": 0.099749096
     },
     {
       "symbol": "META",
-      "weight": 0.083448894
+      "weight": 0.0982652
     },
     {
-      "symbol": "NFLX",
-      "weight": 0.066364996
+      "symbol": "CSCO",
+      "weight": 0.085409
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.0590533
-    },
-    {
-      "symbol": "GOOG",
-      "weight": 0.0469491
+      "weight": 0.055517603
     },
     {
       "symbol": "ANET",
-      "weight": 0.0448518
-    },
-    {
-      "symbol": "CRM",
-      "weight": 0.0382712
-    },
-    {
-      "symbol": "SNOW",
-      "weight": 0.038096298
+      "weight": 0.0501749
     },
     {
       "symbol": "BKNG",
-      "weight": 0.0376488
+      "weight": 0.049734
+    },
+    {
+      "symbol": "ORCL",
+      "weight": 0.045893896
+    },
+    {
+      "symbol": "GOOG",
+      "weight": 0.0442441
+    },
+    {
+      "symbol": "CRM",
+      "weight": 0.0410834
+    },
+    {
+      "symbol": "NFLX",
+      "weight": 0.039028898
     }
   ]
 }

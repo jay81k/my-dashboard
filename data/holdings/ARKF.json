@@ -3,39 +3,39 @@
   "holdings": [
     {
       "symbol": "SHOP",
-      "weight": 0.0910927
-    },
-    {
-      "symbol": "CRCL",
-      "weight": 0.0655102
-    },
-    {
-      "symbol": "COIN",
-      "weight": 0.056155
-    },
-    {
-      "symbol": "XYZ",
-      "weight": 0.054558802
+      "weight": 0.0945951
     },
     {
       "symbol": "HOOD",
-      "weight": 0.0536693
+      "weight": 0.0625551
     },
     {
-      "symbol": "PLTR",
-      "weight": 0.0452213
+      "symbol": "XYZ",
+      "weight": 0.0606775
     },
     {
-      "symbol": "AMD",
-      "weight": 0.041384
+      "symbol": "COIN",
+      "weight": 0.052302
+    },
+    {
+      "symbol": "CRCL",
+      "weight": 0.0487721
     },
     {
       "symbol": "TOST",
-      "weight": 0.0380282
+      "weight": 0.044404898
+    },
+    {
+      "symbol": "AMD",
+      "weight": 0.0394866
+    },
+    {
+      "symbol": "PLTR",
+      "weight": 0.0394702
     },
     {
       "symbol": "AMZN",
-      "weight": 0.0377502
+      "weight": 0.0381646
     }
   ]
 }

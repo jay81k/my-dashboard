@@ -2,44 +2,44 @@
   "symbol": "IGV",
   "holdings": [
     {
-      "symbol": "ORCL",
-      "weight": 0.0997573
+      "symbol": "PANW",
+      "weight": 0.1037125
     },
     {
       "symbol": "MSFT",
-      "weight": 0.080139905
-    },
-    {
-      "symbol": "PANW",
-      "weight": 0.0759011
+      "weight": 0.0807212
     },
     {
       "symbol": "PLTR",
-      "weight": 0.074422695
+      "weight": 0.077045895
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0621865
+      "weight": 0.0728425
+    },
+    {
+      "symbol": "ORCL",
+      "weight": 0.0626129
     },
     {
       "symbol": "CRM",
-      "weight": 0.0597101
+      "weight": 0.0480586
     },
     {
       "symbol": "APP",
-      "weight": 0.0553987
-    },
-    {
-      "symbol": "NOW",
-      "weight": 0.0410411
-    },
-    {
-      "symbol": "ADBE",
-      "weight": 0.0359108
+      "weight": 0.0475776
     },
     {
       "symbol": "CDNS",
-      "weight": 0.0344457
+      "weight": 0.039140698
+    },
+    {
+      "symbol": "NOW",
+      "weight": 0.0387126
+    },
+    {
+      "symbol": "FTNT",
+      "weight": 0.0361719
     }
   ]
 }

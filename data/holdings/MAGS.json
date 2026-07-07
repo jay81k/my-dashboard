@@ -2,28 +2,12 @@
   "symbol": "MAGS",
   "holdings": [
     {
-      "symbol": "XBOX",
-      "weight": 0.070852496
-    },
-    {
-      "symbol": "AMZN",
-      "weight": 0.0553609
-    },
-    {
       "symbol": "FGXXX",
-      "weight": 0.052585702
+      "weight": 0.0940924
     },
     {
-      "symbol": "AAPL",
-      "weight": 0.0525641
-    },
-    {
-      "symbol": "NVDA",
-      "weight": 0.0518887
-    },
-    {
-      "symbol": "MSFT",
-      "weight": 0.0518656
+      "symbol": "XBOX",
+      "weight": 0.0682988
     }
   ]
 }

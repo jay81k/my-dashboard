@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "DOCN",
-      "weight": 0.0316859
-    },
-    {
-      "symbol": "DDOG",
-      "weight": 0.027649902
+      "weight": 0.032767702
     },
     {
       "symbol": "FROG",
-      "weight": 0.027195498
+      "weight": 0.0319657
     },
     {
       "symbol": "PANW",
-      "weight": 0.0244194
+      "weight": 0.0304023
+    },
+    {
+      "symbol": "DDOG",
+      "weight": 0.0298837
     },
     {
       "symbol": "CRWD",
-      "weight": 0.024324998
+      "weight": 0.0261323
     },
     {
-      "symbol": "TWLO",
-      "weight": 0.0217642
+      "symbol": "TENB",
+      "weight": 0.024601
     },
     {
       "symbol": "OKTA",
-      "weight": 0.0214286
+      "weight": 0.0243861
+    },
+    {
+      "symbol": "TWLO",
+      "weight": 0.024215601
     },
     {
       "symbol": "RBRK",
-      "weight": 0.0202614
+      "weight": 0.021230198
     },
     {
-      "symbol": "PD",
-      "weight": 0.0195067
-    },
-    {
-      "symbol": "BRZE",
-      "weight": 0.0192329
+      "symbol": "QLYS",
+      "weight": 0.0197052
     }
   ]
 }

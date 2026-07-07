@@ -2,44 +2,44 @@
   "symbol": "QQQE",
   "holdings": [
     {
-      "symbol": "ARM",
-      "weight": 0.022074599
+      "symbol": "AMAT",
+      "weight": 0.0158435
     },
     {
-      "symbol": "INTC",
-      "weight": 0.021618
-    },
-    {
-      "symbol": "AMD",
-      "weight": 0.021199
+      "symbol": "KLAC",
+      "weight": 0.0154834995
     },
     {
       "symbol": "MRVL",
-      "weight": 0.0192855
+      "weight": 0.014331
     },
     {
-      "symbol": "MU",
-      "weight": 0.0189864
+      "symbol": "ALAB",
+      "weight": 0.0138942
     },
     {
-      "symbol": "STX",
-      "weight": 0.0176925
+      "symbol": "LRCX",
+      "weight": 0.013431099
     },
     {
-      "symbol": "DDOG",
-      "weight": 0.0163545
+      "symbol": "SNDK",
+      "weight": 0.013228901
     },
     {
-      "symbol": "QCOM",
-      "weight": 0.015980199
+      "symbol": "TER",
+      "weight": 0.0127481995
     },
     {
-      "symbol": "WDC",
-      "weight": 0.0149887
+      "symbol": "AXON",
+      "weight": 0.012321699
     },
     {
-      "symbol": "CRWD",
-      "weight": 0.0147795
+      "symbol": "ASML",
+      "weight": 0.0121657
+    },
+    {
+      "symbol": "INTC",
+      "weight": 0.0120078
     }
   ]
 }

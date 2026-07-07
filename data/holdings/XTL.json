@@ -2,44 +2,44 @@
   "symbol": "XTL",
   "holdings": [
     {
+      "symbol": "VSAT",
+      "weight": 0.0441346
+    },
+    {
       "symbol": "IRDM",
-      "weight": 0.0558861
+      "weight": 0.036345
     },
     {
       "symbol": "EXTR",
-      "weight": 0.0476087
-    },
-    {
-      "symbol": "VSAT",
-      "weight": 0.0465172
+      "weight": 0.0342303
     },
     {
       "symbol": "CIEN",
-      "weight": 0.045688402
+      "weight": 0.0341074
     },
     {
-      "symbol": "LUMN",
-      "weight": 0.0442354
-    },
-    {
-      "symbol": "VIAV",
-      "weight": 0.043196604
-    },
-    {
-      "symbol": "CSCO",
-      "weight": 0.0412701
-    },
-    {
-      "symbol": "GSAT",
-      "weight": 0.0391392
-    },
-    {
-      "symbol": "ONDS",
-      "weight": 0.035997402
+      "symbol": "ANET",
+      "weight": 0.0338304
     },
     {
       "symbol": "FFIV",
-      "weight": 0.0354493
+      "weight": 0.032170802
+    },
+    {
+      "symbol": "VISN",
+      "weight": 0.0320002
+    },
+    {
+      "symbol": "ATEX",
+      "weight": 0.0318871
+    },
+    {
+      "symbol": "CMCSA",
+      "weight": 0.0309537
+    },
+    {
+      "symbol": "VIAV",
+      "weight": 0.030822799
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "IJJ",
   "holdings": [
     {
-      "symbol": "AA",
-      "weight": 0.0119325
-    },
-    {
-      "symbol": "RS",
-      "weight": 0.0118172
+      "symbol": "USFD",
+      "weight": 0.0129436
     },
     {
       "symbol": "SNX",
-      "weight": 0.0116287
+      "weight": 0.011492
     },
     {
-      "symbol": "USFD",
-      "weight": 0.0107131
-    },
-    {
-      "symbol": "WCC",
-      "weight": 0.0104271
-    },
-    {
-      "symbol": "NLY",
-      "weight": 0.0093158
-    },
-    {
-      "symbol": "OVV",
-      "weight": 0.0092353
+      "symbol": "RS",
+      "weight": 0.0109671
     },
     {
       "symbol": "PFGC",
-      "weight": 0.009155
+      "weight": 0.0100959
     },
     {
-      "symbol": "BWA",
-      "weight": 0.0088042
+      "symbol": "WCC",
+      "weight": 0.0096679
+    },
+    {
+      "symbol": "ENTG",
+      "weight": 0.009463401
+    },
+    {
+      "symbol": "NLY",
+      "weight": 0.0094202
+    },
+    {
+      "symbol": "RRX",
+      "weight": 0.0091175
+    },
+    {
+      "symbol": "TOL",
+      "weight": 0.0089731
     },
     {
       "symbol": "PNFP",
-      "weight": 0.0087332
+      "weight": 0.008724201
     }
   ]
 }

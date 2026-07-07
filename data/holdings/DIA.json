@@ -2,44 +2,44 @@
   "symbol": "DIA",
   "holdings": [
     {
-      "symbol": "GS",
-      "weight": 0.1236249
-    },
-    {
       "symbol": "CAT",
-      "weight": 0.1055807
+      "weight": 0.1205333
     },
     {
-      "symbol": "MSFT",
-      "weight": 0.0542736
+      "symbol": "GS",
+      "weight": 0.1144743
     },
     {
       "symbol": "UNH",
-      "weight": 0.045844004
+      "weight": 0.047044102
+    },
+    {
+      "symbol": "MSFT",
+      "weight": 0.0422212
     },
     {
       "symbol": "AMGN",
-      "weight": 0.0405979
+      "weight": 0.040987402
     },
     {
-      "symbol": "V",
-      "weight": 0.0393407
+      "symbol": "GOOGL",
+      "weight": 0.0404498
     },
     {
       "symbol": "HD",
-      "weight": 0.0382293
-    },
-    {
-      "symbol": "AXP",
-      "weight": 0.0381485
-    },
-    {
-      "symbol": "AAPL",
-      "weight": 0.037616897
+      "weight": 0.0399189
     },
     {
       "symbol": "SHW",
-      "weight": 0.036626
+      "weight": 0.0389727
+    },
+    {
+      "symbol": "V",
+      "weight": 0.0388335
+    },
+    {
+      "symbol": "AXP",
+      "weight": 0.038285602
     }
   ]
 }

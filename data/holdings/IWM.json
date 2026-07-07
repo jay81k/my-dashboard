@@ -2,44 +2,44 @@
   "symbol": "IWM",
   "holdings": [
     {
-      "symbol": "BE",
-      "weight": 0.0182458
+      "symbol": "MOG-A",
+      "weight": 0.0037575
     },
     {
-      "symbol": "CRDO",
-      "weight": 0.0111593995
+      "symbol": "HUT",
+      "weight": 0.0036912
     },
     {
-      "symbol": "STRL",
-      "weight": 0.0075205998
+      "symbol": "VSAT",
+      "weight": 0.0035304
     },
     {
-      "symbol": "IONQ",
-      "weight": 0.0072866
+      "symbol": "BTSG",
+      "weight": 0.0035218
     },
     {
-      "symbol": "FN",
-      "weight": 0.006925
+      "symbol": "CYTK",
+      "weight": 0.003486
     },
     {
-      "symbol": "NXT",
-      "weight": 0.006683
+      "symbol": "MXL",
+      "weight": 0.0034322
     },
     {
-      "symbol": "CDE",
-      "weight": 0.0057810997
+      "symbol": "AGX",
+      "weight": 0.0033962
     },
     {
-      "symbol": "TTMI",
-      "weight": 0.0052102
+      "symbol": "UMBF",
+      "weight": 0.0032640002
     },
     {
-      "symbol": "ECHO",
-      "weight": 0.0051301997
+      "symbol": "FROG",
+      "weight": 0.0030702
     },
     {
-      "symbol": "GH",
-      "weight": 0.0047155
+      "symbol": "RIOT",
+      "weight": 0.0030254
     }
   ]
 }

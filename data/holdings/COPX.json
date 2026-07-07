@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "HBM.TO",
-      "weight": 0.0547503
+      "weight": 0.056178197
     },
     {
       "symbol": "TECK-B.TO",
-      "weight": 0.0534911
+      "weight": 0.0546317
     },
     {
       "symbol": "BHP.AX",
-      "weight": 0.05205
+      "weight": 0.054586
     },
     {
       "symbol": "ANTO.L",
-      "weight": 0.0505022
-    },
-    {
-      "symbol": "FM.TO",
-      "weight": 0.050416004
+      "weight": 0.0527731
     },
     {
       "symbol": "KGH.WA",
-      "weight": 0.0502359
+      "weight": 0.0522129
+    },
+    {
+      "symbol": "FM.TO",
+      "weight": 0.0508742
     },
     {
       "symbol": "BOL.ST",
-      "weight": 0.048874203
+      "weight": 0.0504123
     },
     {
       "symbol": "SCCO",
-      "weight": 0.0478375
+      "weight": 0.0496114
+    },
+    {
+      "symbol": "FCX",
+      "weight": 0.0488748
     },
     {
       "symbol": "GLEN.L",
-      "weight": 0.047175102
-    },
-    {
-      "symbol": "LUN.TO",
-      "weight": 0.0466031
+      "weight": 0.048022598
     }
   ]
 }

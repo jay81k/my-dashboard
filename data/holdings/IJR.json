@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "XTSLA",
-      "weight": 0.0168921
-    },
-    {
-      "symbol": "SANM",
-      "weight": 0.0083131
-    },
-    {
-      "symbol": "SMTC",
-      "weight": 0.0082741
-    },
-    {
-      "symbol": "VIAV",
-      "weight": 0.0065861
-    },
-    {
-      "symbol": "VSAT",
-      "weight": 0.0064187003
-    },
-    {
-      "symbol": "LUMN",
-      "weight": 0.0060834005
+      "weight": 0.020768002
     },
     {
       "symbol": "FORM",
-      "weight": 0.0056609
+      "weight": 0.0067462
     },
     {
-      "symbol": "ESI",
-      "weight": 0.0056467997
+      "symbol": "VSAT",
+      "weight": 0.0066007
+    },
+    {
+      "symbol": "MOH",
+      "weight": 0.0064476
     },
     {
       "symbol": "AGX",
-      "weight": 0.0054238997
+      "weight": 0.0060322
     },
     {
-      "symbol": "ENPH",
-      "weight": 0.0052433996
+      "symbol": "BTSG",
+      "weight": 0.005969
+    },
+    {
+      "symbol": "ESI",
+      "weight": 0.0059166998
+    },
+    {
+      "symbol": "MXL",
+      "weight": 0.0058310996
+    },
+    {
+      "symbol": "KRYS",
+      "weight": 0.0052773
+    },
+    {
+      "symbol": "ESE",
+      "weight": 0.0049068998
     }
   ]
 }

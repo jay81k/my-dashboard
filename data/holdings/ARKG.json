@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "TWST",
-      "weight": 0.085561
-    },
-    {
-      "symbol": "CRSP",
-      "weight": 0.0822363
+      "weight": 0.0914725
     },
     {
       "symbol": "TEM",
-      "weight": 0.0778248
-    },
-    {
-      "symbol": "PSNL",
-      "weight": 0.0640096
-    },
-    {
-      "symbol": "TXG",
-      "weight": 0.0628725
+      "weight": 0.0764085
     },
     {
       "symbol": "ABSI",
-      "weight": 0.056274
+      "weight": 0.0701301
+    },
+    {
+      "symbol": "TXG",
+      "weight": 0.0700089
+    },
+    {
+      "symbol": "CRSP",
+      "weight": 0.0656292
+    },
+    {
+      "symbol": "PSNL",
+      "weight": 0.0618513
     },
     {
       "symbol": "BEAM",
-      "weight": 0.050688
+      "weight": 0.0434268
     },
     {
       "symbol": "GH",
-      "weight": 0.0450562
-    },
-    {
-      "symbol": "ILMN",
-      "weight": 0.0448339
+      "weight": 0.0428432
     },
     {
       "symbol": "NTRA",
-      "weight": 0.0411052
+      "weight": 0.0410569
+    },
+    {
+      "symbol": "ILMN",
+      "weight": 0.0397669
     }
   ]
 }

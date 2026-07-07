@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "RDDT",
-      "weight": 0.1035639
-    },
-    {
-      "symbol": "035420.KS",
-      "weight": 0.097056
+      "weight": 0.108548805
     },
     {
       "symbol": "META",
-      "weight": 0.096659206
+      "weight": 0.091477096
     },
     {
       "symbol": "0700.HK",
-      "weight": 0.08534899
+      "weight": 0.091193706
+    },
+    {
+      "symbol": "035420.KS",
+      "weight": 0.0853222
     },
     {
       "symbol": "1024.HK",
-      "weight": 0.0720344
-    },
-    {
-      "symbol": "GOOGL",
-      "weight": 0.0554221
-    },
-    {
-      "symbol": "BIDU",
-      "weight": 0.0531717
+      "weight": 0.0698941
     },
     {
       "symbol": "NTES",
-      "weight": 0.050788898
+      "weight": 0.0565194
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.055531997
     },
     {
       "symbol": "PINS",
-      "weight": 0.0484417
+      "weight": 0.0539974
+    },
+    {
+      "symbol": "BIDU",
+      "weight": 0.047729302
     },
     {
       "symbol": "SPOT",
-      "weight": 0.046008702
+      "weight": 0.0451082
     }
   ]
 }

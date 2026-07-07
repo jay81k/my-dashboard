@@ -2,44 +2,44 @@
   "symbol": "RSPF",
   "holdings": [
     {
-      "symbol": "MS",
-      "weight": 0.0161721
-    },
-    {
-      "symbol": "IBKR",
-      "weight": 0.0159084
-    },
-    {
-      "symbol": "GS",
-      "weight": 0.0155756995
-    },
-    {
-      "symbol": "BEN",
-      "weight": 0.015541
-    },
-    {
-      "symbol": "ARES",
-      "weight": 0.0155377
-    },
-    {
-      "symbol": "STT",
-      "weight": 0.0154525
-    },
-    {
-      "symbol": "APO",
-      "weight": 0.015176199
+      "symbol": "GPN",
+      "weight": 0.0149758
     },
     {
       "symbol": "HOOD",
-      "weight": 0.0149912
+      "weight": 0.014972
     },
     {
-      "symbol": "FDS",
-      "weight": 0.014940199
+      "symbol": "XYZ",
+      "weight": 0.0147065
     },
     {
-      "symbol": "BNY",
-      "weight": 0.0148927
+      "symbol": "COF",
+      "weight": 0.0145612005
+    },
+    {
+      "symbol": "CINF",
+      "weight": 0.0143425
+    },
+    {
+      "symbol": "GL",
+      "weight": 0.0141767
+    },
+    {
+      "symbol": "SYF",
+      "weight": 0.0140966
+    },
+    {
+      "symbol": "TRV",
+      "weight": 0.0140302
+    },
+    {
+      "symbol": "AXP",
+      "weight": 0.0139184
+    },
+    {
+      "symbol": "JKHY",
+      "weight": 0.0139182
     }
   ]
 }

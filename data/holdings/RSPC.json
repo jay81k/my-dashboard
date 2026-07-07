@@ -2,44 +2,44 @@
   "symbol": "RSPC",
   "holdings": [
     {
-      "symbol": "ECHO",
-      "weight": 0.0536476
-    },
-    {
-      "symbol": "PSKY",
-      "weight": 0.0497226
-    },
-    {
       "symbol": "TTWO",
-      "weight": 0.049465798
+      "weight": 0.0553978
     },
     {
-      "symbol": "PINS",
-      "weight": 0.048192702
+      "symbol": "ROKU",
+      "weight": 0.055092704
     },
     {
       "symbol": "LYV",
-      "weight": 0.0473069
+      "weight": 0.050986
     },
     {
-      "symbol": "TKO",
-      "weight": 0.0473058
+      "symbol": "CHTR",
+      "weight": 0.0481363
     },
     {
-      "symbol": "DIS",
-      "weight": 0.0470144
-    },
-    {
-      "symbol": "EA",
-      "weight": 0.0470017
+      "symbol": "CMCSA",
+      "weight": 0.047767
     },
     {
       "symbol": "WBD",
-      "weight": 0.0452392
+      "weight": 0.047402702
+    },
+    {
+      "symbol": "EA",
+      "weight": 0.047059797
     },
     {
       "symbol": "META",
-      "weight": 0.044981197
+      "weight": 0.0460061
+    },
+    {
+      "symbol": "OMC",
+      "weight": 0.045913503
+    },
+    {
+      "symbol": "DIS",
+      "weight": 0.0455223
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "RSPN",
   "holdings": [
     {
-      "symbol": "DAL",
-      "weight": 0.0174596
-    },
-    {
-      "symbol": "JBHT",
-      "weight": 0.016452499
-    },
-    {
-      "symbol": "GNRC",
-      "weight": 0.0163995
-    },
-    {
-      "symbol": "FIX",
-      "weight": 0.0162594
-    },
-    {
-      "symbol": "URI",
-      "weight": 0.0159893
+      "symbol": "GEV",
+      "weight": 0.015708
     },
     {
       "symbol": "UAL",
-      "weight": 0.0158687
+      "weight": 0.0153394
     },
     {
-      "symbol": "PWR",
-      "weight": 0.015702
+      "symbol": "AXON",
+      "weight": 0.0145209
     },
     {
       "symbol": "CAT",
-      "weight": 0.0155141
+      "weight": 0.0144193005
     },
     {
-      "symbol": "ROK",
-      "weight": 0.015121
+      "symbol": "LUV",
+      "weight": 0.0143992
     },
     {
-      "symbol": "ODFL",
-      "weight": 0.0149237
+      "symbol": "DAL",
+      "weight": 0.0141994
+    },
+    {
+      "symbol": "GNRC",
+      "weight": 0.0141971
+    },
+    {
+      "symbol": "SWK",
+      "weight": 0.014084999
+    },
+    {
+      "symbol": "BLDR",
+      "weight": 0.013902
+    },
+    {
+      "symbol": "VRT",
+      "weight": 0.0138147995
     }
   ]
 }

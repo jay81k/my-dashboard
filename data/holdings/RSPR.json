@@ -2,44 +2,44 @@
   "symbol": "RSPR",
   "holdings": [
     {
-      "symbol": "HST",
-      "weight": 0.036955
+      "symbol": "WELL",
+      "weight": 0.035283502
     },
     {
-      "symbol": "IRM",
-      "weight": 0.0367882
-    },
-    {
-      "symbol": "INVH",
-      "weight": 0.0358057
-    },
-    {
-      "symbol": "BXP",
-      "weight": 0.0355129
-    },
-    {
-      "symbol": "DOC",
-      "weight": 0.0346202
-    },
-    {
-      "symbol": "FRT",
-      "weight": 0.0345003
-    },
-    {
-      "symbol": "EQIX",
-      "weight": 0.0338928
-    },
-    {
-      "symbol": "ESS",
-      "weight": 0.0336326
-    },
-    {
-      "symbol": "EQR",
-      "weight": 0.033571802
+      "symbol": "VTR",
+      "weight": 0.0345893
     },
     {
       "symbol": "SPG",
-      "weight": 0.0333516
+      "weight": 0.034528002
+    },
+    {
+      "symbol": "DOC",
+      "weight": 0.034349598
+    },
+    {
+      "symbol": "ESS",
+      "weight": 0.0336589
+    },
+    {
+      "symbol": "IRM",
+      "weight": 0.0336413
+    },
+    {
+      "symbol": "INVH",
+      "weight": 0.0334096
+    },
+    {
+      "symbol": "UDR",
+      "weight": 0.0333579
+    },
+    {
+      "symbol": "BXP",
+      "weight": 0.033273
+    },
+    {
+      "symbol": "AVB",
+      "weight": 0.033226598
     }
   ]
 }
