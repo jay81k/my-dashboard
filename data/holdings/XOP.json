@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "TPL",
-      "weight": 0.0316424
+      "weight": 0.0316447
     },
     {
       "symbol": "PBF",
-      "weight": 0.0290064
+      "weight": 0.0290088
     },
     {
       "symbol": "DK",
-      "weight": 0.027971301
+      "weight": 0.027973799
     },
     {
       "symbol": "EXE",
-      "weight": 0.0279317
+      "weight": 0.027934302
     },
     {
       "symbol": "CNX",
-      "weight": 0.0277224
+      "weight": 0.0277249
     },
     {
       "symbol": "EQT",
-      "weight": 0.0274149
+      "weight": 0.0274173
     },
     {
       "symbol": "VLO",
-      "weight": 0.0273836
+      "weight": 0.0273856
     },
     {
       "symbol": "AR",
-      "weight": 0.0267459
+      "weight": 0.0267483
     },
     {
       "symbol": "DINO",
-      "weight": 0.0267007
+      "weight": 0.0267031
     },
     {
       "symbol": "PARR",
-      "weight": 0.0263971
+      "weight": 0.0263994
     }
   ]
 }

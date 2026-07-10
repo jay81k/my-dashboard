@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "HOOD",
-      "weight": 0.0185668
+      "weight": 0.018530801
     },
     {
       "symbol": "DFIN",
-      "weight": 0.0177765
+      "weight": 0.017806299
     },
     {
       "symbol": "PWP",
-      "weight": 0.017292399
-    },
-    {
-      "symbol": "TROW",
-      "weight": 0.0170926
+      "weight": 0.0173216
     },
     {
       "symbol": "VIRT",
-      "weight": 0.0170873
+      "weight": 0.017115701
     },
     {
       "symbol": "BEN",
-      "weight": 0.017024301
+      "weight": 0.0170523
+    },
+    {
+      "symbol": "TROW",
+      "weight": 0.017039599
     },
     {
       "symbol": "STT",
-      "weight": 0.0167759
+      "weight": 0.016727
     },
     {
       "symbol": "NTRS",
-      "weight": 0.0166876
-    },
-    {
-      "symbol": "SCHW",
-      "weight": 0.0165509
+      "weight": 0.0166869
     },
     {
       "symbol": "BNY",
-      "weight": 0.0164969
+      "weight": 0.0165193
+    },
+    {
+      "symbol": "SCHW",
+      "weight": 0.0165053
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PNFP",
-      "weight": 0.0137107
+      "weight": 0.0137117
     },
     {
       "symbol": "UMBF",
-      "weight": 0.0136902
+      "weight": 0.0136909
     },
     {
       "symbol": "AUB",
-      "weight": 0.013685499
+      "weight": 0.013686201
     },
     {
       "symbol": "CFG",
-      "weight": 0.0136483
+      "weight": 0.0136488
     },
     {
       "symbol": "GBCI",
-      "weight": 0.013628401
+      "weight": 0.0136289
     },
     {
       "symbol": "ASB",
-      "weight": 0.0136045
+      "weight": 0.0136049995
     },
     {
       "symbol": "CFR",
-      "weight": 0.013530101
+      "weight": 0.0135313
     },
     {
       "symbol": "FULT",
-      "weight": 0.0134723
+      "weight": 0.013473
     },
     {
       "symbol": "FIBK",
-      "weight": 0.0134718
+      "weight": 0.0134725
     },
     {
       "symbol": "WBS",
-      "weight": 0.0134623
+      "weight": 0.0134637
     }
   ]
 }

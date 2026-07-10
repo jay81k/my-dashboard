@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SEI",
-      "weight": 0.047075
+      "weight": 0.0470705
     },
     {
       "symbol": "AROC",
-      "weight": 0.045541503
+      "weight": 0.045537602
     },
     {
       "symbol": "KGS",
-      "weight": 0.045114003
+      "weight": 0.045110203
     },
     {
       "symbol": "WTTR",
-      "weight": 0.043354
+      "weight": 0.0433499
     },
     {
       "symbol": "OII",
-      "weight": 0.0411651
+      "weight": 0.0411614
     },
     {
       "symbol": "FTI",
-      "weight": 0.0378425
+      "weight": 0.0378394
     },
     {
       "symbol": "LBRT",
-      "weight": 0.0370405
+      "weight": 0.0370372
     },
     {
       "symbol": "TDW",
-      "weight": 0.0362236
+      "weight": 0.0362203
     },
     {
       "symbol": "WHD",
-      "weight": 0.0352167
+      "weight": 0.0352134
     },
     {
       "symbol": "BKR",
-      "weight": 0.0351614
+      "weight": 0.0351583
     }
   ]
 }
