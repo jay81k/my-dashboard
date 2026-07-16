@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "VSAT",
-      "weight": 0.0441346
+      "weight": 0.044144202
     },
     {
       "symbol": "IRDM",
-      "weight": 0.036345
+      "weight": 0.0363528
     },
     {
       "symbol": "EXTR",
-      "weight": 0.0342303
+      "weight": 0.034237698
     },
     {
       "symbol": "CIEN",
-      "weight": 0.0341074
+      "weight": 0.0341148
     },
     {
       "symbol": "ANET",
-      "weight": 0.0338304
+      "weight": 0.0338378
     },
     {
       "symbol": "FFIV",
-      "weight": 0.032170802
+      "weight": 0.032177802
     },
     {
       "symbol": "VISN",
-      "weight": 0.0320002
+      "weight": 0.032007102
     },
     {
       "symbol": "ATEX",
-      "weight": 0.0318871
+      "weight": 0.031894
     },
     {
       "symbol": "CMCSA",
-      "weight": 0.0309537
+      "weight": 0.0309604
     },
     {
       "symbol": "VIAV",
-      "weight": 0.030822799
+      "weight": 0.0308295
     }
   ]
 }
