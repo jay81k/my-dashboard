@@ -2,44 +2,44 @@
   "symbol": "IJH",
   "holdings": [
     {
-      "symbol": "TWLO",
-      "weight": 0.0085946
-    },
-    {
-      "symbol": "CRS",
-      "weight": 0.0084115
-    },
-    {
-      "symbol": "MKSI",
-      "weight": 0.0082455
-    },
-    {
-      "symbol": "CW",
-      "weight": 0.0076825
-    },
-    {
-      "symbol": "NVT",
-      "weight": 0.007528
-    },
-    {
-      "symbol": "ENTG",
-      "weight": 0.0075278003
-    },
-    {
-      "symbol": "ATI",
-      "weight": 0.0073822998
-    },
-    {
       "symbol": "ILMN",
-      "weight": 0.0073012
+      "weight": 0.0087093
+    },
+    {
+      "symbol": "TWLO",
+      "weight": 0.0084064
     },
     {
       "symbol": "FTI",
-      "weight": 0.0072548003
+      "weight": 0.0080186995
     },
     {
-      "symbol": "STRL",
-      "weight": 0.007069
+      "symbol": "CW",
+      "weight": 0.0075063
+    },
+    {
+      "symbol": "CRS",
+      "weight": 0.0072463
+    },
+    {
+      "symbol": "ATI",
+      "weight": 0.0071792
+    },
+    {
+      "symbol": "NVT",
+      "weight": 0.0069821
+    },
+    {
+      "symbol": "P",
+      "weight": 0.0068342
+    },
+    {
+      "symbol": "OKTA",
+      "weight": 0.0066785
+    },
+    {
+      "symbol": "XPO",
+      "weight": 0.0066224
     }
   ]
 }

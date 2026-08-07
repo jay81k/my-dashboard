@@ -2,44 +2,44 @@
   "symbol": "FFTY",
   "holdings": [
     {
-      "symbol": "ALAB",
-      "weight": 0.0402379
+      "symbol": "ENVA",
+      "weight": 0.0368023
     },
     {
-      "symbol": "AMD",
-      "weight": 0.0372861
+      "symbol": "OSCR",
+      "weight": 0.0361955
     },
     {
-      "symbol": "MU",
-      "weight": 0.0367001
+      "symbol": "SEZL",
+      "weight": 0.035916
     },
     {
-      "symbol": "AGX",
-      "weight": 0.0363364
+      "symbol": "CARE",
+      "weight": 0.0355141
     },
     {
-      "symbol": "SITM",
-      "weight": 0.0358152
+      "symbol": "INDV",
+      "weight": 0.0353625
+    },
+    {
+      "symbol": "DAVE",
+      "weight": 0.034853302
+    },
+    {
+      "symbol": "TGTX",
+      "weight": 0.0344814
     },
     {
       "symbol": "LQDA",
-      "weight": 0.0351628
+      "weight": 0.0343351
     },
     {
-      "symbol": "FIX",
-      "weight": 0.033798102
+      "symbol": "KRYS",
+      "weight": 0.0332712
     },
     {
-      "symbol": "CRDO",
-      "weight": 0.0336563
-    },
-    {
-      "symbol": "HUT",
-      "weight": 0.033109702
-    },
-    {
-      "symbol": "LRCX",
-      "weight": 0.0330153
+      "symbol": "KNSA",
+      "weight": 0.0325609
     }
   ]
 }

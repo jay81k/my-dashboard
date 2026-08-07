@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "GEV",
-      "weight": 0.095418796
-    },
-    {
-      "symbol": "VRT",
-      "weight": 0.081447
+      "weight": 0.094302796
     },
     {
       "symbol": "ETN",
-      "weight": 0.0799692
+      "weight": 0.09130979
     },
     {
       "symbol": "PWR",
-      "weight": 0.077947795
+      "weight": 0.084628
     },
     {
-      "symbol": "BE",
-      "weight": 0.050676096
+      "symbol": "VRT",
+      "weight": 0.068835
     },
     {
       "symbol": "AVGO",
-      "weight": 0.0357745
-    },
-    {
-      "symbol": "CCO.TO",
-      "weight": 0.0357467
+      "weight": 0.043185603
     },
     {
       "symbol": "NVDA",
-      "weight": 0.0351709
+      "weight": 0.0413521
+    },
+    {
+      "symbol": "BE",
+      "weight": 0.040379
     },
     {
       "symbol": "CEG",
-      "weight": 0.0323879
+      "weight": 0.0401593
+    },
+    {
+      "symbol": "CCO.TO",
+      "weight": 0.0355151
     },
     {
       "symbol": "AMD",
-      "weight": 0.024853999
+      "weight": 0.0238696
     }
   ]
 }

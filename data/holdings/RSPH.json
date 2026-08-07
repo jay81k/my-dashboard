@@ -2,44 +2,44 @@
   "symbol": "RSPH",
   "holdings": [
     {
-      "symbol": "MRNA",
-      "weight": 0.024714898
-    },
-    {
       "symbol": "TECH",
-      "weight": 0.021846099
+      "weight": 0.0212752
     },
     {
-      "symbol": "CRL",
-      "weight": 0.0197622
+      "symbol": "IQV",
+      "weight": 0.0200048
     },
     {
-      "symbol": "VRTX",
-      "weight": 0.0184839
+      "symbol": "BAX",
+      "weight": 0.0199494
+    },
+    {
+      "symbol": "REGN",
+      "weight": 0.0196412
     },
     {
       "symbol": "MTD",
-      "weight": 0.0183367
+      "weight": 0.019436501
+    },
+    {
+      "symbol": "CRL",
+      "weight": 0.0193364
+    },
+    {
+      "symbol": "VEEV",
+      "weight": 0.0192792
     },
     {
       "symbol": "DVA",
-      "weight": 0.018185
+      "weight": 0.0187238
     },
     {
-      "symbol": "ABBV",
-      "weight": 0.0181586
+      "symbol": "MRNA",
+      "weight": 0.018461699
     },
     {
-      "symbol": "BIIB",
-      "weight": 0.0180615
-    },
-    {
-      "symbol": "CAH",
-      "weight": 0.0178294
-    },
-    {
-      "symbol": "RVTY",
-      "weight": 0.0178269
+      "symbol": "TMO",
+      "weight": 0.0184325
     }
   ]
 }

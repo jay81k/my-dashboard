@@ -2,44 +2,44 @@
   "symbol": "XOP",
   "holdings": [
     {
-      "symbol": "TPL",
-      "weight": 0.0316941
-    },
-    {
       "symbol": "PBF",
-      "weight": 0.0290538
-    },
-    {
-      "symbol": "DK",
-      "weight": 0.028017001
-    },
-    {
-      "symbol": "EXE",
-      "weight": 0.0279774
-    },
-    {
-      "symbol": "CNX",
-      "weight": 0.027767701
-    },
-    {
-      "symbol": "EQT",
-      "weight": 0.0274597
-    },
-    {
-      "symbol": "VLO",
-      "weight": 0.027428301
-    },
-    {
-      "symbol": "AR",
-      "weight": 0.0267896
-    },
-    {
-      "symbol": "DINO",
-      "weight": 0.026744299
+      "weight": 0.0401043
     },
     {
       "symbol": "PARR",
-      "weight": 0.0264403
+      "weight": 0.0352589
+    },
+    {
+      "symbol": "DK",
+      "weight": 0.0325327
+    },
+    {
+      "symbol": "DINO",
+      "weight": 0.0305332
+    },
+    {
+      "symbol": "VLO",
+      "weight": 0.0286503
+    },
+    {
+      "symbol": "MPC",
+      "weight": 0.028392501
+    },
+    {
+      "symbol": "PSX",
+      "weight": 0.0275159
+    },
+    {
+      "symbol": "PR",
+      "weight": 0.0255113
+    },
+    {
+      "symbol": "CNX",
+      "weight": 0.0254691
+    },
+    {
+      "symbol": "OVV",
+      "weight": 0.025462799
     }
   ]
 }

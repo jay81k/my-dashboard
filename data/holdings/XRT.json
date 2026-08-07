@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "GRPN",
-      "weight": 0.0177702
+      "weight": 0.019895
     },
     {
       "symbol": "REAL",
-      "weight": 0.017470501
+      "weight": 0.017498601
     },
     {
-      "symbol": "BBWI",
-      "weight": 0.01725
+      "symbol": "LAD",
+      "weight": 0.0166941
     },
     {
-      "symbol": "WRBY",
-      "weight": 0.0163885
-    },
-    {
-      "symbol": "UPBD",
-      "weight": 0.0158606
-    },
-    {
-      "symbol": "CART",
-      "weight": 0.0155269
-    },
-    {
-      "symbol": "CPNG",
-      "weight": 0.0155246
+      "symbol": "EYE",
+      "weight": 0.016548099
     },
     {
       "symbol": "RVLV",
-      "weight": 0.015200401
+      "weight": 0.0162875
+    },
+    {
+      "symbol": "PAG",
+      "weight": 0.016100101
+    },
+    {
+      "symbol": "KSS",
+      "weight": 0.0159187
     },
     {
       "symbol": "VSXY",
-      "weight": 0.015195301
+      "weight": 0.015768599
     },
     {
-      "symbol": "HZO",
-      "weight": 0.0151818
+      "symbol": "ETSY",
+      "weight": 0.015688
+    },
+    {
+      "symbol": "KMX",
+      "weight": 0.0155852
     }
   ]
 }

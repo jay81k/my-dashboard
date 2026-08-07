@@ -2,44 +2,44 @@
   "symbol": "EZA",
   "holdings": [
     {
-      "symbol": "AU",
-      "weight": 0.1105824
-    },
-    {
       "symbol": "NPN.JO",
-      "weight": 0.1061335
+      "weight": 0.1113316
     },
     {
-      "symbol": "GFI.JO",
-      "weight": 0.0806693
+      "symbol": "AU",
+      "weight": 0.1034286
     },
     {
       "symbol": "FSR.JO",
-      "weight": 0.0793818
+      "weight": 0.0799215
+    },
+    {
+      "symbol": "GFI.JO",
+      "weight": 0.0781385
     },
     {
       "symbol": "SBK.JO",
-      "weight": 0.0684504
+      "weight": 0.0692172
     },
     {
       "symbol": "CPI.JO",
-      "weight": 0.052237403
+      "weight": 0.051442698
     },
     {
       "symbol": "MTN.JO",
-      "weight": 0.0520224
+      "weight": 0.0464366
     },
     {
       "symbol": "VAL.JO",
-      "weight": 0.039481398
+      "weight": 0.0439004
     },
     {
       "symbol": "ABG.JO",
-      "weight": 0.036029402
+      "weight": 0.0357509
     },
     {
-      "symbol": "SLM.JO",
-      "weight": 0.0296188
+      "symbol": "IMP.JO",
+      "weight": 0.0300266
     }
   ]
 }

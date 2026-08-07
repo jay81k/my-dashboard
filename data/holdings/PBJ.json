@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MNST",
-      "weight": 0.0560482
-    },
-    {
-      "symbol": "CTVA",
-      "weight": 0.0545854
+      "weight": 0.0555364
     },
     {
       "symbol": "KO",
-      "weight": 0.0514891
+      "weight": 0.054844297
     },
     {
       "symbol": "SBUX",
-      "weight": 0.0513619
+      "weight": 0.052274
     },
     {
       "symbol": "ADM",
-      "weight": 0.0499232
+      "weight": 0.0511824
+    },
+    {
+      "symbol": "CTVA",
+      "weight": 0.050133
     },
     {
       "symbol": "PEP",
-      "weight": 0.047378898
+      "weight": 0.0482568
     },
     {
       "symbol": "HSY",
-      "weight": 0.0467962
+      "weight": 0.046150997
     },
     {
       "symbol": "KR",
-      "weight": 0.043852802
-    },
-    {
-      "symbol": "CART",
-      "weight": 0.0324838
+      "weight": 0.0450709
     },
     {
       "symbol": "FRPT",
-      "weight": 0.0322317
+      "weight": 0.032075
+    },
+    {
+      "symbol": "NOMD",
+      "weight": 0.0320274
     }
   ]
 }

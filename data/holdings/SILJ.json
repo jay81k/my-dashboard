@@ -2,44 +2,44 @@
   "symbol": "SILJ",
   "holdings": [
     {
-      "symbol": "AG.TO",
-      "weight": 0.096532695
+      "symbol": "HL",
+      "weight": 0.094411604
     },
     {
-      "symbol": "HL",
-      "weight": 0.0960608
+      "symbol": "AG.TO",
+      "weight": 0.0918794
     },
     {
       "symbol": "BOL.ST",
-      "weight": 0.0549045
+      "weight": 0.052163903
     },
     {
       "symbol": "KGH.WA",
-      "weight": 0.0516164
-    },
-    {
-      "symbol": "SSRM.TO",
-      "weight": 0.0483711
+      "weight": 0.0517499
     },
     {
       "symbol": "BVN",
-      "weight": 0.0454833
+      "weight": 0.0505008
+    },
+    {
+      "symbol": "SSRM.TO",
+      "weight": 0.0470648
     },
     {
       "symbol": "WPM.TO",
-      "weight": 0.044394303
-    },
-    {
-      "symbol": "HYMC",
-      "weight": 0.043074798
+      "weight": 0.046283398
     },
     {
       "symbol": "EXK",
-      "weight": 0.0428626
+      "weight": 0.041809604
+    },
+    {
+      "symbol": "HYMC",
+      "weight": 0.0386118
     },
     {
       "symbol": "AYA.TO",
-      "weight": 0.0321289
+      "weight": 0.0357815
     }
   ]
 }

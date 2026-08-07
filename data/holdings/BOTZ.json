@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "6861.T",
-      "weight": 0.0976568
+      "weight": 0.106048
     },
     {
       "symbol": "ABBN.SW",
-      "weight": 0.097105
+      "weight": 0.09342709
     },
     {
       "symbol": "6954.T",
-      "weight": 0.086869605
+      "weight": 0.091423705
     },
     {
       "symbol": "NVDA",
-      "weight": 0.083115
+      "weight": 0.0886319
     },
     {
       "symbol": "ISRG",
-      "weight": 0.060964998
+      "weight": 0.0575817
     },
     {
       "symbol": "6273.T",
-      "weight": 0.0429494
+      "weight": 0.046092
     },
     {
       "symbol": "300124.SZ",
-      "weight": 0.040921897
+      "weight": 0.0423352
     },
     {
       "symbol": "6383.T",
-      "weight": 0.0355563
-    },
-    {
-      "symbol": "300757.SZ",
-      "weight": 0.027881501
+      "weight": 0.0323908
     },
     {
       "symbol": "CGNX",
-      "weight": 0.025615899
+      "weight": 0.0245243
+    },
+    {
+      "symbol": "AUR",
+      "weight": 0.024010701
     }
   ]
 }

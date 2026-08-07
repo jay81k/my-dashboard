@@ -2,44 +2,44 @@
   "symbol": "XES",
   "holdings": [
     {
-      "symbol": "SEI",
-      "weight": 0.0470705
-    },
-    {
-      "symbol": "AROC",
-      "weight": 0.045537602
-    },
-    {
-      "symbol": "KGS",
-      "weight": 0.045110203
-    },
-    {
-      "symbol": "WTTR",
-      "weight": 0.0433499
-    },
-    {
       "symbol": "OII",
-      "weight": 0.0411614
-    },
-    {
-      "symbol": "FTI",
-      "weight": 0.0378394
-    },
-    {
-      "symbol": "LBRT",
-      "weight": 0.0370372
-    },
-    {
-      "symbol": "TDW",
-      "weight": 0.0362203
+      "weight": 0.0499608
     },
     {
       "symbol": "WHD",
-      "weight": 0.0352134
+      "weight": 0.045054004
+    },
+    {
+      "symbol": "FTI",
+      "weight": 0.041235197
+    },
+    {
+      "symbol": "TDW",
+      "weight": 0.0411395
+    },
+    {
+      "symbol": "WTTR",
+      "weight": 0.040513802
+    },
+    {
+      "symbol": "AROC",
+      "weight": 0.040330302
+    },
+    {
+      "symbol": "SDRL",
+      "weight": 0.0402783
     },
     {
       "symbol": "BKR",
-      "weight": 0.0351583
+      "weight": 0.0386354
+    },
+    {
+      "symbol": "NOV",
+      "weight": 0.0371007
+    },
+    {
+      "symbol": "NE",
+      "weight": 0.0368849
     }
   ]
 }

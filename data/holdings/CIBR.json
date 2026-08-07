@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PANW",
-      "weight": 0.096148394
+      "weight": 0.091558106
     },
     {
       "symbol": "FTNT",
-      "weight": 0.088429004
+      "weight": 0.0885348
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0829121
+      "weight": 0.080260605
     },
     {
       "symbol": "CSCO",
-      "weight": 0.0774682
+      "weight": 0.0746794
     },
     {
       "symbol": "AVGO",
-      "weight": 0.0671513
+      "weight": 0.068746
     },
     {
       "symbol": "NET",
-      "weight": 0.0402785
+      "weight": 0.0464023
     },
     {
       "symbol": "OKTA",
-      "weight": 0.0351558
-    },
-    {
-      "symbol": "FFIV",
-      "weight": 0.0340653
+      "weight": 0.0360738
     },
     {
       "symbol": "ZS",
-      "weight": 0.0304089
+      "weight": 0.0318763
+    },
+    {
+      "symbol": "FFIV",
+      "weight": 0.0317449
     },
     {
       "symbol": "AKAM",
-      "weight": 0.0283637
+      "weight": 0.027214602
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "RSPT",
   "holdings": [
     {
-      "symbol": "GLW",
-      "weight": 0.0194513
-    },
-    {
-      "symbol": "AMAT",
-      "weight": 0.0186317
-    },
-    {
-      "symbol": "KLAC",
-      "weight": 0.018093
-    },
-    {
-      "symbol": "TER",
-      "weight": 0.0178273
-    },
-    {
-      "symbol": "SNDK",
-      "weight": 0.0177198
-    },
-    {
-      "symbol": "LRCX",
-      "weight": 0.0172461
-    },
-    {
-      "symbol": "INTC",
-      "weight": 0.0167055
-    },
-    {
-      "symbol": "WDC",
-      "weight": 0.016691001
+      "symbol": "ZBRA",
+      "weight": 0.0185303
     },
     {
       "symbol": "PANW",
-      "weight": 0.0165907
+      "weight": 0.0172342
     },
     {
-      "symbol": "MU",
-      "weight": 0.0165722
+      "symbol": "ANET",
+      "weight": 0.016246999
+    },
+    {
+      "symbol": "CRWD",
+      "weight": 0.0161201
+    },
+    {
+      "symbol": "DDOG",
+      "weight": 0.016094299
+    },
+    {
+      "symbol": "ROP",
+      "weight": 0.0160428
+    },
+    {
+      "symbol": "MSFT",
+      "weight": 0.0159922
+    },
+    {
+      "symbol": "WDAY",
+      "weight": 0.015947
+    },
+    {
+      "symbol": "FTNT",
+      "weight": 0.015942499
+    },
+    {
+      "symbol": "CDW",
+      "weight": 0.0156301
     }
   ]
 }

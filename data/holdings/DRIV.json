@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "INTC",
-      "weight": 0.0654547
-    },
-    {
-      "symbol": "BB.TO",
-      "weight": 0.028820401
+      "weight": 0.049081
     },
     {
       "symbol": "NVDA",
-      "weight": 0.027042698
-    },
-    {
-      "symbol": "NBIS",
-      "weight": 0.02685
+      "weight": 0.0314859
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.026675401
+      "weight": 0.030869998
     },
     {
-      "symbol": "STMPA.PA",
-      "weight": 0.025660802
+      "symbol": "MSFT",
+      "weight": 0.0288198
+    },
+    {
+      "symbol": "BB.TO",
+      "weight": 0.022481201
+    },
+    {
+      "symbol": "7203.T",
+      "weight": 0.022023799
     },
     {
       "symbol": "IFX.DE",
-      "weight": 0.024723401
+      "weight": 0.0218041
     },
     {
-      "symbol": "TSLA",
-      "weight": 0.0236614
-    },
-    {
-      "symbol": "BE",
-      "weight": 0.0234946
+      "symbol": "NBIS",
+      "weight": 0.021507
     },
     {
       "symbol": "QCOM",
-      "weight": 0.0231102
+      "weight": 0.021419201
+    },
+    {
+      "symbol": "STMPA.PA",
+      "weight": 0.021236701
     }
   ]
 }

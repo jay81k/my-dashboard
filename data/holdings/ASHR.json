@@ -2,44 +2,44 @@
   "symbol": "ASHR",
   "holdings": [
     {
-      "symbol": "300308.SZ",
-      "weight": 0.0480433
-    },
-    {
       "symbol": "300750.SZ",
-      "weight": 0.0352824
+      "weight": 0.041399296
     },
     {
-      "symbol": "300502.SZ",
-      "weight": 0.0287968
+      "symbol": "300308.SZ",
+      "weight": 0.0374378
     },
     {
       "symbol": "600519.SS",
-      "weight": 0.025093902
-    },
-    {
-      "symbol": "603986.SS",
-      "weight": 0.018714
+      "weight": 0.0334561
     },
     {
       "symbol": "601318.SS",
-      "weight": 0.017228499
-    },
-    {
-      "symbol": "688256.SS",
-      "weight": 0.0170689
-    },
-    {
-      "symbol": "600036.SS",
-      "weight": 0.0149661
+      "weight": 0.0231198
     },
     {
       "symbol": "601899.SS",
-      "weight": 0.0141735
+      "weight": 0.021078998
     },
     {
-      "symbol": "002371.SZ",
-      "weight": 0.013482899
+      "symbol": "300502.SZ",
+      "weight": 0.0199109
+    },
+    {
+      "symbol": "600036.SS",
+      "weight": 0.0196558
+    },
+    {
+      "symbol": "000333.SZ",
+      "weight": 0.0170886
+    },
+    {
+      "symbol": "600900.SS",
+      "weight": 0.013985501
+    },
+    {
+      "symbol": "688256.SS",
+      "weight": 0.012869101
     }
   ]
 }

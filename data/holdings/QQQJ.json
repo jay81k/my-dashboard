@@ -2,44 +2,44 @@
   "symbol": "QQQJ",
   "holdings": [
     {
-      "symbol": "FLEX",
-      "weight": 0.0291518
-    },
-    {
-      "symbol": "CRDO",
-      "weight": 0.0246253
-    },
-    {
       "symbol": "EBAY",
-      "weight": 0.024358599
+      "weight": 0.025673399
     },
     {
-      "symbol": "UAL",
-      "weight": 0.021668201
+      "symbol": "FLEX",
+      "weight": 0.021138402
     },
     {
       "symbol": "RVMD",
-      "weight": 0.0195454
+      "weight": 0.020216601
+    },
+    {
+      "symbol": "UAL",
+      "weight": 0.0199705
     },
     {
       "symbol": "NTRA",
-      "weight": 0.0190858
+      "weight": 0.0194498
     },
     {
-      "symbol": "ON",
-      "weight": 0.018188799
-    },
-    {
-      "symbol": "KMB",
-      "weight": 0.0178881
+      "symbol": "CRDO",
+      "weight": 0.0193624
     },
     {
       "symbol": "ESLT.TA",
-      "weight": 0.0173194
+      "weight": 0.0190603
     },
     {
-      "symbol": "MDLN",
-      "weight": 0.0163731
+      "symbol": "KMB",
+      "weight": 0.0184025
+    },
+    {
+      "symbol": "STLD",
+      "weight": 0.018375501
+    },
+    {
+      "symbol": "NTAP",
+      "weight": 0.017864501
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PANW",
-      "weight": 0.1037125
+      "weight": 0.096634395
     },
     {
       "symbol": "MSFT",
-      "weight": 0.0807212
+      "weight": 0.0962961
     },
     {
       "symbol": "PLTR",
-      "weight": 0.077045895
+      "weight": 0.0778157
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0728425
-    },
-    {
-      "symbol": "ORCL",
-      "weight": 0.0626129
+      "weight": 0.0697778
     },
     {
       "symbol": "CRM",
-      "weight": 0.0480586
+      "weight": 0.0540558
     },
     {
-      "symbol": "APP",
-      "weight": 0.0475776
-    },
-    {
-      "symbol": "CDNS",
-      "weight": 0.039140698
+      "symbol": "ORCL",
+      "weight": 0.053131
     },
     {
       "symbol": "NOW",
-      "weight": 0.0387126
+      "weight": 0.0415311
+    },
+    {
+      "symbol": "ADBE",
+      "weight": 0.0366449
     },
     {
       "symbol": "FTNT",
-      "weight": 0.0361719
+      "weight": 0.0365172
+    },
+    {
+      "symbol": "APP",
+      "weight": 0.035007
     }
   ]
 }

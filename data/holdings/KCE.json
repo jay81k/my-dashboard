@@ -2,44 +2,44 @@
   "symbol": "KCE",
   "holdings": [
     {
-      "symbol": "HOOD",
-      "weight": 0.018530801
+      "symbol": "MKTX",
+      "weight": 0.0208703
     },
     {
       "symbol": "DFIN",
-      "weight": 0.017806299
+      "weight": 0.0187696
+    },
+    {
+      "symbol": "LPLA",
+      "weight": 0.018244099
+    },
+    {
+      "symbol": "AMP",
+      "weight": 0.0180608
     },
     {
       "symbol": "PWP",
-      "weight": 0.0173216
-    },
-    {
-      "symbol": "VIRT",
-      "weight": 0.017115701
-    },
-    {
-      "symbol": "BEN",
-      "weight": 0.0170523
-    },
-    {
-      "symbol": "TROW",
-      "weight": 0.017039599
-    },
-    {
-      "symbol": "STT",
-      "weight": 0.016727
-    },
-    {
-      "symbol": "NTRS",
-      "weight": 0.0166869
-    },
-    {
-      "symbol": "BNY",
-      "weight": 0.0165193
+      "weight": 0.0179082
     },
     {
       "symbol": "SCHW",
-      "weight": 0.0165053
+      "weight": 0.0175993
+    },
+    {
+      "symbol": "SF",
+      "weight": 0.017568199
+    },
+    {
+      "symbol": "RJF",
+      "weight": 0.017431099
+    },
+    {
+      "symbol": "SEIC",
+      "weight": 0.017310899
+    },
+    {
+      "symbol": "WT",
+      "weight": 0.0172395
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "KRE",
   "holdings": [
     {
+      "symbol": "CFR",
+      "weight": 0.014417
+    },
+    {
       "symbol": "PNFP",
-      "weight": 0.0136949
+      "weight": 0.0141554
+    },
+    {
+      "symbol": "HOMB",
+      "weight": 0.0140936
+    },
+    {
+      "symbol": "BPOP",
+      "weight": 0.0140536
     },
     {
       "symbol": "UMBF",
-      "weight": 0.0136744
-    },
-    {
-      "symbol": "AUB",
-      "weight": 0.013669699
+      "weight": 0.013830001
     },
     {
       "symbol": "CFG",
-      "weight": 0.0136326
+      "weight": 0.0138139995
     },
     {
-      "symbol": "GBCI",
-      "weight": 0.013612601
+      "symbol": "MTB",
+      "weight": 0.0137459
     },
     {
-      "symbol": "ASB",
-      "weight": 0.0135888
+      "symbol": "ONB",
+      "weight": 0.0136914
     },
     {
-      "symbol": "CFR",
-      "weight": 0.0135143995
+      "symbol": "SSB",
+      "weight": 0.013616101
     },
     {
-      "symbol": "FULT",
-      "weight": 0.013456699
-    },
-    {
-      "symbol": "FIBK",
-      "weight": 0.0134562
-    },
-    {
-      "symbol": "WBS",
-      "weight": 0.013446701
+      "symbol": "HWC",
+      "weight": 0.013613599
     }
   ]
 }

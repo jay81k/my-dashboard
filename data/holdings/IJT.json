@@ -2,44 +2,44 @@
   "symbol": "IJT",
   "holdings": [
     {
-      "symbol": "FORM",
-      "weight": 0.013637201
+      "symbol": "XTSLA",
+      "weight": 0.012924599
+    },
+    {
+      "symbol": "CORT",
+      "weight": 0.0124195
     },
     {
       "symbol": "VSAT",
-      "weight": 0.0133437
+      "weight": 0.0118686
     },
     {
-      "symbol": "AGX",
-      "weight": 0.0121937
+      "symbol": "EAT",
+      "weight": 0.0104058
     },
     {
-      "symbol": "XTSLA",
-      "weight": 0.0121491
+      "symbol": "RHP",
+      "weight": 0.0095759
     },
     {
-      "symbol": "BTSG",
-      "weight": 0.0120659005
+      "symbol": "FORM",
+      "weight": 0.009408
     },
     {
-      "symbol": "KRYS",
-      "weight": 0.0106666
+      "symbol": "PTGX",
+      "weight": 0.009387501
     },
     {
       "symbol": "ESE",
-      "weight": 0.0099195
+      "weight": 0.009283001
     },
     {
       "symbol": "ALKS",
-      "weight": 0.0095525
-    },
-    {
-      "symbol": "ECG",
-      "weight": 0.0092653
+      "weight": 0.0092799
     },
     {
       "symbol": "SNEX",
-      "weight": 0.0091425
+      "weight": 0.0092068
     }
   ]
 }

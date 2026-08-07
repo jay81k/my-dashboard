@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "GE",
-      "weight": 0.2261533
+      "weight": 0.2206416
     },
     {
       "symbol": "RTX",
-      "weight": 0.1481909
+      "weight": 0.17022529
     },
     {
       "symbol": "BA",
-      "weight": 0.0889688
-    },
-    {
-      "symbol": "TDG",
-      "weight": 0.0458524
+      "weight": 0.089956194
     },
     {
       "symbol": "HWM",
-      "weight": 0.044972703
+      "weight": 0.047810897
     },
     {
       "symbol": "GD",
-      "weight": 0.043344103
+      "weight": 0.047507502
     },
     {
       "symbol": "LMT",
-      "weight": 0.040495902
+      "weight": 0.0469063
+    },
+    {
+      "symbol": "TDG",
+      "weight": 0.0437256
     },
     {
       "symbol": "NOC",
-      "weight": 0.039205402
+      "weight": 0.0422864
     },
     {
       "symbol": "LHX",
-      "weight": 0.0379742
+      "weight": 0.0366637
     },
     {
-      "symbol": "RKLB",
-      "weight": 0.0363152
+      "symbol": "AXON",
+      "weight": 0.030216401
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "XOM",
-      "weight": 0.2025335
+      "weight": 0.20581141
     },
     {
       "symbol": "CVX",
-      "weight": 0.1437405
+      "weight": 0.1525565
     },
     {
       "symbol": "COP",
-      "weight": 0.0586663
-    },
-    {
-      "symbol": "SLB",
-      "weight": 0.045293197
-    },
-    {
-      "symbol": "WMB",
-      "weight": 0.0449115
+      "weight": 0.0607684
     },
     {
       "symbol": "MPC",
-      "weight": 0.0445644
-    },
-    {
-      "symbol": "EOG",
-      "weight": 0.0444317
-    },
-    {
-      "symbol": "VLO",
-      "weight": 0.0441841
+      "weight": 0.049300198
     },
     {
       "symbol": "PSX",
-      "weight": 0.0438871
+      "weight": 0.0491118
+    },
+    {
+      "symbol": "VLO",
+      "weight": 0.047444202
+    },
+    {
+      "symbol": "EOG",
+      "weight": 0.0455115
+    },
+    {
+      "symbol": "SLB",
+      "weight": 0.043176398
     },
     {
       "symbol": "KMI",
-      "weight": 0.043441802
+      "weight": 0.0390768
+    },
+    {
+      "symbol": "WMB",
+      "weight": 0.0386299
     }
   ]
 }

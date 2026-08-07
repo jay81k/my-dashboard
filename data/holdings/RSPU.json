@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "NRG",
-      "weight": 0.0375945
+      "weight": 0.0355543
+    },
+    {
+      "symbol": "CEG",
+      "weight": 0.0346383
     },
     {
       "symbol": "VST",
-      "weight": 0.0355572
-    },
-    {
-      "symbol": "AEP",
-      "weight": 0.0330545
-    },
-    {
-      "symbol": "LNT",
-      "weight": 0.0324537
-    },
-    {
-      "symbol": "ES",
-      "weight": 0.0324412
-    },
-    {
-      "symbol": "EVRG",
-      "weight": 0.0324038
-    },
-    {
-      "symbol": "DTE",
-      "weight": 0.0323934
-    },
-    {
-      "symbol": "CMS",
-      "weight": 0.0323393
-    },
-    {
-      "symbol": "EIX",
-      "weight": 0.0323353
+      "weight": 0.0341677
     },
     {
       "symbol": "AWK",
-      "weight": 0.0323114
+      "weight": 0.0338894
+    },
+    {
+      "symbol": "FE",
+      "weight": 0.0332353
+    },
+    {
+      "symbol": "PCG",
+      "weight": 0.033203103
+    },
+    {
+      "symbol": "D",
+      "weight": 0.0330901
+    },
+    {
+      "symbol": "ES",
+      "weight": 0.033055
+    },
+    {
+      "symbol": "EIX",
+      "weight": 0.0327773
+    },
+    {
+      "symbol": "NEE",
+      "weight": 0.0326179
     }
   ]
 }

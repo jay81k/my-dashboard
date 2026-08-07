@@ -2,44 +2,44 @@
   "symbol": "RSP",
   "holdings": [
     {
-      "symbol": "MRNA",
-      "weight": 0.0029495
-    },
-    {
-      "symbol": "GLW",
-      "weight": 0.0029429002
-    },
-    {
-      "symbol": "AMAT",
-      "weight": 0.0028157
-    },
-    {
-      "symbol": "KLAC",
-      "weight": 0.0027355
-    },
-    {
-      "symbol": "TER",
-      "weight": 0.0026966
-    },
-    {
-      "symbol": "SNDK",
-      "weight": 0.0026943001
-    },
-    {
-      "symbol": "GEV",
-      "weight": 0.0026268
-    },
-    {
-      "symbol": "LRCX",
-      "weight": 0.0026087998
+      "symbol": "PYPL",
+      "weight": 0.0026991998
     },
     {
       "symbol": "TECH",
-      "weight": 0.0026067998
+      "weight": 0.0026352
     },
     {
-      "symbol": "UAL",
-      "weight": 0.0025626002
+      "symbol": "ZBRA",
+      "weight": 0.0026001998
+    },
+    {
+      "symbol": "GPN",
+      "weight": 0.0025844
+    },
+    {
+      "symbol": "EXPE",
+      "weight": 0.002583
+    },
+    {
+      "symbol": "DASH",
+      "weight": 0.0024948
+    },
+    {
+      "symbol": "IQV",
+      "weight": 0.0024773001
+    },
+    {
+      "symbol": "BAX",
+      "weight": 0.0024710998
+    },
+    {
+      "symbol": "IP",
+      "weight": 0.0024597999
+    },
+    {
+      "symbol": "WTW",
+      "weight": 0.0024425
     }
   ]
 }

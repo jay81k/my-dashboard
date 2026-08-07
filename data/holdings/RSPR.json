@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "WELL",
-      "weight": 0.035283502
+      "weight": 0.035891
     },
     {
       "symbol": "VTR",
-      "weight": 0.0345893
+      "weight": 0.03588
+    },
+    {
+      "symbol": "CBRE",
+      "weight": 0.035451
     },
     {
       "symbol": "SPG",
-      "weight": 0.034528002
-    },
-    {
-      "symbol": "DOC",
-      "weight": 0.034349598
-    },
-    {
-      "symbol": "ESS",
-      "weight": 0.0336589
-    },
-    {
-      "symbol": "IRM",
-      "weight": 0.0336413
-    },
-    {
-      "symbol": "INVH",
-      "weight": 0.0334096
-    },
-    {
-      "symbol": "UDR",
-      "weight": 0.0333579
+      "weight": 0.0348908
     },
     {
       "symbol": "BXP",
-      "weight": 0.033273
+      "weight": 0.034658503
     },
     {
-      "symbol": "AVB",
-      "weight": 0.033226598
+      "symbol": "DOC",
+      "weight": 0.0345165
+    },
+    {
+      "symbol": "HST",
+      "weight": 0.0339606
+    },
+    {
+      "symbol": "DLR",
+      "weight": 0.033757903
+    },
+    {
+      "symbol": "WY",
+      "weight": 0.0335303
+    },
+    {
+      "symbol": "O",
+      "weight": 0.0332818
     }
   ]
 }

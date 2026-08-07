@@ -2,44 +2,44 @@
   "symbol": "QQQE",
   "holdings": [
     {
-      "symbol": "AMAT",
-      "weight": 0.0158435
+      "symbol": "PYPL",
+      "weight": 0.013015199
     },
     {
-      "symbol": "KLAC",
-      "weight": 0.0154834995
+      "symbol": "REGN",
+      "weight": 0.0126292
     },
     {
-      "symbol": "MRVL",
-      "weight": 0.014331
+      "symbol": "DASH",
+      "weight": 0.0125372
     },
     {
-      "symbol": "ALAB",
-      "weight": 0.0138942
+      "symbol": "CCEP.L",
+      "weight": 0.0122876
     },
     {
-      "symbol": "LRCX",
-      "weight": 0.013431099
+      "symbol": "PAYX",
+      "weight": 0.0122654
     },
     {
-      "symbol": "SNDK",
-      "weight": 0.013228901
+      "symbol": "ROP",
+      "weight": 0.012258801
     },
     {
-      "symbol": "TER",
-      "weight": 0.0127481995
+      "symbol": "PCAR",
+      "weight": 0.0122386
     },
     {
-      "symbol": "AXON",
-      "weight": 0.012321699
+      "symbol": "ADP",
+      "weight": 0.012228301
     },
     {
-      "symbol": "ASML",
-      "weight": 0.0121657
+      "symbol": "CTAS",
+      "weight": 0.0121645
     },
     {
-      "symbol": "INTC",
-      "weight": 0.0120078
+      "symbol": "PANW",
+      "weight": 0.0119925
     }
   ]
 }

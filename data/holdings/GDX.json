@@ -2,44 +2,44 @@
   "symbol": "GDX",
   "holdings": [
     {
-      "symbol": "AEM.TO",
-      "weight": 0.1052023
+      "symbol": "NEM",
+      "weight": 0.1048845
     },
     {
-      "symbol": "NEM",
-      "weight": 0.1048356
+      "symbol": "AEM.TO",
+      "weight": 0.1018443
     },
     {
       "symbol": "ABX.TO",
-      "weight": 0.079513
+      "weight": 0.0801488
     },
     {
       "symbol": "WPM.TO",
-      "weight": 0.0550701
-    },
-    {
-      "symbol": "AU",
-      "weight": 0.0507249
+      "weight": 0.055577997
     },
     {
       "symbol": "FNV.TO",
-      "weight": 0.048395
+      "weight": 0.051036302
+    },
+    {
+      "symbol": "AU",
+      "weight": 0.050416898
     },
     {
       "symbol": "K.TO",
-      "weight": 0.044019297
+      "weight": 0.0431727
     },
     {
       "symbol": "GFI",
-      "weight": 0.040145997
+      "weight": 0.039890397
     },
     {
       "symbol": "PAAS.TO",
-      "weight": 0.0295106
+      "weight": 0.0287215
     },
     {
       "symbol": "NST.AX",
-      "weight": 0.0270137
+      "weight": 0.0281189
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "KBE",
   "holdings": [
     {
-      "symbol": "RKT",
-      "weight": 0.011729199
-    },
-    {
-      "symbol": "NIC",
-      "weight": 0.0106647005
-    },
-    {
       "symbol": "TBBK",
-      "weight": 0.0106457
+      "weight": 0.0111659
     },
     {
       "symbol": "NMIH",
-      "weight": 0.0103601
+      "weight": 0.0109417
     },
     {
-      "symbol": "AX",
-      "weight": 0.010317201
+      "symbol": "PRK",
+      "weight": 0.010797599
+    },
+    {
+      "symbol": "NIC",
+      "weight": 0.010795999
+    },
+    {
+      "symbol": "FBP",
+      "weight": 0.0106893005
     },
     {
       "symbol": "MTG",
-      "weight": 0.010239299
-    },
-    {
-      "symbol": "ESNT",
-      "weight": 0.010207401
-    },
-    {
-      "symbol": "AUB",
-      "weight": 0.0101915
+      "weight": 0.0106852
     },
     {
       "symbol": "WSBC",
-      "weight": 0.0101899
+      "weight": 0.0105826
     },
     {
-      "symbol": "PFSI",
-      "weight": 0.0101575
+      "symbol": "CFR",
+      "weight": 0.0105321
+    },
+    {
+      "symbol": "AX",
+      "weight": 0.010525
+    },
+    {
+      "symbol": "CRBG",
+      "weight": 0.010498101
     }
   ]
 }

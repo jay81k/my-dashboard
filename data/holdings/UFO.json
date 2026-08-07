@@ -2,44 +2,44 @@
   "symbol": "UFO",
   "holdings": [
     {
-      "symbol": "VSAT",
-      "weight": 0.0625525
-    },
-    {
-      "symbol": "ASTS",
-      "weight": 0.0527037
-    },
-    {
-      "symbol": "PL",
-      "weight": 0.0519808
-    },
-    {
-      "symbol": "SPCX",
-      "weight": 0.0518885
-    },
-    {
-      "symbol": "SIRI",
-      "weight": 0.0500958
+      "symbol": "GRMN",
+      "weight": 0.0697202
     },
     {
       "symbol": "TRMB",
-      "weight": 0.049611103
+      "weight": 0.0634119
     },
     {
-      "symbol": "GRMN",
-      "weight": 0.048769
+      "symbol": "VSAT",
+      "weight": 0.061950598
     },
     {
-      "symbol": "RKLB",
-      "weight": 0.048527196
+      "symbol": "SIRI",
+      "weight": 0.058075298
     },
     {
       "symbol": "ECHO",
-      "weight": 0.0434903
+      "weight": 0.0416541
     },
     {
-      "symbol": "MDA.TO",
-      "weight": 0.0379631
+      "symbol": "ASTS",
+      "weight": 0.040441398
+    },
+    {
+      "symbol": "SPCX",
+      "weight": 0.0380497
+    },
+    {
+      "symbol": "PL",
+      "weight": 0.037151
+    },
+    {
+      "symbol": "GSAT",
+      "weight": 0.0365366
+    },
+    {
+      "symbol": "IRDM",
+      "weight": 0.0364824
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "XHB",
   "holdings": [
     {
+      "symbol": "ALLE",
+      "weight": 0.0429912
+    },
+    {
       "symbol": "OC",
-      "weight": 0.0420898
-    },
-    {
-      "symbol": "WMS",
-      "weight": 0.0369321
-    },
-    {
-      "symbol": "KBH",
-      "weight": 0.0365654
-    },
-    {
-      "symbol": "BLDR",
-      "weight": 0.0365395
-    },
-    {
-      "symbol": "MTH",
-      "weight": 0.0362125
-    },
-    {
-      "symbol": "TOL",
-      "weight": 0.0361444
+      "weight": 0.0426407
     },
     {
       "symbol": "IBP",
-      "weight": 0.0357999
+      "weight": 0.040254798
+    },
+    {
+      "symbol": "WSM",
+      "weight": 0.0390341
+    },
+    {
+      "symbol": "CSL",
+      "weight": 0.0387913
+    },
+    {
+      "symbol": "WMS",
+      "weight": 0.0377769
     },
     {
       "symbol": "PHM",
-      "weight": 0.035284802
+      "weight": 0.0377075
     },
     {
-      "symbol": "MAS",
-      "weight": 0.0349869
+      "symbol": "KBH",
+      "weight": 0.0372314
     },
     {
-      "symbol": "SGI",
-      "weight": 0.0349005
+      "symbol": "JCI",
+      "weight": 0.037184
+    },
+    {
+      "symbol": "TOL",
+      "weight": 0.037106
     }
   ]
 }

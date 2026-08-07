@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "BWIN",
-      "weight": 0.024577
-    },
-    {
-      "symbol": "SKWD",
-      "weight": 0.0213502
-    },
-    {
-      "symbol": "LMND",
-      "weight": 0.020857899
-    },
-    {
-      "symbol": "PLMR",
-      "weight": 0.019973101
-    },
-    {
-      "symbol": "CINF",
-      "weight": 0.019925099
-    },
-    {
-      "symbol": "GL",
-      "weight": 0.019691499
-    },
-    {
-      "symbol": "RLI",
-      "weight": 0.0196149
-    },
-    {
-      "symbol": "KMPR",
-      "weight": 0.0195341
+      "weight": 0.024382701
     },
     {
       "symbol": "RYAN",
-      "weight": 0.0195074
+      "weight": 0.0216864
+    },
+    {
+      "symbol": "WTW",
+      "weight": 0.0216524
+    },
+    {
+      "symbol": "LNC",
+      "weight": 0.0214326
     },
     {
       "symbol": "TRV",
-      "weight": 0.0194906
+      "weight": 0.021002801
+    },
+    {
+      "symbol": "SKWD",
+      "weight": 0.020852001
+    },
+    {
+      "symbol": "ALL",
+      "weight": 0.0201352
+    },
+    {
+      "symbol": "PLMR",
+      "weight": 0.020102
+    },
+    {
+      "symbol": "THG",
+      "weight": 0.020065
+    },
+    {
+      "symbol": "BRO",
+      "weight": 0.0199195
     }
   ]
 }
