@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "CFR",
-      "weight": 0.014417
+      "weight": 0.014419399
     },
     {
       "symbol": "PNFP",
-      "weight": 0.0141554
+      "weight": 0.0141577
     },
     {
       "symbol": "HOMB",
-      "weight": 0.0140936
+      "weight": 0.0140959
     },
     {
       "symbol": "BPOP",
-      "weight": 0.0140536
+      "weight": 0.0140559
     },
     {
       "symbol": "UMBF",
-      "weight": 0.013830001
+      "weight": 0.0138323
     },
     {
       "symbol": "CFG",
-      "weight": 0.0138139995
+      "weight": 0.0138162
     },
     {
       "symbol": "MTB",
-      "weight": 0.0137459
+      "weight": 0.0137481
     },
     {
       "symbol": "ONB",
-      "weight": 0.0136914
+      "weight": 0.0136936
     },
     {
       "symbol": "SSB",
-      "weight": 0.013616101
+      "weight": 0.0136183
     },
     {
       "symbol": "HWC",
-      "weight": 0.013613599
+      "weight": 0.013615901
     }
   ]
 }
