@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "VRTPX",
-      "weight": 0.1435613
+      "weight": 0.14412831
     },
     {
       "symbol": "WELL",
-      "weight": 0.083696805
+      "weight": 0.0845983
     },
     {
       "symbol": "PLD",
-      "weight": 0.0667533
+      "weight": 0.0697297
     },
     {
       "symbol": "EQIX",
-      "weight": 0.0543396
+      "weight": 0.051996004
     },
     {
       "symbol": "AMT",
-      "weight": 0.0402973
+      "weight": 0.0417936
     },
     {
       "symbol": "SPG",
-      "weight": 0.038401403
+      "weight": 0.0385392
     },
     {
       "symbol": "DLR",
-      "weight": 0.0326166
+      "weight": 0.0335063
     },
     {
       "symbol": "O",
-      "weight": 0.0303056
+      "weight": 0.0305703
     },
     {
       "symbol": "PSA",
-      "weight": 0.0265816
+      "weight": 0.0281198
     },
     {
       "symbol": "VTR",
-      "weight": 0.0223166
+      "weight": 0.022997
     }
   ]
 }
