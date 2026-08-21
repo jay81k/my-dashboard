@@ -2,44 +2,44 @@
   "symbol": "MDY",
   "holdings": [
     {
-      "symbol": "TWLO",
-      "weight": 0.0086382
-    },
-    {
-      "symbol": "CRS",
-      "weight": 0.0084544
-    },
-    {
-      "symbol": "MKSI",
-      "weight": 0.008287299
-    },
-    {
-      "symbol": "CW",
-      "weight": 0.0077216
-    },
-    {
-      "symbol": "NVT",
-      "weight": 0.0075662
-    },
-    {
-      "symbol": "ENTG",
-      "weight": 0.0075660003
-    },
-    {
-      "symbol": "ATI",
-      "weight": 0.0074198004
-    },
-    {
       "symbol": "ILMN",
-      "weight": 0.0073382
+      "weight": 0.0087187
+    },
+    {
+      "symbol": "TWLO",
+      "weight": 0.0084154
     },
     {
       "symbol": "FTI",
-      "weight": 0.0072916
+      "weight": 0.0080273
     },
     {
-      "symbol": "STRL",
-      "weight": 0.0071052
+      "symbol": "CW",
+      "weight": 0.0075143
+    },
+    {
+      "symbol": "CRS",
+      "weight": 0.0072544003
+    },
+    {
+      "symbol": "ATI",
+      "weight": 0.0071869
+    },
+    {
+      "symbol": "NVT",
+      "weight": 0.0069896
+    },
+    {
+      "symbol": "P",
+      "weight": 0.0068415
+    },
+    {
+      "symbol": "OKTA",
+      "weight": 0.0066857
+    },
+    {
+      "symbol": "XPO",
+      "weight": 0.0066294996
     }
   ]
 }
