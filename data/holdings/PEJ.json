@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "EXPE",
-      "weight": 0.0609528
-    },
-    {
-      "symbol": "VIK",
-      "weight": 0.0548354
+      "weight": 0.0670825
     },
     {
       "symbol": "ABNB",
-      "weight": 0.052656297
+      "weight": 0.0651417
     },
     {
       "symbol": "SYY",
-      "weight": 0.0521793
+      "weight": 0.0507951
     },
     {
       "symbol": "SBUX",
-      "weight": 0.047845703
+      "weight": 0.0494492
     },
     {
-      "symbol": "MAR",
-      "weight": 0.0459937
+      "symbol": "VIK",
+      "weight": 0.0463205
     },
     {
       "symbol": "HLT",
-      "weight": 0.045636903
+      "weight": 0.0460641
+    },
+    {
+      "symbol": "MAR",
+      "weight": 0.043270998
     },
     {
       "symbol": "LVS",
-      "weight": 0.0453064
+      "weight": 0.0415723
     },
     {
-      "symbol": "TRIP",
-      "weight": 0.0354801
+      "symbol": "CNK",
+      "weight": 0.0335828
     },
     {
-      "symbol": "LIND",
-      "weight": 0.034809202
+      "symbol": "USFD",
+      "weight": 0.0332095
     }
   ]
 }

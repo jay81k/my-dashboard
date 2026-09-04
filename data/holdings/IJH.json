@@ -2,44 +2,44 @@
   "symbol": "IJH",
   "holdings": [
     {
-      "symbol": "ILMN",
-      "weight": 0.0087093
+      "symbol": "TWLO",
+      "weight": 0.0100221
     },
     {
-      "symbol": "TWLO",
-      "weight": 0.0084064
+      "symbol": "ILMN",
+      "weight": 0.0090586
     },
     {
       "symbol": "FTI",
-      "weight": 0.0080186995
-    },
-    {
-      "symbol": "CW",
-      "weight": 0.0075063
-    },
-    {
-      "symbol": "CRS",
-      "weight": 0.0072463
-    },
-    {
-      "symbol": "ATI",
-      "weight": 0.0071792
-    },
-    {
-      "symbol": "NVT",
-      "weight": 0.0069821
+      "weight": 0.008732201
     },
     {
       "symbol": "P",
-      "weight": 0.0068342
+      "weight": 0.0082196
     },
     {
       "symbol": "OKTA",
-      "weight": 0.0066785
+      "weight": 0.0081305
     },
     {
-      "symbol": "XPO",
-      "weight": 0.0066224
+      "symbol": "ATI",
+      "weight": 0.0078097
+    },
+    {
+      "symbol": "NVT",
+      "weight": 0.0068325
+    },
+    {
+      "symbol": "CRS",
+      "weight": 0.0066325003
+    },
+    {
+      "symbol": "USFD",
+      "weight": 0.0064701005
+    },
+    {
+      "symbol": "THC",
+      "weight": 0.0064191003
     }
   ]
 }

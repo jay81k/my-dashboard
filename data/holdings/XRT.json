@@ -2,44 +2,44 @@
   "symbol": "XRT",
   "holdings": [
     {
-      "symbol": "GRPN",
-      "weight": 0.019895
+      "symbol": "ANF",
+      "weight": 0.0230793
     },
     {
-      "symbol": "REAL",
-      "weight": 0.017498601
+      "symbol": "HZO",
+      "weight": 0.0220328
     },
     {
-      "symbol": "LAD",
-      "weight": 0.0166941
-    },
-    {
-      "symbol": "EYE",
-      "weight": 0.016548099
-    },
-    {
-      "symbol": "RVLV",
-      "weight": 0.0162875
-    },
-    {
-      "symbol": "PAG",
-      "weight": 0.016100101
-    },
-    {
-      "symbol": "KSS",
-      "weight": 0.0159187
-    },
-    {
-      "symbol": "VSXY",
-      "weight": 0.015768599
-    },
-    {
-      "symbol": "ETSY",
-      "weight": 0.015688
+      "symbol": "GO",
+      "weight": 0.0178019
     },
     {
       "symbol": "KMX",
-      "weight": 0.0155852
+      "weight": 0.0174042
+    },
+    {
+      "symbol": "FIVE",
+      "weight": 0.0173492
+    },
+    {
+      "symbol": "TGT",
+      "weight": 0.017308101
+    },
+    {
+      "symbol": "SBH",
+      "weight": 0.0172375
+    },
+    {
+      "symbol": "CART",
+      "weight": 0.0168752
+    },
+    {
+      "symbol": "PAG",
+      "weight": 0.0167323
+    },
+    {
+      "symbol": "LAD",
+      "weight": 0.016596101
     }
   ]
 }

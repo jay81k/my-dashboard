@@ -2,44 +2,40 @@
   "symbol": "XTN",
   "holdings": [
     {
-      "symbol": "JBLU",
-      "weight": 0.034103703
-    },
-    {
-      "symbol": "SKYW",
-      "weight": 0.0327427
-    },
-    {
-      "symbol": "ALGT",
-      "weight": 0.0319113
-    },
-    {
       "symbol": "LYFT",
-      "weight": 0.0308832
+      "weight": 0.033975698
     },
     {
-      "symbol": "UAL",
-      "weight": 0.0307917
+      "symbol": "MATX",
+      "weight": 0.0312834
     },
     {
-      "symbol": "DAL",
-      "weight": 0.0298172
-    },
-    {
-      "symbol": "ALK",
-      "weight": 0.0296768
-    },
-    {
-      "symbol": "AAL",
-      "weight": 0.0296666
-    },
-    {
-      "symbol": "UHAL.B",
-      "weight": 0.0286777
+      "symbol": "EXPD",
+      "weight": 0.031017698
     },
     {
       "symbol": "UNP",
-      "weight": 0.028473102
+      "weight": 0.030253999
+    },
+    {
+      "symbol": "SKYW",
+      "weight": 0.0299145
+    },
+    {
+      "symbol": "NSC",
+      "weight": 0.0298617
+    },
+    {
+      "symbol": "UBER",
+      "weight": 0.0296664
+    },
+    {
+      "symbol": "CSX",
+      "weight": 0.0293014
+    },
+    {
+      "symbol": "UAL",
+      "weight": 0.0282948
     }
   ]
 }

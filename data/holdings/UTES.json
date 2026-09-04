@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "CEG",
-      "weight": 0.111403905
+      "weight": 0.123403504
     },
     {
       "symbol": "TLN",
-      "weight": 0.1072454
+      "weight": 0.10056481
     },
     {
       "symbol": "VST",
-      "weight": 0.0995653
+      "weight": 0.097765
     },
     {
       "symbol": "XEL",
-      "weight": 0.0707352
+      "weight": 0.072522
     },
     {
       "symbol": "CNP",
-      "weight": 0.0664561
-    },
-    {
-      "symbol": "AEP",
-      "weight": 0.0475516
-    },
-    {
-      "symbol": "LNT",
-      "weight": 0.0475485
+      "weight": 0.0663083
     },
     {
       "symbol": "ETR",
-      "weight": 0.04694
+      "weight": 0.049116503
+    },
+    {
+      "symbol": "LNT",
+      "weight": 0.0483737
+    },
+    {
+      "symbol": "NI",
+      "weight": 0.0483552
+    },
+    {
+      "symbol": "AEP",
+      "weight": 0.0482341
     },
     {
       "symbol": "IDA",
-      "weight": 0.0464324
-    },
-    {
-      "symbol": "SRE",
-      "weight": 0.0461269
+      "weight": 0.0468604
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PBF",
-      "weight": 0.0401355
-    },
-    {
-      "symbol": "PARR",
-      "weight": 0.0352864
+      "weight": 0.0380104
     },
     {
       "symbol": "DK",
-      "weight": 0.032558
+      "weight": 0.0334451
     },
     {
       "symbol": "DINO",
-      "weight": 0.030557001
-    },
-    {
-      "symbol": "VLO",
-      "weight": 0.0286726
+      "weight": 0.0318344
     },
     {
       "symbol": "MPC",
-      "weight": 0.0284146
+      "weight": 0.031435102
+    },
+    {
+      "symbol": "VLO",
+      "weight": 0.0308456
+    },
+    {
+      "symbol": "PARR",
+      "weight": 0.0307426
     },
     {
       "symbol": "PSX",
-      "weight": 0.027537301
+      "weight": 0.030083
     },
     {
       "symbol": "PR",
-      "weight": 0.025531098
+      "weight": 0.0261689
     },
     {
-      "symbol": "CNX",
-      "weight": 0.025488902
+      "symbol": "CRGY",
+      "weight": 0.0259169
     },
     {
-      "symbol": "OVV",
-      "weight": 0.0254826
+      "symbol": "CLMT",
+      "weight": 0.025202401
     }
   ]
 }

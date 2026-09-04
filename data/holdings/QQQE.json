@@ -2,44 +2,44 @@
   "symbol": "QQQE",
   "holdings": [
     {
-      "symbol": "PYPL",
-      "weight": 0.013015199
-    },
-    {
-      "symbol": "REGN",
-      "weight": 0.0126292
-    },
-    {
       "symbol": "DASH",
-      "weight": 0.0125372
+      "weight": 0.014376399
     },
     {
-      "symbol": "CCEP.L",
-      "weight": 0.0122876
-    },
-    {
-      "symbol": "PAYX",
-      "weight": 0.0122654
-    },
-    {
-      "symbol": "ROP",
-      "weight": 0.012258801
-    },
-    {
-      "symbol": "PCAR",
-      "weight": 0.0122386
-    },
-    {
-      "symbol": "ADP",
-      "weight": 0.012228301
-    },
-    {
-      "symbol": "CTAS",
-      "weight": 0.0121645
+      "symbol": "ABNB",
+      "weight": 0.0135818
     },
     {
       "symbol": "PANW",
-      "weight": 0.0119925
+      "weight": 0.0134059
+    },
+    {
+      "symbol": "WDAY",
+      "weight": 0.013347
+    },
+    {
+      "symbol": "PAYX",
+      "weight": 0.012976101
+    },
+    {
+      "symbol": "ROP",
+      "weight": 0.0128906
+    },
+    {
+      "symbol": "REGN",
+      "weight": 0.0128445
+    },
+    {
+      "symbol": "ADP",
+      "weight": 0.012747901
+    },
+    {
+      "symbol": "AMGN",
+      "weight": 0.0126136
+    },
+    {
+      "symbol": "CRWD",
+      "weight": 0.0124915
     }
   ]
 }

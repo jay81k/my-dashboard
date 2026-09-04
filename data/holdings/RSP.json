@@ -2,44 +2,44 @@
   "symbol": "RSP",
   "holdings": [
     {
-      "symbol": "PYPL",
-      "weight": 0.0026991998
+      "symbol": "MRNA",
+      "weight": 0.0057504
     },
     {
-      "symbol": "TECH",
-      "weight": 0.0026352
+      "symbol": "VEEV",
+      "weight": 0.0032868
     },
     {
       "symbol": "ZBRA",
-      "weight": 0.0026001998
+      "weight": 0.0030728998
     },
     {
-      "symbol": "GPN",
-      "weight": 0.0025844
-    },
-    {
-      "symbol": "EXPE",
-      "weight": 0.002583
+      "symbol": "CRL",
+      "weight": 0.002915
     },
     {
       "symbol": "DASH",
-      "weight": 0.0024948
+      "weight": 0.0028917
     },
     {
-      "symbol": "IQV",
-      "weight": 0.0024773001
+      "symbol": "CRM",
+      "weight": 0.0028378002
     },
     {
-      "symbol": "BAX",
-      "weight": 0.0024710998
+      "symbol": "GPN",
+      "weight": 0.0027462
     },
     {
-      "symbol": "IP",
-      "weight": 0.0024597999
+      "symbol": "PANW",
+      "weight": 0.0027353999
     },
     {
-      "symbol": "WTW",
-      "weight": 0.0024425
+      "symbol": "EXPE",
+      "weight": 0.0027285998
+    },
+    {
+      "symbol": "WDAY",
+      "weight": 0.0027074998
     }
   ]
 }

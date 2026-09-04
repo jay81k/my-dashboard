@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "UAL",
-      "weight": 0.106715895
-    },
-    {
-      "symbol": "AAL",
-      "weight": 0.104579
+      "weight": 0.1044347
     },
     {
       "symbol": "DAL",
-      "weight": 0.10399511
+      "weight": 0.1020031
+    },
+    {
+      "symbol": "AAL",
+      "weight": 0.1011341
     },
     {
       "symbol": "LUV",
-      "weight": 0.0987902
-    },
-    {
-      "symbol": "JBLU",
-      "weight": 0.040002
-    },
-    {
-      "symbol": "SKYW",
-      "weight": 0.0394217
+      "weight": 0.093069
     },
     {
       "symbol": "AC.TO",
-      "weight": 0.0383981
+      "weight": 0.0459365
     },
     {
-      "symbol": "ALGT",
-      "weight": 0.037686802
+      "symbol": "SKYW",
+      "weight": 0.0383568
     },
     {
-      "symbol": "ULCC",
-      "weight": 0.0341483
+      "symbol": "JBLU",
+      "weight": 0.0335536
     },
     {
       "symbol": "ALK",
-      "weight": 0.0335851
+      "weight": 0.032164298
+    },
+    {
+      "symbol": "ALGT",
+      "weight": 0.032127902
+    },
+    {
+      "symbol": "ULCC",
+      "weight": 0.0317071
     }
   ]
 }

@@ -2,12 +2,16 @@
   "symbol": "MAGS",
   "holdings": [
     {
+      "symbol": "MSFT",
+      "weight": 0.0686256
+    },
+    {
       "symbol": "XBOX",
-      "weight": 0.0805413
+      "weight": 0.0634759
     },
     {
       "symbol": "FGXXX",
-      "weight": 0.057723798
+      "weight": 0.060386702
     }
   ]
 }

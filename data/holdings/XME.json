@@ -2,44 +2,44 @@
   "symbol": "XME",
   "holdings": [
     {
-      "symbol": "LEU",
-      "weight": 0.0514535
-    },
-    {
-      "symbol": "RS",
-      "weight": 0.0460058
-    },
-    {
-      "symbol": "NUE",
-      "weight": 0.045884
-    },
-    {
-      "symbol": "UEC",
-      "weight": 0.0455237
+      "symbol": "HL",
+      "weight": 0.053855
     },
     {
       "symbol": "NEM",
-      "weight": 0.0451225
-    },
-    {
-      "symbol": "FCX",
-      "weight": 0.045065798
-    },
-    {
-      "symbol": "RGLD",
-      "weight": 0.044959698
-    },
-    {
-      "symbol": "HL",
-      "weight": 0.044892702
+      "weight": 0.0517449
     },
     {
       "symbol": "CDE",
-      "weight": 0.043220703
+      "weight": 0.0513508
     },
     {
-      "symbol": "STLD",
-      "weight": 0.0418262
+      "symbol": "RGLD",
+      "weight": 0.050523702
+    },
+    {
+      "symbol": "UEC",
+      "weight": 0.0494805
+    },
+    {
+      "symbol": "FCX",
+      "weight": 0.0464599
+    },
+    {
+      "symbol": "HCC",
+      "weight": 0.0432834
+    },
+    {
+      "symbol": "CNR",
+      "weight": 0.042678
+    },
+    {
+      "symbol": "LEU",
+      "weight": 0.0424915
+    },
+    {
+      "symbol": "BTU",
+      "weight": 0.0391474
     }
   ]
 }

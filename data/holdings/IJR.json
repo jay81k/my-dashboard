@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "XTSLA",
-      "weight": 0.0213466
+      "weight": 0.019906301
     },
     {
       "symbol": "CORT",
-      "weight": 0.0060733003
-    },
-    {
-      "symbol": "VSAT",
-      "weight": 0.0058016004
+      "weight": 0.0060452996
     },
     {
       "symbol": "GKOS",
-      "weight": 0.0054367
+      "weight": 0.005887
     },
     {
-      "symbol": "MTCH",
-      "weight": 0.0051041003
+      "symbol": "PAYC",
+      "weight": 0.0055407
     },
     {
       "symbol": "EAT",
-      "weight": 0.0050886
+      "weight": 0.0054702
+    },
+    {
+      "symbol": "MTCH",
+      "weight": 0.0052951
     },
     {
       "symbol": "JXN",
-      "weight": 0.0047323
+      "weight": 0.0051883
     },
     {
-      "symbol": "RHP",
-      "weight": 0.0046829
+      "symbol": "VSAT",
+      "weight": 0.0051025
     },
     {
-      "symbol": "ESI",
-      "weight": 0.0046698
+      "symbol": "PTGX",
+      "weight": 0.0049877
     },
     {
-      "symbol": "FORM",
-      "weight": 0.0045965
+      "symbol": "KMX",
+      "weight": 0.0048578
     }
   ]
 }

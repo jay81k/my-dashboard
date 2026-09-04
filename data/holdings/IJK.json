@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "TWLO",
-      "weight": 0.0164688
+      "weight": 0.0193731
     },
     {
       "symbol": "FTI",
-      "weight": 0.015709199
-    },
-    {
-      "symbol": "CW",
-      "weight": 0.0147053
-    },
-    {
-      "symbol": "CRS",
-      "weight": 0.0141964
-    },
-    {
-      "symbol": "ATI",
-      "weight": 0.014064601
-    },
-    {
-      "symbol": "NVT",
-      "weight": 0.0136784995
+      "weight": 0.0168773
     },
     {
       "symbol": "P",
-      "weight": 0.013389699
+      "weight": 0.0158871
     },
     {
       "symbol": "OKTA",
-      "weight": 0.013085
+      "weight": 0.0157139
+    },
+    {
+      "symbol": "ATI",
+      "weight": 0.0150941005
+    },
+    {
+      "symbol": "NVT",
+      "weight": 0.013203501
+    },
+    {
+      "symbol": "CRS",
+      "weight": 0.0128198005
+    },
+    {
+      "symbol": "THC",
+      "weight": 0.012403999
     },
     {
       "symbol": "XPO",
-      "weight": 0.0129741
+      "weight": 0.0123343
     },
     {
       "symbol": "UTHR",
-      "weight": 0.012084
+      "weight": 0.0117319
     }
   ]
 }

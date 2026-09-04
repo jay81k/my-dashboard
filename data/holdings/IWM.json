@@ -2,44 +2,44 @@
   "symbol": "IWM",
   "holdings": [
     {
-      "symbol": "MOG-A",
-      "weight": 0.0035984998
+      "symbol": "FROG",
+      "weight": 0.0034871
     },
     {
-      "symbol": "HUT",
-      "weight": 0.0035861
+      "symbol": "MOG-A",
+      "weight": 0.0033969
+    },
+    {
+      "symbol": "XTSLA",
+      "weight": 0.0033926002
     },
     {
       "symbol": "UMBF",
-      "weight": 0.0035080002
-    },
-    {
-      "symbol": "CYTK",
-      "weight": 0.0032771998
-    },
-    {
-      "symbol": "VSAT",
-      "weight": 0.003146
-    },
-    {
-      "symbol": "BTSG",
-      "weight": 0.0031444998
+      "weight": 0.0033773
     },
     {
       "symbol": "GKOS",
-      "weight": 0.0030911
-    },
-    {
-      "symbol": "CTRE",
-      "weight": 0.0030684
-    },
-    {
-      "symbol": "ONB",
-      "weight": 0.003046
+      "weight": 0.0032978998
     },
     {
       "symbol": "EAT",
-      "weight": 0.0029867
+      "weight": 0.0031637
+    },
+    {
+      "symbol": "BTSG",
+      "weight": 0.0030467
+    },
+    {
+      "symbol": "KRYS",
+      "weight": 0.0029865
+    },
+    {
+      "symbol": "CYTK",
+      "weight": 0.0029846998
+    },
+    {
+      "symbol": "ONB",
+      "weight": 0.0028974
     }
   ]
 }

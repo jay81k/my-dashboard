@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "W",
-      "weight": 0.029426701
-    },
-    {
-      "symbol": "TRIP",
-      "weight": 0.0289836
-    },
-    {
-      "symbol": "ETSY",
-      "weight": 0.0287619
-    },
-    {
-      "symbol": "RVLV",
-      "weight": 0.0284503
-    },
-    {
-      "symbol": "PYPL",
-      "weight": 0.0282845
-    },
-    {
-      "symbol": "PTON",
-      "weight": 0.028110499
-    },
-    {
-      "symbol": "EXPE",
-      "weight": 0.0273441
-    },
-    {
-      "symbol": "SPOT",
-      "weight": 0.0269128
-    },
-    {
-      "symbol": "MSM",
-      "weight": 0.026886402
+      "weight": 0.0338507
     },
     {
       "symbol": "DASH",
-      "weight": 0.026721101
+      "weight": 0.03105
+    },
+    {
+      "symbol": "ABNB",
+      "weight": 0.0294782
+    },
+    {
+      "symbol": "EXPE",
+      "weight": 0.028934
+    },
+    {
+      "symbol": "SPOT",
+      "weight": 0.028770002
+    },
+    {
+      "symbol": "CART",
+      "weight": 0.028311301
+    },
+    {
+      "symbol": "ETSY",
+      "weight": 0.028173001
+    },
+    {
+      "symbol": "LYFT",
+      "weight": 0.026728202
+    },
+    {
+      "symbol": "BKNG",
+      "weight": 0.0266189
+    },
+    {
+      "symbol": "PYPL",
+      "weight": 0.0256161
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "WCLD",
   "holdings": [
     {
-      "symbol": "DDOG",
-      "weight": 0.0278018
+      "symbol": "OKTA",
+      "weight": 0.018563401
     },
     {
-      "symbol": "PANW",
-      "weight": 0.026739901
-    },
-    {
-      "symbol": "FROG",
-      "weight": 0.0253683
+      "symbol": "CRM",
+      "weight": 0.0177845
     },
     {
       "symbol": "CRWD",
-      "weight": 0.023592899
+      "weight": 0.017463699
     },
     {
-      "symbol": "OKTA",
-      "weight": 0.022928
+      "symbol": "NOW",
+      "weight": 0.016712
     },
     {
-      "symbol": "DOCN",
-      "weight": 0.0221628
-    },
-    {
-      "symbol": "TWLO",
-      "weight": 0.0209361
-    },
-    {
-      "symbol": "SNOW",
-      "weight": 0.0204022
-    },
-    {
-      "symbol": "TENB",
-      "weight": 0.0196806
+      "symbol": "VEEV",
+      "weight": 0.016708601
     },
     {
       "symbol": "PD",
-      "weight": 0.019273601
+      "weight": 0.0165819
+    },
+    {
+      "symbol": "ESTC",
+      "weight": 0.0164597
+    },
+    {
+      "symbol": "PATH",
+      "weight": 0.016451301
+    },
+    {
+      "symbol": "TEAM",
+      "weight": 0.0163799
+    },
+    {
+      "symbol": "KVYO",
+      "weight": 0.0162774
     }
   ]
 }

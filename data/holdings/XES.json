@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "OII",
-      "weight": 0.0499608
-    },
-    {
-      "symbol": "WHD",
-      "weight": 0.045054004
-    },
-    {
-      "symbol": "FTI",
-      "weight": 0.041235197
+      "weight": 0.048415698
     },
     {
       "symbol": "TDW",
-      "weight": 0.0411395
+      "weight": 0.046612002
     },
     {
-      "symbol": "WTTR",
-      "weight": 0.040513802
+      "symbol": "WHD",
+      "weight": 0.044507697
     },
     {
-      "symbol": "AROC",
-      "weight": 0.040330302
+      "symbol": "FTI",
+      "weight": 0.0410699
+    },
+    {
+      "symbol": "HP",
+      "weight": 0.0406916
     },
     {
       "symbol": "SDRL",
-      "weight": 0.0402783
+      "weight": 0.0399683
     },
     {
-      "symbol": "BKR",
-      "weight": 0.0386354
+      "symbol": "SLB",
+      "weight": 0.0398002
+    },
+    {
+      "symbol": "WTTR",
+      "weight": 0.0389584
+    },
+    {
+      "symbol": "PTEN",
+      "weight": 0.0386568
     },
     {
       "symbol": "NOV",
-      "weight": 0.0371007
-    },
-    {
-      "symbol": "NE",
-      "weight": 0.0368849
+      "weight": 0.037126902
     }
   ]
 }
