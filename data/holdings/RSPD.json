@@ -2,44 +2,44 @@
   "symbol": "RSPD",
   "holdings": [
     {
-      "symbol": "EXPE",
-      "weight": 0.0273439
-    },
-    {
       "symbol": "DASH",
-      "weight": 0.026379699
+      "weight": 0.031616498
     },
     {
-      "symbol": "GRMN",
-      "weight": 0.025750699
-    },
-    {
-      "symbol": "GPC",
-      "weight": 0.0256605
-    },
-    {
-      "symbol": "CMG",
-      "weight": 0.0248488
-    },
-    {
-      "symbol": "BKNG",
-      "weight": 0.0243889
-    },
-    {
-      "symbol": "RCL",
-      "weight": 0.024056101
+      "symbol": "EXPE",
+      "weight": 0.0298248
     },
     {
       "symbol": "ABNB",
-      "weight": 0.0238338
+      "weight": 0.029235799
+    },
+    {
+      "symbol": "GPC",
+      "weight": 0.0283913
+    },
+    {
+      "symbol": "CMG",
+      "weight": 0.0257499
+    },
+    {
+      "symbol": "BKNG",
+      "weight": 0.0255232
+    },
+    {
+      "symbol": "GRMN",
+      "weight": 0.025248202
     },
     {
       "symbol": "HAS",
-      "weight": 0.0231838
+      "weight": 0.023554102
     },
     {
-      "symbol": "AMZN",
-      "weight": 0.0231699
+      "symbol": "ULTA",
+      "weight": 0.023478
+    },
+    {
+      "symbol": "TSCO",
+      "weight": 0.023361001
     }
   ]
 }

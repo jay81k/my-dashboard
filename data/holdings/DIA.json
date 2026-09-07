@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "GS",
-      "weight": 0.1152211
+      "weight": 0.1145279
     },
     {
       "symbol": "CAT",
-      "weight": 0.0921889
+      "weight": 0.0890268
     },
     {
       "symbol": "MSFT",
-      "weight": 0.052579198
-    },
-    {
-      "symbol": "UNH",
-      "weight": 0.0468859
+      "weight": 0.056632098
     },
     {
       "symbol": "AMGN",
-      "weight": 0.0435776
+      "weight": 0.0479903
     },
     {
-      "symbol": "TRV",
-      "weight": 0.0423557
+      "symbol": "UNH",
+      "weight": 0.043472398
     },
     {
       "symbol": "V",
-      "weight": 0.041424498
+      "weight": 0.0423515
     },
     {
-      "symbol": "GOOGL",
-      "weight": 0.0402931
+      "symbol": "TRV",
+      "weight": 0.0408511
     },
     {
       "symbol": "JPM",
-      "weight": 0.0398021
+      "weight": 0.039744798
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.0378838
     },
     {
       "symbol": "SHW",
-      "weight": 0.038564302
+      "weight": 0.037823603
     }
   ]
 }

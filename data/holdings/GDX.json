@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "NEM",
-      "weight": 0.1048845
+      "weight": 0.107201
     },
     {
       "symbol": "AEM.TO",
-      "weight": 0.1018443
+      "weight": 0.106572
     },
     {
       "symbol": "ABX.TO",
-      "weight": 0.0801488
+      "weight": 0.0742281
     },
     {
       "symbol": "WPM.TO",
-      "weight": 0.055577997
-    },
-    {
-      "symbol": "FNV.TO",
-      "weight": 0.051036302
+      "weight": 0.0575105
     },
     {
       "symbol": "AU",
-      "weight": 0.050416898
+      "weight": 0.0530199
+    },
+    {
+      "symbol": "FNV.TO",
+      "weight": 0.04693
     },
     {
       "symbol": "K.TO",
-      "weight": 0.0431727
+      "weight": 0.043720998
     },
     {
       "symbol": "GFI",
-      "weight": 0.039890397
+      "weight": 0.041827597
     },
     {
       "symbol": "PAAS.TO",
-      "weight": 0.0287215
+      "weight": 0.0263764
     },
     {
       "symbol": "NST.AX",
-      "weight": 0.0281189
+      "weight": 0.025639901
     }
   ]
 }

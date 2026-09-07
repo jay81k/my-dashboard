@@ -2,44 +2,40 @@
   "symbol": "EWD",
   "holdings": [
     {
-      "symbol": "INVE B",
-      "weight": 0.0959834
+      "symbol": "SPOT",
+      "weight": 0.1018843
     },
     {
-      "symbol": "SPOT",
-      "weight": 0.0944124
+      "symbol": "INVE B",
+      "weight": 0.095173396
     },
     {
       "symbol": "VOLV-B.ST",
-      "weight": 0.0750472
+      "weight": 0.0714786
     },
     {
       "symbol": "ATCO-A.ST",
-      "weight": 0.0685857
+      "weight": 0.0689577
     },
     {
       "symbol": "SAND.ST",
-      "weight": 0.049213
-    },
-    {
-      "symbol": "SEB-A.ST",
-      "weight": 0.043841198
+      "weight": 0.052793898
     },
     {
       "symbol": "ASSA-B.ST",
-      "weight": 0.042044703
+      "weight": 0.0444174
+    },
+    {
+      "symbol": "SEB-A.ST",
+      "weight": 0.042959798
     },
     {
       "symbol": "SWED-A.ST",
-      "weight": 0.0419489
-    },
-    {
-      "symbol": "ATCO B",
-      "weight": 0.035604898
+      "weight": 0.040920302
     },
     {
       "symbol": "ERIC-B.ST",
-      "weight": 0.0337294
+      "weight": 0.0338985
     }
   ]
 }

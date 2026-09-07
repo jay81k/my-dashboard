@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "TXG",
-      "weight": 0.0941268
+      "weight": 0.0957784
     },
     {
       "symbol": "TWST",
-      "weight": 0.0774415
+      "weight": 0.091261104
     },
     {
       "symbol": "TEM",
-      "weight": 0.0657411
+      "weight": 0.0791006
     },
     {
       "symbol": "CRSP",
-      "weight": 0.0629738
+      "weight": 0.0610348
     },
     {
       "symbol": "PSNL",
-      "weight": 0.0548493
+      "weight": 0.059344202
     },
     {
       "symbol": "ABSI",
-      "weight": 0.0514971
+      "weight": 0.048845
     },
     {
-      "symbol": "GH",
-      "weight": 0.047513798
+      "symbol": "NTRA",
+      "weight": 0.0406026
     },
     {
       "symbol": "ILMN",
-      "weight": 0.0474793
+      "weight": 0.0403649
     },
     {
       "symbol": "LLY",
-      "weight": 0.046937898
+      "weight": 0.0385595
     },
     {
       "symbol": "CDNA",
-      "weight": 0.0430722
+      "weight": 0.038506802
     }
   ]
 }

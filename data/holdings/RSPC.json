@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ROKU",
-      "weight": 0.0575084
-    },
-    {
-      "symbol": "TTWO",
-      "weight": 0.0535282
+      "weight": 0.0598875
     },
     {
       "symbol": "OMC",
-      "weight": 0.049336
-    },
-    {
-      "symbol": "CHTR",
-      "weight": 0.0487963
-    },
-    {
-      "symbol": "LYV",
-      "weight": 0.048210904
-    },
-    {
-      "symbol": "EA",
-      "weight": 0.047895197
-    },
-    {
-      "symbol": "NYT",
-      "weight": 0.0475773
-    },
-    {
-      "symbol": "WBD",
-      "weight": 0.0465005
+      "weight": 0.052801598
     },
     {
       "symbol": "T",
-      "weight": 0.046456598
+      "weight": 0.049780503
     },
     {
       "symbol": "CMCSA",
-      "weight": 0.046357498
+      "weight": 0.049559496
+    },
+    {
+      "symbol": "CHTR",
+      "weight": 0.049373496
+    },
+    {
+      "symbol": "DIS",
+      "weight": 0.048673302
+    },
+    {
+      "symbol": "WBD",
+      "weight": 0.0485402
+    },
+    {
+      "symbol": "LYV",
+      "weight": 0.0479288
+    },
+    {
+      "symbol": "VZ",
+      "weight": 0.0475457
+    },
+    {
+      "symbol": "PSKY",
+      "weight": 0.047224
     }
   ]
 }

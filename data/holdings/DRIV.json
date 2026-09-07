@@ -2,44 +2,44 @@
   "symbol": "DRIV",
   "holdings": [
     {
-      "symbol": "INTC",
-      "weight": 0.049081
+      "symbol": "MSFT",
+      "weight": 0.0388279
     },
     {
       "symbol": "NVDA",
-      "weight": 0.0314859
+      "weight": 0.0313842
+    },
+    {
+      "symbol": "TSLA",
+      "weight": 0.0282507
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.030869998
+      "weight": 0.0277407
     },
     {
-      "symbol": "MSFT",
-      "weight": 0.0288198
-    },
-    {
-      "symbol": "BB.TO",
-      "weight": 0.022481201
+      "symbol": "INTC",
+      "weight": 0.026339099
     },
     {
       "symbol": "7203.T",
-      "weight": 0.022023799
-    },
-    {
-      "symbol": "IFX.DE",
-      "weight": 0.0218041
-    },
-    {
-      "symbol": "NBIS",
-      "weight": 0.021507
+      "weight": 0.025739301
     },
     {
       "symbol": "QCOM",
-      "weight": 0.021419201
+      "weight": 0.024521999
     },
     {
-      "symbol": "STMPA.PA",
-      "weight": 0.021236701
+      "symbol": "RIO.L",
+      "weight": 0.0190673
+    },
+    {
+      "symbol": "GM",
+      "weight": 0.0179753
+    },
+    {
+      "symbol": "006400.KQ",
+      "weight": 0.016951801
     }
   ]
 }

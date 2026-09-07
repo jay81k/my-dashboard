@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ASELS.IS",
-      "weight": 0.1128052
-    },
-    {
-      "symbol": "BIMAS.IS",
-      "weight": 0.0959974
+      "weight": 0.1120509
     },
     {
       "symbol": "TUPRS.IS",
-      "weight": 0.076826
+      "weight": 0.096517295
+    },
+    {
+      "symbol": "BIMAS.IS",
+      "weight": 0.08689941
     },
     {
       "symbol": "AKBNK.IS",
-      "weight": 0.053179402
+      "weight": 0.055851698
     },
     {
       "symbol": "THYAO.IS",
-      "weight": 0.0488695
-    },
-    {
-      "symbol": "EREGL.IS",
-      "weight": 0.039942
+      "weight": 0.043594398
     },
     {
       "symbol": "KCHOL.IS",
-      "weight": 0.0360536
+      "weight": 0.0364546
     },
     {
-      "symbol": "TCELL.IS",
-      "weight": 0.0310708
+      "symbol": "EREGL.IS",
+      "weight": 0.033736803
+    },
+    {
+      "symbol": "ASTOR.IS",
+      "weight": 0.0306883
     },
     {
       "symbol": "YKBNK.IS",
-      "weight": 0.028747799
+      "weight": 0.0296929
     },
     {
-      "symbol": "ISCTR.IS",
-      "weight": 0.025307901
+      "symbol": "TCELL.IS",
+      "weight": 0.027370999
     }
   ]
 }

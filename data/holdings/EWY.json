@@ -2,44 +2,44 @@
   "symbol": "EWY",
   "holdings": [
     {
-      "symbol": "005930.KQ",
-      "weight": 0.2319272
+      "symbol": "000660.KQ",
+      "weight": 0.23692751
     },
     {
-      "symbol": "000660.KQ",
-      "weight": 0.223472
+      "symbol": "005930.KQ",
+      "weight": 0.222434
     },
     {
       "symbol": "402340.KQ",
-      "weight": 0.032744702
+      "weight": 0.0286159
     },
     {
       "symbol": "009150.KQ",
-      "weight": 0.0237626
+      "weight": 0.0265836
     },
     {
       "symbol": "105560.KQ",
-      "weight": 0.0212187
+      "weight": 0.0199499
     },
     {
       "symbol": "005380.KQ",
-      "weight": 0.0172958
+      "weight": 0.0172373
     },
     {
       "symbol": "055550.KQ",
-      "weight": 0.0158444
+      "weight": 0.0161633
     },
     {
       "symbol": "086790.KQ",
-      "weight": 0.0135632
+      "weight": 0.0137994
     },
     {
-      "symbol": "035420.KS",
-      "weight": 0.0120593
+      "symbol": "012450.KQ",
+      "weight": 0.0130944
     },
     {
-      "symbol": "000270.KQ",
-      "weight": 0.0118373
+      "symbol": "006400.KQ",
+      "weight": 0.012882
     }
   ]
 }

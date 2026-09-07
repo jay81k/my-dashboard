@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ZBRA",
-      "weight": 0.0185303
+      "weight": 0.0209648
+    },
+    {
+      "symbol": "CRM",
+      "weight": 0.0193688
     },
     {
       "symbol": "PANW",
-      "weight": 0.0172342
-    },
-    {
-      "symbol": "ANET",
-      "weight": 0.016246999
-    },
-    {
-      "symbol": "CRWD",
-      "weight": 0.0161201
-    },
-    {
-      "symbol": "DDOG",
-      "weight": 0.016094299
-    },
-    {
-      "symbol": "ROP",
-      "weight": 0.0160428
-    },
-    {
-      "symbol": "MSFT",
-      "weight": 0.0159922
+      "weight": 0.0186621
     },
     {
       "symbol": "WDAY",
-      "weight": 0.015947
+      "weight": 0.0184631
     },
     {
-      "symbol": "FTNT",
-      "weight": 0.015942499
+      "symbol": "PLTR",
+      "weight": 0.0183989
     },
     {
-      "symbol": "CDW",
-      "weight": 0.0156301
+      "symbol": "CRWD",
+      "weight": 0.0183374
+    },
+    {
+      "symbol": "NOW",
+      "weight": 0.0179363
+    },
+    {
+      "symbol": "ANET",
+      "weight": 0.016575001
+    },
+    {
+      "symbol": "IT",
+      "weight": 0.016439
+    },
+    {
+      "symbol": "MSFT",
+      "weight": 0.0164102
     }
   ]
 }

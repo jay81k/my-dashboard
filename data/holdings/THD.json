@@ -2,44 +2,8 @@
   "symbol": "THD",
   "holdings": [
     {
-      "symbol": "DELTA-R",
-      "weight": 0.1586315
-    },
-    {
-      "symbol": "ADVANC-R",
-      "weight": 0.0719558
-    },
-    {
-      "symbol": "PTT-R",
-      "weight": 0.0687325
-    },
-    {
-      "symbol": "AOT-R",
-      "weight": 0.0465278
-    },
-    {
       "symbol": "GULF-R",
-      "weight": 0.0447397
-    },
-    {
-      "symbol": "CPALL-R",
-      "weight": 0.042761
-    },
-    {
-      "symbol": "PTTEP-R",
-      "weight": 0.0365248
-    },
-    {
-      "symbol": "BDMS-R",
-      "weight": 0.0361579
-    },
-    {
-      "symbol": "SCC-R",
-      "weight": 0.0349837
-    },
-    {
-      "symbol": "KTB-R",
-      "weight": 0.0272224
+      "weight": 0.043814503
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "RSPU",
   "holdings": [
     {
-      "symbol": "NRG",
-      "weight": 0.0355543
-    },
-    {
       "symbol": "CEG",
-      "weight": 0.0346383
-    },
-    {
-      "symbol": "VST",
-      "weight": 0.0341677
+      "weight": 0.0383413
     },
     {
       "symbol": "AWK",
-      "weight": 0.0338894
-    },
-    {
-      "symbol": "FE",
-      "weight": 0.0332353
-    },
-    {
-      "symbol": "PCG",
-      "weight": 0.033203103
-    },
-    {
-      "symbol": "D",
-      "weight": 0.0330901
+      "weight": 0.0369576
     },
     {
       "symbol": "ES",
-      "weight": 0.033055
+      "weight": 0.0342797
     },
     {
-      "symbol": "EIX",
-      "weight": 0.0327773
+      "symbol": "AES",
+      "weight": 0.0340648
     },
     {
-      "symbol": "NEE",
-      "weight": 0.0326179
+      "symbol": "ED",
+      "weight": 0.0336284
+    },
+    {
+      "symbol": "VST",
+      "weight": 0.0335249
+    },
+    {
+      "symbol": "D",
+      "weight": 0.0334258
+    },
+    {
+      "symbol": "FE",
+      "weight": 0.0333954
+    },
+    {
+      "symbol": "ATO",
+      "weight": 0.0331831
+    },
+    {
+      "symbol": "EVRG",
+      "weight": 0.0330718
     }
   ]
 }

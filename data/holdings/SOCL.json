@@ -2,44 +2,44 @@
   "symbol": "SOCL",
   "holdings": [
     {
-      "symbol": "0700.HK",
-      "weight": 0.096907705
-    },
-    {
       "symbol": "035420.KS",
-      "weight": 0.0931404
+      "weight": 0.1029263
     },
     {
-      "symbol": "META",
-      "weight": 0.0868897
+      "symbol": "0700.HK",
+      "weight": 0.0932511
     },
     {
       "symbol": "RDDT",
-      "weight": 0.0845446
+      "weight": 0.0922783
     },
     {
-      "symbol": "1024.HK",
-      "weight": 0.0705688
+      "symbol": "META",
+      "weight": 0.0905369
     },
     {
       "symbol": "PINS",
-      "weight": 0.0592495
+      "weight": 0.057425097
+    },
+    {
+      "symbol": "1024.HK",
+      "weight": 0.054228902
     },
     {
       "symbol": "NTES",
-      "weight": 0.0564942
+      "weight": 0.052217796
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.0531854
+      "weight": 0.051944
     },
     {
       "symbol": "SPOT",
-      "weight": 0.047205903
+      "weight": 0.051880497
     },
     {
-      "symbol": "BIDU",
-      "weight": 0.044595297
+      "symbol": "MTCH",
+      "weight": 0.0429572
     }
   ]
 }
