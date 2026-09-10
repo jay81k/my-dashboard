@@ -2,12 +2,24 @@
   "symbol": "SLX",
   "holdings": [
     {
+      "symbol": "BHP",
+      "weight": 0.0807774
+    },
+    {
+      "symbol": "RIO",
+      "weight": 0.073434904
+    },
+    {
       "symbol": "VALE",
       "weight": 0.068527296
     },
     {
       "symbol": "NUE",
       "weight": 0.063204005
+    },
+    {
+      "symbol": "MT",
+      "weight": 0.056683503
     },
     {
       "symbol": "5401.T",

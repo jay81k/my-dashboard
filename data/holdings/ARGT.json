@@ -6,12 +6,36 @@
       "weight": 0.2537967
     },
     {
+      "symbol": "YPF",
+      "weight": 0.0951458
+    },
+    {
+      "symbol": "VIST",
+      "weight": 0.0624828
+    },
+    {
+      "symbol": "GGAL",
+      "weight": 0.056158498
+    },
+    {
+      "symbol": "BMA",
+      "weight": 0.043186497
+    },
+    {
+      "symbol": "PAM",
+      "weight": 0.0416919
+    },
+    {
       "symbol": "FVI.TO",
       "weight": 0.0407146
     },
     {
       "symbol": "SSRM.TO",
       "weight": 0.0392374
+    },
+    {
+      "symbol": "TGS",
+      "weight": 0.036623
     },
     {
       "symbol": "CEPU",

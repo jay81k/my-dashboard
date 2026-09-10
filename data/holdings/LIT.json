@@ -2,6 +2,10 @@
   "symbol": "LIT",
   "holdings": [
     {
+      "symbol": "RIO",
+      "weight": 0.22165859
+    },
+    {
       "symbol": "6752.T",
       "weight": 0.0645706
     },

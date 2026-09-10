@@ -36,6 +36,10 @@
     {
       "symbol": "UAL",
       "weight": 0.0282948
+    },
+    {
+      "symbol": "UHAL.B",
+      "weight": 0.028231202
     }
   ]
 }

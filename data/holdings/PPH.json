@@ -22,6 +22,10 @@
       "weight": 0.049811102
     },
     {
+      "symbol": "NVO",
+      "weight": 0.049242303
+    },
+    {
       "symbol": "MCK",
       "weight": 0.047013503
     },
@@ -32,6 +36,10 @@
     {
       "symbol": "JNJ",
       "weight": 0.044330902
+    },
+    {
+      "symbol": "GSK",
+      "weight": 0.0413123
     }
   ]
 }

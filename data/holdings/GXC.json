@@ -10,12 +10,24 @@
       "weight": 0.0781919
     },
     {
+      "symbol": "00939",
+      "weight": 0.0340165
+    },
+    {
+      "symbol": "01398",
+      "weight": 0.0212984
+    },
+    {
       "symbol": "PDD",
       "weight": 0.0184349
     },
     {
       "symbol": "1810.HK",
       "weight": 0.017165
+    },
+    {
+      "symbol": "03988",
+      "weight": 0.0170437
     },
     {
       "symbol": "3690.HK",
