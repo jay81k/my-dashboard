@@ -2,44 +2,44 @@
   "symbol": "RSPR",
   "holdings": [
     {
-      "symbol": "WELL",
-      "weight": 0.0385376
-    },
-    {
-      "symbol": "CBRE",
-      "weight": 0.0375042
-    },
-    {
-      "symbol": "VTR",
-      "weight": 0.0372677
-    },
-    {
-      "symbol": "BXP",
-      "weight": 0.0358026
-    },
-    {
-      "symbol": "DLR",
-      "weight": 0.0353957
-    },
-    {
-      "symbol": "DOC",
-      "weight": 0.0350698
-    },
-    {
-      "symbol": "EQIX",
-      "weight": 0.0347561
-    },
-    {
-      "symbol": "SPG",
-      "weight": 0.0343998
+      "symbol": "HST",
+      "weight": 0.0360417
     },
     {
       "symbol": "ESS",
-      "weight": 0.0342735
+      "weight": 0.034834
     },
     {
-      "symbol": "O",
-      "weight": 0.0340191
+      "symbol": "SPG",
+      "weight": 0.0348227
+    },
+    {
+      "symbol": "DOC",
+      "weight": 0.0347472
+    },
+    {
+      "symbol": "WELL",
+      "weight": 0.0346254
+    },
+    {
+      "symbol": "EQIX",
+      "weight": 0.0344111
+    },
+    {
+      "symbol": "EXR",
+      "weight": 0.0344018
+    },
+    {
+      "symbol": "IRM",
+      "weight": 0.034163598
+    },
+    {
+      "symbol": "PSA",
+      "weight": 0.0340613
+    },
+    {
+      "symbol": "PLD",
+      "weight": 0.033957
     }
   ]
 }

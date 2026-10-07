@@ -2,44 +2,44 @@
   "symbol": "XHE",
   "holdings": [
     {
-      "symbol": "ATRC",
-      "weight": 0.025869802
+      "symbol": "BFLY",
+      "weight": 0.0190858
+    },
+    {
+      "symbol": "ISRG",
+      "weight": 0.0182928
+    },
+    {
+      "symbol": "ATEC",
+      "weight": 0.0182517
     },
     {
       "symbol": "ASST",
-      "weight": 0.0247057
+      "weight": 0.0175099
+    },
+    {
+      "symbol": "BBNX",
+      "weight": 0.0173136
+    },
+    {
+      "symbol": "NEOG",
+      "weight": 0.0170637
+    },
+    {
+      "symbol": "UFPT",
+      "weight": 0.0169312
+    },
+    {
+      "symbol": "ATRC",
+      "weight": 0.0168407
     },
     {
       "symbol": "INSP",
-      "weight": 0.021928899
+      "weight": 0.016579
     },
     {
-      "symbol": "GKOS",
-      "weight": 0.0215775
-    },
-    {
-      "symbol": "BFLY",
-      "weight": 0.0215466
-    },
-    {
-      "symbol": "CNMD",
-      "weight": 0.0202142
-    },
-    {
-      "symbol": "ITGR",
-      "weight": 0.020176498
-    },
-    {
-      "symbol": "TNDM",
-      "weight": 0.0199615
-    },
-    {
-      "symbol": "MMSI",
-      "weight": 0.0199207
-    },
-    {
-      "symbol": "AORT",
-      "weight": 0.019407801
+      "symbol": "LMAT",
+      "weight": 0.016514601
     }
   ]
 }

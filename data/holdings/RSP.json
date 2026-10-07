@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MRNA",
-      "weight": 0.0057504
+      "weight": 0.0029185
     },
     {
-      "symbol": "VEEV",
-      "weight": 0.0032868
+      "symbol": "P",
+      "weight": 0.0027695
     },
     {
-      "symbol": "ZBRA",
-      "weight": 0.0030728998
+      "symbol": "ILMN",
+      "weight": 0.0027438
     },
     {
-      "symbol": "CRL",
-      "weight": 0.002915
+      "symbol": "CRWD",
+      "weight": 0.0026184
     },
     {
-      "symbol": "DASH",
-      "weight": 0.0028917
+      "symbol": "RVTY",
+      "weight": 0.0025371
     },
     {
-      "symbol": "CRM",
-      "weight": 0.0028378002
+      "symbol": "DDOG",
+      "weight": 0.0024988
     },
     {
-      "symbol": "GPN",
-      "weight": 0.0027462
+      "symbol": "A",
+      "weight": 0.0024466
     },
     {
       "symbol": "PANW",
-      "weight": 0.0027353999
+      "weight": 0.0024368
     },
     {
-      "symbol": "EXPE",
-      "weight": 0.0027285998
+      "symbol": "AMD",
+      "weight": 0.0024132999
     },
     {
-      "symbol": "WDAY",
-      "weight": 0.0027074998
+      "symbol": "MTD",
+      "weight": 0.0024053
     }
   ]
 }

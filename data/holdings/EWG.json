@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SIE.DE",
-      "weight": 0.120735705
+      "weight": 0.1213589
     },
     {
       "symbol": "SAP.DE",
-      "weight": 0.1130748
+      "weight": 0.114589304
     },
     {
       "symbol": "ALV.DE",
-      "weight": 0.1002249
+      "weight": 0.096442096
     },
     {
       "symbol": "ENR.DE",
-      "weight": 0.064397104
+      "weight": 0.0672995
     },
     {
       "symbol": "DTE.DE",
-      "weight": 0.056306902
+      "weight": 0.0539781
     },
     {
       "symbol": "IFX.DE",
-      "weight": 0.042961303
+      "weight": 0.0473179
     },
     {
       "symbol": "MUV2.DE",
-      "weight": 0.0384973
+      "weight": 0.0388469
     },
     {
       "symbol": "DBK.DE",
-      "weight": 0.034831
+      "weight": 0.0333667
+    },
+    {
+      "symbol": "DHL.DE",
+      "weight": 0.031934
     },
     {
       "symbol": "DB1.DE",
-      "weight": 0.030573102
-    },
-    {
-      "symbol": "RHM.DE",
-      "weight": 0.0303671
+      "weight": 0.0316499
     }
   ]
 }

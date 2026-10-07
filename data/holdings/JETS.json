@@ -2,44 +2,44 @@
   "symbol": "JETS",
   "holdings": [
     {
-      "symbol": "UAL",
-      "weight": 0.1044347
+      "symbol": "LUV",
+      "weight": 0.1144203
     },
     {
       "symbol": "DAL",
-      "weight": 0.1020031
+      "weight": 0.1115792
     },
     {
       "symbol": "AAL",
-      "weight": 0.1011341
+      "weight": 0.110296205
     },
     {
-      "symbol": "LUV",
-      "weight": 0.093069
-    },
-    {
-      "symbol": "AC.TO",
-      "weight": 0.0459365
-    },
-    {
-      "symbol": "SKYW",
-      "weight": 0.0383568
-    },
-    {
-      "symbol": "JBLU",
-      "weight": 0.0335536
-    },
-    {
-      "symbol": "ALK",
-      "weight": 0.032164298
-    },
-    {
-      "symbol": "ALGT",
-      "weight": 0.032127902
+      "symbol": "UAL",
+      "weight": 0.108985595
     },
     {
       "symbol": "ULCC",
-      "weight": 0.0317071
+      "weight": 0.0378487
+    },
+    {
+      "symbol": "SKYW",
+      "weight": 0.0359427
+    },
+    {
+      "symbol": "ALGT",
+      "weight": 0.0353901
+    },
+    {
+      "symbol": "ALK",
+      "weight": 0.034274098
+    },
+    {
+      "symbol": "JBLU",
+      "weight": 0.033424303
+    },
+    {
+      "symbol": "AC.TO",
+      "weight": 0.0327643
     }
   ]
 }

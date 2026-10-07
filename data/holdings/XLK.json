@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "NVDA",
-      "weight": 0.14363189
+      "weight": 0.154659
     },
     {
       "symbol": "AAPL",
-      "weight": 0.1249984
+      "weight": 0.136004
     },
     {
       "symbol": "MSFT",
-      "weight": 0.1012188
-    },
-    {
-      "symbol": "AVGO",
-      "weight": 0.0470974
-    },
-    {
-      "symbol": "MU",
-      "weight": 0.0399906
+      "weight": 0.10657679
     },
     {
       "symbol": "AMD",
-      "weight": 0.0392825
+      "weight": 0.050590202
+    },
+    {
+      "symbol": "AVGO",
+      "weight": 0.0467552
+    },
+    {
+      "symbol": "MU",
+      "weight": 0.0446581
     },
     {
       "symbol": "INTC",
-      "weight": 0.028994901
-    },
-    {
-      "symbol": "CSCO",
-      "weight": 0.0286219
+      "weight": 0.0338494
     },
     {
       "symbol": "PLTR",
-      "weight": 0.0280656
+      "weight": 0.0243834
+    },
+    {
+      "symbol": "CSCO",
+      "weight": 0.024036
     },
     {
       "symbol": "LRCX",
-      "weight": 0.0247268
+      "weight": 0.0232913
     }
   ]
 }

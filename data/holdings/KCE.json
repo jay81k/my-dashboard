@@ -2,44 +2,40 @@
   "symbol": "KCE",
   "holdings": [
     {
+      "symbol": "WLTH",
+      "weight": 0.0179605
+    },
+    {
+      "symbol": "SBET",
+      "weight": 0.0177874
+    },
+    {
+      "symbol": "COIN",
+      "weight": 0.0174837
+    },
+    {
+      "symbol": "AMG",
+      "weight": 0.0168157
+    },
+    {
+      "symbol": "PWP",
+      "weight": 0.016709201
+    },
+    {
       "symbol": "WT",
-      "weight": 0.020109301
+      "weight": 0.0166336
     },
     {
       "symbol": "MKTX",
-      "weight": 0.0196105
+      "weight": 0.016453499
     },
     {
-      "symbol": "HLNE",
-      "weight": 0.019532599
+      "symbol": "AAMI",
+      "weight": 0.0162271
     },
     {
       "symbol": "VCTR",
-      "weight": 0.0188103
-    },
-    {
-      "symbol": "TPG",
-      "weight": 0.0181612
-    },
-    {
-      "symbol": "OWL",
-      "weight": 0.018116899
-    },
-    {
-      "symbol": "DFIN",
-      "weight": 0.0180058
-    },
-    {
-      "symbol": "LPLA",
-      "weight": 0.0179407
-    },
-    {
-      "symbol": "FDS",
-      "weight": 0.0176454
-    },
-    {
-      "symbol": "SEIC",
-      "weight": 0.0175182
+      "weight": 0.016181901
     }
   ]
 }

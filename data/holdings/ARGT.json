@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MELI",
-      "weight": 0.2537967
+      "weight": 0.2171513
     },
     {
       "symbol": "YPF",
-      "weight": 0.0951458
+      "weight": 0.1035843
     },
     {
       "symbol": "VIST",
-      "weight": 0.0624828
+      "weight": 0.069604
     },
     {
       "symbol": "GGAL",
-      "weight": 0.056158498
-    },
-    {
-      "symbol": "BMA",
-      "weight": 0.043186497
+      "weight": 0.0569769
     },
     {
       "symbol": "PAM",
-      "weight": 0.0416919
+      "weight": 0.0470642
+    },
+    {
+      "symbol": "BMA",
+      "weight": 0.042668298
     },
     {
       "symbol": "FVI.TO",
-      "weight": 0.0407146
-    },
-    {
-      "symbol": "SSRM.TO",
-      "weight": 0.0392374
+      "weight": 0.0413195
     },
     {
       "symbol": "TGS",
-      "weight": 0.036623
+      "weight": 0.0383571
     },
     {
-      "symbol": "CEPU",
-      "weight": 0.0318538
+      "symbol": "SSRM.TO",
+      "weight": 0.0383322
+    },
+    {
+      "symbol": "ANDINA-B",
+      "weight": 0.0352492
     }
   ]
 }

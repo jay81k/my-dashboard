@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "BHP.AX",
-      "weight": 0.1634999
+      "weight": 0.15420881
     },
     {
       "symbol": "CBA.AX",
-      "weight": 0.1300003
+      "weight": 0.1260962
     },
     {
       "symbol": "NAB.AX",
-      "weight": 0.0585092
+      "weight": 0.060897697
     },
     {
       "symbol": "WBC.AX",
-      "weight": 0.0574107
+      "weight": 0.0598523
     },
     {
       "symbol": "ANZ.AX",
-      "weight": 0.054506
+      "weight": 0.057651702
     },
     {
       "symbol": "MQG.AX",
-      "weight": 0.0443705
-    },
-    {
-      "symbol": "WES.AX",
-      "weight": 0.0431532
+      "weight": 0.0447537
     },
     {
       "symbol": "CSL.AX",
-      "weight": 0.0399164
+      "weight": 0.0440223
+    },
+    {
+      "symbol": "WES.AX",
+      "weight": 0.043398
     },
     {
       "symbol": "RIO.AX",
-      "weight": 0.0315778
+      "weight": 0.0309706
     },
     {
       "symbol": "WDS.AX",
-      "weight": 0.0299432
+      "weight": 0.030241499
     }
   ]
 }

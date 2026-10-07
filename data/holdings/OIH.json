@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SLB",
-      "weight": 0.2084371
+      "weight": 0.1971832
     },
     {
       "symbol": "BKR",
-      "weight": 0.118652895
+      "weight": 0.1180773
     },
     {
       "symbol": "FTI",
-      "weight": 0.070823796
+      "weight": 0.0663455
     },
     {
       "symbol": "HAL",
-      "weight": 0.061139997
+      "weight": 0.061676502
     },
     {
       "symbol": "TS",
-      "weight": 0.044299003
+      "weight": 0.0539059
+    },
+    {
+      "symbol": "SEI",
+      "weight": 0.0506529
     },
     {
       "symbol": "RIG",
-      "weight": 0.0438228
+      "weight": 0.0463095
     },
     {
       "symbol": "WFRD",
-      "weight": 0.0434543
-    },
-    {
-      "symbol": "NE",
-      "weight": 0.0432613
+      "weight": 0.043854598
     },
     {
       "symbol": "NOV",
-      "weight": 0.0362153
+      "weight": 0.0411623
     },
     {
-      "symbol": "OII",
-      "weight": 0.036106702
+      "symbol": "NE",
+      "weight": 0.0399645
     }
   ]
 }

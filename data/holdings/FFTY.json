@@ -2,44 +2,44 @@
   "symbol": "FFTY",
   "holdings": [
     {
+      "symbol": "NTRA",
+      "weight": 0.037096802
+    },
+    {
       "symbol": "HNGE",
-      "weight": 0.0363988
+      "weight": 0.0369554
     },
     {
-      "symbol": "KNSA",
-      "weight": 0.0355668
-    },
-    {
-      "symbol": "TVTX",
-      "weight": 0.0351445
-    },
-    {
-      "symbol": "TGTX",
-      "weight": 0.0351184
+      "symbol": "OET.OL",
+      "weight": 0.0363525
     },
     {
       "symbol": "WT",
-      "weight": 0.0345834
+      "weight": 0.0359158
     },
     {
-      "symbol": "DAVE",
-      "weight": 0.0343677
-    },
-    {
-      "symbol": "ETON",
-      "weight": 0.0343512
-    },
-    {
-      "symbol": "NTRA",
-      "weight": 0.0338532
+      "symbol": "GH",
+      "weight": 0.035473898
     },
     {
       "symbol": "ERO.TO",
-      "weight": 0.0336761
+      "weight": 0.0352743
     },
     {
-      "symbol": "AUGO",
-      "weight": 0.0333094
+      "symbol": "RBRK",
+      "weight": 0.0347358
+    },
+    {
+      "symbol": "HALO",
+      "weight": 0.0344351
+    },
+    {
+      "symbol": "KNSA",
+      "weight": 0.0343947
+    },
+    {
+      "symbol": "ETON",
+      "weight": 0.0324733
     }
   ]
 }

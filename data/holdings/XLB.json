@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "LIN",
-      "weight": 0.1313487
+      "weight": 0.1223234
     },
     {
       "symbol": "NEM",
-      "weight": 0.0780911
+      "weight": 0.0679442
     },
     {
       "symbol": "FCX",
-      "weight": 0.0631812
-    },
-    {
-      "symbol": "CTVA",
-      "weight": 0.049064297
-    },
-    {
-      "symbol": "APD",
-      "weight": 0.048312403
-    },
-    {
-      "symbol": "SHW",
-      "weight": 0.0481254
+      "weight": 0.0561973
     },
     {
       "symbol": "ECL",
-      "weight": 0.0475711
+      "weight": 0.0474993
     },
     {
-      "symbol": "NUE",
-      "weight": 0.0430225
+      "symbol": "SHW",
+      "weight": 0.0474764
     },
     {
       "symbol": "VMC",
-      "weight": 0.0426784
+      "weight": 0.0460976
+    },
+    {
+      "symbol": "MLM",
+      "weight": 0.0445324
+    },
+    {
+      "symbol": "APD",
+      "weight": 0.044376
     },
     {
       "symbol": "CRH",
-      "weight": 0.040711
+      "weight": 0.0436374
+    },
+    {
+      "symbol": "STLD",
+      "weight": 0.0433578
     }
   ]
 }

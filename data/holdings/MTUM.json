@@ -2,44 +2,44 @@
   "symbol": "MTUM",
   "holdings": [
     {
-      "symbol": "MU",
-      "weight": 0.0515002
+      "symbol": "AMD",
+      "weight": 0.0625388
     },
     {
-      "symbol": "AMD",
-      "weight": 0.0508026
+      "symbol": "MU",
+      "weight": 0.0541994
     },
     {
       "symbol": "INTC",
-      "weight": 0.0373048
+      "weight": 0.047462203
     },
     {
       "symbol": "CSCO",
-      "weight": 0.0360622
+      "weight": 0.0332729
     },
     {
       "symbol": "JNJ",
-      "weight": 0.0340399
+      "weight": 0.0321081
     },
     {
       "symbol": "AMAT",
-      "weight": 0.029231701
+      "weight": 0.030891
     },
     {
       "symbol": "SNDK",
-      "weight": 0.0285424
-    },
-    {
-      "symbol": "GOOGL",
-      "weight": 0.0276796
+      "weight": 0.0304724
     },
     {
       "symbol": "PANW",
-      "weight": 0.027352
+      "weight": 0.0269347
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.026584499
     },
     {
       "symbol": "XOM",
-      "weight": 0.0264019
+      "weight": 0.025288
     }
   ]
 }

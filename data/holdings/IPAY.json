@@ -2,44 +2,44 @@
   "symbol": "IPAY",
   "holdings": [
     {
-      "symbol": "MA",
-      "weight": 0.0621341
-    },
-    {
-      "symbol": "PYPL",
-      "weight": 0.0617959
-    },
-    {
       "symbol": "V",
-      "weight": 0.0606856
+      "weight": 0.0653588
     },
     {
-      "symbol": "COF",
-      "weight": 0.0597191
-    },
-    {
-      "symbol": "TOST",
-      "weight": 0.0578016
+      "symbol": "MA",
+      "weight": 0.0641044
     },
     {
       "symbol": "AXP",
-      "weight": 0.054882202
+      "weight": 0.0610794
     },
     {
-      "symbol": "GPN",
-      "weight": 0.0526548
+      "symbol": "COF",
+      "weight": 0.0597919
+    },
+    {
+      "symbol": "PYPL",
+      "weight": 0.0575928
+    },
+    {
+      "symbol": "COIN",
+      "weight": 0.050590202
     },
     {
       "symbol": "CPAY",
-      "weight": 0.0481368
+      "weight": 0.047156602
     },
     {
-      "symbol": "ADYEN.AS",
-      "weight": 0.0458851
+      "symbol": "AFRM",
+      "weight": 0.0454871
     },
     {
       "symbol": "XYZ",
-      "weight": 0.045559302
+      "weight": 0.045296103
+    },
+    {
+      "symbol": "WSE",
+      "weight": 0.0450537
     }
   ]
 }

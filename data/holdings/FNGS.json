@@ -2,44 +2,44 @@
   "symbol": "FNGS",
   "holdings": [
     {
-      "symbol": "PLTR",
-      "weight": 0.1306863
-    },
-    {
-      "symbol": "MSFT",
-      "weight": 0.124197595
-    },
-    {
-      "symbol": "AMZN",
-      "weight": 0.1028024
-    },
-    {
-      "symbol": "AAPL",
-      "weight": 0.0989938
-    },
-    {
-      "symbol": "NVDA",
-      "weight": 0.097416095
-    },
-    {
-      "symbol": "NFLX",
-      "weight": 0.09730759
+      "symbol": "MU",
+      "weight": 0.1108114
     },
     {
       "symbol": "META",
-      "weight": 0.0933253
+      "weight": 0.10577349
     },
     {
-      "symbol": "GOOGL",
-      "weight": 0.0873069
+      "symbol": "PLTR",
+      "weight": 0.1033822
+    },
+    {
+      "symbol": "NVDA",
+      "weight": 0.1023971
     },
     {
       "symbol": "AVGO",
-      "weight": 0.086016305
+      "weight": 0.1008252
     },
     {
-      "symbol": "MU",
-      "weight": 0.0819477
+      "symbol": "MSFT",
+      "weight": 0.1000674
+    },
+    {
+      "symbol": "AMZN",
+      "weight": 0.0966769
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.0958504
+    },
+    {
+      "symbol": "AAPL",
+      "weight": 0.095525704
+    },
+    {
+      "symbol": "NFLX",
+      "weight": 0.0886903
     }
   ]
 }

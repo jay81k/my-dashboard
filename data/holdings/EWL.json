@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ROP.SW",
-      "weight": 0.1363927
+      "weight": 0.13870421
     },
     {
       "symbol": "NOVN.SW",
-      "weight": 0.1235641
+      "weight": 0.1237757
     },
     {
       "symbol": "NESN.SW",
-      "weight": 0.1106062
+      "weight": 0.1096875
     },
     {
       "symbol": "UBSG.SW",
-      "weight": 0.0684314
-    },
-    {
-      "symbol": "CFR.SW",
-      "weight": 0.0464766
-    },
-    {
-      "symbol": "ZURN.SW",
-      "weight": 0.045299202
+      "weight": 0.0640623
     },
     {
       "symbol": "ABBN.SW",
-      "weight": 0.044085898
+      "weight": 0.045623798
     },
     {
-      "symbol": "SREN.SW",
-      "weight": 0.028185599
+      "symbol": "CFR.SW",
+      "weight": 0.0446063
+    },
+    {
+      "symbol": "ZURN.SW",
+      "weight": 0.0445325
     },
     {
       "symbol": "LONN.SW",
-      "weight": 0.0274953
+      "weight": 0.0283534
+    },
+    {
+      "symbol": "SREN.SW",
+      "weight": 0.0238454
     },
     {
       "symbol": "HOLN.SW",
-      "weight": 0.0244619
+      "weight": 0.0236305
     }
   ]
 }

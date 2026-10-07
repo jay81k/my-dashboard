@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "LLY",
-      "weight": 0.1911034
+      "weight": 0.20913981
     },
     {
       "symbol": "MRK",
-      "weight": 0.1096348
-    },
-    {
-      "symbol": "NVS",
-      "weight": 0.1005873
-    },
-    {
-      "symbol": "PFE",
-      "weight": 0.050479297
-    },
-    {
-      "symbol": "BMY",
-      "weight": 0.049811102
+      "weight": 0.1350759
     },
     {
       "symbol": "NVO",
-      "weight": 0.049242303
+      "weight": 0.055865597
     },
     {
-      "symbol": "MCK",
-      "weight": 0.047013503
+      "symbol": "PFE",
+      "weight": 0.051297
     },
     {
-      "symbol": "ABBV",
-      "weight": 0.0448005
+      "symbol": "BMY",
+      "weight": 0.048424
     },
     {
-      "symbol": "JNJ",
-      "weight": 0.044330902
+      "symbol": "TEVA.TA",
+      "weight": 0.0471663
     },
     {
       "symbol": "GSK",
-      "weight": 0.0413123
+      "weight": 0.0453175
+    },
+    {
+      "symbol": "MCK",
+      "weight": 0.043313798
+    },
+    {
+      "symbol": "COR",
+      "weight": 0.042484697
+    },
+    {
+      "symbol": "HLN",
+      "weight": 0.036717102
     }
   ]
 }

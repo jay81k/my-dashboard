@@ -2,44 +2,44 @@
   "symbol": "RSPF",
   "holdings": [
     {
-      "symbol": "GPN",
-      "weight": 0.017267501
-    },
-    {
-      "symbol": "JKHY",
-      "weight": 0.0155908
+      "symbol": "COIN",
+      "weight": 0.0149876
     },
     {
       "symbol": "PYPL",
-      "weight": 0.0153304
+      "weight": 0.0141449
     },
     {
-      "symbol": "WTW",
-      "weight": 0.015198
+      "symbol": "EG",
+      "weight": 0.0139432
     },
     {
-      "symbol": "FDS",
-      "weight": 0.0149137
+      "symbol": "AIG",
+      "weight": 0.0139336
     },
     {
-      "symbol": "XYZ",
-      "weight": 0.014584
+      "symbol": "BLK",
+      "weight": 0.0138666
     },
     {
-      "symbol": "SCHW",
-      "weight": 0.0145748
+      "symbol": "MET",
+      "weight": 0.013823
     },
     {
-      "symbol": "AMP",
-      "weight": 0.0145412
+      "symbol": "BRK-B",
+      "weight": 0.0138059
     },
     {
-      "symbol": "COIN",
-      "weight": 0.0144751
+      "symbol": "PFG",
+      "weight": 0.0137941
     },
     {
-      "symbol": "HOOD",
-      "weight": 0.0143787
+      "symbol": "V",
+      "weight": 0.0137387
+    },
+    {
+      "symbol": "NDAQ",
+      "weight": 0.0137185
     }
   ]
 }

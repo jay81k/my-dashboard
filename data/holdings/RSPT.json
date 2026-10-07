@@ -2,44 +2,44 @@
   "symbol": "RSPT",
   "holdings": [
     {
-      "symbol": "ZBRA",
-      "weight": 0.0209648
-    },
-    {
-      "symbol": "CRM",
-      "weight": 0.0193688
-    },
-    {
-      "symbol": "PANW",
-      "weight": 0.0186621
-    },
-    {
-      "symbol": "WDAY",
-      "weight": 0.0184631
-    },
-    {
-      "symbol": "PLTR",
-      "weight": 0.0183989
+      "symbol": "P",
+      "weight": 0.0177221
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0183374
+      "weight": 0.0167573
     },
     {
-      "symbol": "NOW",
-      "weight": 0.0179363
+      "symbol": "DDOG",
+      "weight": 0.015989
     },
     {
-      "symbol": "ANET",
-      "weight": 0.016575001
+      "symbol": "PANW",
+      "weight": 0.0155944
     },
     {
-      "symbol": "IT",
-      "weight": 0.016439
+      "symbol": "AMD",
+      "weight": 0.0154412
     },
     {
-      "symbol": "MSFT",
-      "weight": 0.0164102
+      "symbol": "CDNS",
+      "weight": 0.0152593
+    },
+    {
+      "symbol": "NTAP",
+      "weight": 0.0149554005
+    },
+    {
+      "symbol": "FTNT",
+      "weight": 0.0149546005
+    },
+    {
+      "symbol": "INTC",
+      "weight": 0.0148845995
+    },
+    {
+      "symbol": "MRVL",
+      "weight": 0.0147869
     }
   ]
 }

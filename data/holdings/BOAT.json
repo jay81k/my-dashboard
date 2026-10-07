@@ -2,44 +2,44 @@
   "symbol": "BOAT",
   "holdings": [
     {
+      "symbol": "FRO",
+      "weight": 0.054086
+    },
+    {
       "symbol": "1308.HK",
-      "weight": 0.053566698
+      "weight": 0.052133396
     },
     {
       "symbol": "9104.T",
-      "weight": 0.0519167
-    },
-    {
-      "symbol": "MAERSK-B.CO",
-      "weight": 0.050580602
+      "weight": 0.0516853
     },
     {
       "symbol": "9107.T",
-      "weight": 0.0499938
+      "weight": 0.049127597
     },
     {
-      "symbol": "FRO",
-      "weight": 0.0496453
-    },
-    {
-      "symbol": "011200.KQ",
-      "weight": 0.04719
-    },
-    {
-      "symbol": "0316.HK",
-      "weight": 0.044956397
+      "symbol": "MAERSK-B.CO",
+      "weight": 0.0478153
     },
     {
       "symbol": "WAWI.OL",
-      "weight": 0.0427955
+      "weight": 0.0453952
     },
     {
       "symbol": "INSW",
-      "weight": 0.0418293
+      "weight": 0.045212798
     },
     {
-      "symbol": "1919.HK",
-      "weight": 0.041019402
+      "symbol": "011200.KQ",
+      "weight": 0.0449017
+    },
+    {
+      "symbol": "HAFNI.OL",
+      "weight": 0.044284
+    },
+    {
+      "symbol": "0316.HK",
+      "weight": 0.039792098
     }
   ]
 }

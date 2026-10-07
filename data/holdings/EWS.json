@@ -2,44 +2,44 @@
   "symbol": "EWS",
   "holdings": [
     {
-      "symbol": "D05.SI",
-      "weight": 0.22658251
-    },
-    {
       "symbol": "O39.SI",
-      "weight": 0.22244301
+      "weight": 0.2366127
     },
     {
-      "symbol": "BN4.SI",
-      "weight": 0.0459701
-    },
-    {
-      "symbol": "F34.SI",
-      "weight": 0.045915898
-    },
-    {
-      "symbol": "Z74.SI",
-      "weight": 0.045609
+      "symbol": "D05.SI",
+      "weight": 0.23336439
     },
     {
       "symbol": "BS6.SI",
-      "weight": 0.0452525
-    },
-    {
-      "symbol": "A17U.SI",
-      "weight": 0.045055598
+      "weight": 0.0493387
     },
     {
       "symbol": "U11.SI",
-      "weight": 0.0447547
+      "weight": 0.048341297
     },
     {
-      "symbol": "GRAB",
-      "weight": 0.044506997
+      "symbol": "BN4.SI",
+      "weight": 0.045970403
     },
     {
-      "symbol": "S68.SI",
-      "weight": 0.044260897
+      "symbol": "S63.SI",
+      "weight": 0.0456597
+    },
+    {
+      "symbol": "F34.SI",
+      "weight": 0.044408
+    },
+    {
+      "symbol": "C6L.SI",
+      "weight": 0.0442613
+    },
+    {
+      "symbol": "Z74.SI",
+      "weight": 0.043919303
+    },
+    {
+      "symbol": "A17U.SI",
+      "weight": 0.042757303
     }
   ]
 }

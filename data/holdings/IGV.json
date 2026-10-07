@@ -2,44 +2,44 @@
   "symbol": "IGV",
   "holdings": [
     {
-      "symbol": "PLTR",
-      "weight": 0.1028956
-    },
-    {
       "symbol": "PANW",
-      "weight": 0.097155
+      "weight": 0.0966185
     },
     {
-      "symbol": "MSFT",
-      "weight": 0.0917726
+      "symbol": "PLTR",
+      "weight": 0.0899112
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0737318
+      "weight": 0.088655
     },
     {
-      "symbol": "CRM",
-      "weight": 0.0660481
+      "symbol": "MSFT",
+      "weight": 0.0850124
     },
     {
       "symbol": "ORCL",
-      "weight": 0.053262502
+      "weight": 0.0692231
     },
     {
       "symbol": "NOW",
-      "weight": 0.048242602
+      "weight": 0.044096198
     },
     {
-      "symbol": "ADBE",
-      "weight": 0.0374076
+      "symbol": "CRM",
+      "weight": 0.0405637
     },
     {
       "symbol": "FTNT",
-      "weight": 0.0336468
+      "weight": 0.0381525
     },
     {
-      "symbol": "INTU",
-      "weight": 0.0314079
+      "symbol": "ADBE",
+      "weight": 0.0330283
+    },
+    {
+      "symbol": "DDOG",
+      "weight": 0.031760298
     }
   ]
 }

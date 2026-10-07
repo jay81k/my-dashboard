@@ -2,44 +2,44 @@
   "symbol": "FDN",
   "holdings": [
     {
-      "symbol": "AMZN",
-      "weight": 0.0983943
+      "symbol": "META",
+      "weight": 0.1107753
     },
     {
-      "symbol": "META",
-      "weight": 0.090362795
+      "symbol": "AMZN",
+      "weight": 0.0985692
     },
     {
       "symbol": "CSCO",
-      "weight": 0.0727119
-    },
-    {
-      "symbol": "CRM",
-      "weight": 0.0611255
-    },
-    {
-      "symbol": "ANET",
-      "weight": 0.0523095
-    },
-    {
-      "symbol": "BKNG",
-      "weight": 0.0502767
+      "weight": 0.0855091
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.047712103
-    },
-    {
-      "symbol": "SNOW",
-      "weight": 0.042536303
-    },
-    {
-      "symbol": "ORCL",
-      "weight": 0.0422644
+      "weight": 0.0575855
     },
     {
       "symbol": "NFLX",
-      "weight": 0.040096797
+      "weight": 0.057511903
+    },
+    {
+      "symbol": "ANET",
+      "weight": 0.0474175
+    },
+    {
+      "symbol": "GOOG",
+      "weight": 0.0461927
+    },
+    {
+      "symbol": "CRM",
+      "weight": 0.042249598
+    },
+    {
+      "symbol": "BKNG",
+      "weight": 0.0417419
+    },
+    {
+      "symbol": "SNOW",
+      "weight": 0.0400846
     }
   ]
 }

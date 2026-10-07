@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "COP",
-      "weight": 0.0473652
-    },
-    {
-      "symbol": "WES",
-      "weight": 0.0463469
-    },
-    {
-      "symbol": "HESM",
-      "weight": 0.044292796
+      "weight": 0.0461549
     },
     {
       "symbol": "EOG",
-      "weight": 0.0431781
+      "weight": 0.045773502
     },
     {
-      "symbol": "OXY",
-      "weight": 0.0411371
+      "symbol": "HESM",
+      "weight": 0.0454107
     },
     {
-      "symbol": "PR",
-      "weight": 0.040714502
+      "symbol": "WES",
+      "weight": 0.045072697
     },
     {
       "symbol": "DVN",
-      "weight": 0.0399866
+      "weight": 0.0445105
+    },
+    {
+      "symbol": "OXY",
+      "weight": 0.041945502
     },
     {
       "symbol": "FANG",
-      "weight": 0.039464
+      "weight": 0.040673498
     },
     {
-      "symbol": "OVV",
-      "weight": 0.0381883
+      "symbol": "EQT",
+      "weight": 0.0386254
+    },
+    {
+      "symbol": "PR",
+      "weight": 0.0367817
     },
     {
       "symbol": "APA",
-      "weight": 0.037404798
+      "weight": 0.036607
     }
   ]
 }

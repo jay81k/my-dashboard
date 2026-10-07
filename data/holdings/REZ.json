@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "WELL",
-      "weight": 0.2490036
+      "weight": 0.2298933
     },
     {
       "symbol": "PSA",
-      "weight": 0.094433606
+      "weight": 0.0764487
     },
     {
       "symbol": "VMRK",
-      "weight": 0.0850081
+      "weight": 0.0743538
     },
     {
       "symbol": "VTR",
-      "weight": 0.080850296
+      "weight": 0.0698975
     },
     {
       "symbol": "EXR",
-      "weight": 0.0541493
+      "weight": 0.044541303
     },
     {
       "symbol": "ESS",
-      "weight": 0.0377684
+      "weight": 0.0438986
     },
     {
       "symbol": "INVH",
-      "weight": 0.0360349
+      "weight": 0.0397515
     },
     {
-      "symbol": "MAA",
-      "weight": 0.0311022
-    },
-    {
-      "symbol": "SUI",
-      "weight": 0.0309241
+      "symbol": "OHI",
+      "weight": 0.0357715
     },
     {
       "symbol": "DOC",
-      "weight": 0.030134
+      "weight": 0.0352876
+    },
+    {
+      "symbol": "MAA",
+      "weight": 0.0346977
     }
   ]
 }

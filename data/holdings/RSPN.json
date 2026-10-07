@@ -2,44 +2,44 @@
   "symbol": "RSPN",
   "holdings": [
     {
-      "symbol": "AXON",
-      "weight": 0.0149159
+      "symbol": "GNRC",
+      "weight": 0.0137542
     },
     {
-      "symbol": "PAYX",
-      "weight": 0.0148547
+      "symbol": "LUV",
+      "weight": 0.0133502
     },
     {
-      "symbol": "BR",
-      "weight": 0.0146747995
+      "symbol": "DAL",
+      "weight": 0.0131431
     },
     {
-      "symbol": "SWK",
-      "weight": 0.0146684
+      "symbol": "AME",
+      "weight": 0.0129946
     },
     {
-      "symbol": "ADP",
-      "weight": 0.014591101
+      "symbol": "NDSN",
+      "weight": 0.0129563995
     },
     {
-      "symbol": "J",
-      "weight": 0.014435001
+      "symbol": "UAL",
+      "weight": 0.0128459
     },
     {
-      "symbol": "ALLE",
-      "weight": 0.0141378
+      "symbol": "ETN",
+      "weight": 0.0128237
     },
     {
-      "symbol": "VLTO",
-      "weight": 0.0140514
+      "symbol": "EMR",
+      "weight": 0.0127991
     },
     {
-      "symbol": "RTX",
-      "weight": 0.0138087
+      "symbol": "BE",
+      "weight": 0.012766499
     },
     {
-      "symbol": "DE",
-      "weight": 0.0137721
+      "symbol": "HON",
+      "weight": 0.012765501
     }
   ]
 }

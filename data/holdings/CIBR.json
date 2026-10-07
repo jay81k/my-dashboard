@@ -2,44 +2,44 @@
   "symbol": "CIBR",
   "holdings": [
     {
-      "symbol": "PANW",
-      "weight": 0.0967912
-    },
-    {
       "symbol": "CRWD",
-      "weight": 0.0901859
+      "weight": 0.0889205
     },
     {
       "symbol": "FTNT",
-      "weight": 0.0883939
+      "weight": 0.081139095
+    },
+    {
+      "symbol": "PANW",
+      "weight": 0.0806674
     },
     {
       "symbol": "CSCO",
-      "weight": 0.065465696
+      "weight": 0.075576805
     },
     {
       "symbol": "AVGO",
-      "weight": 0.059144903
-    },
-    {
-      "symbol": "NET",
-      "weight": 0.0450124
+      "weight": 0.073573
     },
     {
       "symbol": "OKTA",
-      "weight": 0.040051498
+      "weight": 0.044182703
     },
     {
-      "symbol": "ZS",
-      "weight": 0.036460802
+      "symbol": "NET",
+      "weight": 0.0441543
     },
     {
       "symbol": "FFIV",
-      "weight": 0.029954
+      "weight": 0.0360612
+    },
+    {
+      "symbol": "ZS",
+      "weight": 0.0359388
     },
     {
       "symbol": "RBRK",
-      "weight": 0.0277546
+      "weight": 0.0268432
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "RSPG",
   "holdings": [
     {
-      "symbol": "MPC",
-      "weight": 0.0586508
+      "symbol": "VLO",
+      "weight": 0.049333602
     },
     {
-      "symbol": "VLO",
-      "weight": 0.0575452
+      "symbol": "XOM",
+      "weight": 0.0490572
+    },
+    {
+      "symbol": "MPC",
+      "weight": 0.0490043
     },
     {
       "symbol": "PSX",
-      "weight": 0.0561264
+      "weight": 0.048465
     },
     {
-      "symbol": "APA",
-      "weight": 0.0469688
-    },
-    {
-      "symbol": "FTI",
-      "weight": 0.0462118
-    },
-    {
-      "symbol": "EXE",
-      "weight": 0.0458468
-    },
-    {
-      "symbol": "COP",
-      "weight": 0.0456988
+      "symbol": "KMI",
+      "weight": 0.0475172
     },
     {
       "symbol": "CVX",
-      "weight": 0.044924103
+      "weight": 0.047280896
     },
     {
-      "symbol": "SLB",
-      "weight": 0.0447832
+      "symbol": "DVN",
+      "weight": 0.0465318
+    },
+    {
+      "symbol": "EOG",
+      "weight": 0.046388503
     },
     {
       "symbol": "TRGP",
-      "weight": 0.044566598
+      "weight": 0.0459219
+    },
+    {
+      "symbol": "APA",
+      "weight": 0.0458599
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MRNA",
-      "weight": 0.0439628
+      "weight": 0.0232137
     },
     {
-      "symbol": "VEEV",
-      "weight": 0.0251283
+      "symbol": "ILMN",
+      "weight": 0.021827199
     },
     {
-      "symbol": "CRL",
-      "weight": 0.0222858
+      "symbol": "RVTY",
+      "weight": 0.020176101
     },
     {
-      "symbol": "IQV",
-      "weight": 0.0206713
+      "symbol": "A",
+      "weight": 0.0194623
     },
     {
-      "symbol": "TECH",
-      "weight": 0.0198399
+      "symbol": "MTD",
+      "weight": 0.0191478
     },
     {
-      "symbol": "REGN",
-      "weight": 0.0191334
+      "symbol": "ISRG",
+      "weight": 0.0188174
     },
     {
       "symbol": "TMO",
-      "weight": 0.0184405
+      "weight": 0.018221
     },
     {
-      "symbol": "BAX",
-      "weight": 0.0184329
+      "symbol": "WST",
+      "weight": 0.0179909
     },
     {
-      "symbol": "BDX",
-      "weight": 0.0183334
+      "symbol": "VEEV",
+      "weight": 0.0179018
     },
     {
-      "symbol": "AMGN",
-      "weight": 0.018333301
+      "symbol": "WAT",
+      "weight": 0.0177478
     }
   ]
 }

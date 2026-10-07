@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MSFT",
-      "weight": 0.0388279
-    },
-    {
-      "symbol": "NVDA",
-      "weight": 0.0313842
-    },
-    {
-      "symbol": "TSLA",
-      "weight": 0.0282507
-    },
-    {
-      "symbol": "GOOGL",
-      "weight": 0.0277407
+      "weight": 0.0408842
     },
     {
       "symbol": "INTC",
-      "weight": 0.026339099
+      "weight": 0.036889
     },
     {
-      "symbol": "7203.T",
-      "weight": 0.025739301
+      "symbol": "NVDA",
+      "weight": 0.0338034
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.0292858
+    },
+    {
+      "symbol": "TSLA",
+      "weight": 0.0283709
     },
     {
       "symbol": "QCOM",
-      "weight": 0.024521999
+      "weight": 0.0275661
+    },
+    {
+      "symbol": "7203.T",
+      "weight": 0.025202101
+    },
+    {
+      "symbol": "BE",
+      "weight": 0.0191706
     },
     {
       "symbol": "RIO.L",
-      "weight": 0.0190673
+      "weight": 0.0179973
     },
     {
-      "symbol": "GM",
-      "weight": 0.0179753
-    },
-    {
-      "symbol": "006400.KQ",
-      "weight": 0.016951801
+      "symbol": "SWKS",
+      "weight": 0.0179071
     }
   ]
 }

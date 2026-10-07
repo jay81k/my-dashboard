@@ -2,44 +2,44 @@
   "symbol": "XRT",
   "holdings": [
     {
-      "symbol": "ANF",
-      "weight": 0.0230793
+      "symbol": "GME",
+      "weight": 0.017964799
     },
     {
-      "symbol": "HZO",
-      "weight": 0.0220328
+      "symbol": "OLLI",
+      "weight": 0.0171534
     },
     {
-      "symbol": "GO",
-      "weight": 0.0178019
+      "symbol": "VSXY",
+      "weight": 0.0169354
     },
     {
-      "symbol": "KMX",
-      "weight": 0.0174042
+      "symbol": "WRBY",
+      "weight": 0.0163893
     },
     {
-      "symbol": "FIVE",
-      "weight": 0.0173492
+      "symbol": "BURL",
+      "weight": 0.016192699
     },
     {
-      "symbol": "TGT",
-      "weight": 0.017308101
+      "symbol": "RVLV",
+      "weight": 0.0158641
     },
     {
-      "symbol": "SBH",
-      "weight": 0.0172375
+      "symbol": "DDS",
+      "weight": 0.015579799
     },
     {
-      "symbol": "CART",
-      "weight": 0.0168752
+      "symbol": "GAP",
+      "weight": 0.0154998
     },
     {
-      "symbol": "PAG",
-      "weight": 0.0167323
+      "symbol": "M",
+      "weight": 0.0153447
     },
     {
-      "symbol": "LAD",
-      "weight": 0.016596101
+      "symbol": "KSS",
+      "weight": 0.015273499
     }
   ]
 }

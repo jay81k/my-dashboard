@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "TSLA",
-      "weight": 0.095759295
+      "weight": 0.0907964
     },
     {
       "symbol": "SPCX",
-      "weight": 0.061373502
-    },
-    {
-      "symbol": "CRCL",
-      "weight": 0.0570566
+      "weight": 0.0618494
     },
     {
       "symbol": "TEM",
-      "weight": 0.0554872
+      "weight": 0.0590518
     },
     {
-      "symbol": "COIN",
-      "weight": 0.0473511
+      "symbol": "CRCL",
+      "weight": 0.0457332
     },
     {
       "symbol": "CRSP",
-      "weight": 0.0467518
+      "weight": 0.044548202
+    },
+    {
+      "symbol": "COIN",
+      "weight": 0.044038903
     },
     {
       "symbol": "TWST",
-      "weight": 0.0366171
+      "weight": 0.0437797
     },
     {
       "symbol": "HOOD",
-      "weight": 0.0366154
+      "weight": 0.0386363
+    },
+    {
+      "symbol": "TXG",
+      "weight": 0.034874
     },
     {
       "symbol": "SHOP",
-      "weight": 0.036474198
-    },
-    {
-      "symbol": "PLTR",
-      "weight": 0.0329651
+      "weight": 0.0323825
     }
   ]
 }

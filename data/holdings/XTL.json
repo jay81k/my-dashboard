@@ -2,44 +2,44 @@
   "symbol": "XTL",
   "holdings": [
     {
-      "symbol": "ANET",
-      "weight": 0.043512702
+      "symbol": "BAND",
+      "weight": 0.0377983
     },
     {
-      "symbol": "MSI",
-      "weight": 0.0397834
-    },
-    {
-      "symbol": "T",
-      "weight": 0.0376411
-    },
-    {
-      "symbol": "CMCSA",
-      "weight": 0.0374753
-    },
-    {
-      "symbol": "VSAT",
-      "weight": 0.0369106
-    },
-    {
-      "symbol": "LITE",
-      "weight": 0.0361777
-    },
-    {
-      "symbol": "VZ",
-      "weight": 0.0359512
+      "symbol": "DGII",
+      "weight": 0.0336312
     },
     {
       "symbol": "UI",
-      "weight": 0.0357089
+      "weight": 0.0331434
     },
     {
-      "symbol": "FFIV",
-      "weight": 0.0351571
+      "symbol": "NTCT",
+      "weight": 0.0327491
+    },
+    {
+      "symbol": "VIAV",
+      "weight": 0.0325278
+    },
+    {
+      "symbol": "ANET",
+      "weight": 0.0320815
+    },
+    {
+      "symbol": "CIEN",
+      "weight": 0.0316451
+    },
+    {
+      "symbol": "SPCX",
+      "weight": 0.0310838
     },
     {
       "symbol": "IRDM",
-      "weight": 0.0347583
+      "weight": 0.0309444
+    },
+    {
+      "symbol": "GSAT",
+      "weight": 0.0308522
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "OKTA",
-      "weight": 0.018563401
-    },
-    {
-      "symbol": "CRM",
-      "weight": 0.0177845
+      "weight": 0.023849001
     },
     {
       "symbol": "CRWD",
-      "weight": 0.017463699
+      "weight": 0.021264
     },
     {
-      "symbol": "NOW",
-      "weight": 0.016712
-    },
-    {
-      "symbol": "VEEV",
-      "weight": 0.016708601
+      "symbol": "TWLO",
+      "weight": 0.020016
     },
     {
       "symbol": "PD",
-      "weight": 0.0165819
+      "weight": 0.0188323
     },
     {
-      "symbol": "ESTC",
-      "weight": 0.0164597
+      "symbol": "NTSK",
+      "weight": 0.0185301
     },
     {
-      "symbol": "PATH",
-      "weight": 0.016451301
+      "symbol": "NET",
+      "weight": 0.0183025
     },
     {
-      "symbol": "TEAM",
-      "weight": 0.0163799
+      "symbol": "DT",
+      "weight": 0.018109899
     },
     {
-      "symbol": "KVYO",
-      "weight": 0.0162774
+      "symbol": "DDOG",
+      "weight": 0.0178939
+    },
+    {
+      "symbol": "VEEV",
+      "weight": 0.0177636
+    },
+    {
+      "symbol": "DOCN",
+      "weight": 0.0176958
     }
   ]
 }

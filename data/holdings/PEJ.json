@@ -2,44 +2,44 @@
   "symbol": "PEJ",
   "holdings": [
     {
-      "symbol": "EXPE",
-      "weight": 0.0670825
-    },
-    {
-      "symbol": "ABNB",
-      "weight": 0.0651417
-    },
-    {
-      "symbol": "SYY",
-      "weight": 0.0507951
-    },
-    {
-      "symbol": "SBUX",
-      "weight": 0.0494492
-    },
-    {
-      "symbol": "VIK",
-      "weight": 0.0463205
-    },
-    {
-      "symbol": "HLT",
-      "weight": 0.0460641
+      "symbol": "DAL",
+      "weight": 0.0549425
     },
     {
       "symbol": "MAR",
-      "weight": 0.043270998
+      "weight": 0.0547297
     },
     {
-      "symbol": "LVS",
-      "weight": 0.0415723
+      "symbol": "SYY",
+      "weight": 0.0514213
     },
     {
-      "symbol": "CNK",
-      "weight": 0.0335828
+      "symbol": "LYV",
+      "weight": 0.0498969
     },
     {
-      "symbol": "USFD",
-      "weight": 0.0332095
+      "symbol": "SBUX",
+      "weight": 0.0489098
+    },
+    {
+      "symbol": "VIK",
+      "weight": 0.046755
+    },
+    {
+      "symbol": "ABNB",
+      "weight": 0.0464194
+    },
+    {
+      "symbol": "EXPE",
+      "weight": 0.0428927
+    },
+    {
+      "symbol": "AMC",
+      "weight": 0.0339779
+    },
+    {
+      "symbol": "PRSU",
+      "weight": 0.030509
     }
   ]
 }

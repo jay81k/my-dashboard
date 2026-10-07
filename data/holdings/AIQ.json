@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "PLTR",
-      "weight": 0.0411975
+      "weight": 0.040805504
     },
     {
       "symbol": "MSFT",
-      "weight": 0.0362475
-    },
-    {
-      "symbol": "ORCL",
-      "weight": 0.033875503
+      "weight": 0.036170002
     },
     {
       "symbol": "SPCX",
-      "weight": 0.033139803
+      "weight": 0.034338802
     },
     {
-      "symbol": "NFLX",
-      "weight": 0.032082
+      "symbol": "INTC",
+      "weight": 0.0322824
+    },
+    {
+      "symbol": "META",
+      "weight": 0.0321953
+    },
+    {
+      "symbol": "ORCL",
+      "weight": 0.0307829
+    },
+    {
+      "symbol": "AMD",
+      "weight": 0.030511301
     },
     {
       "symbol": "TSLA",
-      "weight": 0.0313908
+      "weight": 0.029874
     },
     {
-      "symbol": "AMZN",
-      "weight": 0.030320302
-    },
-    {
-      "symbol": "GOOGL",
-      "weight": 0.0291266
+      "symbol": "TSM",
+      "weight": 0.0295417
     },
     {
       "symbol": "NVDA",
-      "weight": 0.028842
-    },
-    {
-      "symbol": "005930.KQ",
-      "weight": 0.028144099
+      "weight": 0.0294449
     }
   ]
 }
