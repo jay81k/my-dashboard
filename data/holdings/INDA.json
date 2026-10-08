@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "HDFCBANK.NS",
-      "weight": 0.064191
-    },
-    {
-      "symbol": "RELIANCE.NS",
-      "weight": 0.0599048
+      "weight": 0.0640721
     },
     {
       "symbol": "ICICIBANK.NS",
-      "weight": 0.056779698
+      "weight": 0.055669397
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "weight": 0.0540344
     },
     {
       "symbol": "BHARTIARTL.NS",
-      "weight": 0.0406721
+      "weight": 0.0390579
     },
     {
       "symbol": "INFY.NS",
-      "weight": 0.0258567
-    },
-    {
-      "symbol": "XTSLA",
-      "weight": 0.024398899
-    },
-    {
-      "symbol": "M&M.NS",
-      "weight": 0.0222474
+      "weight": 0.0239072
     },
     {
       "symbol": "AXISBANK.BO",
-      "weight": 0.0214591
+      "weight": 0.022465501
     },
     {
-      "symbol": "500034",
-      "weight": 0.021397
+      "symbol": "M&M.NS",
+      "weight": 0.0202929
     },
     {
       "symbol": "LT.NS",
-      "weight": 0.0199717
+      "weight": 0.020030899
+    },
+    {
+      "symbol": "500034",
+      "weight": 0.0188815
+    },
+    {
+      "symbol": "XTSLA",
+      "weight": 0.0186261
     }
   ]
 }
