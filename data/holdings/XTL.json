@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "BAND",
-      "weight": 0.0377983
+      "weight": 0.037802
     },
     {
       "symbol": "DGII",
-      "weight": 0.0336312
+      "weight": 0.0336346
     },
     {
       "symbol": "UI",
-      "weight": 0.0331434
+      "weight": 0.0331467
     },
     {
       "symbol": "NTCT",
-      "weight": 0.0327491
+      "weight": 0.0327524
     },
     {
       "symbol": "VIAV",
-      "weight": 0.0325278
+      "weight": 0.032531
     },
     {
       "symbol": "ANET",
-      "weight": 0.0320815
+      "weight": 0.0320846
     },
     {
       "symbol": "CIEN",
-      "weight": 0.0316451
+      "weight": 0.0316483
     },
     {
       "symbol": "SPCX",
-      "weight": 0.0310838
+      "weight": 0.0310869
     },
     {
       "symbol": "IRDM",
-      "weight": 0.0309444
+      "weight": 0.030947499
     },
     {
       "symbol": "GSAT",
-      "weight": 0.0308522
+      "weight": 0.0308553
     }
   ]
 }
