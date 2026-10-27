@@ -1,0 +1,21 @@
+{
+  "symbol": "DRAM",
+  "holdings": [
+    {
+      "symbol": "005930.KQ",
+      "weight": 0.186828
+    },
+    {
+      "symbol": "000660.KQ",
+      "weight": 0.1651538
+    },
+    {
+      "symbol": "FGXXX",
+      "weight": 0.1547557
+    },
+    {
+      "symbol": "STX",
+      "weight": 0.047557503
+    }
+  ]
+}
