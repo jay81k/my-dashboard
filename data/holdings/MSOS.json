@@ -2,12 +2,12 @@
   "symbol": "MSOS",
   "holdings": [
     {
-      "symbol": "CURA.TO",
-      "weight": 0.131151
+      "symbol": "TRLV",
+      "weight": 0.1356165
     },
     {
-      "symbol": "TRLV",
-      "weight": 0.1215021
+      "symbol": "CURA.TO",
+      "weight": 0.12673801
     }
   ]
 }

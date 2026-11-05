@@ -2,44 +2,44 @@
   "symbol": "ICLN",
   "holdings": [
     {
-      "symbol": "BE",
-      "weight": 0.0970532
-    },
-    {
-      "symbol": "600900.SS",
-      "weight": 0.080453195
-    },
-    {
       "symbol": "FSLR",
-      "weight": 0.0695846
+      "weight": 0.086014
     },
     {
       "symbol": "NXT",
-      "weight": 0.0632688
+      "weight": 0.0803567
     },
     {
-      "symbol": "ENPH",
-      "weight": 0.0419576
+      "symbol": "IBE.MC",
+      "weight": 0.0704029
+    },
+    {
+      "symbol": "BE",
+      "weight": 0.0619547
+    },
+    {
+      "symbol": "600900.SS",
+      "weight": 0.0584271
+    },
+    {
+      "symbol": "AXIA3.SA",
+      "weight": 0.0416538
     },
     {
       "symbol": "VWS.CO",
-      "weight": 0.0417887
+      "weight": 0.0332249
     },
     {
-      "symbol": "EQTL3.SA",
-      "weight": 0.0354176
-    },
-    {
-      "symbol": "EDP.LS",
-      "weight": 0.030051898
-    },
-    {
-      "symbol": "PLUG",
-      "weight": 0.0261465
+      "symbol": "ORA",
+      "weight": 0.0306968
     },
     {
       "symbol": "9502.T",
-      "weight": 0.0260885
+      "weight": 0.0286397
+    },
+    {
+      "symbol": "ENPH",
+      "weight": 0.025200501
     }
   ]
 }

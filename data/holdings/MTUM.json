@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "AMD",
-      "weight": 0.0625388
+      "weight": 0.0575506
     },
     {
       "symbol": "MU",
-      "weight": 0.0541994
-    },
-    {
-      "symbol": "INTC",
-      "weight": 0.047462203
-    },
-    {
-      "symbol": "CSCO",
-      "weight": 0.0332729
+      "weight": 0.0502093
     },
     {
       "symbol": "JNJ",
-      "weight": 0.0321081
+      "weight": 0.0369519
     },
     {
-      "symbol": "AMAT",
-      "weight": 0.030891
-    },
-    {
-      "symbol": "SNDK",
-      "weight": 0.0304724
-    },
-    {
-      "symbol": "PANW",
-      "weight": 0.0269347
-    },
-    {
-      "symbol": "GOOGL",
-      "weight": 0.026584499
+      "symbol": "CSCO",
+      "weight": 0.036031
     },
     {
       "symbol": "XOM",
-      "weight": 0.025288
+      "weight": 0.0324469
+    },
+    {
+      "symbol": "INTC",
+      "weight": 0.0289507
+    },
+    {
+      "symbol": "PANW",
+      "weight": 0.0276614
+    },
+    {
+      "symbol": "AMAT",
+      "weight": 0.0262796
+    },
+    {
+      "symbol": "GOOGL",
+      "weight": 0.0241121
+    },
+    {
+      "symbol": "UNH",
+      "weight": 0.0231916
     }
   ]
 }

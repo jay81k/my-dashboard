@@ -2,44 +2,44 @@
   "symbol": "RSPR",
   "holdings": [
     {
+      "symbol": "CCI",
+      "weight": 0.039664198
+    },
+    {
       "symbol": "HST",
-      "weight": 0.0360417
-    },
-    {
-      "symbol": "ESS",
-      "weight": 0.034834
-    },
-    {
-      "symbol": "SPG",
-      "weight": 0.0348227
-    },
-    {
-      "symbol": "DOC",
-      "weight": 0.0347472
-    },
-    {
-      "symbol": "WELL",
-      "weight": 0.0346254
-    },
-    {
-      "symbol": "EQIX",
-      "weight": 0.0344111
+      "weight": 0.0385975
     },
     {
       "symbol": "EXR",
-      "weight": 0.0344018
-    },
-    {
-      "symbol": "IRM",
-      "weight": 0.034163598
+      "weight": 0.037518498
     },
     {
       "symbol": "PSA",
-      "weight": 0.0340613
+      "weight": 0.0370739
     },
     {
-      "symbol": "PLD",
-      "weight": 0.033957
+      "symbol": "AMT",
+      "weight": 0.0359903
+    },
+    {
+      "symbol": "SPG",
+      "weight": 0.0358027
+    },
+    {
+      "symbol": "KIM",
+      "weight": 0.0349798
+    },
+    {
+      "symbol": "CSGP",
+      "weight": 0.0342956
+    },
+    {
+      "symbol": "IRM",
+      "weight": 0.034011
+    },
+    {
+      "symbol": "UDR",
+      "weight": 0.0337398
     }
   ]
 }

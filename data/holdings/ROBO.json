@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ISRG",
-      "weight": 0.019293701
+      "weight": 0.0219763
     },
     {
-      "symbol": "6324.T",
-      "weight": 0.017431801
-    },
-    {
-      "symbol": "CELT",
-      "weight": 0.017372299
-    },
-    {
-      "symbol": "ILMN",
-      "weight": 0.0173477
-    },
-    {
-      "symbol": "6954.T",
-      "weight": 0.0173229
-    },
-    {
-      "symbol": "TER",
-      "weight": 0.017193
+      "symbol": "PTC",
+      "weight": 0.018494
     },
     {
       "symbol": "ROK",
-      "weight": 0.0166743
+      "weight": 0.0179127
     },
     {
-      "symbol": "AMBA",
-      "weight": 0.0160576
+      "symbol": "6954.T",
+      "weight": 0.017785799
     },
     {
       "symbol": "NOVT",
-      "weight": 0.0160085
+      "weight": 0.017594
     },
     {
-      "symbol": "6134.T",
-      "weight": 0.0159923
+      "symbol": "EMR",
+      "weight": 0.0167107
+    },
+    {
+      "symbol": "2317.TW",
+      "weight": 0.0160635
+    },
+    {
+      "symbol": "ILMN",
+      "weight": 0.0160375
+    },
+    {
+      "symbol": "HEXA-B.ST",
+      "weight": 0.0159261
+    },
+    {
+      "symbol": "IPGP",
+      "weight": 0.015797699
     }
   ]
 }

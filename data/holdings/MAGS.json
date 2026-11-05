@@ -3,31 +3,27 @@
   "holdings": [
     {
       "symbol": "FGXXX",
-      "weight": 0.0865417
+      "weight": 0.1475706
     },
     {
-      "symbol": "MSFT",
-      "weight": 0.069823496
-    },
-    {
-      "symbol": "META",
-      "weight": 0.0652136
+      "symbol": "TSLA",
+      "weight": 0.063104704
     },
     {
       "symbol": "XBOX",
-      "weight": 0.0627455
+      "weight": 0.0590503
     },
     {
       "symbol": "AAPL",
-      "weight": 0.0584239
-    },
-    {
-      "symbol": "NVDA",
-      "weight": 0.0578689
+      "weight": 0.0571786
     },
     {
       "symbol": "AMZN",
-      "weight": 0.052761503
+      "weight": 0.0535242
+    },
+    {
+      "symbol": "NVDA",
+      "weight": 0.049528398
     }
   ]
 }

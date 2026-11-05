@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ISRG",
-      "weight": 0.0859339
-    },
-    {
-      "symbol": "6954.T",
-      "weight": 0.0824023
+      "weight": 0.09941749
     },
     {
       "symbol": "6861.T",
-      "weight": 0.08215161
+      "weight": 0.0865078
+    },
+    {
+      "symbol": "6954.T",
+      "weight": 0.085933305
     },
     {
       "symbol": "NVDA",
-      "weight": 0.0799999
+      "weight": 0.0780612
     },
     {
       "symbol": "ABBN.SW",
-      "weight": 0.0784647
+      "weight": 0.0771416
     },
     {
       "symbol": "6273.T",
-      "weight": 0.0486435
+      "weight": 0.046666197
     },
     {
       "symbol": "6383.T",
-      "weight": 0.034868
-    },
-    {
-      "symbol": "CGNX",
-      "weight": 0.0258326
+      "weight": 0.0343424
     },
     {
       "symbol": "300124.SZ",
-      "weight": 0.0250033
+      "weight": 0.029307598
     },
     {
-      "symbol": "AUR",
-      "weight": 0.023959799
+      "symbol": "CGNX",
+      "weight": 0.0260447
+    },
+    {
+      "symbol": "TSLA",
+      "weight": 0.023971401
     }
   ]
 }

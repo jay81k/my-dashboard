@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SPCX",
-      "weight": 0.153982
-    },
-    {
-      "symbol": "RKLB",
-      "weight": 0.054429304
-    },
-    {
-      "symbol": "GRMN",
-      "weight": 0.051002797
+      "weight": 0.14404279
     },
     {
       "symbol": "TRMB",
-      "weight": 0.048628803
-    },
-    {
-      "symbol": "ASTS",
-      "weight": 0.0475507
+      "weight": 0.057926103
     },
     {
       "symbol": "ECHO",
-      "weight": 0.0471132
+      "weight": 0.0535147
     },
     {
       "symbol": "VSAT",
-      "weight": 0.0459196
+      "weight": 0.052640602
     },
     {
       "symbol": "SIRI",
-      "weight": 0.0433789
+      "weight": 0.0509369
     },
     {
-      "symbol": "PL",
-      "weight": 0.0336571
+      "symbol": "GRMN",
+      "weight": 0.050813098
+    },
+    {
+      "symbol": "RKLB",
+      "weight": 0.044782802
+    },
+    {
+      "symbol": "ASTS",
+      "weight": 0.034672
+    },
+    {
+      "symbol": "GSAT",
+      "weight": 0.0331845
     },
     {
       "symbol": "IRDM",
-      "weight": 0.0323052
+      "weight": 0.0317294
     }
   ]
 }

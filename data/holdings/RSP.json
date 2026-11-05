@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MRNA",
-      "weight": 0.0029185
+      "weight": 0.0031998
+    },
+    {
+      "symbol": "PTC",
+      "weight": 0.0029691
+    },
+    {
+      "symbol": "ACN",
+      "weight": 0.0028748
+    },
+    {
+      "symbol": "IT",
+      "weight": 0.0026385
+    },
+    {
+      "symbol": "HAS",
+      "weight": 0.0026188002
     },
     {
       "symbol": "P",
-      "weight": 0.0027695
-    },
-    {
-      "symbol": "ILMN",
-      "weight": 0.0027438
-    },
-    {
-      "symbol": "CRWD",
-      "weight": 0.0026184
-    },
-    {
-      "symbol": "RVTY",
-      "weight": 0.0025371
-    },
-    {
-      "symbol": "DDOG",
-      "weight": 0.0024988
-    },
-    {
-      "symbol": "A",
-      "weight": 0.0024466
-    },
-    {
-      "symbol": "PANW",
-      "weight": 0.0024368
-    },
-    {
-      "symbol": "AMD",
-      "weight": 0.0024132999
+      "weight": 0.0025602998
     },
     {
       "symbol": "MTD",
-      "weight": 0.0024053
+      "weight": 0.0025405
+    },
+    {
+      "symbol": "CRL",
+      "weight": 0.0025272
+    },
+    {
+      "symbol": "CCL",
+      "weight": 0.0024857
+    },
+    {
+      "symbol": "RVTY",
+      "weight": 0.0024809
     }
   ]
 }

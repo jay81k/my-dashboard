@@ -2,44 +2,44 @@
   "symbol": "WCLD",
   "holdings": [
     {
+      "symbol": "NTSK",
+      "weight": 0.02416
+    },
+    {
       "symbol": "OKTA",
-      "weight": 0.023849001
+      "weight": 0.022230899
     },
     {
-      "symbol": "CRWD",
-      "weight": 0.021264
+      "symbol": "TENB",
+      "weight": 0.021295
     },
     {
-      "symbol": "TWLO",
-      "weight": 0.020016
+      "symbol": "BRZE",
+      "weight": 0.021249799
     },
     {
       "symbol": "PD",
-      "weight": 0.0188323
+      "weight": 0.0198352
     },
     {
-      "symbol": "NTSK",
-      "weight": 0.0185301
+      "symbol": "DOCU",
+      "weight": 0.0191195
     },
     {
-      "symbol": "NET",
-      "weight": 0.0183025
+      "symbol": "ZS",
+      "weight": 0.0188789
     },
     {
-      "symbol": "DT",
-      "weight": 0.018109899
+      "symbol": "CRWD",
+      "weight": 0.0188189
     },
     {
-      "symbol": "DDOG",
-      "weight": 0.0178939
+      "symbol": "GTLB",
+      "weight": 0.0187271
     },
     {
-      "symbol": "VEEV",
-      "weight": 0.0177636
-    },
-    {
-      "symbol": "DOCN",
-      "weight": 0.0176958
+      "symbol": "AVPT",
+      "weight": 0.0184384
     }
   ]
 }

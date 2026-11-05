@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "WELL",
-      "weight": 0.1167547
+      "weight": 0.1132914
     },
     {
       "symbol": "PLD",
-      "weight": 0.0868159
+      "weight": 0.0814914
     },
     {
       "symbol": "EQIX",
-      "weight": 0.070227295
+      "weight": 0.0670195
     },
     {
       "symbol": "AMT",
-      "weight": 0.053663902
-    },
-    {
-      "symbol": "SPG",
-      "weight": 0.046486203
+      "weight": 0.0586266
     },
     {
       "symbol": "PSA",
-      "weight": 0.04547
+      "weight": 0.0497208
     },
     {
-      "symbol": "VTR",
-      "weight": 0.0450492
-    },
-    {
-      "symbol": "VMRK",
-      "weight": 0.0442846
+      "symbol": "SPG",
+      "weight": 0.0480153
     },
     {
       "symbol": "DLR",
-      "weight": 0.043967098
+      "weight": 0.043103
     },
     {
-      "symbol": "CBRE",
-      "weight": 0.043067798
+      "symbol": "VMRK",
+      "weight": 0.0429638
+    },
+    {
+      "symbol": "VTR",
+      "weight": 0.042790398
+    },
+    {
+      "symbol": "O",
+      "weight": 0.0427153
     }
   ]
 }

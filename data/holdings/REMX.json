@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SQM",
-      "weight": 0.0823967
+      "weight": 0.0868694
     },
     {
       "symbol": "ALB",
-      "weight": 0.080424696
-    },
-    {
-      "symbol": "MP",
-      "weight": 0.0639621
-    },
-    {
-      "symbol": "PLS.AX",
-      "weight": 0.0612292
-    },
-    {
-      "symbol": "LYC.AX",
-      "weight": 0.0599442
+      "weight": 0.0866914
     },
     {
       "symbol": "600111.SS",
-      "weight": 0.058480904
+      "weight": 0.0724353
+    },
+    {
+      "symbol": "MP",
+      "weight": 0.0710208
+    },
+    {
+      "symbol": "LYC.AX",
+      "weight": 0.0680483
+    },
+    {
+      "symbol": "PLS.AX",
+      "weight": 0.053694703
     },
     {
       "symbol": "601958.SS",
-      "weight": 0.04724
+      "weight": 0.0495019
+    },
+    {
+      "symbol": "ILU.AX",
+      "weight": 0.0447024
     },
     {
       "symbol": "600549.SS",
-      "weight": 0.0452533
+      "weight": 0.043979503
     },
     {
       "symbol": "7610.TW",
-      "weight": 0.044746898
-    },
-    {
-      "symbol": "ALM",
-      "weight": 0.0423174
+      "weight": 0.0387182
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "IJK",
   "holdings": [
     {
-      "symbol": "TWLO",
-      "weight": 0.025230201
-    },
-    {
       "symbol": "OKTA",
-      "weight": 0.019513499
+      "weight": 0.0201275
     },
     {
       "symbol": "FTI",
-      "weight": 0.0149624
-    },
-    {
-      "symbol": "NVT",
-      "weight": 0.0145813
-    },
-    {
-      "symbol": "ATI",
-      "weight": 0.014487701
+      "weight": 0.0156918
     },
     {
       "symbol": "UTHR",
-      "weight": 0.013056099
+      "weight": 0.0149415005
+    },
+    {
+      "symbol": "ATI",
+      "weight": 0.0131196
     },
     {
       "symbol": "XPO",
-      "weight": 0.0115747
+      "weight": 0.0129145
     },
     {
       "symbol": "THC",
-      "weight": 0.0115591
+      "weight": 0.0128016
     },
     {
       "symbol": "ROKU",
-      "weight": 0.011296
+      "weight": 0.0119182
     },
     {
-      "symbol": "CW",
-      "weight": 0.0112825
+      "symbol": "NVT",
+      "weight": 0.0118643
+    },
+    {
+      "symbol": "RGLD",
+      "weight": 0.0112859
+    },
+    {
+      "symbol": "WWD",
+      "weight": 0.0104664005
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "IWM",
   "holdings": [
     {
-      "symbol": "XTSLA",
-      "weight": 0.004783
-    },
-    {
-      "symbol": "TWST",
-      "weight": 0.0042932
-    },
-    {
-      "symbol": "MOG-A",
-      "weight": 0.0036658002
-    },
-    {
-      "symbol": "FROG",
-      "weight": 0.0035605002
-    },
-    {
-      "symbol": "TXG",
-      "weight": 0.0035516
-    },
-    {
-      "symbol": "UMBF",
-      "weight": 0.0032458
+      "symbol": "GKOS",
+      "weight": 0.0046017
     },
     {
       "symbol": "BTSG",
-      "weight": 0.0032107
+      "weight": 0.0037843
     },
     {
-      "symbol": "GKOS",
-      "weight": 0.0031835
+      "symbol": "FROG",
+      "weight": 0.0034616
+    },
+    {
+      "symbol": "TWST",
+      "weight": 0.0033997
+    },
+    {
+      "symbol": "MOG-A",
+      "weight": 0.003375
+    },
+    {
+      "symbol": "UMBF",
+      "weight": 0.0033387
     },
     {
       "symbol": "VSAT",
-      "weight": 0.0030450001
+      "weight": 0.0033331001
     },
     {
-      "symbol": "HUT",
-      "weight": 0.0029879
+      "symbol": "SM",
+      "weight": 0.0033111
+    },
+    {
+      "symbol": "EAT",
+      "weight": 0.0030979
+    },
+    {
+      "symbol": "RHP",
+      "weight": 0.0030308
     }
   ]
 }

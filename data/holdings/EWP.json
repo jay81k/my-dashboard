@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "SAN.MC",
-      "weight": 0.1922395
-    },
-    {
-      "symbol": "BBVA.MC",
-      "weight": 0.1425758
+      "weight": 0.163706
     },
     {
       "symbol": "IBE.MC",
-      "weight": 0.1277388
+      "weight": 0.1426353
+    },
+    {
+      "symbol": "BBVA.MC",
+      "weight": 0.12557359
     },
     {
       "symbol": "REP.MC",
-      "weight": 0.049938403
-    },
-    {
-      "symbol": "CABK.MC",
-      "weight": 0.0454102
+      "weight": 0.053200897
     },
     {
       "symbol": "ITX.MC",
-      "weight": 0.042312898
-    },
-    {
-      "symbol": "FER",
-      "weight": 0.0384724
+      "weight": 0.0457105
     },
     {
       "symbol": "AMS.MC",
-      "weight": 0.0380193
+      "weight": 0.0432101
     },
     {
-      "symbol": "SAB.MC",
-      "weight": 0.0363365
+      "symbol": "FER",
+      "weight": 0.0425989
+    },
+    {
+      "symbol": "CABK.MC",
+      "weight": 0.0418482
     },
     {
       "symbol": "AENA.MC",
-      "weight": 0.0351846
+      "weight": 0.0385569
+    },
+    {
+      "symbol": "SAB.MC",
+      "weight": 0.0354616
     }
   ]
 }

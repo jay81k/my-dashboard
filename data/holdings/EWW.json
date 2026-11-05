@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "GMEXICOB.MX",
-      "weight": 0.1636227
+      "weight": 0.148871
     },
     {
       "symbol": "GFNORTEO.MX",
-      "weight": 0.1112749
+      "weight": 0.112283096
     },
     {
       "symbol": "FEMSAUBD.MX",
-      "weight": 0.087738305
+      "weight": 0.0890281
     },
     {
       "symbol": "AMXB.MX",
-      "weight": 0.0719341
-    },
-    {
-      "symbol": "WALMEX.MX",
-      "weight": 0.0435954
+      "weight": 0.0792458
     },
     {
       "symbol": "CEMEXCPO.MX",
-      "weight": 0.042388
+      "weight": 0.0455649
     },
     {
-      "symbol": "PE&OLES.MX",
-      "weight": 0.042239297
+      "symbol": "WALMEX.MX",
+      "weight": 0.043722
     },
     {
       "symbol": "GAPB.MX",
-      "weight": 0.0358126
+      "weight": 0.0384091
+    },
+    {
+      "symbol": "PE&OLES.MX",
+      "weight": 0.033956498
     },
     {
       "symbol": "AC.MX",
-      "weight": 0.026965402
+      "weight": 0.028319199
     },
     {
       "symbol": "FUNO11.MX",
-      "weight": 0.0230721
+      "weight": 0.0250334
     }
   ]
 }

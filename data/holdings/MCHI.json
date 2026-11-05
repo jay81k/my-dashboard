@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "0700.HK",
-      "weight": 0.1378988
+      "weight": 0.1321038
     },
     {
       "symbol": "9988.HK",
-      "weight": 0.0933074
+      "weight": 0.0914321
     },
     {
       "symbol": "00939",
-      "weight": 0.043071598
+      "weight": 0.0484372
     },
     {
       "symbol": "01398",
-      "weight": 0.026147101
+      "weight": 0.0288183
     },
     {
       "symbol": "1810.HK",
-      "weight": 0.0224546
+      "weight": 0.0253564
     },
     {
       "symbol": "03988",
-      "weight": 0.0211988
+      "weight": 0.023043102
     },
     {
       "symbol": "3690.HK",
-      "weight": 0.0187789
-    },
-    {
-      "symbol": "9999.HK",
-      "weight": 0.0176964
-    },
-    {
-      "symbol": "02318",
-      "weight": 0.016987199
+      "weight": 0.020184701
     },
     {
       "symbol": "PDD",
-      "weight": 0.0164048
+      "weight": 0.0178047
+    },
+    {
+      "symbol": "9999.HK",
+      "weight": 0.017478699
+    },
+    {
+      "symbol": "02318",
+      "weight": 0.0172417
     }
   ]
 }

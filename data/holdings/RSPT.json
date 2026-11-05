@@ -2,44 +2,44 @@
   "symbol": "RSPT",
   "holdings": [
     {
+      "symbol": "PTC",
+      "weight": 0.020571401
+    },
+    {
+      "symbol": "ACN",
+      "weight": 0.019921301
+    },
+    {
+      "symbol": "IT",
+      "weight": 0.018281601
+    },
+    {
       "symbol": "P",
-      "weight": 0.0177221
+      "weight": 0.0177404
+    },
+    {
+      "symbol": "GDDY",
+      "weight": 0.0169845
+    },
+    {
+      "symbol": "ADSK",
+      "weight": 0.0163801
     },
     {
       "symbol": "CRWD",
-      "weight": 0.0167573
+      "weight": 0.0163416
     },
     {
-      "symbol": "DDOG",
-      "weight": 0.015989
+      "symbol": "ROP",
+      "weight": 0.0162101
     },
     {
-      "symbol": "PANW",
-      "weight": 0.0155944
+      "symbol": "SNPS",
+      "weight": 0.0161281
     },
     {
-      "symbol": "AMD",
-      "weight": 0.0154412
-    },
-    {
-      "symbol": "CDNS",
-      "weight": 0.0152593
-    },
-    {
-      "symbol": "NTAP",
-      "weight": 0.0149554005
-    },
-    {
-      "symbol": "FTNT",
-      "weight": 0.0149546005
-    },
-    {
-      "symbol": "INTC",
-      "weight": 0.0148845995
-    },
-    {
-      "symbol": "MRVL",
-      "weight": 0.0147869
+      "symbol": "NXPI",
+      "weight": 0.0157626
     }
   ]
 }

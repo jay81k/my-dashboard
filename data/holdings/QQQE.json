@@ -2,44 +2,44 @@
   "symbol": "QQQE",
   "holdings": [
     {
-      "symbol": "INTC",
-      "weight": 0.0135288
+      "symbol": "MRNA",
+      "weight": 0.0129901
     },
     {
-      "symbol": "AMD",
-      "weight": 0.0130903
+      "symbol": "WMT",
+      "weight": 0.0122488
     },
     {
-      "symbol": "META",
-      "weight": 0.0127616
+      "symbol": "MAR",
+      "weight": 0.012151199
     },
     {
-      "symbol": "MRVL",
-      "weight": 0.0125726
+      "symbol": "GILD",
+      "weight": 0.0121297
     },
     {
-      "symbol": "ALAB",
-      "weight": 0.0120726
+      "symbol": "REGN",
+      "weight": 0.0120778
     },
     {
-      "symbol": "ARM",
-      "weight": 0.0120601
+      "symbol": "NXPI",
+      "weight": 0.0120188
     },
     {
-      "symbol": "DDOG",
-      "weight": 0.0116362
+      "symbol": "TXN",
+      "weight": 0.0119919
     },
     {
-      "symbol": "MSTR",
-      "weight": 0.011598701
+      "symbol": "ADI",
+      "weight": 0.0119788
     },
     {
-      "symbol": "CRWD",
-      "weight": 0.0115435
+      "symbol": "ISRG",
+      "weight": 0.0119221
     },
     {
-      "symbol": "TER",
-      "weight": 0.0115425
+      "symbol": "KDP",
+      "weight": 0.0116993
     }
   ]
 }

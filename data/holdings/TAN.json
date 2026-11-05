@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "NXT",
-      "weight": 0.1005066
+      "weight": 0.111707
     },
     {
       "symbol": "FSLR",
-      "weight": 0.08958121
+      "weight": 0.0973822
     },
     {
       "symbol": "ENLT.TA",
-      "weight": 0.0794801
+      "weight": 0.0838447
     },
     {
       "symbol": "ENPH",
-      "weight": 0.0714302
-    },
-    {
-      "symbol": "DORL.TA",
-      "weight": 0.049774498
+      "weight": 0.060637597
     },
     {
       "symbol": "HASI",
-      "weight": 0.047759
+      "weight": 0.0541824
     },
     {
-      "symbol": "3800.HK",
-      "weight": 0.0466369
-    },
-    {
-      "symbol": "SEDG",
-      "weight": 0.0377811
-    },
-    {
-      "symbol": "RUN",
-      "weight": 0.0376273
+      "symbol": "DORL.TA",
+      "weight": 0.0515038
     },
     {
       "symbol": "CWEN",
-      "weight": 0.0376133
+      "weight": 0.0449398
+    },
+    {
+      "symbol": "3800.HK",
+      "weight": 0.0400972
+    },
+    {
+      "symbol": "RUN",
+      "weight": 0.0395492
+    },
+    {
+      "symbol": "SEDG",
+      "weight": 0.038894802
     }
   ]
 }

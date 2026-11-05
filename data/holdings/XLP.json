@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "WMT",
-      "weight": 0.105412506
+      "weight": 0.1114249
     },
     {
       "symbol": "COST",
-      "weight": 0.091891296
+      "weight": 0.0908775
     },
     {
       "symbol": "PG",
-      "weight": 0.0768635
+      "weight": 0.0760259
     },
     {
       "symbol": "KO",
-      "weight": 0.0758694
+      "weight": 0.0737478
     },
     {
       "symbol": "PM",
-      "weight": 0.0676958
-    },
-    {
-      "symbol": "TGT",
-      "weight": 0.045702
+      "weight": 0.065876596
     },
     {
       "symbol": "MO",
-      "weight": 0.0455716
+      "weight": 0.046964597
     },
     {
       "symbol": "CL",
-      "weight": 0.044526502
-    },
-    {
-      "symbol": "PEP",
-      "weight": 0.042593002
+      "weight": 0.0442283
     },
     {
       "symbol": "MDLZ",
-      "weight": 0.042558
+      "weight": 0.042511202
+    },
+    {
+      "symbol": "PEP",
+      "weight": 0.0410559
+    },
+    {
+      "symbol": "TGT",
+      "weight": 0.040047
     }
   ]
 }

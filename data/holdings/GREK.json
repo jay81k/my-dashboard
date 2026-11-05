@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "ETE.AT",
-      "weight": 0.1518776
+      "weight": 0.1422692
     },
     {
       "symbol": "EUROB.AT",
-      "weight": 0.121285
+      "weight": 0.1173512
     },
     {
       "symbol": "TPEIR.AT",
-      "weight": 0.117382005
+      "weight": 0.1114316
     },
     {
       "symbol": "ALPHA.AT",
-      "weight": 0.0720192
+      "weight": 0.0707831
     },
     {
       "symbol": "MOH.AT",
-      "weight": 0.049889203
+      "weight": 0.051188402
     },
     {
       "symbol": "PPC.AT",
-      "weight": 0.0441414
+      "weight": 0.0471891
     },
     {
       "symbol": "MTLN.L",
-      "weight": 0.0431325
+      "weight": 0.044752102
     },
     {
       "symbol": "GEKTERNA.AT",
-      "weight": 0.0427053
+      "weight": 0.040474802
     },
     {
-      "symbol": "OPTIMA.AT",
-      "weight": 0.0372053
+      "symbol": "BELA.AT",
+      "weight": 0.0392572
     },
     {
       "symbol": "HTO.AT",
-      "weight": 0.035303902
+      "weight": 0.036117002
     }
   ]
 }

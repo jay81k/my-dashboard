@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "KR",
-      "weight": 0.0328162
+      "weight": 0.0330532
     },
     {
-      "symbol": "PM",
-      "weight": 0.0324664
-    },
-    {
-      "symbol": "PG",
-      "weight": 0.03218
-    },
-    {
-      "symbol": "COST",
-      "weight": 0.0318676
-    },
-    {
-      "symbol": "BF-B",
-      "weight": 0.0316566
-    },
-    {
-      "symbol": "J4D.F",
-      "weight": 0.031436
-    },
-    {
-      "symbol": "TGT",
-      "weight": 0.031428598
+      "symbol": "WMT",
+      "weight": 0.0326113
     },
     {
       "symbol": "MO",
-      "weight": 0.0313401
+      "weight": 0.0321161
+    },
+    {
+      "symbol": "PG",
+      "weight": 0.0316534
+    },
+    {
+      "symbol": "DLTR",
+      "weight": 0.0315965
     },
     {
       "symbol": "CHD",
-      "weight": 0.031274
+      "weight": 0.031477
     },
     {
-      "symbol": "KMB",
-      "weight": 0.0311902
+      "symbol": "PM",
+      "weight": 0.031414498
+    },
+    {
+      "symbol": "COST",
+      "weight": 0.0313449
+    },
+    {
+      "symbol": "KDP",
+      "weight": 0.0312186
+    },
+    {
+      "symbol": "STZ",
+      "weight": 0.031110499
     }
   ]
 }

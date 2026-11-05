@@ -2,44 +2,44 @@
   "symbol": "KBE",
   "holdings": [
     {
-      "symbol": "SYBT",
-      "weight": 0.0098995
+      "symbol": "CBC",
+      "weight": 0.010734299
     },
     {
-      "symbol": "TRMK",
-      "weight": 0.0098287
+      "symbol": "FCNCA",
+      "weight": 0.0105908
     },
     {
-      "symbol": "SFNC",
-      "weight": 0.009804499
+      "symbol": "CUBI",
+      "weight": 0.010312901
+    },
+    {
+      "symbol": "GBCI",
+      "weight": 0.0101641
+    },
+    {
+      "symbol": "CATY",
+      "weight": 0.0100559
+    },
+    {
+      "symbol": "UCB",
+      "weight": 0.010039601
+    },
+    {
+      "symbol": "TCBI",
+      "weight": 0.0099911
+    },
+    {
+      "symbol": "OZK",
+      "weight": 0.0099633
     },
     {
       "symbol": "EQH",
-      "weight": 0.0097955
+      "weight": 0.009901499
     },
     {
-      "symbol": "NBTB",
-      "weight": 0.0097595
-    },
-    {
-      "symbol": "UBSI",
-      "weight": 0.0097484
-    },
-    {
-      "symbol": "CRBG",
-      "weight": 0.0097461995
-    },
-    {
-      "symbol": "CVBF",
-      "weight": 0.0097397
-    },
-    {
-      "symbol": "FRME",
-      "weight": 0.0097223995
-    },
-    {
-      "symbol": "CBC",
-      "weight": 0.0097036995
+      "symbol": "EBC",
+      "weight": 0.0098779
     }
   ]
 }

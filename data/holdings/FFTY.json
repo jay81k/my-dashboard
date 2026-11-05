@@ -2,44 +2,44 @@
   "symbol": "FFTY",
   "holdings": [
     {
-      "symbol": "NTRA",
-      "weight": 0.037096802
+      "symbol": "CDNA",
+      "weight": 0.0457496
     },
     {
-      "symbol": "HNGE",
-      "weight": 0.0369554
+      "symbol": "RNG",
+      "weight": 0.0299981
+    },
+    {
+      "symbol": "MPC",
+      "weight": 0.029581001
+    },
+    {
+      "symbol": "CRWD",
+      "weight": 0.0291029
     },
     {
       "symbol": "OET.OL",
-      "weight": 0.0363525
+      "weight": 0.0287082
     },
     {
-      "symbol": "WT",
-      "weight": 0.0359158
+      "symbol": "ILMN",
+      "weight": 0.0281912
     },
     {
-      "symbol": "GH",
-      "weight": 0.035473898
-    },
-    {
-      "symbol": "ERO.TO",
-      "weight": 0.0352743
-    },
-    {
-      "symbol": "RBRK",
-      "weight": 0.0347358
+      "symbol": "VLO",
+      "weight": 0.0268358
     },
     {
       "symbol": "HALO",
-      "weight": 0.0344351
+      "weight": 0.025892401
     },
     {
-      "symbol": "KNSA",
-      "weight": 0.0343947
+      "symbol": "OKTA",
+      "weight": 0.0254757
     },
     {
-      "symbol": "ETON",
-      "weight": 0.0324733
+      "symbol": "SN",
+      "weight": 0.0241392
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "XES",
   "holdings": [
     {
-      "symbol": "SEI",
-      "weight": 0.0427671
-    },
-    {
-      "symbol": "WTTR",
-      "weight": 0.03925
-    },
-    {
-      "symbol": "SDRL",
-      "weight": 0.0378217
-    },
-    {
       "symbol": "VAL",
-      "weight": 0.037576303
-    },
-    {
-      "symbol": "AROC",
-      "weight": 0.0373644
-    },
-    {
-      "symbol": "NE",
-      "weight": 0.037331
+      "weight": 0.0473982
     },
     {
       "symbol": "RIG",
-      "weight": 0.037311397
+      "weight": 0.0464764
     },
     {
-      "symbol": "OII",
-      "weight": 0.036582798
+      "symbol": "SDRL",
+      "weight": 0.041862503
     },
     {
-      "symbol": "WHD",
-      "weight": 0.0362324
+      "symbol": "NE",
+      "weight": 0.0412169
     },
     {
-      "symbol": "FTI",
-      "weight": 0.0354901
+      "symbol": "SEI",
+      "weight": 0.039951302
+    },
+    {
+      "symbol": "PTEN",
+      "weight": 0.0393926
+    },
+    {
+      "symbol": "HAL",
+      "weight": 0.0372505
+    },
+    {
+      "symbol": "WFRD",
+      "weight": 0.0372408
+    },
+    {
+      "symbol": "HP",
+      "weight": 0.0371841
+    },
+    {
+      "symbol": "WTTR",
+      "weight": 0.0368029
     }
   ]
 }

@@ -2,44 +2,44 @@
   "symbol": "EWQ",
   "holdings": [
     {
-      "symbol": "SU.PA",
-      "weight": 0.0896213
-    },
-    {
       "symbol": "TTE.PA",
-      "weight": 0.08197661
+      "weight": 0.092549294
     },
     {
-      "symbol": "SAF.PA",
-      "weight": 0.064443596
+      "symbol": "SU.PA",
+      "weight": 0.072922304
     },
     {
       "symbol": "AIR.PA",
-      "weight": 0.063246496
+      "weight": 0.0638611
     },
     {
       "symbol": "AI.PA",
-      "weight": 0.0593676
-    },
-    {
-      "symbol": "MC.PA",
-      "weight": 0.0539855
-    },
-    {
-      "symbol": "BNP.PA",
-      "weight": 0.0525915
+      "weight": 0.062873
     },
     {
       "symbol": "OR.PA",
-      "weight": 0.050759703
+      "weight": 0.058473803
+    },
+    {
+      "symbol": "MC.PA",
+      "weight": 0.0535902
+    },
+    {
+      "symbol": "SAF.PA",
+      "weight": 0.0531515
     },
     {
       "symbol": "SAN.PA",
-      "weight": 0.0443197
+      "weight": 0.0486746
+    },
+    {
+      "symbol": "BNP.PA",
+      "weight": 0.0474336
     },
     {
       "symbol": "CS.PA",
-      "weight": 0.037248
+      "weight": 0.0373246
     }
   ]
 }

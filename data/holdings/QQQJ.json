@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "NTRA",
-      "weight": 0.0300659
+      "weight": 0.0302381
     },
     {
       "symbol": "EBAY",
-      "weight": 0.023814399
+      "weight": 0.0274082
     },
     {
       "symbol": "RVMD",
-      "weight": 0.0222084
-    },
-    {
-      "symbol": "ILMN",
-      "weight": 0.020852301
+      "weight": 0.0207626
     },
     {
       "symbol": "NTAP",
-      "weight": 0.020801999
-    },
-    {
-      "symbol": "FLEX",
-      "weight": 0.0204979
-    },
-    {
-      "symbol": "CRDO",
-      "weight": 0.018475799
-    },
-    {
-      "symbol": "UAL",
-      "weight": 0.0181741
-    },
-    {
-      "symbol": "OKTA",
-      "weight": 0.0176378
+      "weight": 0.0197911
     },
     {
       "symbol": "BIIB",
-      "weight": 0.016843999
+      "weight": 0.0189744
+    },
+    {
+      "symbol": "ESLT.TA",
+      "weight": 0.0184939
+    },
+    {
+      "symbol": "STLD",
+      "weight": 0.0182014
+    },
+    {
+      "symbol": "KMB",
+      "weight": 0.0181769
+    },
+    {
+      "symbol": "ILMN",
+      "weight": 0.0180436
+    },
+    {
+      "symbol": "OKTA",
+      "weight": 0.0176231
     }
   ]
 }

@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "MRNA",
-      "weight": 0.0232137
-    },
-    {
-      "symbol": "ILMN",
-      "weight": 0.021827199
-    },
-    {
-      "symbol": "RVTY",
-      "weight": 0.020176101
-    },
-    {
-      "symbol": "A",
-      "weight": 0.0194623
+      "weight": 0.0249343
     },
     {
       "symbol": "MTD",
-      "weight": 0.0191478
+      "weight": 0.0198508
     },
     {
-      "symbol": "ISRG",
-      "weight": 0.0188174
+      "symbol": "CRL",
+      "weight": 0.01968
     },
     {
-      "symbol": "TMO",
-      "weight": 0.018221
+      "symbol": "RVTY",
+      "weight": 0.0193236
+    },
+    {
+      "symbol": "LLY",
+      "weight": 0.0191286
     },
     {
       "symbol": "WST",
-      "weight": 0.0179909
+      "weight": 0.018673299
+    },
+    {
+      "symbol": "ISRG",
+      "weight": 0.0186371
+    },
+    {
+      "symbol": "A",
+      "weight": 0.0184229
+    },
+    {
+      "symbol": "BIIB",
+      "weight": 0.0183435
     },
     {
       "symbol": "VEEV",
-      "weight": 0.0179018
-    },
-    {
-      "symbol": "WAT",
-      "weight": 0.0177478
+      "weight": 0.018295601
     }
   ]
 }

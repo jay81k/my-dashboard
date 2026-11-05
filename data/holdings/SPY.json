@@ -2,44 +2,44 @@
   "symbol": "SPY",
   "holdings": [
     {
-      "symbol": "NVDA",
-      "weight": 0.0836162
+      "symbol": "AAPL",
+      "weight": 0.0770069
     },
     {
-      "symbol": "AAPL",
-      "weight": 0.0735303
+      "symbol": "NVDA",
+      "weight": 0.0758232
     },
     {
       "symbol": "MSFT",
-      "weight": 0.0576201
+      "weight": 0.0593322
     },
     {
       "symbol": "AMZN",
-      "weight": 0.0370001
+      "weight": 0.0361188
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.030545799
+      "weight": 0.0251408
     },
     {
       "symbol": "AVGO",
-      "weight": 0.0252788
-    },
-    {
-      "symbol": "GOOG",
-      "weight": 0.024504
+      "weight": 0.0237518
     },
     {
       "symbol": "META",
-      "weight": 0.0241938
+      "weight": 0.020762898
     },
     {
-      "symbol": "MU",
-      "weight": 0.0182
+      "symbol": "GOOG",
+      "weight": 0.020247199
+    },
+    {
+      "symbol": "LLY",
+      "weight": 0.0173671
     },
     {
       "symbol": "TSLA",
-      "weight": 0.0151269
+      "weight": 0.017252099
     }
   ]
 }
