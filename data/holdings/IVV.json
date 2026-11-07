@@ -2,44 +2,44 @@
   "symbol": "IVV",
   "holdings": [
     {
-      "symbol": "NVDA",
-      "weight": 0.0776151
+      "symbol": "AAPL",
+      "weight": 0.0769599
     },
     {
-      "symbol": "AAPL",
-      "weight": 0.0768066
+      "symbol": "NVDA",
+      "weight": 0.075777
     },
     {
       "symbol": "MSFT",
-      "weight": 0.058478698
+      "weight": 0.0593001
     },
     {
       "symbol": "AMZN",
-      "weight": 0.0371433
+      "weight": 0.0360986
     },
     {
       "symbol": "GOOGL",
-      "weight": 0.0287541
+      "weight": 0.0251265
     },
     {
       "symbol": "AVGO",
-      "weight": 0.0232421
-    },
-    {
-      "symbol": "GOOG",
-      "weight": 0.0230428
+      "weight": 0.0237379
     },
     {
       "symbol": "META",
-      "weight": 0.0216241
+      "weight": 0.0207507
     },
     {
-      "symbol": "TSLA",
-      "weight": 0.0159548
+      "symbol": "GOOG",
+      "weight": 0.0202352
     },
     {
       "symbol": "LLY",
-      "weight": 0.0158021
+      "weight": 0.0173557
+    },
+    {
+      "symbol": "TSLA",
+      "weight": 0.0172411
     }
   ]
 }
