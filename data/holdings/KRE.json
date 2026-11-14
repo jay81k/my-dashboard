@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "GBCI",
-      "weight": 0.0119751
+      "weight": 0.011976301
     },
     {
       "symbol": "UCB",
-      "weight": 0.011817301
+      "weight": 0.0118186
     },
     {
       "symbol": "TCBI",
-      "weight": 0.0117602
+      "weight": 0.0117615
     },
     {
       "symbol": "OZK",
-      "weight": 0.011738501
+      "weight": 0.0117397
     },
     {
       "symbol": "EBC",
-      "weight": 0.0116384
+      "weight": 0.0116396
     },
     {
       "symbol": "COLB",
-      "weight": 0.0116099
+      "weight": 0.011611201
     },
     {
       "symbol": "UBSI",
-      "weight": 0.011602
+      "weight": 0.0116033
     },
     {
       "symbol": "VLY",
-      "weight": 0.011596399
+      "weight": 0.0115976
     },
     {
       "symbol": "PNFP",
-      "weight": 0.0115723
+      "weight": 0.0115736
     },
     {
       "symbol": "FIBK",
-      "weight": 0.0115387
+      "weight": 0.011539901
     }
   ]
 }

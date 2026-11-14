@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "UI",
-      "weight": 0.0353451
+      "weight": 0.0353232
     },
     {
       "symbol": "CALX",
-      "weight": 0.034889802
+      "weight": 0.0348682
     },
     {
       "symbol": "MSI",
-      "weight": 0.0348793
+      "weight": 0.0348578
     },
     {
       "symbol": "VSAT",
-      "weight": 0.0347362
+      "weight": 0.034714703
     },
     {
       "symbol": "DGII",
-      "weight": 0.0344484
+      "weight": 0.0344271
     },
     {
       "symbol": "EXTR",
-      "weight": 0.0343834
+      "weight": 0.0343621
     },
     {
       "symbol": "NTCT",
-      "weight": 0.0335707
+      "weight": 0.0335499
     },
     {
       "symbol": "VISN",
-      "weight": 0.0333224
+      "weight": 0.0333018
     },
     {
       "symbol": "GSAT",
-      "weight": 0.0328823
+      "weight": 0.0328619
     },
     {
       "symbol": "BAND",
-      "weight": 0.0316387
+      "weight": 0.031619202
     }
   ]
 }

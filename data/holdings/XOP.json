@@ -3,43 +3,43 @@
   "holdings": [
     {
       "symbol": "RRC",
-      "weight": 0.0330767
+      "weight": 0.0331082
     },
     {
       "symbol": "APA",
-      "weight": 0.029769499
+      "weight": 0.0297979
     },
     {
       "symbol": "MUR",
-      "weight": 0.0288799
+      "weight": 0.0289074
     },
     {
       "symbol": "XOM",
-      "weight": 0.0288154
+      "weight": 0.0288428
     },
     {
       "symbol": "COP",
-      "weight": 0.0285116
+      "weight": 0.028538799
     },
     {
       "symbol": "OVV",
-      "weight": 0.028510699
+      "weight": 0.0285378
     },
     {
       "symbol": "EOG",
-      "weight": 0.0284562
+      "weight": 0.0284833
     },
     {
       "symbol": "MPC",
-      "weight": 0.0281391
+      "weight": 0.028165901
     },
     {
       "symbol": "CVX",
-      "weight": 0.0278416
+      "weight": 0.0278682
     },
     {
       "symbol": "PR",
-      "weight": 0.0278401
+      "weight": 0.0278666
     }
   ]
 }
