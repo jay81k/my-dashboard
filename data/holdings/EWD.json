@@ -6,6 +6,10 @@
       "weight": 0.1144716
     },
     {
+      "symbol": "INVE B",
+      "weight": 0.0987696
+    },
+    {
       "symbol": "VOLV-B.ST",
       "weight": 0.0642457
     },
@@ -32,6 +36,10 @@
     {
       "symbol": "ERIC-B.ST",
       "weight": 0.0383945
+    },
+    {
+      "symbol": "ATCO B",
+      "weight": 0.0318056
     }
   ]
 }
